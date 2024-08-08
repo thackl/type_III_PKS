@@ -1,6 +1,6 @@
 #pymol script for residues visualisation
 import pandas as pd
-residues = pd.read_csv('important_residues.csv', sep = ";")
+residues = pd.read_csv('../output_data/important_residues.csv', sep = ";")
 residues = residues.iloc[:,4:]
 from pymol import cmd
 import os
@@ -8,7 +8,7 @@ import os
 x=0
 y=0
 for item in residues:
-    file = "../input_data/AF_pred/residue_importance/" + item + "_importance.pdb"
+    file = "../output_data/AF_pred/residue_importance/" + item + "_importance.pdb"
     cmd.load(file, item)
     #select residues from df
     selector = str()
