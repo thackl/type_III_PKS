@@ -23,3 +23,4 @@ conda install anaconda::scikit-learn
 
 ### descriptive model
 #install biopython in jupyter notebook first
+#add "T3PKS_alignment_clustal" to the input folder
