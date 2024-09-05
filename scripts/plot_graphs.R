@@ -3,6 +3,39 @@ library(gridExtra)
 library(stringr)
 library(dplyr)
 library(scales)
+library(readxl)
+library(dplyr)
+library(reshape)
+
+#function to load input_df and melt it to long format,replace y/n. values to 0/1
+melt_input_df <- function(input_df, range_1){
+  df_long <- melt(input_df, id.vars = colnames(input_df[, c(1:range_1)]), measure.vars = colnames(input_df[, (range_1+1):length(input_df)]))
+  df_long <- subset(df_long, is.na(value) == F)
+  for( i in 1:length(df_long$value)){
+    if(df_long$value[i] == 'n'){
+      df_long$value[i] <- 0
+    }
+    else{df_long$value[i] <- 1}
+    
+  }
+  return(df_long)
+}
+
+#data_set with 
+input_df <- as.data.frame(read_excel("../input_data/T3PKS_R_input.xlsx"))
+#separating training set
+training_df <- input_df[,1:16]
+training_long <- melt_input_df(training_df, 5)
+colnames(training_long) <- c(colnames(training_df[1:5]), "Substrate", "value")
+#separatinge xtra cell_free reaction
+extra_substrate <- as.data.frame(read_excel("../input_data/T3PKS_validation.xlsx"))
+extra_long <- melt_input_df(extra_substrate, 4)
+colnames(extra_long) <- c(colnames(extra_long[1:4]), "Substrate", "value")
+#reading published data
+published_df <- as.data.frame(read_excel("../input_data/T3PKS_published.xlsx"))
+long_published_df <- melt_input_df(published_df[,1:32], 3)
+colnames(long_published_df) <- c(colnames(long_published_df[1:3]), "Substrate", "value")
+
 
 gene_levels <- c("PhCHS", "AtamPKS2", "AserPKS1", "AserPKS2", "HargPKS1", "XacuPKS1",
                  "AwakPKS", "AtriPKS", "AtamPKS1", "AsesPKS", "AastPKS", "AcosPKS",
