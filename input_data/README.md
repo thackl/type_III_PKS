@@ -11,3 +11,6 @@
 **substrate_prediction_df.csv** - enzyme-substrate pairs of fungal T3PKSs with unnatural acyl-coa substrates
 
 **xtra_substrates.csv** - enzyme-substrate specificity dataset of fungal T3PKSs with non-natural acyl-coa substrates
+
+**sub_space_with_valid.csv** - SMILEs of substrates for chemical space visualisation
+
