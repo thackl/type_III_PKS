@@ -18,6 +18,8 @@
 
 `pip install peptides`
 
+`pip install biopython`
+
 * Download and unzip type_III_PKS folder and run Jupyter
 
   `git clone https://github.com/denisovss/type_III_PKS.git`
