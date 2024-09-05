@@ -1,4 +1,4 @@
-**Predictive_ML.ipynb** and Descriptive_ML.ipynb - Jupyter Notebooks with training of predictive and descriptive ML model, respectively
+**Predictive_ML.ipynb** and **Descriptive_ML.ipynb** - Jupyter Notebooks with training of predictive and descriptive ML model, respectively
 
 **plot_graphs.R** - R script for data visualisation from Jupyter Notebooks
 
