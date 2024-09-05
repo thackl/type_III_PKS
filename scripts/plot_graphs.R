@@ -281,6 +281,73 @@ descriptive_boxplot <-  ggplot(importances_df, aes(x = variable, y = as.numeric(
                                        axis.title = element_blank(), axis.text = element_text(size = 40),
                                        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
                                        legend.position = "right")
+
+#plotting simmilarity substarate generated from RDkit
+substrates_similarity <- as.data.frame(read.csv2("output_data//substrate_simmilarity_df.csv", sep = ","))
+training_subs <- colnames(input_df)[6:16]
+validation_subs <- unique(substrate_heatmap_df$Substrate)
+published_subs <- unique(c(unique(published_heatmap_df$Substrate), unique(published_plant_df$Substrate)))
+
+subs_df <- as.data.frame(read.csv2('input_data/sub_space_with_valid.csv', sep = ","))
+substrates_similarity <- subset(substrates_similarity, Substrate %in% subs_df$Substrate)
+training_set <- c()
+validation_set <- c()
+published_set <- c()
+
+for( i in substrates_similarity$Substrate){
+  if(i %in% validation_subs){
+    validation_set <- c(validation_set,1)
+  }
+  if(!(i %in% validation_subs)){
+    validation_set <- c(validation_set,0)
+  }
+  
+  
+  if(i %in% published_subs){
+    published_set <- c(published_set,1)
+  }
+  if(!(i %in% published_subs)){
+    published_set <- c(published_set,0)
+  }
+  
+  if(i %in% training_subs){
+    training_set <- c(training_set,1)
+  }
+  if(!(i %in% training_subs)){
+    training_set <- c(training_set,0)
+  }
+  
+}
+substrates_similarity$train <- training_set
+substrates_similarity$valid <- validation_set
+substrates_similarity$pub <- published_set
+
+pal <- c("#005f43", "#B05670","#7fafa1", "lightblue", "#e6e6e6")
+
+library(ggrepel)
+substrates_plot <- ggplot() + geom_point(data = substrates_similarity, aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+                      size = 12, color = "#e6e6e6")+
+  geom_text_repel(data = substrates_similarity, aes(x =as.numeric(tsne1), y = as.numeric(tsne2),label = Substrate), size = 9)+
+  geom_point(data = subset(substrates_similarity, train == 1), aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+             size = 12, color = "#B05670")+
+  geom_point(data = subset(substrates_similarity, valid == 1), aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+             size = 12, color = "lightblue")+
+  geom_point(data = subset(substrates_similarity, pub == 1 & train == 1), aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+             size = 6, colour = "#005f43")+
+  geom_point(data = subset(substrates_similarity, pub == 1 & valid == 1), aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+             size = 6, colour = "#005f43")+
+  geom_point(data = subset(substrates_similarity, pub == 1 & valid == 0 & train == 0 ),aes( x =as.numeric(tsne1), y = as.numeric(tsne2)), 
+             size = 12, colour = "#005f43")+
+   theme(legend.position  = "bottom",panel.background = element_blank(), axis.line = element_line(colour = 'black'),
+        text = element_text( face = "plain", size=22))+ labs(x = "tsne1", y = "tsne2")
+  
+substrates_plot
+cairo_ps(filename = "figures/substrates_space.eps",
+         width = 20, height = 20, pointsize = 12,
+         fallback_resolution = 600)
+print(substrates_plot)
+dev.off()
+
 descriptive_boxplot
 gdescriptive_boxplot <- ggplotGrob(descriptive_boxplot)
 ggsave("../figures/descriptive_model.eps", descriptive_boxplot,
