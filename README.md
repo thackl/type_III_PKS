@@ -1,7 +1,7 @@
 # Description
 
-The repository contains datasets and scripts to reproduce results and figures from the paper _Nika Sokolova, Stepan S. Denisov, Thomas Hackl, and Kristina Haslinger_
-_**"Unravelling the functional diversity of type III polyketide synthases in fungi "**_
+The repository contains datasets and scripts to reproduce results and figures from the paper 
+_**"Unravelling the functional diversity of type III polyketide synthases in fungi "**_ by _Nika Sokolova, Stepan S. Denisov, Thomas Hackl, and Kristina Haslinger_
 
 
 The code was implemented on MacOS with the following crucial packages:
