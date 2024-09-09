@@ -14,3 +14,4 @@
 
 **sub_space_with_valid.csv** - SMILEs of substrates for chemical space visualisation
 
+**all_uniquerev_plannt_msa, al_unique.fa, plant-pks-reviewed.fasta** - MSA and fasta files for SeqLogo plots of T3PKSs  
