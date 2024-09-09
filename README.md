@@ -1,26 +1,39 @@
-# type_III_PKS
+# Description
 
-### predictive model
-#create a new conda environment 
-conda create -n "ml" python=3.8
-conda activate ml
+The repository contains datasets and scripts to reproduce results and figures from the paper _Nika Sokolova, Stepan S. Denisov, Thomas Hackl, and Kristina Haslinger_
+_**"Unravelling the functional diversity of type III polyketide synthases in fungi "**_
 
-#install jupyter notebook
-conda install anaconda::jupyter
 
-#cd to the folder with the script and run it
-jupyter notebook Predictive_ML.ipynb
+The code was implemented on MacOS with the following crucial packages:
 
-#install the necessary dependencies
-conda install anaconda::h5py
+Python 3.8.
+h5py 3.7.0
+biopython 1.79
+jupyterlab 4.0.10
+numpy 1.24.4
+pandas 1.5.3
+peptides 0.3.2
+rdkit 2023.3.3
+scikit-learn 0.24.2
+
+Packages could be installed using `pip` and `conda`
+```
+conda create -n T3PKS python=3.8
+conda activate T3PKS
+pip install jupyterlab
 pip install rdkit
-conda install conda-forge::matplotlib
+pip install h5py
 conda install anaconda::scikit-learn
+conda install conda-forge::matplotlib
+pip install peptides
+pip install biopython
+```
 
-#added "import random" in cell 6
-#rdkit needs to be installed with pip, conda doesn't work
-#cell 8: "training_all_score = score_all_points(score_all)"
+* Download and unzip type_III_PKS folder and run Jupyter
 
-### descriptive model
-#install biopython in jupyter notebook first
-#add "T3PKS_alignment_clustal" to the input folder
+```
+git clone https://github.com/denisovss/type_III_PKS.git
+cd type_III_PKS
+jupyter notebook
+```
+
