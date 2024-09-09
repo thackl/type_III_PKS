@@ -6,7 +6,7 @@ _**"Unravelling the functional diversity of type III polyketide synthases in fun
 
 The code was implemented on MacOS with the following crucial packages:
 
-* Python 3.8.
+* Python 3.8.18
 * h5py 3.7.0
 * biopython 1.79
 * jupyterlab 4.0.10
