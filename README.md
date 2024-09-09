@@ -6,15 +6,15 @@ _**"Unravelling the functional diversity of type III polyketide synthases in fun
 
 The code was implemented on MacOS with the following crucial packages:
 
-*Python 3.8.
-*h5py 3.7.0
-*biopython 1.79
-*jupyterlab 4.0.10
-*numpy 1.24.4
-*pandas 1.5.3
-*peptides 0.3.2
-*rdkit 2023.3.3
-*scikit-learn 0.24.2
+* Python 3.8.
+* h5py 3.7.0
+* biopython 1.79
+* jupyterlab 4.0.10
+* numpy 1.24.4
+* pandas 1.5.3
+* peptides 0.3.2
+* rdkit 2023.3.3
+* scikit-learn 0.24.2
 
 Packages could be installed using `pip` and `conda`
 ```
