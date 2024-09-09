@@ -5,7 +5,7 @@ library(gridExtra)
 library(ggseqlogo)
 library(msa)
 library(stringr)
-setwd("~/Desktop/Data/2024/Bioinformatics/T3PKS_msa/")
+setwd("~/input_data/")
 #loading plant.faa as reference and all.fa for fungi t3pks
 plant <- readAAStringSet("plant-pks-reviewed.fasta", format = "fasta")
 t3pks <- readAAStringSet("all_unique.fa", format = "fasta")
@@ -55,26 +55,10 @@ gfungi <- ggplotGrob(fungi_logo)
 grid.arrange(gplant, gfungi, nrow = 2)
 
 
-cairo_ps(filename = "seqlogo.eps",
+cairo_ps(filename = "../output_data/seqlogo.eps",
          width = 50, height = 20, pointsize = 12,
          fallback_resolution = 600)
 print(grid.arrange(gplant, gfungi, nrow = 2)
 )
 dev.off()
-
-#writing sliced fasta files for pLogo
-for(i in 1:27){
-  header <- paste('>', msa@unmasked@ranges@NAMES[i])  
-  write(header, file = "plant_sliced.fa", append=TRUE)
-  write(sliced_seq[i], file =  "plant_sliced.fa", append=TRUE)}
-
-for(i in 28:length(sliced_seq)){
-  header <- paste('>', msa@unmasked@ranges@NAMES[i])  
-  write(header, file = "fungi_sliced.fa", append=TRUE)
-  write(sliced_seq[i], file =  "fungi_sliced.fa", append=TRUE)}
-
-
-writeXStringSet(sliced_seq[1:27], "plant_align.fa", format = "fasta")
-writeXStringSet(msa@unmasked[28:length(sliced_seq)], "fungi_align.fa", format = "fasta")
-
 
