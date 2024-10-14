@@ -281,11 +281,11 @@ ggsave("../figures/figSx_plant_bacteria.png",
 all_prediction_df <- as.data.frame(read.csv2("../output_data/all_substrate_prediction.csv"))
 all_prediction_df$Gene <- factor(all_prediction_df$Gene, levels = gene_levels)
 
-all_prediction_df$Substrate <- factor(all_prediction_df$Substrate, levels = rev(substrates_levels))
-all_prediction_plot <- plot_heatmap(all_prediction_df,all_prediction_df$Gene, all_prediction_df$Substrate, 
+all_prediction_df$Substrate <- factor(all_prediction_df$Substrate, levels = substrates_levels)
+all_prediction_plot <- plot_heatmap(all_prediction_df,all_prediction_df$Substrate, all_prediction_df$Gene, 
                                      as.numeric(all_prediction_df$pred))+
-                        scale_fill_gradient(low = "white", high = "#B05670", name = "Probability")+
-  scale_y_discrete(labels = seq(24, 13, -1))+theme(axis.text.y = element_text(face = "bold"))
+                        scale_fill_gradient(low = "white", high = "#5C8DB7", name = "Probability")+
+  scale_x_discrete(labels = seq(13, 24, 1))+theme(axis.text.x = element_text(face = "bold", angle = 0, hjust = 0.5))
 
 all_prediction_plot
 ggsave("../figures/all_predictions.png", all_prediction_plot,
