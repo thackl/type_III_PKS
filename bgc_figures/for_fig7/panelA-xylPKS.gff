@@ -1,0 +1,1001 @@
+##gff-version 3
+##sequence-region panelA-xylPKS 1 49481
+panelA-xylPKS	.	cand_cluster	1	49481	.	+	.	ID=cand_cluster-panelA-xylPKS_1;protoclusters=1,2;tool=antismash;candidate_cluster_number=1;SMILES=C([*])C(-O)(C);product=T3PKS,T1PKS;contig_edge=True;kind=neighbouring;detection_rules=(Chal_sti_synt_C or Chal_sti_synt_N),cds(PKS_AT and (PKS_KS or ene_KS ormod_KS or hyb_KS or itr_KS or tra_KS))
+panelA-xylPKS	.	region	1	49481	.	+	.	ID=region-panelA-xylPKS_2;tool=antismash;rules=(Chal_sti_synt_C or Chal_sti_synt_N),cds(PKS_AT and (PKS_KS or ene_KS or mod_KS orhyb_KS or itr_KS or tra_KS));contig_edge=True;product=T3PKS,T1PKS;candidate_cluster_numbers=1,2,3;region_number=1
+panelA-xylPKS	.	protocluster	1	41336	.	+	.	ID=protocluster-panelA-xylPKS_3;neighbourhood=20000;tool=antismash;protocluster_number=1;core_location=[20000:21336];detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N);cutoff=20000;aStool=rule-based-clusters;category=PKS;contig_edge=False;product=T3PKS
+panelA-xylPKS	.	proto_core	20001	21336	.	+	.	ID=proto_core-panelA-xylPKS_4;detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N);cutoff=20000;tool=antismash;protocluster_number=1;neighbourhood=20000;aStool=rule-based-clusters;product=T3PKS
+panelA-xylPKS	.	cand_cluster	1	41336	.	+	.	ID=cand_cluster-panelA-xylPKS_5;kind=single;tool=antismash;protoclusters=1;product=T3PKS;contig_edge=False;detection_rules=(Chal_sti_synt_C or Chal_sti_synt_N);candidate_cluster_number=2;SMILES=C([*])C(-O)(C)
+panelA-xylPKS	.	five_prime_UTR	1508	1600	.	+	.	ID=five_prime_utr-panelA-xylPKS_6;Parent=mRNA_14103;Name=jgi.p|XyFL1272_2|442212;source=prediction
+panelA-xylPKS	.	gene	1508	2398	0	+	.	ID=gene-panelA-xylPKS_7;Name=gene13721_14612;product_name=expressed protein;transcriptId=442612;Name=jgi.p|XyFL1272_2|442212;proteinId=442212;portal_id=XyFL1272_2;source=prediction
+panelA-xylPKS	.	mRNA	1508	2398	.	+	.	ID=mrna-panelA-xylPKS_8;Parent=gene-panelA-xylPKS_7;Name=jgi.p|XyFL1272_2|442212;transcriptId=442612;source=prediction;proteinId=442212;Name=jgi.p|XyFL1272_2|442212;track=FilteredModels1
+panelA-xylPKS	.	exon	1508	2398	.	+	.	ID=exon-panelA-xylPKS_9;Parent=mrna-panelA-xylPKS_8;Name=jgi.p|XyFL1272_2|442212;source=prediction
+panelA-xylPKS	.	CDS	1601	2338	.	+	.	ID=cds-panelA-xylPKS_10;Parent=mrna-panelA-xylPKS_8;Name=jgi.p_XyFL1272_2_442212;phase=0;transl_table=1;source=prediction
+panelA-xylPKS	.	protocluster	1917	49481	.	+	.	ID=protocluster-panelA-xylPKS_11;category=PKS;cutoff=20000;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));core_location=[21916:29808];protocluster_number=2;tool=antismash;neighbourhood=20000;product=T1PKS;contig_edge=True;aStool=rule-based-clusters
+panelA-xylPKS	.	proto_core	21917	29808	.	+	.	ID=proto_core-panelA-xylPKS_12;cutoff=20000;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));neighbourhood=20000;protocluster_number=2;tool=antismash;product=T1PKS;aStool=rule-based-clusters
+panelA-xylPKS	.	cand_cluster	1917	49481	.	+	.	ID=cand_cluster-panelA-xylPKS_13;detection_rules=cds(PKS_AT and (PKS_KS or ene_KS ormod_KS or hyb_KS or itr_KS or tra_KS));product=T1PKS;contig_edge=True;SMILES=C([*])C(-O)(C);candidate_cluster_number=3;kind=single;protoclusters=2;tool=antismash
+panelA-xylPKS	.	three_prime_UTR	2339	2398	.	+	.	ID=three_prime_utr-panelA-xylPKS_14;Parent=mrna-panelA-xylPKS_8;Name=jgi.p|XyFL1272_2|442212;source=prediction
+panelA-xylPKS	.	three_prime_UTR	7381	7610	.	-	.	ID=three_prime_utr-panelA-xylPKS_15;Parent=mRNA_14104;Name=jgi.p|XyFL1272_2|442216;source=prediction
+panelA-xylPKS	.	gene	7381	10783	0	-	.	ID=gene-panelA-xylPKS_16;Name=gene19594_22997;product_name=jgi|480151|Antav1 expressed protein;transcriptId=442616;Name=jgi.p|XyFL1272_2|442216;portal_id=XyFL1272_2;proteinId=442216;source=prediction
+panelA-xylPKS	.	mRNA	7381	10783	.	-	.	ID=mrna-panelA-xylPKS_17;Parent=gene-panelA-xylPKS_16;Name=jgi.p|XyFL1272_2|442216;track=FilteredModels1;source=prediction;proteinId=442216;Name=jgi.p|XyFL1272_2|442216;transcriptId=442616
+panelA-xylPKS	.	exon	7381	10783	.	-	.	ID=exon-panelA-xylPKS_18;Parent=mrna-panelA-xylPKS_17;Name=jgi.p|XyFL1272_2|442216;source=prediction
+panelA-xylPKS	.	CDS	7611	10412	.	-	.	ID=cds-panelA-xylPKS_19;Parent=mrna-panelA-xylPKS_17;Name=jgi.p_XyFL1272_2_442216;source=prediction;transl_table=1;phase=0
+panelA-xylPKS	.	PFAM_domain	8673	9080	73.3	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442216;Dbxref=PF04424.16;database=35.0;locus_tag=jgi.p_XyFL1272_2_442216;description=MINDY deubiquitinase;evalue=1.70E-20;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442216_0001;aSDomain=MINDY_DUB;protein_end=580;tool=antismash;aSTool=clusterhmmer;protein_start=444;detection=hmmscan;label=jgi.p_XyFL1272_2_442216
+panelA-xylPKS	.	five_prime_UTR	10413	10783	.	-	.	ID=five_prime_utr-panelA-xylPKS_20;Parent=mrna-panelA-xylPKS_17;Name=jgi.p|XyFL1272_2|442216;source=prediction
+panelA-xylPKS	.	three_prime_UTR	15103	15221	.	-	.	ID=three_prime_utr-panelA-xylPKS_21;Parent=mRNA_14105;Name=jgi.p|XyFL1272_2|442246;source=prediction
+panelA-xylPKS	.	exon	15103	16549	.	-	.	ID=exon-panelA-xylPKS_22;Parent=mRNA_14105;Name=jgi.p|XyFL1272_2|442246;source=prediction
+panelA-xylPKS	.	gene	15103	17371	0	-	.	ID=gene-panelA-xylPKS_23;Name=gene27316_29585;transcriptId=442646;Name=jgi.p|XyFL1272_2|442246;source=prediction;portal_id=XyFL1272_2;proteinId=442246;product_name=jgi|685743|Corma2 FAD/NAD(P)-bindingdomain-containing protein
+panelA-xylPKS	.	mRNA	15103	17371	.	-	.	ID=mrna-panelA-xylPKS_24;Parent=gene-panelA-xylPKS_23;Name=jgi.p|XyFL1272_2|442246;proteinId=442246;source=prediction;Name=jgi.p|XyFL1272_2|442246;transcriptId=442646;track=FilteredModels1
+panelA-xylPKS	.	CDS	15222	16549	.	-	.	ID=cds-panelA-xylPKS_25;Parent=mrna-panelA-xylPKS_24;Name=jgi.p_XyFL1272_2_442246;transl_table=1;source=prediction;sec_met_domain=Trp_halogenase (E-value: 2.3e-15,bitscore: 46.1, seeds: 23, tool: rule-based-clusters);gene_unctions=halogenase;gene_kind=biosynthetic-additional
+panelA-xylPKS	.	CDS	16634	16770	.	-	.	ID=cds-panelA-xylPKS_25;Parent=mrna-panelA-xylPKS_24;Name=jgi.p_XyFL1272_2_442246;transl_table=1;source=prediction;sec_met_domain=Trp_halogenase (E-value: 2.3e-15,bitscore: 46.1, seeds: 23, tool: rule-based-clusters);gene_functions=halogenase;gene_kind=biosynthetic-additional
+panelA-xylPKS	.	CDS	16837	16961	.	-	.	ID=cds-panelA-xylPKS_25;Parent=mrna-panelA-xylPKS_24;Name=jgi.p_XyFL1272_2_442246;transl_table=1;source=prediction;sec_met_domain=Trp_halogenase (E-value: 2.3e-15,bitscore: 46.1, seeds: 23, tool: rule-based-clusters);gene_functions=halogenase;gene_kind=biosynthetic-additional
+panelA-xylPKS	.	PFAM_domain	15765	16283	41.6	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442246;Dbxref=PF04820.17;detection=hmmscan;label=jgi.p_XyFL1272_2_442246;protein_start=176;tool=antismash;aSTool=clusterhmmer;protein_end=349;aSDomain=Trp_halogenase;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442246_0003;evalue=7.70E-11;description=Tryptophan halogenase;locus_tag=jgi.p_XyFL1272_2_442246;database=35.0
+panelA-xylPKS	.	PFAM_domain	16533	16549	46.1	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442246;Dbxref=PF04820.17;aSDomain=Trp_halogenase;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442246_0002;protein_end=93;tool=antismash;aSTool=clusterhmmer;label=jgi.p_XyFL1272_2_442246;detection=hmmscan;protein_start=8;database=35.0;locus_tag=jgi.p_XyFL1272_2_442246;evalue=3.40E-12;description=Tryptophan halogenase
+panelA-xylPKS	.	PFAM_domain	16634	16770	46.1	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442246;Dbxref=PF04820.17;aSDomain=Trp_halogenase;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442246_0002;protein_end=93;tool=antismash;aSTool=clusterhmmer;label=jgi.p_XyFL1272_2_442246;detection=hmmscan;protein_start=8;database=35.0;locus_tag=jgi.p_XyFL1272_2_442246;evalue=3.40E-12;description=Tryptophan halogenase
+panelA-xylPKS	.	PFAM_domain	16837	16937	46.1	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442246;Dbxref=PF04820.17;aSDomain=Trp_halogenase;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442246_0002;protein_end=93;tool=antismash;aSTool=clusterhmmer;label=jgi.p_XyFL1272_2_442246;detection=hmmscan;protein_start=8;database=35.0;locus_tag=jgi.p_XyFL1272_2_442246;evalue=3.40E-12;description=Tryptophan halogenase
+panelA-xylPKS	.	exon	16634	16770	.	-	.	ID=exon-panelA-xylPKS_26;Parent=mrna-panelA-xylPKS_24;Name=jgi.p|XyFL1272_2|442246;source=prediction
+panelA-xylPKS	.	exon	16837	17371	.	-	.	ID=exon-panelA-xylPKS_27;Parent=mrna-panelA-xylPKS_24;Name=jgi.p|XyFL1272_2|442246;source=prediction
+panelA-xylPKS	.	five_prime_UTR	16962	17371	.	-	.	ID=five_prime_utr-panelA-xylPKS_28;Parent=mrna-panelA-xylPKS_24;Name=jgi.p|XyFL1272_2|442246;source=prediction
+panelA-xylPKS	.	five_prime_UTR	17238	17391	.	+	.	ID=five_prime_utr-panelA-xylPKS_29;Parent=mRNA_14106;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	exon	17238	17717	.	+	.	ID=exon-panelA-xylPKS_30;Parent=mRNA_14106;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	gene	17238	19173	0	+	.	ID=gene-panelA-xylPKS_31;Name=gene29451_31387;transcriptId=442650;source=prediction;proteinId=442250;portal_id=XyFL1272_2;Name=jgi.p|XyFL1272_2|442250;product_name=jgi|664204|Corma2 cytochrome P450
+panelA-xylPKS	.	mRNA	17238	19173	.	+	.	ID=mrna-panelA-xylPKS_32;Parent=gene-panelA-xylPKS_31;Name=jgi.p|XyFL1272_2|442250;transcriptId=442650;source=prediction;proteinId=442250;Name=jgi.p|XyFL1272_2|442250;track=FilteredModels1
+panelA-xylPKS	.	CDS	17392	17717	.	+	.	ID=cds-panelA-xylPKS_33;Parent=mrna-panelA-xylPKS_32;Name=jgi.p_XyFL1272_2_442250;source=prediction;transl_table=1;gene_functions=p450;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 4.5e-63, bitscore: 203.3,seeds: 50, tool: rule-based-clusters)
+panelA-xylPKS	.	CDS	17779	18353	.	+	.	ID=cds-panelA-xylPKS_33;Parent=mrna-panelA-xylPKS_32;Name=jgi.p_XyFL1272_2_442250;source=prediction;transl_table=1;gene_functions=p450;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 4.5e-63, bitscore: 203.3,seeds: 50, tool: rule-based-clusters)
+panelA-xylPKS	.	CDS	18429	18866	.	+	.	ID=cds-panelA-xylPKS_33;Parent=mrna-panelA-xylPKS_32;Name=jgi.p_XyFL1272_2_442250;source=prediction;transl_table=1;gene_functions=p450;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 4.5e-63, bitscore: 203.3,seeds: 50, tool: rule-based-clusters)
+panelA-xylPKS	.	CDS	18938	19092	.	+	.	ID=cds-panelA-xylPKS_33;Parent=mrna-panelA-xylPKS_32;Name=jgi.p_XyFL1272_2_442250;source=prediction;transl_table=1;gene_functions=p450;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 4.5e-63, bitscore: 203.3,seeds: 50, tool: rule-based-clusters)
+panelA-xylPKS	.	PFAM_domain	17569	17717	203.3	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_442250;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442250_0004;protein_end=473;aSTool=clusterhmmer;tool=antismash;protein_start=59;detection=hmmscan;label=jgi.p_XyFL1272_2_442250;database=35.0;locus_tag=jgi.p_XyFL1272_2_442250;description=Cytochrome P450;ASF=active site cysteine inconclusive;evalue=6.70E-60
+panelA-xylPKS	.	PFAM_domain	17779	18353	203.3	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_442250;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442250_0004;protein_end=473;aSTool=clusterhmmer;tool=antismash;protein_start=59;detection=hmmscan;label=jgi.p_XyFL1272_2_442250;database=35.0;locus_tag=jgi.p_XyFL1272_2_442250;description=Cytochrome P450;ASF=active site cysteine inconclusive;evalue=6.70E-60
+panelA-xylPKS	.	PFAM_domain	18429	18866	203.3	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_442250;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442250_0004;protein_end=473;aSTool=clusterhmmer;tool=antismash;protein_start=59;detection=hmmscan;label=jgi.p_XyFL1272_2_442250;database=35.0;locus_tag=jgi.p_XyFL1272_2_442250;description=Cytochrome P450;ASF=active site cysteine inconclusive;evalue=6.70E-60
+panelA-xylPKS	.	PFAM_domain	18938	19017	203.3	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_442250;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442250_0004;protein_end=473;aSTool=clusterhmmer;tool=antismash;protein_start=59;detection=hmmscan;label=jgi.p_XyFL1272_2_442250;database=35.0;locus_tag=jgi.p_XyFL1272_2_442250;description=Cytochrome P450;ASF=active site cysteine inconclusive;evalue=6.70E-60
+panelA-xylPKS	.	exon	17779	18353	.	+	.	ID=exon-panelA-xylPKS_34;Parent=mrna-panelA-xylPKS_32;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	exon	18429	18866	.	+	.	ID=exon-panelA-xylPKS_35;Parent=mrna-panelA-xylPKS_32;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	exon	18938	19173	.	+	.	ID=exon-panelA-xylPKS_36;Parent=mrna-panelA-xylPKS_32;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	three_prime_UTR	19093	19173	.	+	.	ID=three_prime_utr-panelA-xylPKS_37;Parent=mrna-panelA-xylPKS_32;Name=jgi.p|XyFL1272_2|442250;source=prediction
+panelA-xylPKS	.	three_prime_UTR	19921	20000	.	-	.	ID=three_prime_utr-panelA-xylPKS_38;Parent=mRNA_14107;Name=jgi.p|XyFL1272_2|442241;source=prediction
+panelA-xylPKS	.	exon	19921	21057	.	-	.	ID=exon-panelA-xylPKS_39;Parent=mRNA_14107;Name=jgi.p|XyFL1272_2|442241;source=prediction
+panelA-xylPKS	.	gene	19921	21626	0	-	.	ID=gene-panelA-xylPKS_40;Name=gene32134_33840;source=prediction;proteinId=442241;portal_id=XyFL1272_2;Name=jgi.p|XyFL1272_2|442241;transcriptId=442641;product_name=jgi|539961|PhaeoFL0889_1 thiolase-likeprotein
+panelA-xylPKS	.	mRNA	19921	21626	.	-	.	ID=mrna-panelA-xylPKS_41;Parent=gene-panelA-xylPKS_40;Name=jgi.p|XyFL1272_2|442241;transcriptId=442641;Name=jgi.p|XyFL1272_2|442241;source=prediction;proteinId=442241;track=FilteredModels1
+panelA-xylPKS	.	CDS	20001	21057	.	-	.	ID=cds-panelA-xylPKS_42;Parent=mrna-panelA-xylPKS_41;Name=jgi.p_XyFL1272_2_442241;gene_kind=biosynthetic;gene_functions=T3PKS;sec_met_domain=Chal_sti_synt_N (E-value: 3.6e-30,bitscore: 94.8, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 4.8e-20,bitscore: 62.0, seeds: 21, tool: rule-based-clusters);transl_table=1;source=prediction
+panelA-xylPKS	.	CDS	21158	21336	.	-	.	ID=cds-panelA-xylPKS_42;Parent=mrna-panelA-xylPKS_41;Name=jgi.p_XyFL1272_2_442241;gene_kind=biosynthetic;gene_functions=T3PKS;sec_met_domain=Chal_sti_synt_N (E-value: 3.6e-30,bitscore: 94.8, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 4.8e-20,bitscore: 62.0, seeds: 21, tool: rule-based-clusters);transl_table=1;source=prediction
+panelA-xylPKS	.	PFAM_domain	20034	20444	61.3	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442241;Dbxref=PF02797.18;protein_end=401;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442241_0006;aSDomain=Chal_sti_synt_C;detection=hmmscan;label=jgi.p_XyFL1272_2_442241;protein_start=264;tool=antismash;aSTool=clusterhmmer;locus_tag=jgi.p_XyFL1272_2_442241;database=35.0;evalue=1.10E-16;description=Chalcone and stilbene synthases, C-terminaldomain
+panelA-xylPKS	.	PFAM_domain	20508	20957	86.1	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_442241;Dbxref=PF00195.22;protein_start=93;detection=hmmscan;label=jgi.p_XyFL1272_2_442241;aSTool=clusterhmmer;tool=antismash;protein_end=243;aSDomain=Chal_sti_synt_N;domain_id=clusterhmmer_jgi.p_XyFL1272_2_442241_0005;description=Chalcone and stilbene synthases, N-terminaldomain;evalue=2.50E-24;locus_tag=jgi.p_XyFL1272_2_442241;database=35.0
+panelA-xylPKS	.	exon	21158	21626	.	-	.	ID=exon-panelA-xylPKS_43;Parent=mrna-panelA-xylPKS_41;Name=jgi.p|XyFL1272_2|442241;source=prediction
+panelA-xylPKS	.	five_prime_UTR	21337	21626	.	-	.	ID=five_prime_utr-panelA-xylPKS_44;Parent=mrna-panelA-xylPKS_41;Name=jgi.p|XyFL1272_2|442241;source=prediction
+panelA-xylPKS	.	exon	21917	23107	.	+	.	ID=exon-panelA-xylPKS_45;Parent=mRNA_14108;Name=jgi.p|XyFL1272_2|509578;source=prediction
+panelA-xylPKS	.	gene	21917	29808	0	+	.	ID=gene-panelA-xylPKS_46;Name=gene34130_42022;source=prediction;proteinId=509578;portal_id=XyFL1272_2;Name=jgi.p|XyFL1272_2|509578;transcriptId=509978;product_name=hypothetical protein
+panelA-xylPKS	.	mRNA	21917	29808	.	+	.	ID=mrna-panelA-xylPKS_47;Parent=gene-panelA-xylPKS_46;Name=jgi.p|XyFL1272_2|509578;track=FilteredModels1;source=prediction;proteinId=509578;Name=jgi.p|XyFL1272_2|509578;transcriptId=509978
+panelA-xylPKS	.	CDS	21917	23107	.	+	.	ID=cds-panelA-xylPKS_48;Parent=mrna-panelA-xylPKS_47;Name=jgi.p_XyFL1272_2_509578;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (63-482). E-value:2.8e-149. Score: 489.4. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1,Domain: PKS_AT (582-894). E-value: 1.6e-92.Score: 301.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1,Domain: PKS_DH (959-1131). E-value: 3.8e-31.Score: 100.5. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1,Domain: cMT (1422-1594). E-value: 6.4e-70.Score: 227.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1,Domain: PKS_ER (1836-2152). E-value: 3.7e-119.Score: 389.3. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1,Domain: PKS_KR (2176-2351). E-value: 1.1e-55.Score: 180.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1,Domain: PKS_PP (2474-2555). E-value: 1.6e-14.Score: 45.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 1.4e-160, bitscore:524.4, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 3.8e-93, bitscore: 301.9,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.3e-09, bitscore: 27.0,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 2.1e-20, bitscore:62.9, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 4e-49, bitscore:156.7, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 2.5e-11, bitscore:33.8, seeds: 164, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T1PKS
+panelA-xylPKS	.	CDS	23170	23293	.	+	.	ID=cds-panelA-xylPKS_48;Parent=mrna-panelA-xylPKS_47;Name=jgi.p_XyFL1272_2_509578;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (63-482). E-value:2.8e-149. Score: 489.4. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1,Domain: PKS_AT (582-894). E-value: 1.6e-92.Score: 301.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1,Domain: PKS_DH (959-1131). E-value: 3.8e-31.Score: 100.5. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1,Domain: cMT (1422-1594). E-value: 6.4e-70.Score: 227.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1,Domain: PKS_ER (1836-2152). E-value: 3.7e-119.Score: 389.3. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1,Domain: PKS_KR (2176-2351). E-value: 1.1e-55.Score: 180.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1,Domain: PKS_PP (2474-2555). E-value: 1.6e-14.Score: 45.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 1.4e-160, bitscore:524.4, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 3.8e-93, bitscore: 301.9,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.3e-09, bitscore: 27.0,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 2.1e-20, bitscore:62.9, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 4e-49, bitscore:156.7, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 2.5e-11, bitscore:33.8, seeds: 164, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T1PKS
+panelA-xylPKS	.	CDS	23354	28355	.	+	.	ID=cds-panelA-xylPKS_48;Parent=mrna-panelA-xylPKS_47;Name=jgi.p_XyFL1272_2_509578;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (63-482). E-value:2.8e-149. Score: 489.4. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1,Domain: PKS_AT (582-894). E-value: 1.6e-92.Score: 301.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1,Domain: PKS_DH (959-1131). E-value: 3.8e-31.Score: 100.5. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1,Domain: cMT (1422-1594). E-value: 6.4e-70.Score: 227.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1,Domain: PKS_ER (1836-2152). E-value: 3.7e-119.Score: 389.3. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1,Domain: PKS_KR (2176-2351). E-value: 1.1e-55.Score: 180.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1,Domain: PKS_PP (2474-2555). E-value: 1.6e-14.Score: 45.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 1.4e-160, bitscore:524.4, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 3.8e-93, bitscore: 301.9,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.3e-09, bitscore: 27.0,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 2.1e-20, bitscore:62.9, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 4e-49, bitscore:156.7, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 2.5e-11, bitscore:33.8, seeds: 164, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T1PKS
+panelA-xylPKS	.	CDS	28425	29808	.	+	.	ID=cds-panelA-xylPKS_48;Parent=mrna-panelA-xylPKS_47;Name=jgi.p_XyFL1272_2_509578;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (63-482). E-value:2.8e-149. Score: 489.4. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1,Domain: PKS_AT (582-894). E-value: 1.6e-92.Score: 301.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1,Domain: PKS_DH (959-1131). E-value: 3.8e-31.Score: 100.5. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1,Domain: cMT (1422-1594). E-value: 6.4e-70.Score: 227.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1,Domain: PKS_ER (1836-2152). E-value: 3.7e-119.Score: 389.3. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1,Domain: PKS_KR (2176-2351). E-value: 1.1e-55.Score: 180.2. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1,Domain: PKS_PP (2474-2555). E-value: 1.6e-14.Score: 45.9. Matches aSDomain:nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 1.4e-160, bitscore:524.4, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 3.8e-93, bitscore: 301.9,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.3e-09, bitscore: 27.0,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 2.1e-20, bitscore:62.9, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 4e-49, bitscore:156.7, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 2.5e-11, bitscore:33.8, seeds: 164, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T1PKS
+panelA-xylPKS	.	PFAM_domain	22100	22849	219.8	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF00109.29;description=Beta-ketoacyl synthase, N-terminal domain;evalue=4.50E-65;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0;protein_start=61;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;aSTool=clusterhmmer;tool=antismash;protein_end=311;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0007;aSDomain=ketoacyl-synt
+panelA-xylPKS	.	aSDomain	22106	23107	489.4	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;protein_start=63;label=jgi.p_XyFL1272_2_509578_PKS_KS.1;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;protein_end=482;aSDomain=PKS_KS;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1;domain_subtypes=Iterative-KS;evalue=2.80E-149;ASF=found active site cysteine: True, scaffold matchedGSSS: False,found active site histidines: True;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm
+panelA-xylPKS	.	aSDomain	23170	23293	489.4	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;protein_start=63;label=jgi.p_XyFL1272_2_509578_PKS_KS.1;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;protein_end=482;aSDomain=PKS_KS;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1;domain_subtypes=Iterative-KS;evalue=2.80E-149;ASF=found active site cysteine: True, scaffold matchedGSSS: False,found active site histidines: True;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm
+panelA-xylPKS	.	aSDomain	23354	23484	489.4	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;protein_start=63;label=jgi.p_XyFL1272_2_509578_PKS_KS.1;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;protein_end=482;aSDomain=PKS_KS;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1;domain_subtypes=Iterative-KS;evalue=2.80E-149;ASF=found active site cysteine: True, scaffold matchedGSSS: False,found active site histidines: True;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm
+panelA-xylPKS	.	aSModule	22106	29772	.	+	.	ID=asmodule-panelA-xylPKS_49;locus_tags=jgi.p_XyFL1272_2_509578;type=pks;iterative=;monomer_pairings=pk -> Me-pk;complete=;domains=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KS.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1,nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;tool=antismash
+panelA-xylPKS	.	CDS_motif	22586	22633	9.9	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;evalue=4.30E-03;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0001;protein_end=239;tool=antismash;aSTool=nrps_pks_domains;protein_start=223;label=PKSI-KS_m3;detection=hmmscan
+panelA-xylPKS	.	CDS_motif	22775	22813	11.4	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;protein_end=299;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0002;label=PKSI-KS_m4;detection=hmmscan;protein_start=286;aSTool=nrps_pks_domains;tool=antismash;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;evalue=2.00E-03
+panelA-xylPKS	.	PFAM_domain	22874	23107	106.7	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF02801.25;evalue=7.60E-31;description=Beta-ketoacyl synthase, C-terminal domain;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;protein_start=319;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0008;aSDomain=Ketoacyl-synt_C;protein_end=432
+panelA-xylPKS	.	PFAM_domain	23170	23274	106.7	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF02801.25;evalue=7.60E-31;description=Beta-ketoacyl synthase, C-terminal domain;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;protein_start=319;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0008;aSDomain=Ketoacyl-synt_C;protein_end=432
+panelA-xylPKS	.	CDS_motif	23012	23056	12.7	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;protein_end=380;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0003;protein_start=365;label=PKSI-KS_m5;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;evalue=3.70E-04
+panelA-xylPKS	.	exon	23170	23293	.	+	.	ID=exon-panelA-xylPKS_50;Parent=mrna-panelA-xylPKS_47;Name=jgi.p|XyFL1272_2|509578;source=prediction
+panelA-xylPKS	.	PFAM_domain	23281	23293	85.0	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF16197.8;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;evalue=5.30E-24;description=Ketoacyl-synthetase C-terminal extension;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0009;aSDomain=KAsynt_C_assoc;protein_end=556;tool=antismash;aSTool=clusterhmmer;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;protein_start=434
+panelA-xylPKS	.	PFAM_domain	23354	23706	85.0	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF16197.8;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;evalue=5.30E-24;description=Ketoacyl-synthetase C-terminal extension;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0009;aSDomain=KAsynt_C_assoc;protein_end=556;tool=antismash;aSTool=clusterhmmer;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;protein_start=434
+panelA-xylPKS	.	exon	23354	28355	.	+	.	ID=exon-panelA-xylPKS_51;Parent=mrna-panelA-xylPKS_47;Name=jgi.p|XyFL1272_2|509578;source=prediction
+panelA-xylPKS	.	CDS_motif	23779	23832	21.1	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=8.60E-07;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=nrps_pks_domains;protein_start=580;label=PKSI-AT-mM_m1;detection=hmmscan;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0004;protein_end=598
+panelA-xylPKS	.	PFAM_domain	23779	24762	190.7	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF00698.24;description=Acyl transferase domain;evalue=4.70E-56;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=clusterhmmer;protein_start=580;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0010;aSDomain=Acyl_transf_1;protein_end=908
+panelA-xylPKS	.	aSDomain	23785	24720	301.9	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;protein_end=894;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_AT.1;aSDomain=PKS_AT;detection=hmmscan;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;label=jgi.p_XyFL1272_2_509578_PKS_AT.1;protein_start=582;aSTool=nrps_pks_domains;tool=antismash;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm;evalue=1.60E-92;ASF=Neither malonyl-CoA or methylmalonyl-CoA specific,found active site serine: True, scaffold matchedGHGE: True
+panelA-xylPKS	.	CDS_motif	24034	24153	30.4	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;evalue=1.00E-09;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0005;protein_end=705;aSTool=nrps_pks_domains;tool=antismash;label=PKSI-AT-M_m3;detection=hmmscan;protein_start=665
+panelA-xylPKS	.	CDS_motif	24523	24570	10.9	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=1.90E-03;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=nrps_pks_domains;protein_start=828;detection=hmmscan;label=PKSI-AT-mM_m8;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0006;protein_end=844
+panelA-xylPKS	.	aSDomain	24916	25431	100.5	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm;ASF=catalytic triad H,G,P inconclusive;evalue=3.80E-31;protein_end=1131;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_DH.1;aSDomain=PKS_DH;protein_start=959;detection=hmmscan;label=jgi.p_XyFL1272_2_509578_PKS_DH.1;tool=antismash;aSTool=nrps_pks_domains
+panelA-xylPKS	.	PFAM_domain	24916	25779	224.3	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF14765.9;description=Polyketide synthase dehydratase;evalue=2.10E-66;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0;protein_start=959;label=jgi.p_XyFL1272_2_509578;detection=hmmscan;tool=antismash;aSTool=clusterhmmer;protein_end=1247;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0011;aSDomain=PS-DH
+panelA-xylPKS	.	CDS_motif	25000	25077	31.7	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=5.60E-10;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=nrps_pks_domains;tool=antismash;protein_start=987;detection=hmmscan;label=PKSI-DH_m2;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0007;protein_end=1013
+panelA-xylPKS	.	aSDomain	26305	26820	227.2	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;evalue=6.40E-70;domain_subtypes=cMT;database=nrpspksdomains.hmm;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=nrps_pks_domains;tool=antismash;label=jgi.p_XyFL1272_2_509578_cMT.1;detection=hmmscan;protein_start=1422;aSDomain=MT;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_cMT.1;protein_end=1594
+panelA-xylPKS	.	PFAM_domain	26338	26661	66.7	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF08242.15;evalue=2.60E-18;description=Methyltransferase domain;database=35.0;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=clusterhmmer;tool=antismash;label=jgi.p_XyFL1272_2_509578;detection=hmmscan;protein_start=1433;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0012;aSDomain=Methyltransf_12;protein_end=1541
+panelA-xylPKS	.	aSDomain	27547	28355	389.3	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm;evalue=3.70E-119;ASF=ER domain putatively catalyzing 2R-configurationproduct formation;protein_end=2152;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1;aSDomain=PKS_ER;protein_start=1836;detection=hmmscan;label=jgi.p_XyFL1272_2_509578_PKS_ER.1;aSTool=nrps_pks_domains;tool=antismash
+panelA-xylPKS	.	aSDomain	28425	28563	389.3	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm;evalue=3.70E-119;ASF=ER domain putatively catalyzing 2R-configurationproduct formation;protein_end=2152;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_ER.1;aSDomain=PKS_ER;protein_start=1836;detection=hmmscan;label=jgi.p_XyFL1272_2_509578_PKS_ER.1;aSTool=nrps_pks_domains;tool=antismash
+panelA-xylPKS	.	CDS_motif	27631	27666	14.6	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=1.50E-04;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;protein_start=1864;label=PKSI-ER_m1;detection=hmmscan;aSTool=nrps_pks_domains;tool=antismash;protein_end=1876;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0008
+panelA-xylPKS	.	CDS_motif	27700	27738	14.4	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0009;protein_end=1900;aSTool=nrps_pks_domains;tool=antismash;detection=hmmscan;label=PKSI-ER_m2;protein_start=1887;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;evalue=1.70E-04
+panelA-xylPKS	.	CDS_motif	27868	27909	11.6	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;evalue=2.10E-03;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0010;protein_end=1957;aSTool=nrps_pks_domains;tool=antismash;label=PKSI-ER_m4;detection=hmmscan;protein_start=1943
+panelA-xylPKS	.	CDS_motif	27934	27996	30.9	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=8.40E-10;database=abmotifs;locus_tag=jgi.p_XyFL1272_2_509578;aSTool=nrps_pks_domains;tool=antismash;protein_start=1965;detection=hmmscan;label=PKSI-ER_m5;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0011;protein_end=1986
+panelA-xylPKS	.	PFAM_domain	27967	28355	62.9	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF00107.29;protein_start=1976;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=clusterhmmer;protein_end=2107;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0013;aSDomain=ADH_zinc_N;description=Zinc-binding dehydrogenase;evalue=3.10E-17;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0
+panelA-xylPKS	.	PFAM_domain	28425	28428	62.9	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF00107.29;protein_start=1976;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=clusterhmmer;protein_end=2107;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0013;aSDomain=ADH_zinc_N;description=Zinc-binding dehydrogenase;evalue=3.10E-17;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0
+panelA-xylPKS	.	CDS_motif	28006	28056	12.4	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;evalue=7.80E-04;protein_end=2006;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0012;detection=hmmscan;label=PKSI-ER_m6;protein_start=1989;aSTool=nrps_pks_domains;tool=antismash
+panelA-xylPKS	.	CDS_motif	28135	28173	13.7	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;protein_end=2045;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0013;label=PKSI-ER_m7;detection=hmmscan;protein_start=2032;aSTool=nrps_pks_domains;tool=antismash;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;evalue=2.30E-04
+panelA-xylPKS	.	exon	28425	29808	.	+	.	ID=exon-panelA-xylPKS_52;Parent=mrna-panelA-xylPKS_47;Name=jgi.p|XyFL1272_2|509578;source=prediction
+panelA-xylPKS	.	CDS_motif	28519	28563	13.5	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;protein_end=2152;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0014;protein_start=2137;label=PKSI-ER_m9;detection=hmmscan;aSTool=nrps_pks_domains;tool=antismash;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;evalue=4.30E-04
+panelA-xylPKS	.	aSDomain	28636	29160	180.2	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;tool=antismash;aSTool=nrps_pks_domains;label=jgi.p_XyFL1272_2_509578_PKS_KR.1;specificity=KR activity: active,KR stereochemistry: B1;detection=hmmscan;protein_start=2176;aSDomain=PKS_KR;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_KR.1;protein_end=2351;ASF=KR domain putatively catalyzing D-configurationproduct formation,catalytic triad S,Y,N inconclusive;evalue=1.10E-55;database=nrpspksdomains.hmm;locus_tag=jgi.p_XyFL1272_2_509578
+panelA-xylPKS	.	PFAM_domain	28636	29160	204.2	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF08659.13;protein_end=2351;aSDomain=KR;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0014;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;protein_start=2176;tool=antismash;aSTool=clusterhmmer;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0;evalue=1.60E-60;description=KR domain
+panelA-xylPKS	.	CDS_motif	28639	28737	49.9	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=1.30E-15;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;label=PKSI-KR_m1;detection=hmmscan;protein_start=2177;aSTool=nrps_pks_domains;tool=antismash;protein_end=2210;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0015
+panelA-xylPKS	.	CDS_motif	28954	28983	12.9	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;evalue=7.20E-04;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs;protein_start=2282;label=PKSI-KR_m3;detection=hmmscan;aSTool=nrps_pks_domains;tool=antismash;protein_end=2292;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0016
+panelA-xylPKS	.	CDS_motif	29005	29115	54.5	+	.	ID=cds_motif-jgi.p_XyFL1272_2_509578;protein_start=2299;label=PKSI-KR_m4;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;protein_end=2336;domain_id=nrpspksmotif_jgi.p_XyFL1272_2_509578_0017;evalue=4.70E-17;locus_tag=jgi.p_XyFL1272_2_509578;database=abmotifs
+panelA-xylPKS	.	aSDomain	29530	29772	45.9	+	.	ID=asdomain-jgi.p_XyFL1272_2_509578;protein_end=2555;domain_id=nrpspksdomains_jgi.p_XyFL1272_2_509578_PKS_PP.1;aSDomain=PKS_PP;protein_start=2474;label=jgi.p_XyFL1272_2_509578_PKS_PP.1;detection=hmmscan;tool=antismash;aSTool=nrps_pks_domains;locus_tag=jgi.p_XyFL1272_2_509578;database=nrpspksdomains.hmm;evalue=1.60E-14
+panelA-xylPKS	.	PFAM_domain	29605	29760	34.2	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_509578;Dbxref=PF00550.28;protein_end=2551;aSDomain=PP-binding;domain_id=clusterhmmer_jgi.p_XyFL1272_2_509578_0015;protein_start=2499;detection=hmmscan;label=jgi.p_XyFL1272_2_509578;aSTool=clusterhmmer;tool=antismash;locus_tag=jgi.p_XyFL1272_2_509578;database=35.0;description=Phosphopantetheine attachment site;evalue=2.50E-08
+panelA-xylPKS	.	three_prime_UTR	31194	31369	.	-	.	ID=three_prime_utr-panelA-xylPKS_53;Parent=mRNA_14109;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	exon	31194	31674	.	-	.	ID=exon-panelA-xylPKS_54;Parent=mRNA_14109;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	gene	31194	33364	0	-	.	ID=gene-panelA-xylPKS_55;Name=gene43407_45578;product_name=jgi|718721|Corma2S-adenosyl-L-methionine-dependent methyltransferase;Name=jgi.p|XyFL1272_2|488504;proteinId=488504;portal_id=XyFL1272_2;source=prediction;transcriptId=488904
+panelA-xylPKS	.	mRNA	31194	33364	.	-	.	ID=mrna-panelA-xylPKS_56;Parent=gene-panelA-xylPKS_55;Name=jgi.p|XyFL1272_2|488504;proteinId=488504;source=prediction;Name=jgi.p|XyFL1272_2|488504;transcriptId=488904;track=FilteredModels1
+panelA-xylPKS	.	CDS	31370	31674	.	-	.	ID=cds-panelA-xylPKS_57;Parent=mrna-panelA-xylPKS_56;Name=jgi.p_XyFL1272_2_488504;gene_kind=biosynthetic-additional;gene_functions=OMT;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	31745	32202	.	-	.	ID=cds-panelA-xylPKS_57;Parent=mrna-panelA-xylPKS_56;Name=jgi.p_XyFL1272_2_488504;gene_kind=biosynthetic-additional;gene_functions=OMT;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	32258	32390	.	-	.	ID=cds-panelA-xylPKS_57;Parent=mrna-panelA-xylPKS_56;Name=jgi.p_XyFL1272_2_488504;gene_kind=biosynthetic-additional;gene_functions=OMT;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	32450	32810	.	-	.	ID=cds-panelA-xylPKS_57;Parent=mrna-panelA-xylPKS_56;Name=jgi.p_XyFL1272_2_488504;gene_kind=biosynthetic-additional;gene_functions=OMT;source=prediction;transl_table=1
+panelA-xylPKS	.	PFAM_domain	31436	31674	66.5	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_488504;Dbxref=PF00891.21;locus_tag=jgi.p_XyFL1272_2_488504;database=35.0;description=O-methyltransferase domain;evalue=2.10E-18;protein_end=397;domain_id=clusterhmmer_jgi.p_XyFL1272_2_488504_0016;aSDomain=Methyltransf_2;protein_start=190;label=jgi.p_XyFL1272_2_488504;detection=hmmscan;tool=antismash;aSTool=clusterhmmer
+panelA-xylPKS	.	PFAM_domain	31745	32126	66.5	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_488504;Dbxref=PF00891.21;locus_tag=jgi.p_XyFL1272_2_488504;database=35.0;description=O-methyltransferase domain;evalue=2.10E-18;protein_end=397;domain_id=clusterhmmer_jgi.p_XyFL1272_2_488504_0016;aSDomain=Methyltransf_2;protein_start=190;label=jgi.p_XyFL1272_2_488504;detection=hmmscan;tool=antismash;aSTool=clusterhmmer
+panelA-xylPKS	.	exon	31745	32202	.	-	.	ID=exon-panelA-xylPKS_58;Parent=mrna-panelA-xylPKS_56;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	exon	32258	32390	.	-	.	ID=exon-panelA-xylPKS_59;Parent=mrna-panelA-xylPKS_56;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	exon	32450	33364	.	-	.	ID=exon-panelA-xylPKS_60;Parent=mrna-panelA-xylPKS_56;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	five_prime_UTR	32811	33364	.	-	.	ID=five_prime_utr-panelA-xylPKS_61;Parent=mrna-panelA-xylPKS_56;Name=jgi.p|XyFL1272_2|488504;source=prediction
+panelA-xylPKS	.	exon	34608	34668	.	+	.	ID=exon-panelA-xylPKS_62;Parent=mRNA_14110;Name=jgi.p|XyFL1272_2|496182;source=prediction
+panelA-xylPKS	.	gene	34608	36159	0	+	.	ID=gene-panelA-xylPKS_63;Name=gene46821_48373;product_name=hypothetical protein;transcriptId=496582;Name=jgi.p|XyFL1272_2|496182;source=prediction;portal_id=XyFL1272_2;proteinId=496182
+panelA-xylPKS	.	mRNA	34608	36159	.	+	.	ID=mrna-panelA-xylPKS_64;Parent=gene-panelA-xylPKS_63;Name=jgi.p|XyFL1272_2|496182;track=FilteredModels1;transcriptId=496582;Name=jgi.p|XyFL1272_2|496182;source=prediction;proteinId=496182
+panelA-xylPKS	.	CDS	34608	34668	.	+	.	ID=cds-panelA-xylPKS_65;Parent=mrna-panelA-xylPKS_64;Name=jgi.p_XyFL1272_2_496182;source=prediction;transl_table=1;gene_functions=Transcr. factor
+panelA-xylPKS	.	CDS	34937	35528	.	+	.	ID=cds-panelA-xylPKS_65;Parent=mrna-panelA-xylPKS_64;Name=jgi.p_XyFL1272_2_496182;source=prediction;transl_table=1;gene_functions=Transcr. factor
+panelA-xylPKS	.	CDS	35580	36159	.	+	.	ID=cds-panelA-xylPKS_65;Parent=mrna-panelA-xylPKS_64;Name=jgi.p_XyFL1272_2_496182;source=prediction;transl_table=1;gene_functions=Transcr. factor
+panelA-xylPKS	.	exon	34937	35528	.	+	.	ID=exon-panelA-xylPKS_66;Parent=mrna-panelA-xylPKS_64;Name=jgi.p|XyFL1272_2|496182;source=prediction
+panelA-xylPKS	.	exon	35580	36159	.	+	.	ID=exon-panelA-xylPKS_67;Parent=mrna-panelA-xylPKS_64;Name=jgi.p|XyFL1272_2|496182;source=prediction
+panelA-xylPKS	.	three_prime_UTR	36225	36302	.	-	.	ID=three_prime_utr-panelA-xylPKS_68;Parent=mRNA_14111;Name=jgi.p|XyFL1272_2|488512;source=prediction
+panelA-xylPKS	.	exon	36225	37832	.	-	.	ID=exon-panelA-xylPKS_69;Parent=mRNA_14111;Name=jgi.p|XyFL1272_2|488512;source=prediction
+panelA-xylPKS	.	gene	36225	38848	0	-	.	ID=gene-panelA-xylPKS_70;Name=gene48438_51062;Name=jgi.p|XyFL1272_2|488512;source=prediction;proteinId=488512;portal_id=XyFL1272_2;transcriptId=488912;product_name=jgi|511792|PhaeoFL0889_1 major facilitatorsuperfamily domain-containing protein
+panelA-xylPKS	.	mRNA	36225	38848	.	-	.	ID=mrna-panelA-xylPKS_71;Parent=gene-panelA-xylPKS_70;Name=jgi.p|XyFL1272_2|488512;transcriptId=488912;source=prediction;proteinId=488512;Name=jgi.p|XyFL1272_2|488512;track=FilteredModels1
+panelA-xylPKS	.	CDS	36303	37832	.	-	.	ID=cds-panelA-xylPKS_72;Parent=mrna-panelA-xylPKS_71;Name=jgi.p_XyFL1272_2_488512;phase=0;transl_table=1;source=prediction;gene_functions=transport;gene_kind=transport
+panelA-xylPKS	.	CDS	37910	38158	.	-	.	ID=cds-panelA-xylPKS_72;Parent=mrna-panelA-xylPKS_71;Name=jgi.p_XyFL1272_2_488512;phase=0;transl_table=1;source=prediction;gene_functions=transport;gene_kind=transport
+panelA-xylPKS	.	PFAM_domain	36687	37832	121.8	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_488512;Dbxref=PF07690.19;locus_tag=jgi.p_XyFL1272_2_488512;database=35.0;evalue=3.30E-35;description=Major Facilitator Superfamily;protein_end=465;aSDomain=MFS_1;domain_id=clusterhmmer_jgi.p_XyFL1272_2_488512_0017;label=jgi.p_XyFL1272_2_488512;detection=hmmscan;protein_start=63;tool=antismash;aSTool=clusterhmmer
+panelA-xylPKS	.	PFAM_domain	37910	37969	121.8	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_488512;Dbxref=PF07690.19;locus_tag=jgi.p_XyFL1272_2_488512;database=35.0;evalue=3.30E-35;description=Major Facilitator Superfamily;protein_end=465;aSDomain=MFS_1;domain_id=clusterhmmer_jgi.p_XyFL1272_2_488512_0017;label=jgi.p_XyFL1272_2_488512;detection=hmmscan;protein_start=63;tool=antismash;aSTool=clusterhmmer
+panelA-xylPKS	.	exon	37910	38848	.	-	.	ID=exon-panelA-xylPKS_73;Parent=mrna-panelA-xylPKS_71;Name=jgi.p|XyFL1272_2|488512;source=prediction
+panelA-xylPKS	.	five_prime_UTR	38159	38848	.	-	.	ID=five_prime_utr-panelA-xylPKS_74;Parent=mrna-panelA-xylPKS_71;Name=jgi.p|XyFL1272_2|488512;source=prediction
+panelA-xylPKS	.	gene	39209	40117	0	-	.	ID=gene-panelA-xylPKS_75;Name=gene51422_52331;product_name=UbiA prenyltransferase family-domaincontaining protein;source=prediction;proteinId=496184;portal_id=XyFL1272_2;Name=jgi.p|XyFL1272_2|496184;transcriptId=496584
+panelA-xylPKS	.	mRNA	39209	40117	.	-	.	ID=mrna-panelA-xylPKS_76;Parent=gene-panelA-xylPKS_75;Name=jgi.p|XyFL1272_2|496184;transcriptId=496584;Name=jgi.p|XyFL1272_2|496184;source=prediction;proteinId=496184;track=FilteredModels1
+panelA-xylPKS	.	exon	39209	40117	.	-	.	ID=exon-panelA-xylPKS_77;Parent=mrna-panelA-xylPKS_76;Name=jgi.p|XyFL1272_2|496184;source=prediction
+panelA-xylPKS	.	CDS	39209	40117	.	-	.	ID=cds-panelA-xylPKS_78;Parent=mrna-panelA-xylPKS_76;Name=jgi.p_XyFL1272_2_496184;source=prediction;transl_table=1;phase=0;sec_met_domain=ubiA (E-value: 5.9e-17, bitscore: 51.6,seeds: 9, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=ubiA
+panelA-xylPKS	.	PFAM_domain	39272	39961	60.8	-	.	ID=pfam_domain-jgi.p_XyFL1272_2_496184;Dbxref=PF01040.21;protein_end=282;domain_id=clusterhmmer_jgi.p_XyFL1272_2_496184_0018;aSDomain=UbiA;protein_start=52;label=jgi.p_XyFL1272_2_496184;detection=hmmscan;tool=antismash;aSTool=clusterhmmer;locus_tag=jgi.p_XyFL1272_2_496184;database=35.0;description=UbiA prenyltransferase family;evalue=1.30E-16
+panelA-xylPKS	.	exon	41653	41905	.	+	.	ID=exon-panelA-xylPKS_79;Parent=mRNA_14113;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	CDS	41653	41905	.	+	.	ID=cds-panelA-xylPKS_80;Name=jgi.p_XyFL1272_2_521182;sec_met_domain=p450 (E-value: 1.6e-49, bitscore: 158.5,seeds: 50, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=p450;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	41980	42839	.	+	.	ID=cds-panelA-xylPKS_80;Name=jgi.p_XyFL1272_2_521182;sec_met_domain=p450 (E-value: 1.6e-49, bitscore: 158.5,seeds: 50, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=p450;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	42908	43021	.	+	.	ID=cds-panelA-xylPKS_80;Name=jgi.p_XyFL1272_2_521182;sec_met_domain=p450 (E-value: 1.6e-49, bitscore: 158.5,seeds: 50, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=p450;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	43084	43250	.	+	.	ID=cds-panelA-xylPKS_80;Name=jgi.p_XyFL1272_2_521182;sec_met_domain=p450 (E-value: 1.6e-49, bitscore: 158.5,seeds: 50, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=p450;source=prediction;transl_table=1
+panelA-xylPKS	.	CDS	43398	43569	.	+	.	ID=cds-panelA-xylPKS_80;Name=jgi.p_XyFL1272_2_521182;sec_met_domain=p450 (E-value: 1.6e-49, bitscore: 158.5,seeds: 50, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=p450;source=prediction;transl_table=1
+panelA-xylPKS	.	gene	41653	43574	0	+	.	ID=gene-panelA-xylPKS_81;Name=gene53866_55788;product_name=jgi|593491|Mictr1 cytochrome P450;Name=jgi.p|XyFL1272_2|521182;source=prediction;proteinId=521182;portal_id=XyFL1272_2;transcriptId=521582
+panelA-xylPKS	.	mRNA	41653	43574	.	+	.	ID=mrna-panelA-xylPKS_82;Parent=gene-panelA-xylPKS_81;Name=jgi.p|XyFL1272_2|521182;track=FilteredModels1;transcriptId=521582;source=prediction;proteinId=521182;Name=jgi.p|XyFL1272_2|521182
+panelA-xylPKS	.	PFAM_domain	41863	41905	158.4	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_521182;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_521182_0019;protein_end=492;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_521182;protein_start=70;database=35.0;locus_tag=jgi.p_XyFL1272_2_521182;ASF=active site cysteine inconclusive;evalue=2.70E-46;description=Cytochrome P450
+panelA-xylPKS	.	PFAM_domain	41980	42839	158.4	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_521182;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_521182_0019;protein_end=492;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_521182;protein_start=70;database=35.0;locus_tag=jgi.p_XyFL1272_2_521182;ASF=active site cysteine inconclusive;evalue=2.70E-46;description=Cytochrome P450
+panelA-xylPKS	.	PFAM_domain	42908	43021	158.4	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_521182;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_521182_0019;protein_end=492;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_521182;protein_start=70;database=35.0;locus_tag=jgi.p_XyFL1272_2_521182;ASF=active site cysteine inconclusive;evalue=2.70E-46;description=Cytochrome P450
+panelA-xylPKS	.	PFAM_domain	43084	43250	158.4	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_521182;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_521182_0019;protein_end=492;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_521182;protein_start=70;database=35.0;locus_tag=jgi.p_XyFL1272_2_521182;ASF=active site cysteine inconclusive;evalue=2.70E-46;description=Cytochrome P450
+panelA-xylPKS	.	PFAM_domain	43398	43479	158.4	+	.	ID=pfam_domain-jgi.p_XyFL1272_2_521182;Dbxref=PF00067.25;aSDomain=p450;domain_id=clusterhmmer_jgi.p_XyFL1272_2_521182_0019;protein_end=492;aSTool=clusterhmmer;tool=antismash;detection=hmmscan;label=jgi.p_XyFL1272_2_521182;protein_start=70;database=35.0;locus_tag=jgi.p_XyFL1272_2_521182;ASF=active site cysteine inconclusive;evalue=2.70E-46;description=Cytochrome P450
+panelA-xylPKS	.	exon	41980	42839	.	+	.	ID=exon-panelA-xylPKS_83;Parent=mrna-panelA-xylPKS_82;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	exon	42908	43021	.	+	.	ID=exon-panelA-xylPKS_84;Parent=mrna-panelA-xylPKS_82;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	exon	43084	43250	.	+	.	ID=exon-panelA-xylPKS_85;Parent=mrna-panelA-xylPKS_82;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	exon	43398	43574	.	+	.	ID=exon-panelA-xylPKS_86;Parent=mrna-panelA-xylPKS_82;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	three_prime_UTR	43570	43574	.	+	.	ID=three_prime_utr-panelA-xylPKS_87;Parent=mrna-panelA-xylPKS_82;Name=jgi.p|XyFL1272_2|521182;source=prediction
+panelA-xylPKS	.	five_prime_UTR	45504	45679	.	+	.	ID=five_prime_utr-panelA-xylPKS_88;Parent=mRNA_14114;Name=jgi.p|XyFL1272_2|488513;source=prediction
+panelA-xylPKS	.	gene	45504	46537	0	+	.	ID=gene-panelA-xylPKS_89;Name=gene57717_58751;product_name=expressed protein;transcriptId=488913;source=prediction;portal_id=XyFL1272_2;proteinId=488513;Name=jgi.p|XyFL1272_2|488513
+panelA-xylPKS	.	mRNA	45504	46537	.	+	.	ID=mrna-panelA-xylPKS_90;Parent=gene-panelA-xylPKS_89;Name=jgi.p|XyFL1272_2|488513;track=FilteredModels1;Name=jgi.p|XyFL1272_2|488513;source=prediction;proteinId=488513;transcriptId=488913
+panelA-xylPKS	.	exon	45504	46537	.	+	.	ID=exon-panelA-xylPKS_91;Parent=mrna-panelA-xylPKS_90;Name=jgi.p|XyFL1272_2|488513;source=prediction
+panelA-xylPKS	.	CDS	45680	46141	.	+	.	ID=cds-panelA-xylPKS_92;Parent=mrna-panelA-xylPKS_90;Name=jgi.p_XyFL1272_2_488513;phase=0;transl_table=1;source=prediction
+panelA-xylPKS	.	three_prime_UTR	46142	46537	.	+	.	ID=three_prime_utr-panelA-xylPKS_93;Parent=mrna-panelA-xylPKS_90;Name=jgi.p|XyFL1272_2|488513;source=prediction
+##FASTA
+>panelA-xylPKS scaffold_96 
+GGCCAAATGATAGGCCGCGGCTTTACCCCATTTTAGAATCTGCACAGTCCAAGACGTACT
+AAGCCGTATTCAAGACCTTGCAGTGACGAATCTCGTCTCTTAGACTCGTTTGTTCTAGAA
+GCATGTAGCCGTAGGCTGGGTTGTACGACCAATCTCCAACTGTTAGAACCATTACCCTTG
+TCAAAGCCGAAATACTATTCGCCACATTCTCTAGTCTTCAGGTTGCTTAGAAATACAGGT
+GCCACTAATTGTACTTATGAGCCAGTTCTACTCTCATAGCTGTAGAGAAAAACCTTCAGT
+TCTTCAATCCAGTCTAGAATTCCGATTCTGCACAAATGACCCAACGAGACCAACGTTAGC
+TGCCTCCCTACCAGCTTTTCTTCGAATAACTAAAGGTACATACTAATGTACTAGAACTAT
+AGTTGCGAACTGTTAGATGTTCTTGCGGTAAATCAAACGGTCTACGGGGAAGCACATTGC
+CCTGATATGGTCTCCACCCTGCTCGAGAATACAAACGGTAAGATAACACCCCCATCCACG
+GCCCACCGCTTCACGGACCACCGCGTACCGCGTCCCCCTGCGACCAGCCCTCTGTATAAT
+TAATTCTACAGCGCATCACCACCACATCGTAACTTTAATTGACTTATATCATTTTGTTCG
+TCTGTTCTCGCTCTTTGCAACGATGCCCCGCACGGCTCAAGAAGCCCGCTTTGAAGCGGC
+TCTTCGAGAGTCTTTACTTAATGTACCAGTCCGTCAGGCGTCTGAGAAGTGGGAGGTCCC
+CCGAACCGCTTTACGACGCCGTATACAAGGCGAGCCTACCAGAAAAGAGACAAATCAAAA
+CCGCCAACTATTATCACCATACCAAGAAGGTCAACTAGCACGCTGGGCCGTAGGGCAGTC
+CAGGCTAGGCTTCGCGCCACCACTTCTAAAGTTCAGGGCTATGGCCCAGCAAACCCTCCG
+AGCTTCAGATCGCGAATATACGCTGGGAAAAAACTGGCACACCAAGTTTCTCGCCCGGAA
+TCCCGAAGTTAGAAGCAATAGAGCCAAGATAATTAACTATACGCGTGTTTCAGGTGCTAC
+CGCGGGCAATATTAACGTTTTTTTCGACCGTCTCGACGTCCTAGAAATAGCGAACATCCC
+TCAAGACCGCTTCTATAACACCGACGAAATGGGCCTCGGGCAAGGGGTGGGCGACGACCA
+TTTTGTTATCGCTGAAAACACTGGTAGTCAGGCTTTAAATCGAGGTATCGAAAAGGGTGA
+ATGGATCACTATATTAGAGTGTATTTCGGCTTCCGGAGTAGCCCTCCCCCCGCTGGTCAT
+CTTTAAAGGGGTTGACGTACAACAACAGTGGTTCCCGGAAAACAACACCTTTCGATTCGA
+TCCCTGGCGCTTTAAAACGTCACCCAAAGGGTGAACCAGCAATCCTACGGCGATAAAATG
+GCTCTATGACATCTTTATTCCACATATCAGACGCGCCCATAGTAATAGATGGGTGGTGCT
+GGTGTGTGACGGCCACGGTTCACACATTAACGACGAGTTTCTATACGAGTGTGTATTTAA
+TAAGATATGGCTTGTTTTTTACGAGCCTCACTGTAGTCATATGGTACAGCCCTTGGACGT
+GGGGGTGTTCGGGCTATTGAGAAAACGGCTTCGGAAGTGCCTTCGTGGGTGCCTCAGCAG
+TCAGTTGGGGGGCAAGCCCTCGAAAAGTGACATGTTAGAGGCCTTATACCACGCTAGGGT
+CGAAATAATGAATGTCAGGGTCATCACAAAAGCTTGGAAGACGGCTGGTATATGGCCACG
+AGACCGCCAGCAAGCCCTGAAGTCACCTTATATTATCCTCGAAGAAGAGGGCGTAGCCAG
+GACGAGGCCTGAGGGACCCCCGACACCCCCTCGGCCTCAGACACCCAATTTTGCCGCTAT
+TGCCACTCCAATTGCGGTCAAGACGCTCGGTGGTGGTCAAGATCGCCTCAGAAGTAGTCG
+AAAAGTCGTCTTGACGTGCGGGCTACCACCAAATCCGGCTCAGAGGCTGTTGGATAGGGA
+GGCCTCCAAGGCCCTAGATCAGAAGGCCGCTAAGATCGCTGAGTCACAGGCCTATATCAC
+CACCCTTGAAAGAAAACTTGTTGCAAAGCGATTGACGAAGCGAAGAAAGGTTACGGTGGC
+TCCAGGTCAGAGGTTTATACATGCGGCTGACGTCAGGAGGGTACGCCGCAGGATGCGCAA
+TAGGGTGGTATATGAGGACGAAGATAAGGACTTCGATGTGCCAAGGGAACGACGTGATCT
+TACTGAAATTAGCCCTGAAGATGTCTCAGAAGTGGAAAGCTGTATTTTCGTTGATTGATT
+AGCTAAAAACGCTAATTGTGGTGATATATAGCACATTTGGTGGCTATCTGAAAACACCGT
+GAAAAGTGGCCGTGAAGGGGTGGGCCGTGGATGGGGGTGTTATCTTATAACAAACGCTCC
+CGAAATCAATTGCTTGGCAGCCGTCCATCATATCCCGTTACGCAGTAATTAGCGCCTTTA
+CTCGGGCCAACTTCGTGTAGATGTATCCAAACAAACTCTCAACAAACGAAGATAACAACC
+TGCCACGTAGCTAATGACTGATGGCCAATGGACTGATTCAGCTGACGCGTCTCAAGCGGT
+TAGGGACAGACTACGGCAACAGACAGCCAAATTAAAGGCGATATGCCTCGGTGCCAACGG
+CCAGCTCTTGATTACCACCGACTAGAGTCAGGAGGCACTCGATCTATGTTCTCATCCCTG
+CTCTGAAAGTCAGCTTGCGTATTAGCATCTCTTAATAGCTTCGTGAATGACCCTGCGCAA
+ATTCAGCTCTAGACAAAGTACGTCAGGCTGTGACAGTCACGGTGACGCTCACCTGCTAAT
+CACGAGTTGCATTTGTAGAAGCTAGGGATGGACTTGTTTAGGTTGCGAGTTTTTCCGCCT
+TTGTTTTCTAACCCCACTTTGCAAAGGCCCTGGTACCTTGAGTTTCATCGACACGAGTGC
+AACCGCTTCCTTATCCATAGGTGATGGCAATAGATCCTGAAGAGTAAGAGTTGGAATTAG
+AATTTCTAGATCGTTTCTAGCCTCCCATGCTTTAACTGTCTCGTCCATAAGACGTTGAGC
+AGTTGCTATAAACTAGAAGTCAACGTTTTGTTTTGTTCCAGAAGGCATCGATGGCTCCGC
+CTTCTATACGCGTGTGTCGTATCCTTAATTGAGGCAAATCCACACGTATTTATAGAACCG
+TCAGGAATTAAAGGTATAAGGAAGCCTACCTTATAGATAGTTCCGAAAAGATTTCCTTTG
+GCTATGACGTTAGTGTAGGTACTTAAAGGCACGACTTGTGATTATTGCATAACGGAGCCA
+TTGTGCTTGTATTGTTGTTTTGTAATTTGGCTATTCGTGCCATTGCACTGCTCTGTCTTG
+GAGTCTTCGTCGCTTTCCTCTCGTTCTTGCGCGTATTCGCCCCGGTTATCATTCTACGCC
+ATCAAGTGGCCGGTTTGGTTGGGCCATACCCACTCGAACTCATCTTGAAGAATGCTGTAC
+ACCGTATCTGCAGTACTATTCGCTTCATCAAGATCAAGCAGGGTGTCGGCAACCCTCATG
+TCGCGAGTTTGAATCATAAGTTTAAAGACTTTTTGTTGGCTCATGGTGGATTTTGAATAT
+TGGCAGACAATATATAATATAGAAACGATTGCCAGAAAAGGCTCCTAAGTACTGAAAGGA
+TCTGATGGTAGAAGCCTATGTTTAGGAATTTACGGGGAGCGGGCGAGGTTGAAAATATGG
+AAAAGGAACGGATGAGCGTGAGCCACCTTTTATAGGACTATCTGAACTGTGTGGGCAAGG
+ATCTTGTCTTAACGATGAACGCATAATGGGTTTCTAGCTTACGACCTTATCCTATACGAT
+AGTTGGCGCAATAAACCAGTTGATCTCGTAGAATAGCTGTTACGTGACGCGCCTCTCAGG
+AAGTTCCAGGGCTAGCCAGGCATCCATCCCTTTAACGGAGTAACCCATGACTCGGCCTCT
+TTCACGAAAACTATGTCTTTGGCTGCCTCCGTAGAACAGTTTAAGAACCGTCTTTCAGGA
+GGCCAGTTCTAAATTAAGGAGCGCATGGCGGCGGTTGGGTCGCTTTCTGGTCTGACAGCT
+GATTTGTCTACACAGAGGATCGCTTACTTGCCGCCGCTTCTTTCAAAGTGGTTGAGCTGG
+CCACGTCACTCTTCGTCGGGTAGAGACTAATAAGACGATGAGACTAAGTGACAGGGCCAT
+GGGCAGAGGCCCTCTACTAACCAGAATGGGATCATCCCCTGGCTAATGTGAGGTTTACCG
+CCAGGCGGGTTCATGCGCATACCATCCTCCGCGGAGGCATGTTTCAGGGATATCTATAGT
+CACGACTGAAAATGGATCTATCCCACAAATTTTGAAATCCCTTACAAGTAAGATGCTCAT
+CACGCGCCTCTCAATGCTGTAGACCTGGCCACCTGCAATAGGGAGGGACATCGTTGGTGA
+ATCAGGCTTCCTGTCTCAAGCGAGAATGTCACTACTTGTCGCTAAAAGCGCCTTATAGCT
+TGCCGGCAAGAGATAGATCAGCTGTTAAGGCGTAGTCCATAGTTACGAAAGATAGATTAA
+TGAAACATGAGTTAGAGGGCGTTCGTTAACTTAATCTAGGCAATATTCTTAGCTTAGTCA
+CTACCTATATTTATTTATCTACCTCGCAAAATGGTTCAGGGGTAAAAGGTGATTCACGCT
+ATCGTGGACTTGTTGCCACACGGCCTTTGCCCTGGGCCGGCTGAGAATCATGTGTTGTTG
+ATCTAGTTAACAGGTCTAATTATCCGGCCATAAGGCGCTTTAATTTATGCCCAAAGAGCA
+CCCGCTTTGAAAGGGGGCATATAAATAGGTCAGATGACGGGGCGGAGGTCAAGATTTATC
+TAACCACGTTATTAAAATATAAGATTGTCTTCATAGCTACTGAATACCTTTGGCCTTTTC
+ATTCGTTCTCGGTGAGTCCGGGAGATAAGAAGTCGTTAGCGTCGTGGAGTAGGTCTAGTC
+GAGTCGGATTCGACTTGTGATTTTAAGACCCTGACTGGAGTCAGGAGGCATCCAATTATC
+TATATTCTTATCCCTGCTTTGAAAGTCAGCTTGGGCATTCATATCCCTTGTGGCTTCGCG
+AATAACCCTATGCTAGGTTTGGCTTGGACAAACTACGTCAAGGGGGAGAGCCACCGTAAC
+ACAAACCTACCTCCTTGTCACGAGTTGCACCTGTAGAAGCCAATGATGGGTTGTGTTGTG
+ATCCAAGTTGACGAGATGGCTTCTTACGGGGTCGAATCCCCTTTCCTACCGATTACGTAT
+ACTTGGGTACTACACCTGCCCGTACTTTCGTGACACAGCTAATTATATCACTAGACTTAT
+CTTCGAGCCTAGTATATAGTATTATACTAGAGATAACCGTCATTAATAAGGGCATATGTG
+TCATCGCTCTTCGGAAATTGGCGTATCTTAAGGTAACAATAGTATGCTTGACCGTTGAGA
+GAAAAGACTGCAATTGCTTTATTATTGTTGTCTGTCTACGTTTGGGGTTGAAACTGTTGG
+TTGGCTTTGATTGGCTTAGGTATTTGCATTGTGGGGGGGGGGGGTCGATTTCTTTTCTTA
+AAAAATAAAAAACCAGAGTGTATCCTATTGGTGCTGCTAGGTACGCCCCCTGGGGGTTAC
+AGCTGCATTTTCTCCGTTTGACATGGATAGTGCGACCGTATTGGCCATTTCTGACCGTAT
+TGACCATTGCTGACCGTAATCTTCCGTTTCGCTTCCACACCTCGCGCCACACTCATCGCC
+TTCTAATATTAGTAAATTCTCGCATTTACTCACTTTATTCCCCCTTAAGGGAGTTAAATA
+CAGAAAGATTTGTATCAATGAAACTCAGTTAAACACGTTATATAACGTCGAAGTCTTTAT
+TTCTTTTGTTATGTAATAATTTTTACGAAAGGACGTGAATTGATGACCTGGCTCAAGTTT
+CGTGGGGTGTGGCTCATTTGAAGTTCTCTTGGCATATGGGGCGAATGTGGTATAGGGGAC
+TCCATTTCCGGATGCCAGAACTTCCAGTCCTTGAGGCTTCCATACCAACACTGCAACATT
+TGTATGCAAAACAGGCCAACAGTGATAAAGAAGGCGTCGTATGAGGATTTTTAATCCCTA
+GGTATCATACCAAGCCTGCTGATTCATAATGTCCGTCACTGCTCTCCAAATGCAACCTAT
+CATGATCTCTCAACAACCACCAGCCTAACTCAAGCCAACATCGTCGTAGATCCCATCGCC
+TACACCCTGGACACTTGCGGTTGACTTGCGTTAGGTCATTCCCCCGCAATACAGATCGAA
+CTTAGCTTATTTGCACCAGTCGTGCTGAATTACCATCTGCGGCTAGAGACAGAGATGAAC
+CACATCAAGCTCCAGAGTTTAACCAAACGGTTCAGTATCATAGTCTCGGCGCACTTTGAA
+TCAACAGTGAGTCCCATGCTTCGAATAGTCGACATGCTTTCGAGCTACAGCGTGATATCT
+ACATACTCATCTCAGATATGCAAGAACACGTGTCCATGTCAATTTTAACACACAGAAGTC
+AACATGAAAAGTTCATACATGAATCCCAAAGCGAATCCCTTCCAAAAAAAACTTGCTGTA
+TCTCGCGACTGATGACGTGACGTGTTCATGAAATGCAGCAAAGTAATATGATAAGTTTGC
+GACAATAGACCAGAACTGTTGAGTAGCCACGGGCACGAATACCTCCAACATCCAACATGA
+AGCTTATCCCAGGACTAATATCACAGCCTCCATCAATCAGTCAAGGCGGAGATTCTCATA
+GAAAACCAAGAACCAAGCCAAAATGATCCAGCGCGTTGGTCGATGAATCCGCGCCTCTCT
+CTCTCTACCATACGACATCTGATCCACTTTTCACAAACCTGAAGACAGACTCTTACTAAA
+ACAAAAAAACTTCGTCTCGCACTTAGCATCGCTGTGGGCGTTACGAACTGACGAGGATTG
+AGATGGGATGAAAATGTGCTTCGCTCTGCAACTCCAAGTTTGAACTATATGGAGATTACG
+ATACGACAATGTTGTAAAGGGTGTGGAAGATTGATCGTATCATACCACCTTCATGCTATC
+CACCAAATCTACATCATATCAACTATCAATTATGTGAGCACGCTTCAGCGTGTCCGTATT
+CCCTTGCGGGTATGCAATCGGGCATCTTCGAACTCGTTATCAGACCAGTATACAGCAGTC
+CTCTCTTCCTAGTACTCCCCTTTGCCACATGACCTACCCTGCAACGACGCCATTAAGGGG
+CACTAATAGATTTCCAGGCATCGGTACCACAAACACAAGTTTCACATATGATAGCACATC
+GCAAAAAATCACATAAGATATATCATTCATCTTATTCATACCAGTGACGCTAGTGACGTT
+AATAACGCCAGTTATCCTATCCTAGTTACCCACCTACTGATCTGAAAGCATCCACGCGCC
+CACAAACGCCATTGCCACATAAATAAGAAACGCAACAGGAAAGCCCAGTTTCTCTATAAA
+GCCACACAACGCTATGCCTGTACCCTAAAGAAAGAAAGGCAGCATCGCGTCTACATCACA
+ACGCAGTCCCTCTCCTTGCCATTCCCATTATTGTTCCCGCCCCCCGCAGCCGCAGACGCA
+GACACGTTCTGTCTGTCGCGTCTAGGCGTGCTCGGTCCGGCCGCTGCCTGCCCTCCTTGA
+GACGCCACCCGTCTTGCTGAGCTCCTGGGACTGCTTTCGGGATGACTCGGGTGGCCCGCA
+GGTGGCGTATACGGCGTTGTCTTGGCCGCTTGTTCATATGACGGCGGTGCATCCTCAGCC
+TCGTCGTCCGCTGGTCTTCGCGTACGTGGTGGAATCAAACTCCTCACCTGTTGGGTTTGA
+GCTGGGCCACCACGCCGAACGGAACTACCCCTCGGCGGTGGTAAACTAGTGGATGAACCG
+GCTCGTGCAGAATTGCTGATTGAGCCGGGACGAGTTCTCACACTTTGGCTGCCGCCATCC
+CTGCCTTGTTGCTCGAGGAACTGCTCCGAGAGCTGGCTTTCGCGGCGTCGCGCGGCCTGC
+TCATTTCGATGTCGCTCATCCTCTTCTTCCTGTAGTTGTAACGCTAGTGCTAGGTCGCGG
+TCCTCTTGTTCGTGTGGCGATGATGGCAGGGCGTCGGCTACTGGCTCATTTTGTCGATTG
+TTGCGCGATCGACGATTTTGCACCGTTTGCCAAGCATTCTCATTAGAAGTGCTCGCCTCT
+GTGCTGTTGTGCCAAGTATTACGCTCGTTACCGCCACTGACTATACGGAAGTCGCCTGAG
+AAATGTTCTGTTTGGCCTCCTGTAACATCAACGAGCGATTCCCATACAAACTCGACACGA
+TCTTTATAGCTCCAATCTGTAATGAGCGTGAAAAGCTGCAAGGTTTGCGGGTGGCGATAC
+AGGGTCGAGAAATGATCATTTCGGAAAAGAATCGATACGTCTCCCGGCTTCATGGCCTTG
+GCAATCACCTCAAGGCCGAAAGTGGTGAGTTGTGTTGCGGTGAAAGAGAGGAAGGTTTTG
+ATGGAAATAATGTCTTGATATAATTGTTGCTCATCTTGGGTTAGTCCTGTCTCAGAAGTA
+CTGAATTTTTCTTCTAGCTCTTCTTCCCGAAATAGGAGATTCTGCGCATCGTCATATGAC
+ATAGCGTGTCTCTCGAGGGCGTTATGAACTGGATCGTCTGTAGGAAGCAGCCAACCATGA
+ATGAGTGGAATTTCGAACATAGAGTAAAGTTCCATGTCGCGGGTATTCTCAAATGTGCCC
+GGCACACCAGCATCATGGTCTGACGGGTGGTCGCGGGAGAGAAATGTTCGTTTGTGCCTC
+GCGATAGCTTCGGCAGTAGGCATAAAGCGCGGATTGACATTCATTCCAGTTTGCAGCCCT
+TTGAGAAAAGTGCTAAGTTCTGGGACAATCTCATCGTAGAATTTCGTAGAATTCTCGAGA
+AGTTCCGGTCGTCGTGTCGTTAACTCCTGAATAACGGCTTGTAGTAGGTAGTCGAGCTCG
+ATATCTCCTCGCTGAACTTCCGAAGATTCCGACTTCTTCCTGTCTGCGTCCGCCTTATTC
+TTCTTCGACCTTAATGCCTGAACGAGGATCGAATCAGTTTGCTCTGGACGCGTGGTCAAT
+GTCAGCGCATTGACCAATGCTAGTAATGGGCAAGGACCATTCAGGTTCTGCATCAATATC
+GGCAACTCCCGGGGGGTCTTGGCTGCATTTGCGTCAAACCAGCTAATAATCTTGATATCG
+TAGGTCACTGGTTCTGTGGTTGGTGCCATGTCTAGATCAGCGGTGGTGATGGGTCGTGGA
+GGTTGTAGGGGGGCTTCCTCCGTGGCATTCCTGGGCGGCAGAGCGGGCGGTTTCGGTTGA
+GACTCAGGAACAAGTTCGGAGATAGGTTCTGGCCTAACATTCTCCTTTGCTCTACCATCA
+TCTGCATCCACGAAATTCTCCCATGTGCTTTGTCTGGAGAGAGTGGCAGGTTCAGGTTCG
+GTCACCGATTCGCGGTCGACGACGTTCCAGTCGTCAACAAGAGGAGTCTGCGACTGCGGT
+GCTGCAACCTGTTTGCCTTTATTTCTCGTCTCAATCTCATCCCAAGCATGCTCGTCACCC
+AAAAGATCGCCAACTTCGGCCGATTTCGTGAGTAAAGGGTGGGAAGGCACGGGCGGTGGC
+ACGTCGTCCCAGGGCGTCGAATGGCCTGTAGGTTGAGGGCTGATGTGAGCTGGACCCGTG
+GAACTTGATACAACATAGGGCTTTTGCAGTGGCGGCCCAGAACCCCATATTTCGCTCCCA
+GAGTCTTGATGCGATATTGAAGGTGGGGGTTGTGATTGGCCATCGCTTTTGCTCATGTCG
+AGTGCAGGCTGCCATGGATTTGTACTCTGTTCCGAAGGCTCGTCAATCTGGAGCAAAGAA
+AAAGGTTCGGTCGGGGGCTCTGAAGCTGGTTGTGCCTGGGGCTGGGGAGGTGCTGGTGAT
+GTCGATTGGACTACTTTTCGCTTGAAGGGATTTGTTTGCGATCTCGACGGACCAGGGATT
+AGTGCTTTCGGTACCTCATCCCGTTTCACAGGTGATTCTCGACTTGTTGGTCCATCTCCA
+CCCTTGCCGACGTCGTCCCATGGGTTGTGCTCTTCCTGTGTGTAGTTGGAGGTGCTGGGG
+CCAGCACCAGGCCGTAGAGGGTCTGGTACTGTTGAAGCTGCATGGCCGTCTGCGCTACTG
+TTGGAAGGTTGATCCATGGCTGGAGGGAGCTGTTGATCCCATATCCGATCTGAATCTACT
+TCGGAATCTGTTGCCGACCAGAGTTCTATGCGCGGAGGTTCGGCAGTGTTGCCGCTGGCG
+ACATTTTGCGGAGGGGAGTTTGGTGCAACCATGGCGACGATTGAGCAGAGTCTCGAAGTG
+TCCTCTCACAATGGGACAGGAAAGAGCGTTGCAGTAGCCGGGCTGCCAGTCGCAAGTCGT
+CGGTGTTCGCTACAGAGGCTGGAGATGGGGTTGCGTCATCACGGACAGCAGCAGCAAGAG
+CGGAAGCTGGAGGCTGGAGCTAATGGGAAAGACCGGAGCTGTCGATATTGTGCAGATGTT
+GCTCGTGCGTGCGTAGAGTGCTCAAGGAAGCAGATGAATTGACTCAAGAGGAGTGCGACA
+GACGCAAAACGCTTCAAGCAGTGGTGTACATTGCACAACGTGACAGTGCCTCTTGTTTGT
+TGTTGTATCATGTTATATCTTCCGCCTGCTCACTAAGGTCGGGTATGACCATAGGTGTTC
+TACTGTGTGCAGATAAGGCACACTTGTATCTAGGTACATAAGTCTTCCTAATCCCAGTCA
+GAGTCTAGGGTCTGATGTGGCGGTGCTCTGCCCCTGTTCGAGTGTCCCGCACTGGCTAGA
+CTTGGTTTGGTCAGTGACTGCGCCACATCAAGCCGTATGGATCTTGGAGAATGAGGGAGG
+TTGGGGCAAGTATATATTACATCCGACTTATGTTCAAGTGGCTCAAGATTCAATCCGTAA
+CAGGCAGCAGAATTCCCTTTCATTAGAAGTATAAAAAACGGTGCCAATTAAAACTACACT
+GCCTTCTTATTTATAGATTATATATAGATATGTAACAGTAATTATCAAAAAGGAAAATGT
+TTTACATTTTATATTATTTCGACATAATAACACGAAGATATATTCGCAATGCGGAGATCT
+TCGAGCTTTGCCGGAAAGCTTTCTAGATATTCAACCGTAACGTGATTGATCGTCGCTACA
+CTCTAGTTACGATGACATCACCCCAAACACCGTCGCCGTCCTCGGCCCAGAATGCTCTTC
+GCCTTATCTTGGACAGACTTAACGATAGCTTTGCTCGTCCCGAAAGAAGAAAATCGACGT
+TGCCCGCCCCATACTTACCTAGGTTTCTTGTCTAATTCTACACCAAACTGCATAGAGTTG
+AATACCAATCAAATTCCGATCTGCCCCCCTTTTCTCGCAGACATCTCAGGAGTTCCGGCC
+TCGGTATTGTAACGAGACTATTTGTAGATATTTACGGATTGTAAAGTATCCCATATCGAT
+CGAATGGCTTCAGCGCAGCTTTGATCTGTTTGTCACGCAGGGTATAAGGCTTCGGAGTGT
+GCGAGAATGTATTAATGAGCTCCAAAAGCCAGAAGAGTGACCCCTATTGCGTTTCGTTTT
+CGATTTAAATCGGAAGAATAATCTGATAGCTCACAAGCAACTCGATGAGTTGAGAGGCAC
+ATACAAAGGCTAGTATATGGTCAACCTACTCACTAGCCTAGCCCTACTTAACCCATAATT
+AGTGGCTATATGAGCGCTTGGCGGAGGTCTTTGATATCAGGTCTTAGTATCGGGCCTGAT
+CCCTTCTGGCTTTGTGACATTATGTCTCAACCTGCGTCCGGACTTGAATCAAATCACTGT
+TTTCCCCCATAAAGCCACTATTTACAAGCTCCATGCCCCTGGCGAAGATATCCGTGCCCG
+CCTTCTCGGCGATCCTGAGACCTGCGGCCACGAAAGCTTGTTCAAAATCGCGCTTGATGT
+CTTCGATGCCCCAATGCCAACACTGACCCTCAGTATGACCGCTGACGACAAAATCGGTCA
+GTATCAAGGGCTAAATCATGATTCACAACAACAGACCGGAGAGCAACTCACGCATTACTC
+CAGCCTTGATCTCGTCTTGATCCGGTATATGCTAGTGGGTGGTTACCCGGGGGTGGATGA
+TGAGCGTTTTGCAATCGCCCACGTTAGCAATATGGCTACATAATTTCAGATTATCGACAA
+CAGTCCGTACTTGATCCATCTTTCCAGCCTAGCAAGAGTGATTCTTGCATTAGAAACCAC
+GCATTATCACAAAGACGAACACAGCGCAGCAGTCGCGAGGGGGTTTGGAAGCCGAAAACC
+TACCACGTCAAAGATCAATTCGCCCCCGCACCCTCTTGGTAGCAGCTTCTTCGCAATCTA
+GTAGTCCTTGTGCGACGGAAACCCGGTTTAGAGGACGTAGTTGACGTATAGATACTGTTT
+TAGCTATTCCGCCAACTTCCTACGTATTCTTGGCCGTCCGCTACGCGCGGACAGGTAACG
+TCTCCAGCTTTTGCATAAATAGCCAAGCGTTAAAGGGCTTATAACAAGATTTAGATCGCG
+CATAGTGCCTATTTTCAGTTTGGATGTTAGGGTCGTGGGCTTATATATGTCCCAGAACTT
+GAGACCGTAATAACTAGGTGCTAGCTCGGTCAACACGGGAAACTTGCCTACCGAACGCTC
+CGAGCCCTAGTCGAACTGGCTCCCTTGAGGTGCGATGAGGCCGGTCTCTCAAATTTTTAC
+ACATGAATGGGTCGAGGAGCGGGATATTACCAGTCGAGACTACTGATCGATCTTCCACAA
+GACATTGTTGAGAAGTCTAAACAGGCTTAACCCAGTTGCGATGAACGTGGTAAAAGGCGG
+ATTACTTAAGTAGTTTACGGAAATACACTCCAAGAAGAACGAATGACAAGGGAATTGGGA
+CTATTACATGTATCTTAAAGATATCTGAGCCCTATCTTGGATGCTACCATGTGTCTCCCG
+CGGAATCTCCACTAGCCCTCGCTTCGACCGCTGACGATACTGGCGCAATGCTAATAGGCT
+AGAAGACGGATTTTGGGCTTTCTATTATCCCCCCTTTTTCGAAGTAGATGTCGAGAGCAA
+GGTAGTTCTTGTAAAAATGAGTCACAGTGTAGTTGCTCGACAAGACGTATCTGGATATAA
+AGGGCAAAAGGTCTGAAGTATTACATTTTCTGATCCAGTGATATTCTATGGCCTCAAGTC
+TACTGATAGACAATACTAGAAAAGGAAGCGGAGGTCTAGTTGCATTTAAGGCTCTGGTTA
+ACCGGTTGCCAAATCTTCTGCTTGAACTGAGGCCAACTTTGGCTACGCGGCTTGCCACAA
+TGAATGCAAAAGAGGCAGTTAAATAGTCGTACAGAATACCAGCCGTCCTACCCAGCTCTC
+GGCCCGTCCGAGAATTGCGCCTCAATGGGTTTTACGACCAGTACCTCCTTATCGCCGACG
+GTGTGCATCTGCTACGCAGATACAGGGCCATCAAAACACGACCAGTACTCCGACGCCGAT
+ATAACTCAAAGTCATTCCCTAGTCGGATCCTAGCCTTGCTCTTGTCGGGCGAGTGAGCCA
+CTACGCCAGTTGCAGGTAGACCAGTGAAGACACCCAAGCTGATACCCAGCAACACCGAGT
+AAACGATCAGTCCGGCTGTGGTATAGGTGGCGATTAAGGCATATGTCAGTATGGCAGCTA
+TAACGGTTACCTGAGCCAAAAAAGGGATTGCGTCTATCTTGTCCGAGTACAAACCACCAC
+CGACCCTGCTAATAAGCGAGCTTCCGTAAGTAGTAACTAGGGGATAGACTGTGAGGTGCT
+CGGGTGCCTCGGACCGCTCTATGGCAAAGAGCTGTACGTTGTTACAGACGATGAAGAAGC
+CTATGAAACCAAACACGAGCCCCGTCGAGTAGAATATGTACAGGATGTCGCGCAAGACGG
+CTCGGTCTACGATACTCCGGCTCGGCTACGGCGGCACTTTGGACATATGAGTAATAACTG
+GATGGCTGATATCCCAACTATGGTAAAGGCTATAACCTTGGTTGCCCACGCGAACCCGAC
+GAGCGGCTGGAGCTGAATGAACACTATCGGACATACAATCCTTAATGGTATATAGTTTAA
+TATATGTTATGAGTTTAATGAAAAGTTTAGCCTCTAGAAACAAAACTGTCTTGTTAATAT
+TCTCTATTTTAAACCATATTATGACTATATTTAGTCATGTATGCTGCTTTAATCGAGACA
+TTAATAGCAGTTTTTGCCTTTGTTAATGTAGTCATAGGCCGTTCACATGATTGCCAAGAA
+GCATTAGGGTAGTAGATTCTGGTTGCGAGGGGCTAGGACCATAACACGTAGTGCTGCGGC
+TATGTTGAAGAAGTTGCCTTTGTGGAGGGTGTTGTTATATTGTGATAGTGTGGCCTTCAT
+CCAATGTTCTGAGGTGAGATGGTGTGTCTTCTTATAGCTCTTCGCCAGCGGTTTCATGCA
+CTGATACTAGTGGCATTGTATTAACTGGTGTCACGTGTTATTTTTCAACGTCGTACATGA
+CAGCCTATTCACCAATTTCATTCAGCATAGCAGTCAAGTAATAAGGTAGTGGTCATTAAA
+CTGACAAGCTTAGTGTCTTACATGTAGAGAGCTTTTATGTTACGAAACACTGCAGCTGGT
+GCGAGCTTCTATGTCGTCCTTTAATATGAGCCTCTGCGGATGGCTGGTGTGGTACAACTA
+GTGCATCTGGAGATGAAGCAATGCCCAATTCACTTACTCGGCTTCACATATTAGTCCGGG
+GGCTGTAAAGCGCTAATAAGCAAACAAAATCTAGGTTTATACAAGGCATCCCAGTCTGGA
+TCAATGCCAATGGCATTGTGTTAAAGGCGGCTTATATTGAAGAGATCTCATATTGCTTGT
+TTGAGCGCATAGAATGCGCTGCTATCAGCAAAAATGCGGCTCCTCAACAATAAGGTCTGA
+CTCTCTTGCAGTTACTGATAGGTTATTCAAGAACACCAGAACTTAGTAGCAATGTGAGAC
+AGGTCTCATCTATTAGTAGGGCATGACATGAGATGAGATCTCCGCCTACGCTTGATTGAC
+TACAGAACTGAAGAAATATTGGATATACAAGGTTCTAAGATCTATGCATCTACTTTAATC
+AAGCCCACATTACCAACCTCCAGATTCGCCGATAGCCCATCAATCGCCACTGAAAATTCC
+GCCAGACCGGAGCTTTTCTTCTGCGTCGAGTTTCGATGCAAGACGCGATGGGTCATGCGC
+TTCAAGATCTCATCCTCCTCGGGTGTCATTTTCTGCAGTGTCTCGGGCGCTGCCTCCGCT
+GCACGGAGGACCTTCTCCACCATGGCTTTCTCCCGCTCAGGCGAGACGTCAAACGATTTC
+ATGGCGAAGCTGACCGACTCCACGGCTCTATTCTGCACCTGCGCGTCATTGTCGTGCGAG
+TCGGCGACACCCTGAATGACAGGCTGGATAGCCTTGAAGGCGGCATCGAAGCCATCCTCT
+GCGTTGGTGGTGATGAGCTCTTCGTGCCTGAGGCGCAACTGACGCTGCACCGCCATGACG
+ATGAGGAGCAGACGGGTATAGTTCTCGGCGACCTTTGTGCCGTGCCACTTGGCAGCGGCG
+TACTCGTCAGTCTGGGCGCGGCGTGAACCCTGAATAGACACGGCAGCGGCGAGACCATTG
+CTCACAGCGAGGTGCACGCCCGACGAGAAGTAGGGGTCGACAAAGGCGGCGGCATCGCCA
+ACGATGCGGAAATGCGGGCCTGCGTAGGCCGACGCGCTGTACGACCAATCTGATGCCTGC
+TTCATCTCCGTCACGATCTCGGCCTCCGACAGCATGTCGGTGATTTGCGGCGCCAGCTTG
+AGATACTCGCGGTAGAACTCTTGGCCGGACAGCCCGAGTTCCTTCTTCTTTGCCAAGAAG
+AGGTCTTGACGCGCCACGATGCCAACCGACAAGGTCCCATCGTGCAGGGGAATGGCCCAG
+ACCCAACCACTCGCGTCGTCAAGGGTCTCAAAGAAGGGCGAGTTCTCGTTCTGCTTGCCA
+GGGTTGAAGCGCTTTGCGCCCTTCCAGTATGTCCAGTTGGCAAGGTTCTTAAGCCCCTCG
+TTGAAGCGGCGGTTCTTCAGGTACTTGGTGGCCATGATCCCATTGCGTCCGCTGGCATCG
+ACGAGGTAGTCAAACTTAATGGTGCCCCTGGTCCCGTCTTTGCGCGACCAGTCGGCTGAT
+ACGGGTCGGCCCGGGTTGGCCAGGTGCGTGGGCCCCTTGTCACTCGCACCGTTGACGGCG
+CCGAAACCGTCGTGCTGGTATGGCTCAAAGTTGATTGCGTCCACCTTGACGCCGTCGAAC
+GTCTTGGCTCCACTGCTGGCGGCATGGCGGAACAAGAGATCGTCGGCCTCGGATCGCACT
+ACGTTCCACGAGTGGCCACCTGGGCCGAGTGCGTGCGAGAAGTCGGTGTCTATATGTTTG
+AGGGTTCACCTTGGTTAGTGACAGGACAAGGCAGCATAACATGAGACCAGCCCAGGTCGC
+GGGGGTAACTAACATGCTTCCCTCTTGTCCGTTATCTTGAAAGTGGCCCCGAATTTCTTT
+TCAAAGCCATGCTTGTCGAACTTCTCCTCGGCATCGATGAGCCGCAGATAGAACCGGATC
+GCTGCTAGCATGCTCTCTCCAACATGATACCTTTTCCATACCCGCAGGATTAGTTTCGCG
+CCTTTCTCACATGACGTAGCGATTAGAAGCAACTACCTAGGGAACTTGTCGGCGTCGACA
+AGCACGACGTCGACGCCTTCACGTGCGAGCACACAGGCGGCGTAGGACCCGGCTGGTCCG
+GCGCCCACGACAAGAACAGAGGTTTGCGAAGGTAAGGACATCGTGAATGTGATGATCGGC
+AGGAGTGGGGTACAGGCTAATCTGGAAGTTGTGTGCTACTGCCAGTGATGATTTTGGTGA
+ATGTATAGCCAGCATCAACGATACCCGGCGACTCCGTCGCATGGGCCAAGATCGGCCGTA
+GATTCGGTGGCCGATTAAGGATTCAAGGCCTCAACTTCTAGACTCGGATTTGCGACCCAA
+CTTAGCCACATTTCGGATTACCGATGTTGGCTGATCCTCCTCGGCACTGGACGCAGCCAC
+TCTTCTAACTCTTCTCAATGAGTCTGGCTCGTTGTGCCACGCTACTACTCATACTTGGTT
+CTAATGTAGTAGTCTGTTCAATTGTTTCAACAACTTCTCCCGTTACTTGGGCATATTCAA
+CCACACATCCCATCACAGCTGAGAGCACTAGACTCGCCGTCAGCCATCGCCATGAGCTTG
+ACCTTGGGCCTTCTGGCCGTGGTCGCCGCCTGGACTGTGGGCTACTTTGTCTATGGCCAG
+GTCATTCTGCATCGCAAGCGCTACGCGAATGGCTGCGAGCCGGCTACCCACGCCAGTCCC
+TGGGACCCTGTTCTGGGACTCAAGCACGCCATGGCGCTGCAAAAGGCCATGCGCGAACGC
+AGAAACCTGGAGCACTTCGAAGGCATGTTCAAGAAGTACGGCAACACCTTTGAGGTCTCC
+CTCTTGGGCAACCCGATGCATTTCACCTGCGAGCCGGAGAACATTCAGGCCATCCTGGCA
+ACTAAGTTTGCTGACTGGTGCGTTCATTCCCCCCTTCCGTTATGGTTAATCACGAGCTTA
+GCTAAACGCCGACTTTAGGGACATGGGCCCACGTCGGAAGCGGGCAACGTTTGAGTTTGT
+TGGAGTAGGCATCTTCAGCGCCGACGGCAAGGACTGGGTACACGCACGGACGATGGCGCG
+CCCGCAGCTCACGCGGTCTTACTTCGCCGACGTGGCAGTCTGGGAAGCGCACTTGCAGTC
+CTGGTTCCAAGCCATGAAGGAGCAGGAGCCCGGCGGCAAACCCATCGAGATGCAGGAGTG
+GACGCAGCGCTACACACTCGACGTTGGCACGGAGCTCCTGTCTGGGCGTTCCCTCGGCGT
+GCTGCATGCTGATAGAGCGCACATGGGTCGCCGCTTTCTGTGGGCACTCGACAGAGCCAA
+CAACTTGATTTCGGAGCGCCTCCGCGCCGGCAAGTTGTCGTTCCTTGTGAAAGATCCGAA
+CCTCAATGAGGCCCGTGGTGTTCTTCATGAGCACATTGATCCCATGTTACACGAAGCCAT
+TGCGAGCCATAAGTCGGGCGTTGTCATTGAGGATGCCAAGTACACTCTTCCTCGGGCGCT
+AGCTGCCGAAGGCATCCCTCTCGAGCAGATCCGTGACCACGTTCTCAACTTACGTACGTG
+TTTTTTTCTGGCTGCAGGCATCGCTTGTCTTCGTGTCTGGTCGATGTGCTAATAGTCCGC
+GGCTCTAGTTCTCGCGGCGGTAGGCTCAGAAGCTTCGCTTATCATCACCCTGTTCTTCGT
+CGTCGCCAAATATCCTATTGTGCAGGAACGTCTGCGCAGGGAGATTGAGGAGACGGTTGG
+CAGACGCACACCTGAGTACGAAGAAATCAAGAACATGAGGTACCTCAACTGGGTCATCAA
+AGAGACGCTCCGAATGTACCCGCCTGTCCCGCAGAATCTGCGCGTCGCTAACAAGGACAC
+TGTTCTCCCCGTGGGTGGCGGTCCAGACGGACGCTCGCCTGTCTTCATCGCCAAGGGCCG
+CGAGTGTTCCTTCTCGTCTTTCTCGCTCCAACGCCGTCGCGATCTATGGGGCGAAGATGC
+TCTTGAGTTCAAGCCCGAGCGTTGGGAAAAAGAGAGGCCCACGTGGAACTACATTCCGTT
+CAGTGGCGGACCTCGTATCTGTCTCGGTGAGTACCCCTTTGGGATGTAACGCTCGGTCGT
+CATGAAGCGGATGGACTAATCAAGTTTCAATGCTCAGGCCAGCAACTTGCGCTTGTCGGC
+GGTGGCTACACTCTTGTTCGCTTCATGCAGCAGTACTCGGTGTTCAAAGCGCCGAACCCG
+AACGTGGAATGGCAAGAGAAGCTTAACATCACCTGCTTCGTAAATAACGGTGTTCAGGTG
+ATCCTGGAATGAACGACCTAGGATAATGGGGAAAGGTGTAGGATAAGATGGAGGTGGAGG
+CTGGAGATCATGTTTGCAGTTAATTCGTCAGTCATTACCGCTGTTTGTCTTCTAGAAAAA
+TCGAACCTGGTCACTCATTTGGCACTCCTTCGCGCAGCCTTCCTCTGTTGAGGAATGCCA
+TGCATCACTTCAGCCTTTGATCGCCGACGAAACTGGGTATGCCGAAGCCATCCGAAGGCA
+CGACCCGAGGTTGCAAAACGAACAGTCCCAACATTAGTCTCAACACGACCTCGCTCGGCG
+GATGGCCAGCCCCTGTCCGATGAGCCCAGATCTCGCCCGGAGGTTGAACCCGGAGCGCGA
+GAACAGGCGGGAAGGAAAGCGCACGCGCAGGTGCGAAGAGGCTAGGAGCAGACCAATCCT
+TTTTGATTGACGAACAGAGAGCGGCTAGTATGTACGACGTACTTGGTTGTCAACATGGAG
+ATGCGGCCTTGTCGCCGGCGCTGTCAGTACCGGACGCCGTCTCAGCACCGCTCGACGTAA
+TGGGCCTGACCAAGTCATCACTACTATTGTAATTCAGAACCGTAGACTGTGCTTGTGGCC
+CGTGATTGTATCGTGTCGACTGGGATCTGGAGTCCCCCGACCGAGAAGCATGGACTGTAG
+TCTGTTCCAATTGAGCCAAAGGTGGCAAATGAGTGTGTATTGTGCCCAAAGACGAGTCTT
+GACCATCATCACATGCACACATACTCGTAATACCCGCCATAGGGAGCAAGAGCCGGGTTC
+ATGCATCTAACGGGGCTCAAATCATACCCCAGCCCTCCAGCATGCCCACTGGACGGTGTC
+TACGGCCGGAAACAGGTTTCACTACATAGTACTTTGGAACAGCAGGTGATATACATAAAT
+CCAAAATGTTGGCTACATCCTTAGTCCGAATCGTCGTCGACGGGGTGGCAGCGTCGAAGA
+AAAGCCATTTCAATCGCCATGCCTGGTCCAAAAGCACATGCGACGACGTTGCCCTTGCCG
+CCTTCAGCCTTCCTCAGTGTGTCCAACACAATCAGCACCGTCGGGCTCGACGAGTTGCCC
+CGCGTCTTGTATACATGCTTGGGTGCATATAGCTGCGCATCAGTCAGAGCCATCGACTCC
+TGCACCCCCTGGAGGATGGCCTTGCCACCCGGATGCAACGCCCAGTCGAGGTCGGCAGGC
+GTTATATCTGGAAGCCCGGCCTTGTCGCGGAACGAAGGGAACAGCTTTGCAAACATGGGC
+TTCACCGCCCCGGCCGACGCTGTCGCCACTTCCCGTGTCAAGGTAATCTTGTAGCCCGTT
+GGTCCCAGGTCCCAGCCCATGAGGTCCAGTGTGTTGGGGATCGTCGCATTGTCCCAATCG
+ATGAGCTCAAAGAGAGGGCCGCGCCCGCTGTCTTCCAGAAGGCCGGCGTCATTGCTCATC
+ACAAACGCCCCCGCGCCGTCCGAGAAGAGAGCCGCGGCGATGCTGATGTTTTCCGGGTCG
+GTGCTGGCCTCGGCGTCAGCCAGTTCTTGCCTCGCGTTCGTGGTGCAAAGCTCGCAAGCA
+AACGCCAGGATCCGCGCCGGTTTTCCTCGCGCTGCCGCGGCGCAGGCCAGTTGAGCGGCA
+ACGCGCATGATCGCAACGCCACCCGCGCACCCCACACCTGCGAGGAGCACGCGTTGCACC
+TCAGGCCCGAGACCGATCTTGTCTGCCACGAGCAGGTCAACGCCTGGGTTCCCGTAGCAA
+GTCGTCGTGCAGGCGACGAGGTGAGTGATTTCGGACAATTGACCACCCCACTCCTTTAAC
+GCCTTGCGACAGGCCTGGGCAGACAGGTTGACGCCCTCCTTGAGCCAGATGGCATTCAAA
+TCTGTGATGGACGGCATTTCAGGACGATGCAGAAAGGTCGAGGTGCCGCCCATGTCATAA
+ATGCACGGCCGCTGATCGATATCGGAAGCTCTGTTGACCTGCAGCAGCTTTTTCAGCCTA
+TCCAAGCACGTTGAAGTGTTAGTCACTTTGCCAGCTGAGAGTCGCTTTCTCTTGTTCTTC
+ATCCAGACATCAGGTGTGGTGGCAAAGTGCATCTTACCCAGGTCGTTCGACATCGTAGAA
+GCGCGTCGCCAGTTCCTCAAGACGCTCCGGCCCACAAAGGTATGGGGGATACTGGTGAGC
+CAACCCATTGATCCAGAGTCCCGTTTGTCCGCTTGGCTTGTGGCTGCCGTTGACGCCGTT
+GGTGCCGTTGACGCCATTTCCGTTCGCGATGGCCATTCTGTCGTGCTGTTATCAGATACG
+GAGTACGATGTAGGCCGTTGTGCTGTTCGAGTGTCGGGCTTTTCTCGCGACAAGACTGGC
+TTTCTACACGGAACCGTTCAACTTCGCACAATTATTTGCATCACGACTAGGTCTGGACAT
+TCAGCTCTCTCCTGGCACGTTGCGTCTCATCCTCTCAGTAGTCCAATTGGCACTCGGCTG
+TCGGCGCTGGCTAGGCTCTCATCGACCCCGGTCTATCTCGGGAATCCGACTTCCACCCCG
+GCGAATCCTATTCCTGCGCAGATATGGCCCACTGAATCAATGGCCGAGATTACAACGGCG
+CCGGATTCATGGCCGAGAACATCGATTCTGCATTGGCGGCAAACTTATGTCAGCAACTAA
+TTTCCGTCGCCAGCTCACGATCGATGTATAATGAGTGCTTCAGCTTGAGTAGATCTCGCT
+TCCTGTGAACTTTATTCCGTCCGCACAACCAGCGTTACGAGGGTCGGACGCACAGATTTA
+ATCATTTCTGACTAGATCCATTTTCGTTTCTTTTTTTCTTTTCCTTTGGCATACCCTCTC
+TCTTGATATAGACGCAATGGATTTTTCAACAAGTCAGTCAAACGGACACCTAAACGCCAC
+GTCCAGGCCCGAGACGAATGGTCACACGAATGGCTACGTGAATGGCCACACCAACGGCTA
+CATACACGGTCATATCAACGGCCATACCAACGGCCACTCTGCCATGAATGGTGATAGCAG
+CGCTCCCGAGCCTCTATATGAGCCTATCGCCATTTGCGGTATGGGACTGCGACTCCCAGG
+TGCAGTGAATGATGCTCAAGCTTTCTGGGACCTATTAATAAACAAGAAGAACGGGCGATG
+CAAGGTACCCAAGACGCGTTACGACGTCGACAGCTGGTATGGCCCTGGAAAGTCCGGCCA
+TGTCGCTTCCAAGTATGGCTATTTCCTCGACCATGTAGACCTGGCCAAGATGGACACGTC
+TTTTTGGTCAGCGTCAAAGGACGAGTGCGCGGCGATGGACCCTCAACAACGACTCCTGCT
+CGAGGTCACGTACGAGGCCTTACAGACGGCGGGGCAGAAGTCGACGGACCTCAAGGGCAA
+GAATGTCGGCGTCTTTGTCGGCAGTTTCGAGGGTGACTGGTTAGAGCTCGACCAGCGCGA
+TGTCGAAAGTTTCAATCGTCATTCGCAGTCCGGTTCAGGTGACTACATGGCAGCGAACCG
+CATACACTATGAGCTCGGCTTCATGGGACCCAGCGCCGTCATTCGTAGTGCGTGTTCCAG
+CGCCATGATCGCCCTCCATGAAGCATGCACTGCCATCAACGCGGGAGAGTGCGATTCCGC
+CATTGTCGGAGGTTCCAATCTTATCCTTTCCCCACGCATGACAGCCACCATGCAGGAGCT
+AGGTGTTGCGTCGCCGAGCGGCTTATGCCACACCTTTGACGCCGCTGCCGACGGGTATGC
+CCGCGGAGAGGCCGTGTCAGCTGTCTACGTGAAGAAGCTAAGCGATGCCATCCGCGACGG
+TGACCCGGTACGGTCTGTTATTCGGTCCACCTGCTTCAACTCTGGGGGAAGGGCTCAGAC
+CATGTCGGCGCCCGTTGCCGCCGCCCATGAGGCCTTGATGCGCCGTTGTTTTTCGCTGGC
+TGGTGTAACTGATCTTTCCAGGACAGCCATGATCGAATGTCACGGAACGGGTACCCCCGT
+TGGCGATCCAATCGAGGCACAGGCTGTTGCAAATGTTTTTGGCGAGCATGGCATCATTAT
+AGGATCGGTGAGTCTGGGTTCCTTTTGCTCCTGGGGCTGTGGGCGGCAAATACTGATAAT
+CCACGCCAGGTGAAACCCAATCTTGGCCACGGTGAAGGCGCCTCGGGGCTATCTAGTCTG
+TTGAAAGTGGCACTGGCCCTCGAGAACAAGACGATCCCGGCCAACCTCAACTTCAAAAAC
+CCAAATCCCGAAAGTACGTTCAGAGTAGTTAGTGTCCTGTGCGTGGTGTAAACAAGGGCT
+AATGTTTCCAAAGTACCATGGGCATCGGCCAAGTTGACGGTGCCCACTAATACTATGTCG
+TGGCCCAGAGATCGGGATTATGTTATTGGCGTAAACAGCTTTGGCGTTGGTGGATCAAAT
+GCCCATGCTGTCCTAGGGTCGGCTGAGTCTTTTGGAGCTGGTCGGGCTGTGGAATCCGCG
+TCTGAGAAGACCATGGTTTCTTCGAAGCCCGCGTTGCTCCTATTCTCGGCCAAGCACCCC
+GATGCACTTAAGAAAACCATCGAGAGCCACCAGGCTTATCACCTCGCCCACCCGAATCGG
+CTTGCGAACGTAAGCTACTCCCTCGCCATGAAGCGGGACGCCTTCGACCATCGCGCCTTT
+GCCGTGACTGATGGATTAGAGGACTGGTCTGCCAAATTTTCCACGCGAACTGCCGCTCCT
+CGCGAACCATCATCGCTTGTATTTGTTTTCAGTGGCCAGGGCGCCCAATGGGCCCAGATG
+GGCAAGGAACTCACTCAGGTGTACCCAAGCTTTGAGGAGAGCATTCATAACCTGGACAAG
+CACCTCCAAGCGCTGGGCGAAGACGCACCGTCTTGGTCGTTGCTGGAGGAGCTGTTGCGA
+GGCAAGAAGACAAGCCGTTTGTCACAAGCAGAGCTCGCACAGCCGTGCACCACGGCATTA
+CAAATCGCCCTAGTGGACCTCCTGCGAGAGCGCGGCCTTACGCCGGACGCAGTGGTCGGT
+CACTCAAGTGGTGAGATCGCCGGCGCGTACGCCAGCGGTGTGTTGACGGCACGCGAAGCC
+ATTATTGCGGCGTACTACCGAGGCAAGGCAATGCCGTCTGTCAAGGAGACCCTCGCGGCT
+GATGGCGCGCAGGGTGGCATGGCCGCTGTTGGCTTGGGAACGGAACAGCTCCTGCCGTAC
+CTCACGAAGGGTGTTGTGGTTGGGTGCGAGAACAGCCCTGACAGCACCACGCTTACAGGA
+GACAAGGACGCACTTGAGAGTGTCATGGGCCGAATCAAAGAGGCGTACCCGGATACCCTT
+GTTCGCGCGCTGAAGGTGGATTGTGCATATCATTCTCATCACATGCGCATCGCCGCACCG
+CACTACCTGGCTTCTCTCAAGGCCCAAGCCATCTCACCGAAAGCGCCTTCAGTCCCTTTC
+CATTCCAGCGTTACAGGCAAAGTTATCAGCAGTGCTGAGGACCTTGGACCCCAGTACTGG
+ATCGACAACCTCGTCTCTCGTGTACGCTTTTCTACTGCCGTCGCCAGCGTCCTCTCTTCG
+TCTCCTAAGCAGACCAAAACCTTCATTGAAGTTGGCCCGCACTCGACGCTTGCCGGTCCG
+CTTCGACAAATTCTTCAAACTGCCAATGCGCAAGCCGACTACGTCAACGTCATGACGCGC
+GGCCAAGACTCAAGCAGGGCCTTCCTTCAGGCCATGGGTGAGTTGTGGGGGCTCCACGTG
+CCACTGGATCTCGCCGCCATCGTTGAGAAGGGCGAGTTCTTGACCGACCTTCCACTATAT
+CCGTGGCACTATGAAGAGCCCTTGTGGCTCGAGAGTCGCCTGTCCAAGGAGTTCCGGTTC
+CGAAAATTCCCCCACCATGAGCTTCTCGGCTCCCGCGTGCTCGAAAGCACCGACCATAGC
+CCGAGCTGGCGAAATCTCCTCAAACTATCAAACGTGCCATGGATCAGTGATCACGAAGTC
+TTTGGCGACATCATCCTTCCGGGTGTTGGCTTCGTGGCTATGGCGGGTGAGGCGATTCGG
+CAGTTGACAGGCGAACCCGATTTCACGGTTCAACGCGTCCATATCAAGGTTGCCTTGGCC
+TTGGAACACGACTCATCCGTCGAGCTTGTCACACAGCTGGACCGGGTGGCGCTTACCAAC
+TCGCTCGACGCTCCGTGGTACGACTGGAGTATCTCCAGCTACCGACCAGGGCCCGATGGT
+AGCGCTGGCTCATGGACCAAGCACGCCTTTGGTCAGGTTCGTTCCGGCTCTGATTTCCTG
+CCTGGTTCGCCGCCAGACGTCAAACCGCTCGAGAGGGCAGTTTCATCGAAGGGATGGTAC
+CGCAAGTTCCGCGCTTCGGGTCTGGACTACGGCCCCCGGTTCCAAGGCCTGGCTGATACC
+ACGGCCCATCCCTCGGAGCCGGAGCTCGTAGGCACCATTACGAACGACGTTCGCCCGGCC
+GAATCATACTACCCCATTCATCCAGGCGCCCTAGACACTCTCGCTCAGTCCCTGGTTCTT
+GCTTTGTGTAGCGGTCTGACGAGGAATCTTGACAACATGGCTGTGCCCACCTACATTGAT
+GAGCTCTACTGCCGGCCGCCTGCGACCCAGGAATTGGCCATTCACACGCGTGCTACCGAG
+CGGAGGAGAAATGCCTACATCGGTGATATGACGGCCATCTCTGACGGACAAATTGCCGTT
+CAAGCCAAAGGGTTCCGCTTGACCGTGGTAGATAATTCTACCGCTGAGACCGAAGGCCAA
+GGTGCCAAATTTGGCCACGGCGCTGTACAGCTCGAGTGGAAGCCTGACATTAACTTTGCC
+GACGTGAAGAGCTTGTTCTCTCCTGATTTGCCGCCTGACCATGACTTTCACCTGCTGGAT
+CAATACCTCGCGCTGGCCGCCATCGAATGCGCCGAGCGATGGCGAAACATGGAACCAGCC
+CAGGAGTTCATGGGACTCTTCGCGGCGTGGAATGAAAAGTTTGTTGCCGACTCGTACTCA
+CTAGTCGATGGCCTGTTTGGGGCTGAAGACAGTCTCAATCTTCGCCAAAACAGCAAGCGC
+CGGCAGCAGGTGATGGACAAGCTGTACGAGCAGCTCCTACCCTGCCAAACACGTGCAGCC
+GCTGTGGCGATTCAGAGGATTGTCGAGAACAGCAAAGGCCTTATGCGTGGTACCGTGGAC
+GGTCTTGATATCCTGATGGAGGACAAACTGCTGCACGACGTCTATGACGGTATGCAGTTG
+ACACATATGGACGCCTTCCTTCAACTGGTTGGGCACAAAAAGCCCAACCTGCGCGTACTC
+GAGATTGGCGCCGGTACGGGTGGTACTACAGCCAAGGTCTTACCCGCTCTGCAGTCTGCG
+TACGGTGAACGCTTGTATCTCTCGTACACCTACACCGACATATCTCCGGGCTTTTTCCCC
+CCTGCCCAGGAGCGGTTCGCAGAATACCCGGGCATCGAGTATCGAGTACTCGACATTTCA
+CAGGACCCGGTTGAGCAGGGCTTCGGGGACGACCTGGAGAGTTACGATCTCATCATCTCT
+ACCAACTGCCTTCACGCTACTCCACGTATTCAAGACACGCTGCGCAACGTCCGAAAGCTT
+ACCCATCCTCGCGGGCGACTGTTCCTACAAGAGCTGTCTCCCGTCAGCAAATGGCCCAAC
+ATGATCATGGGCGTGTTGCCCGGATGGTGGCTTGGTGCCGAGGATGATCGTCCCGACGAG
+CCGTACATGGATGAGCAGCGTTGGGACAAAGAACTCACCAAGGCTGGGTTCTGCGGGGCT
+CAGGACGTCATGTTCGACGGACGTCTGTGCCTCAACATTGTCACAACGCCCACAGCGCCA
+AAGGAGGAAGAGCAAGCGAATATCACACTGCTGGTCCCCGCCAAGCTCAGTGAGACGACC
+GAGCCGCAAGTGCGCGCCGTCACTGCCCATCTGCAGGGCTCCGGCTATCGCGTCAACGTT
+TACCATTTTGGACAAGCCGGCCTCGACCTTGGCGAGGACGAGGATGTTGTCGCCTTGCTC
+GACTTGGACAGACCCTTCTTCCACGACATGGAATCAGCAGAACTTAGCGCCTTGCAAGGC
+TTTGTTGCCCATGCAAAGGATCGCCGCTGTGGCATACTTTGGGTGACAGGCGCGAGCCAG
+GCGGGCTGCACCGATCCACGCTACGCGCCCGTTCTAGGTGTGGCTCGAGTTCTGCGTCTC
+GAGCTCGGCATGGATTTTGCCACGCTTGAAATGGCGGGGAACCAACAAGACGGTGGCCTC
+GAGGTCGATGCACAGGCTCTGGCCCGTGTGTTGGACGAGTTCCGCCGCCGAGAAAGGGGG
+GCTATGGAGTCGGAGGCGGATACGTCCTGCGAGGCCGAGTGGGTGCATCTGGCAGGCAAT
+ACTCTGACAGGTCGCTACCACTATCTCGATATAAAGGGTGAACTCACGAAGCAGCCCCAA
+ACGGCCCTTGCCAACCCGGCACGCGAGCAGCAAAAGACATACCTCAAGCTTGACACCTTG
+CGGCCAGGCTTGCTCGAAACATTATACTGGAAAAGGCTGCCCCACGAGGAGCTTGGCCGC
+GATGAGCTGCGCGTAGAGGTTCGGGCTGTTGGGCTCAACTTCAAGGATGTCCTGGTCGCC
+ATGGGCGTCATCGCCGAGCCCGAGAAGATCGCCCGTGGCATGGGCTACGACTGTAGCGGT
+GTCGTCACGGCAGTGGGATCCGACGTCACCAAACATCGCGTCGGGGACCGCGTTGTCGTT
+CTCGAGAGCGGTACATTTGCCACCTCGATCAATGTCTCGGAGCTCCTCTGTGCGACCATG
+CCTGACGACATGTCGTTCGAAGAGGGTGCGACCATGCCTCTTGTCTTTGCCACAGCGTCG
+TACTCCTTGTTCGACGCGGCACATCTGACCAAGGGCATGACGGTCCTGATCCATGCGGCC
+GCCGGTGGCGTCGGCCTCGCTGCAATACAGCTGTGCAAAATGGTGGGCGCCGAGATTTAC
+TGTAGCGTCGGCAGCGAGGACAAGGTGCAGCATCTCGTCGAGCACTGCGGCATTCCGCGT
+GATCACATATTCAACTCGCGGGACACAAGCTTCCTGCCTGGTCTGATGGCCATGACGAAC
+GGACGCGGCGCCGATGTCGTCCTCAATTCGCTGTCCGGTGATCTGCTGCACGCATCATGG
+AAGTGCGTCGCCCCGGGGGGTGCCTTTGTCGAAATTGGCCGACGCGATTTTATCGGGCAG
+GCCAAGCTGGCAATGGAGCCATTCGAGTTCAACCGGGCTTTCGTCGGCGTTGACTTGGGT
+GCCTTGAGGAATCAACGGCCAACTGCCATAGCTATGTAAGTTGCGAGACAGATGCTGCTA
+CCCTTACCCGACTAGTAAAACGTGCGGCTGACACAGCATTACAGGCTCTTAGATCGCATG
+ATGAAGCAGGCGAGTGAGGGTCACGTCAAGCCCATTGCGCCCATGTGGACATATGCCGCC
+GCCAATGTACAAGAGCCCATCCGGTTGATGCAGAAGGCGCAGCACATTGGTAAGATGGTA
+ATCACCATGCCTGACACTGCTGACGCCGTGTTGCCGTCCGAGGCAGCACATGAGCCCTTC
+CGTGTGCGTGGCGATGGCGCGTACCTCCTAACAGGAGGTCTGGGTGGTCTTGGAAAGTCA
+ATCAGCACTTGGCTAGCAGAGCGCGGCGCCCGTCACCTTGTCTACTTGTCCCGCTCGGCT
+GAAAACTCCGAACACAAGCCGTTCTTGCAGGAGCTGGCCGCCCTGGGCTGTACAGCCACC
+GCTGTGTCCGGCGACGCCACCAACTACGACGACGTGGTGCGGGCCGTCAAGGCCGCGGAC
+AAACCGATATGTGGTGTGCTTCACGCGACCTTGGTCCTCGACGATAACAGCTTTGTGGAC
+TTGACGTTTGACCAGTGGAATGCTCCCATGAAACCCAAGGTGCAAGGCGCATGGAATCTG
+CACAAGGCGCTTGCCGCCGAAAAGCTCGACTTTTTCTTCCTCTTCAGCTCGTTCGGCTGC
+ATGTTTGGGCAGTGGGGCCAGTCCAATTACTCTGCTGCCAACACTTTTATCGATGCCTTT
+GTCTCGTACCGGCACTCGCAAGGCCTGCCAGCATCTGCTATCAATATTGGTGTTATGGGC
+GACGTCGGTTGGGTCGCCGAGAACCCCGAGGCGCTCGAGAAACTCCAGGCCGCCGCCTCC
+TACGTCAGTGGGGAGCGCGACTTCTTAGAGTGCGCCGAGCTAATGTTCATGAACCCCGGG
+CCCAACCAGCAGCAGGATCCAAAGCGCTGGGTGCAGCAGTCGCAGGTCGGCTTTGGCTTG
+CGGTCCACGCTGCCCATCTTGTCGCCCAACAACCGCGTCGTTTTCCGTAAGGATCCCCGA
+ATGCTGGTCTACCGTACCGTTGAGAACGACGCAGGCTGGTCGTCGTCGGCGGCGACGCCT
+GGACAGGCGGGCGGGGACTCGGCCGATGAGGAGCTGGCAAGATTCCTTCAAAGCGCCTCT
+TCCAACCTGTCCGCCCTGCGCTCGGAGGAGGCCAAGGACTTGATTGCGCGGACCGTGGGC
+CGCACGCTGTTTGGCTTCATGTTGAGGCCCGACGATGACATTGATGTGAACACACCGATG
+GCGGATGTGGGTATTGACAGCCTGGTGAGCATCGAGCTGAGAAACTGGGTTAGGAAGAGG
+CTCGGCGTTGAGGTAAACGTGCTGGAGATCACGAGGGCGGCCAGCTTGAAAGAATTGGGA
+GGCACATTGCAGATGAGGATGATAGAGAAGTATCAAGCTAGGCGGTAGAGCAGGCCCTGA
+TTTACTCGAGTGTTTCGGCAAGTAAATGCAGTGCGGAAGGGTATGATATTGTAAACTAGA
+GATAGAGTTGGACACCCAGCAATGAACTCTTAGATTGTAGTTATACAAACGACTGTCGCT
+CAAATTTCATCATTTGCAGCCATATGTTTTCCAAAATGTTTGTTCCCAGCGCACCGAACC
+ATCCCTGAACCGTGAAATGATTTATAGAGCCAAAGAGTGCTTGGACTGCATTGCAAAGAG
+GATGATAATGATCCTAAATCTCTACCTAGCGAAAGATCGTGGTGCCCTGTCCTGAGGTGA
+TCTGAAAGATAAATACAAGGTACCTGAAAACACCAGGAGGGATCTCTGAGTATATCTACA
+CATGTCAAAGTCGGAAAAAACGACGCGGTTATCCCGACTAGGATTAACGGACTATATGTA
+CTGCAAATTCCATGCAACAACACACGAAGGACCTCCCTTCCCCTCATCACTTATAGCACC
+AACCTCATCGTCCGACGTGGCCCACCTGAGACACCGGGTCGACATACTTATAGACCTTTT
+CGTCAATAGCTCGGGGTGAGGTTGTTAAATCCTCATTACTGCAGCTTGACTCCTAAGTTA
+CTACTGCGGACCTAGCCCATCATGGCTAACGGGGCCTTCTGCATGATTACTACGGCATTC
+GGAGATGGTGCCACGAAGCTCATAATCCTTATGGGGATGACTGTGCAGATCAAGCTGCTG
+GCGGATAACACAGGCTTGAGTGAGCGCCGAGGACTGCGACGTATAAAGGGTGAAATTCTG
+CCTGATATGAACGTCACTAACTCTGAAGCAAGCTGATGATTAATTAATAAGTTACCATTT
+TAGCTGCTACAGCGATTTTTCCAGTCCCGTTCAATTAGTCAAAAAAAAAGAGTGAAAGGG
+TGTAATATATAAAATGAATTATTATAAATCAAAAGATTACCTATATAAACAATAATAATG
+CTTATACTAACATCGGTGAAACTCGGTAACTTTCTCTAAGTATGAGAGCGCCCGAATACG
+GTGTGGATTGATCATATAGAATCATATATCTAGCTAGGACTTCAACGGATGAACGGCAGA
+AATTCTCTATGGCTCTCGCTTTATGTGGCCTCTGACCAGCGCCACTACACGTTCCCGAAG
+CGACTCCCTCGCTTCGGAGGCTACCTGGATGACAGGGAGCTGTATCGTGCCTTTACGCAT
+CCCACGCCGAGTTACACACTGCGCAGTATTCTTAGAAGCAGGCGATTGCCTTGGCGTAAT
+CCATCAGACACGAATCTTATTATACTTTTCATATATCAAACTCGGGGTCACTGGAACTTA
+AGTACTAGAGGTGGATTGTGTGTAAGCAAGTCAGGCGATAAAATAGCAACTCATTTTGAG
+AATAGAAAATGGCATGCCCATCCCGCCGGAAAAGAGTTGTTATCTATTCACTATATATGC
+ACTAGTAACTCCGAATCATGACTCGTGCGAGGTCTGTATCTCCGATACTTGACTCGTCAT
+ACAAATCGGGGAATTCTATGCCACAGGTTCTAGACAATGCGCTATCCACTCATACCTTCA
+TACACTCTATAACACCCATCTCGCTCGTCTTCCCGGGAATAACGCGCGTGATTCGCAGCC
+CAGCATCAGCAGTGACGCGCTGAAACATCTCGTTGGTGCGCTCCTTCCCGGCGGTGATGA
+TCATGAATAAGTCCACGGCCGCGGCCAGGGGCGACGGCGGGTTAGCCATGATCAAGTCCA
+CGATCAACAGCCGGCTATCAGGCGCCATGGCCTTGGCGACGAGCTGTAGTATGTTGACCG
+CGTCGGCGTCGGAGTAGTCGTGCAGGGTACGGCGAATCTGATAGACAAGGGCTCCTAGTT
+TCAGTGAGTTTGTGTGAGTCTCGAGAGTTCAAGTGCGTCGTGAAAACCCCGGAGGATAAC
+TCACCTTTCACCGGCTCGTCCTTGAAAATGTCGATTGGCACCTTCTGCAACGCCTTGATT
+TCCTCCTCCTGCCGCGTCTTGGCCACGTCCTCCAGCACGTGAGGCAGGTCCTGCAGCACA
+CACTGCTCGGCCGGTAAACCGGGCGCGTTCCGCAAGATGGACAGCAGCGCTTCGCCATCG
+CTGCCGGCGAGATCAACGACGAGTGGTCGACTCTTGTCCTGCGCGGCCTGGTCAACGACC
+CAGGAGAAATCGTATGGCCCCGGCATGGGGTAGAACCTTGAGCTGTTGCGCATGGACTGT
+GCAAACACCTCGACCTCGTCCGGGTCCTCGGACATGATCTCCCAGATGGTCTTGTCGGGC
+TGCCCCCGCGCAAATGTCCACGGGCTGCCACGCTGCTGGGTCGGCTCGATTCGGCCATAG
+CGCTCAAAGTACTTAGGGAAGACCATAGCCGCCGAGACTTGGCTGCATGCAGATCAGCCA
+GGGGAGAGCAAGGGGCCGCAGAGAAAAGGGTGCTCACTGGGAAACCACGTCCAAAATGCC
+CTGCATCGACGGATTCATCACCAAGACTACGGAGCTGGGCGTGTTGACGATCTGGTCGGT
+GCCAACCTGTTTCAGGAAGCCCGCGGCGACGAGTGTCCAGGCAAGGCGTCCTGCGATGCG
+TGCATCAGCTCCCAGCCCAGATAGACACAATGGCCGTGCAAACACTCACGAAGAATCTCG
+ACCTCGGCGCCCAGCTGCTCGGCGAGCTCGGCGTACGAGATGGGGGTGACGCAGTCGCGC
+GGGATGCGTTCGAGCGCACCCCAGTGGATGAAGACGCGCAGGACGCCCAGGGCGGCGGGG
+ACGAGCATCAGGTCGAGGAAGCGCTCCTTTGGCCCCATGAGGCTGCGCAGGGCGGCAATA
+CCCGCCTTGGCTGCGTCTTGGGCAGTTTCAGGTCCCGCACCGTGCCGGGCTGTGGCGGTG
+CCATCGGAGGCATTGGAGGCGGTGTCTTTGTGGCGCAGGCGGGTGGCTGCCAGTGTGAGC
+TGCGCCGCGAGAGCCTCGAGCTGTTCGGGCGACGGGGTGGGACCGGGCATGGCGGTAGGT
+GGGCAGGCTCCGGCTGGGTAGTTCCGTAACGTTGCGTGTGTGCGTGACGATGGCGGTGGG
+GGATTGGTTGATCGTTTAAGACACTCCCAGCCGGCAGCCTGTTGTTATCAGCCTTTAATG
+TTCGTCAGCAGCCTGGCCTTTGATGTGTTGCTAGATACCCCGTATCGTTGGTGCCGTTCG
+GGAATCCGATCGGGAATCCGAGGTGACGACGTTTGTCTAGTTACACTTGGTCAGTCTTGG
+CTTGGCTACCTGTTTCGACTCTAAATTCGGGTCCGACACGTGCTTGAGGGAGTATAAAAG
+GTCCCATGTGGCTCCAGGGGGGCCTAGGGAAGGATGACTGAATGATCCTGACCACCCCAC
+AACGATGACTCTGTACAGTACCTTAGGTATCCCCTTAACTGCTGTTTGAGCATCGGTACA
+TACAGGGTGGACTCCATAGATCTATTTGACCAATAGATCGGTATGCCGTATTCTTGGTCG
+GGTGGATCTACAGAGCCTATTCTGTATGTACTGATGCTCAAACAGCAGTCAAGGGGATAC
+AGACTGTAAGGGTTCAGCGCAGGATCATACGAGCGAACGGCTAGAGACGTATAGTAGTGG
+CATCGCCAAGACCCTGGCTCGATTGCCCCGACTGCCCATCCATGCCCCTGCGCCGCCATG
+TCCCGATCCGTCGGCGTGGGCGACTGCTATTCGCCCGTCGTATGCGAGGACCTAAAAATC
+ACCCGCTCCTTTGGTCGCGAGTTGAGACCACAGGTGGGGCGTAGAACGAGTAATTTTTTT
+GATATTGCAGTATGATTATTAATAACCTCAAACCTGTCGTATCGGCAAGGTCAAGGTTCG
+ACCTTATCCCTCAGAATGCGAAATCAACAGCGTATTGTACCGACAAGGGGCCTGACCAGT
+CACCAGTCAATCGCTCAGAGATCTAATTACAGTAACTCATCGGAAGTGTCTGATTGGTCA
+CTTAATACGGCGGGGAGCTTAAAAAAGGTACCATATTAATTTTCTTATCAGCTACTCACT
+CTGCGCTACGGTTGCATGAGTAGTAGGCTGCTCATCACTACTATTGTGTCTGATTGGCCC
+AACACCCCCATCGGCTCGTTTGGGTACACGGGCAGACTCGCAGTGGAAATCGCATTCTAA
+GGGATACTATGATATGTTTTCAACCAAAGACGGCATTTTGCTACTAATACCTACCTTGCC
+TCAGCGTCGTTAGTCTGGGGCTTCGGCAACTGGGAATGATTATTTGCCGCCAAAGCTGCC
+GTCGAAACAGCCGCGCTCCTCGTAGCCACACCGACCTCGAGTTCGGCTGGAGCACTCTCT
+GCAGTGGTCATTACATGTATGATCCTACAAACCTGTCTAGCTGCAGGTGGTGTGCGCACT
+AGTTCTTGCAGGCTAGGATACGCCCTTGCGTCACGCGTGGCCCTGCAGCGAGCCCACTCT
+TGAGGCCCCCCAAAGCTTATTCTGTATCCATAGGTAGGTAATCTGTACCTTGGGTTCCCT
+GGTGAAGGATCGGGCACTTCCCGCTAACTTGGTTCGGCCCCTCAGCCTGGACCCTTGTGG
+TCTGATCCGATCAGGTTCTCTAACCGTTGAAAGGCTAGCAACAATCCGCCGTTGTGCAGA
+CTCGCTGGAGTCAGTGGGGTTATACTGGCCAAGGGTCCGCGATCTCGTCTATGTCGCCTT
+GCCCCAGTGAACACCAGCTGGAAGCCAAGGATTTATGACCATATACCGTACGGTACCTAG
+CCCTTTGCCAGTACAGCCCCACAGCCTCCTACTCGCCTTATACGATAATGCTAGACTGTA
+ACGGTCACAAGGCTAGCAGCAAAGCTCCGTCGTCAGATAATAGATTAAGTGAGAGCCCAC
+GAGGGGGGGACTATACGAAGGGGCCTGTCAAAAACCACTGGAGTAGAAGTACCCGGCATG
+GAATAAATAATCCGGCGTCAGGCCGGCAACTAGAGTGGTGCTTCCTGTGTCTCCTGGCTC
+GAGATATTAATGTGTACTAATAGATCTTGTTTGAGCTCGGTGAACACGTCGACGCAACCA
+TCACAGAAAAGTACCTGAGCCTTTCATTTCCCAACCACAAACAACATGAGCTAGGACAAC
+GGCCTGGACGTGCAAGAGCTGCCGGCTTGCTACAGATGCCATGCCTCCAAAGTCCGCTGT
+CGGAGGGCCCCCGGCCAGCTGCGGTGCGCGCGTTGCACCCGAGCTGCTTACCCCGACTGC
+CATCCGCGGCCCTCTCGCCGTGGACGCACCGGACAGCGACAGTCGATGCCCCGGCCCAGC
+AGTACCGGCGTGTCAGCGCCACAAAAACAAATACAGGAGGACGGTAATGCCGACCCAGCG
+TCTCACCCGCTCATGAACCTTACAGGTATCATGGACCCTGGCGAGGGAGACCTTTCCGAC
+ATGGTATTGTCCCTGCTTGACTTTGATCCGGGCTCGCTGTATATGCCTCTGGCCCCTTCT
+TTAAGCCAGCCGAGCACGGCCGGCGACACTATGAGCCTTTCTTTCTCGGCACCGCCTTCG
+GATTGCGTAACAATAGCCTCGACGGCATCCCCCGTCGGGGACAACGCGCGCGATACGGGG
+AGTGGCGGCAGCGAGAGACGAGATTGCCGTCCGTCGAGACTATCCTCGGCGTCGTACATG
+CAGGCCCTGACAGACCTCAACGCACAAATGCTCACACAGCACGACGGCATGTTGGACGGC
+ATCCGCCAGTTACTCGCAGCTCCGACAAGCCGTACATACGGCCACTCGCCCGCCACCAGC
+GGCGATCGCAGCAGGGCCACCAGCGTAAGCGGAGACTCGGCGTATGGCCCCGTCTCCGAA
+GGTCCTATCGAGGCCGCTCTGCGTCTTGGCCTCGCCCTCCGCTCCCTCCTCCGCCCCCAC
+CAGACTTGCGATCGCGACATGCCCACCGCCCTCTTCCTCCTCAGCAGTGTGCTCCGTCTC
+GCGTCACTACTGCACGACCTCTTGGCCCGAATGCAGGGCTTGCTCGCTCAGGTCACCAAC
+AAGAACGCGCTGTGCGCGTTTGTCTTCCCGCCTGTGCGGCTCGGGTCGCTCTTACTCGAT
+GAGCTGGACGACGACCGGCTCAGGCCGCTGCAAATGCACTCCATTGCGATGGCGCTGAGC
+ACGGTGGAGGGGTTGATCGACGAGGTAATTCAGCTCACCGAGAGATCACTGCCGGATTAC
+ATACACGATGCGTCTAACCCGGGCGATGATGACGATGGGAATATGAAGGATGATTTTGGA
+TTGCAGGCACTGGCCCGGGCGCTGGTGGCGAAGCAGGAGGCGGTGGTGGAGACTATTTCG
+GGACTGAGGCACATGCTGGGTTGCAACTTGCTGATATAGATCAGAAATTTAATCTCACAG
+TGAACATGACTTTGTGAAAAGTGCTTCATCCGGGCTAATTCTCACGCCTACTCTCATCTA
+AGACTACGATGGAACGACACCTATGTTGTGAACCAAAACAAGCCCATGTTCTCCACAGAT
+GGCTACCCAGTTCGGCTTTGCGCGTCCCTCTGTGACGGCCACGCTGTCAATTCCAGCTCA
+TCTCTCCTGTCCCGTTCTTTCAAGTCCACCCAGCCCTGCTTTGTCTTATGGGCCCGGTTG
+AGCGAGAACTCCCGAACCCGTAGCTGTAGCAAAAAGTTCACAAGCGCAAGGGCGGCAAGC
+GAGCCGAATAGGGCCCGGAATCCCGCGACAAGCCCGCTCTTCAACGCGTGGACCAGTGCC
+GGGTCCAGCGAGGCCCGCGACGCCTTCGAGTTGAGCAGTCCGACCACTTCAACGGAGCTG
+AGCCCCAGATACGCCGAGGGCACGTTGGGATCGGATTGCAGCTGCGACCGCAGCACGTTG
+TCGACAATGGGGTTGCCTATGGCCACACCCACGGTCTTGCCGAAGGAGCGAAAGAAGAGC
+ACCAGCGTCGTAGACATGGCCACGTGATCCTGCGACACGGACGCCTGCAGGCCAATGTTG
+GTGGCTGGCAGGAGCATGCCGGTCCCGACGGCTGCGGCGAGGTTGAGGAAGACCCATGCG
+GGGACAGAGGTGTCGACGCCCTGCACGATAAGCAAAGCTATGCCGACGATGGCGACGGCC
+CAGCCCGAATTCAGAGCCCAGCGGTATCGACCCGTCCTGGCCATGCCGACGCTCGTGCCG
+ATGGCGCAGGGTATAGCGGTGAGGGTGGTTGGAAGGGTGGCAGCGCCGGCGACGAGGGAG
+GAATAGCCCTTTACGCCCAGGAAGTACTCGGGCACGTAGTACACGAGACCGAAGAGGATG
+AGACCGTTGCTAAAGCTGCCGAAGAAGAGCACGGCCACGTCGTACCCGTTGGCAAAGATC
+TGGCGTGGGACAAAAGGTCGCGATGCGAGGTATCGCTGGTGCACCCCGACGAAGACCAAG
+CCGGCCACGCCCAGGAGCAGCGGCACGAGCGTCTGCCAGCTGTCCCAGGCGAACACTAGG
+CCACCCATAGTCACGGGCACGAGAAAGACGGTAAGAAAGACGATGAACAGGCCTGAGCCG
+AGCCAGTCGAGCTGGCGCAGCTGGTCCACCACCCTCGCCTGCTGGCGCTGCAGCCGGAGG
+AACAGGCCCAGTCCGACAGCGCTCAAGACGCAGATCGGCAAGTTCAACCAGAAGATCCAG
+GGCCAATTCCCGCTCGCCGCACACGCGCCACCGATGATCGGTCCCGTCACACTCCCCAGC
+GCCGTAAGGGCGTTCAGCATGGCCGAAAACTTGGGTTGGGAGCGGAGCGGCACTAGATCG
+GTCATGACGACATATGTGAGGCCGAGAATGCCGCCACCACCCACGCCCTGGATGGTGCGG
+CCGGCGATCAGGATCGCGTACGACGTCGCCCGGGCGCAGACAATGGAGCCAGCCGTGAGA
+AGGACGATGCAGGCGAACAAGGTAGGCCGGCGGCCGACGGCGTCGCTGAGGGAACACCAG
+AGAGCCAGCGTACCCGTGTTGGCCAGCAGGTACGAGGTCCCGGCCCAGAAGGCCTGGGCG
+TCGCCGCCGCCGCTGAGGTCTCGAGAGATGGTCTGCACGGGTTTTGATAAGAGTTCTAGT
+TCCAGTCGTCGCGCTGCTTGGCGCAGCGCAACACGGCGGGAGCACGTACCGGGATGGCTA
+GTGCGAGCGTCGCGCTGTCCAGTGAGGCCGCGAGGCTTATGAAGGCCAGACTCCAGAAGG
+CCAGCCAGAACTCAATTGAAAAGCCTGGCTTCTCGGCCGGAGCCTGGACGGCGTCGGCTG
+CCGGAGCGTCGCGCGTCAGGTCGTCGGGGTTGACGGGCTGCTGGACTGGATCACCCAGAA
+TTGGCCCTTCGTCCGGGCGGTAACTGGATCGTCGGTGTTGGGCTGTCGCGAGTGACATGT
+TGCAGATCGAGTCCCGTAGAAAGACTGTGCCCTTCTTCTAAAGCGGCTGTTTCGGCCCAT
+CTAGTTACCACCCACCGGCGTGCCTTCACTACACTCGACACGAATTCGTAGCCCAGACGT
+CCCGCGACGAGCTTCGAGATGGGATGTTAGGGCACAATTCCCGCCCACGTAGAATTTGCC
+TAGCCCTGGGATTCTTGTAATTAGATGCTCAGGCTGGATGTTCGCTGGCTGGATTGGCTA
+CTTGCACAGACTACCAAACTCGTCAACTTGTCGGATTCCGTCGCTTGGTCACAATAGTAG
+TGATGAGTGTTGTCCCAAGACAAGGGTATGTTACGTTTGCTTTCTTCGGTTTCTGTCAGA
+TCCATGTCGGGTCTCGGATGACCGACGGATCATTTATAGATGGCTCGGATTTCCGTCTTG
+TGTTTATAAAAGAAGCAGCAAATCATTCTCCTGATCTATACATGTATTTATACGCCATAG
+AGTTCCGAATCTCCGTAGCCTCGTAGTTTACGAGCCAACTATACCTACTTAATGACTGTT
+CTCCCAGCGGTGGCTGCGGGCGCCTTTCATTGAAATTGAATCCTTAGGTCTCCTGCCCCA
+CCCTTTGCGGTGGTTAGAGTCGAGTGCCGAGTTGGAATGGATCCTGGCCCAAAGGACAAA
+AGTATAGTACAATATAGGTAGTGGTTCATATCCTCCGGTGTTGTCGCCTGCCTCGAGCTG
+CAGAAAGTGGCTGTACCTAGTGCCTAGCACCTCGTCCATTGCTGTCTATTACATACAATT
+TTACGCTGGTTTTTTTAGGTTGGAACTAGGATCATTACAAAGCTTCAAACTATCACTGTT
+GCTACGTCGATGTTGATTTTATACGGAGGGGAGCTTTTAAAAAACACATACCGTATTAAT
+TTTGTTATCAGCTACTCACTCTGCGCTACGGCTGCAAGAGCACAGTAGGCTGCTCATCAC
+TACTATTGTAGTGCCTTAACGTAATCACAACTCATCGTTTCAAGACGTTATAATTCATTG
+AGTGACCTATATAAAGAGACCCCTCGACTTATTTGGTGACAAGTACCAACGACAACAAGA
+TGAGCAGGACAGGGATGTAGTAATAGACATGATATGTTTTGCGATCCATTTCAGGTCCCG
+TAGATGCCACTACCCGGTAGGCAAGAATGCAGGACGACGTGAGCTGAAGTGCCGAGATGG
+GCGCCGTGATATAGTCTTGGTCCATTCTTTGGAAGCCCATAGAAGCAAGAACACTGCCAA
+ATGCGAGCAGATAGGCTGACGTGCCAGCTCTTAGGACCTGGAGGCCACCCTCTGATAGCA
+ACATCGGTAGCGTTTTGCGATCACTATTACGATCGCCCTCAAGATCATAAAATTCTTGGA
+CGTGGATGGTCCCCATAAACCAGGCAAATATAGTGGCATCCACGAGGAAGCTAATGTTCC
+AAGTAGCTGGGAGGCCGTCGGTGGCTAGGACCTGGTTGAGAAGCCGGCCAAGGATGCAGT
+AGGCGAATGAGGCGAAGAAATTGCGCATGAACCAAGAGAACCACCGCGGCCACACGTAGC
+AGAAAGTGATGAGGGCTTCCCACTCGACTAAATGTACCGCAGCCCAGATTCCGAAGAACT
+GGTACATGACAAGAGGGCCCAGCGCCCACACAACGATCCACCGAGTTTGACCCTGCTCGA
+CGGTGATCAAACCCGCGGGGATGGGGCGATGTGGTTTGTTAATGTAGTCTTCCGCCGGTG
+AGGTGGTCTGGTTGCAGATGTCGAAAACATAGCTGCACAAAAGCCCAACACCCAGCGCTT
+TTCCCGTGCCAATTGCAGTGTCGATGATGGACACAGGGGCAGCGACAAGTCTTGATAGTA
+GTCCACCCAGGAATATGAAGAGGAATCCCACGAAGTTGGACCGAAGAAGACGCTCGGTCA
+CCAGTGCTTCATGTCGTATCGCCTCGAAAAAGGTCATGGGCGAGCCGCTTGGTCTTTTTG
+AGACCGAGAGTAGTAAGTGCAGCATCGTGGCTACGGGGTTGATACTGCTTGCTTGAGTGA
+AAATATGATTTAACTGCTAGGTTTTGCGTGTCCTCTCTCTCTGTCATTCTCTCTCTCTTT
+CTCTTCAAGAAGGACTTTCGGGCCCTTATACGCTCGAGCTGCCACGGTTTTCCAAGCTCC
+ATCTGTTGTCGTCGGATCCTTCGTCCCAGTGTGTTGAAACTGAACGCAACATAGGCTCGC
+CAATGAGCGATTATTAACACATGGGTCTCCGTTCGGTTCCAGCTGCCTATCATGATATCC
+ACACGATAGATACTGGCCGCAAGCATAGCCGATGACTACTGTTCAGAGAACCTCCATCCA
+CTCGACCCACCACACTTGCCTCATACCCAACGTATGTATTTTGAACACGAGAGGGGAAGC
+TAGCCAATTGGACCGAAAAGATACCTCAGGCCTATACGCCTTCGACAGTCCGTATAGGAC
+CACTGGACAACCCCCTTACCTGTCAGGTCCAAAGGACCACAAAACAGTGTAAGTGGGCGG
+CGGATGATATAGCACCTTGAGTAAGGAAGATCTGGGTTTCGGACTTCCGTTGCTGGAGAC
+CTGTAAAGCTGTGCCGCGATAACGGCCACTACGGCAGAGCCACGGCAGCAAGGAACATGT
+TAGGGCACACAAATTACCGTGCCTAAAACAAGACACGGCCCGTCATAGCCATGTAGGCAA
+TGCCGGCCATGCGAGCTGGGGAATAAGCTAATCGGCTGATGCCGTTAATGACCACGAATC
+TTGAATTGAAACGCGTTAAGGGCTCATTCTATTCAGCAGTAGGAAATAAAACAATACAAC
+ATATACTATTAGTCAAACCGTTCAATAAACCTTTAGCATTCTAGGCAGGAAAAGTAATTG
+ATGTCGATATCTTCCTTAATTACCTGCGCAAGCCAGGGGTACATACAAACTGGAATCAAG
+TGCATGTGCAATGCTTCATAATCGTTAAGAAGGATCATACGAGTAAAGCCGGCAAAGAAT
+TTTCCCATATCCATTATTTCGTTTACAGTAGGTAGGTAGCGTCTAAGGATCAAACGCTAT
+GCAGCCAGCTCGGTAATCCGAGATTGCGAAAGGCGGTCGCAGCAGCTCAGCCGGGAACAT
+GCGGCTCTGCAACGGCCAGTAACTCCACGGCGGAGAAGTGGATCGACGGCGACAGGCGAG
+GCCGATAGAATATAACGCGTTTCGTCTGCAGCGGCGATGGATCGGCTTACGTCTGCCAGA
+TCAACAGTAGTAATCACATCTATCGTAGACCGCCGCCTACTCCCCCTCATCGTGGGCCAG
+ATATGAGGAGACATGGCATTTTCCCTCGTGGGATGATTTCCACTAGGGGTACAATACCCC
+CAGTATGGAACCAAGGTTTGCACTTATTGTATACCTGCTATGAATCTCGCCTGACATGCT
+ATTCCCTCGTCTTTGGTATCTGTTGAATCGAACGTAGGTTTGGTCTCTTCACATTGGATC
+TGGCAATCAACCATGTTTTCCCTAGAATCTTCTTTTTCTGGTAGTGTCATTGCGCAATTA
+TGTGCTTCCAACCGTCTATTCGGTGTGGCATCTTTGCTGGCCCTCTATACGATACTAAAA
+GTTGTCTACCGGCTTTCGTTTCATCCGCTCGCCAGGTTTCCCGGCCCGAAGCTTGCAGCG
+GTAAGCAGTGCGTTCGAGTTCTACTATAGCGTGGGAAAAGGTGGCATGTTTCCTTGGAAA
+TTGAAGGAGATGCATGCGCGGTATGGTAAGAGTCCAATGAGAAGGATGAAAGCTGTCGAA
+GCAGCTTTTCTGCTAACGACTAATCACCCATGGCTGCAGGTCCGGTCGTACGAATCACCC
+CAAATGAATTGCACTTTAGCGACCCGGACTTCTACCGCGAGATTCACACGTCACAGTCTA
+TGCCGAGAGACAAGTATGCGCCTTTCTACCGGTTCACAGGGGCAACACTGTCGGCATTTG
+AAACACACAGCTCTGGCCTGCACAACTCCCGACGACAACCCTTGCTGAATGCCTTTTCCA
+AGCGGGCCATAGCAGACATCGAACCCCTAGTCTGGGCCAAAGTCAACCTCCTCACAGAAA
+GACTACAGCAAGCTGGGGAAAACAAGACCCCGGTGACCTTGGATGCTGCCTTTTCAGCCT
+TGACAGCCGACATCACCTCAGAGTATGGGTTTGGCCGTTGTCTCGGGTACCTTGACGACG
+AGAATTTCAAAAATGATATCAGAGAAAGCCTTCTTGCCAGTCTTTCACTCTTCCACATCG
+TGCGCTTCTTTCCCTTCATCATGTCACTAGCTAAGTTCCTGCCCTACCGACTGGTGCAGT
+TCCTAAATCCCAGTCTCAGCAAGGTGCTCGGGCTCCGGCGCTTGATTCGGGCGATGGTCC
+TAGAGGAGCTGGGCAAGATTGAACGTGGTGTACCCTGTGACGCTATGCTGATCCGACAGC
+TGAGCAACCCAAAAATCCCCCAGTCTGAGCGGAGCCTAGAGCGTCTGTGTGATGAGGGGT
+TCGTCTTCCTCAATGCGGGCGTCACTGCTGGGAAAACACTCGCGTTCGCCGTCTTTCAGC
+TACTCGCGCGCGACAAGCTGGTCTGGAATAAACTGCGCGACGAGCTCGCCGCTGCTTTCC
+CCGACTTGGATTCATTTGATCACATAGCGCAAAGAGACCTGGAGGCCGTTCCGTACCTAG
+TATGATGACCCTATCCAGCCTCACACCCTTCTTTTCCGGTCACGTGCGATACTAAGATTG
+CTCACAGAGGTGGGTTGTCCTAGAGAGTCTTCGGCTGTCGATAGGGCCGTTGACACGGCT
+TCCTCGCACCGCACCTGCTGGAGAGCTTATGGCATACAAAGAATGGGTAATTCCGGCAGG
+AGTATGTAATCTTCCATGAGATAGACGCCTGGCATATAACTGACCTCGCCTACGCTGCGA
+CAGACGGGGATCAGCGAAAGCAACTATTTTCTCCACATGAACCCTGAGCTCTTTCCCAAC
+CCTACAGAGTTCATACCGGAGAGATGGAATCGGTCTCATGAAAAAGGACAGCGGCTCGAG
+AACTACATCGTTACCTTTGGGAGAGGTACGAGACAGTGCCTGGGTATGAAGTAAGCGAAC
+TTTTGGCTGGAACCGCATCACGTCAACTGCCGTGTAATACCATTCAGTGACCCCCCTCCC
+CCACCACCACCATTCGACTATGCGCGTCTCAACATAGAGAATAACGTTTTGCTAACATAT
+TGCCTTTTGCCTAATAGCTTAGCTTATTCGGAGCTCTATGTTACATTGGCAGTGCTAGTC
+ACAAGGTTTGATATGGAGCTGTATAAGACAACAGAGAAAGATGTCGAAGTCGTACGGGAC
+AAGTTGTTTGGATATCCTTTAGGTCCTTCCCAAGGTGTTCGAGTGATTCCCAGTGTGGCA
+AGAAAGTAGTGTACGTAACGATAAAAACACCTTTTTTTATTAGTCCAATAATTAACATTC
+AAAACAGATTCTGTTCGACTTCCATATCACCATTCAATGCCGCCAGCCTATCGGAACATT
+ACAAGCTGTGGTGGTCGCCGACTCTCTAATCATTGCAGGCTTTGACAAGACCTGACATGT
+GGGCTGGGGTGAGCCTTCAGGGCTCGGTAGCAAGTGCTTATACAGAGGTGAAGTAATATC
+AAAGTTGATGTTGTTGTCGACAGCCAAAATGGTCAAAGCATCGTAGCCATCATTAAACCG
+AAGCATGCTTGGGTGAGCGGAGGTAGTGGGGAGACTGCCTGAGCCTGCGTAGTGGGCTGC
+TTAACAGCGGTTGGGGCAGGAACAGCAGCCTCTATTATAAACTGGGAGTTCATGTTCGTT
+TCAAAAATAGTTTGCCCAATGACGATAGCAAACGGAATAAAAGATGGCCGAAGCAGAAAT
+AGCAATGCCACGTCTTCTTAATAACAAATGTTATATATGCAAAAGAGTTGTGCTAAATTA
+AAAGCTGTTATTAGAACGAAACTAATATATTTGTAAATAACATATATAACCTATAAGAAG
+TTCCTCGGCGCCGGTCGCTTGAGCGAGCTCCGCCGAAGTAATCGGGCCTGCACGCTCAAC
+CATAGGCGGTGGCAGCTTTATCTCAATAGCGATTTTGGCAGCGGTAGGGATAAAAAGCTT
+CTCAGTAGTAAATCATAGAAAAATTAATACGTCCGTTGTCAGAATGGATATACTAACCGA
+GAAAATAACCTCGGCGGCGACATCTTCCGGGCGTGACAAAGTTACAGTTAGTTATTTAAA
+GAGTTAGACAGCCTCGTTACGTAATTTACGTCGTTATCCAGCTCCAGCTAGCCGCTTATC
+GACTTGGTTTCATCGAGTATAAACGTAACTAACGACATTGTTGCCAACTAAGAGTTCTTA
+ATGCGCAAAAAGTAGTAAACCGAGGTCTTTCGCCTTCGGCGTTCCGGTAGCTCTCAAATT
+AAGTCACATATAGGAAAAAGAAAGGTCCTAGACCTCCATGACATAGCTTTGTGTGCCAAC
+GGCAGTCTTAAACCCCATTCATAGTCGTAGGTACATTTGAGAACTCGGCCACGCGGTCGC
+CAATAACTGCAAGGTCCTCTGATCGACAAGCTATTGTTCCTACATGCATTGATACTCGCT
+GAAAGATCAAACATATAGGTATGTTGGCTTGGCTAAGGGGGTACGACGCAAGGGGGCGAA
+ACAGTGTTACTTGTCGGTTTTCGTGGGGGTTGATACGATCCATACGTAACTACCGTACCC
+TTGTTACCTATTGAGATGAGTGCTTCATGAGAGATAAGACGCGAGGAGTGGATTGCCAAG
+GGACTAACCTGCTTCTATTAAATGGCAGCTTTGGACACTTTTTGGGATCGAGTTAGTGCA
+GATAAAAGTGCAGCAATGTTACATGCGCGCTTAGAGCGGTGATCACTAACCTATAAGGTC
+GTGCTCGTACTACGCCTCTGCCTCGTCTAAAGATTATCAAAATTTTCTCTAAATTGCAAG
+AAAACGTTCTTAAACGGTATTAGGCGCTTTACACCGTATAATGTTGACGTCGCTTCACAA
+TGGGCACCGCCAGGGACTATTTGCCGGCCCGGCTTGATGAAGCAACTATCATTACATATG
+TAGCCTGGTTGTCTCACTAGACCTCCCCAACCCTTCTAGGGTGGTGGTCCTGGACGTCGT
+TGCGAAATACCACTCCATCTACCCCTTGCATTTCGACAGCGGCCGGCTTTCTCTATCCCG
+GCTCGTCAGGACACTCAGGAGGAGGATGGATTTGTCGAGCTCATCCTTCGCGTAGCCGGA
+CACCACCTTCCCGGATACAAGACGAGAAATGAGGTGGGCTACATCACGTGAGTTCGCAAT
+ATAACGGGCACCATCCCCGTCCCGGCAGTCGTGAGGTGGAGTGACAGCGAGAACAACCCG
+GCGGTCCACGAGTTCTCCCTTCTGGAGAATGTCTCCGGCGTGAGCGTCGACAAGATCTAC
+ACAAGAACCTGGATCAAAGCTAAAAACAACACCAGGTCGACCAGCTTGTCGAATTCCTGG
+CCTAGCTGCACGACCGCCTATGGCCCGCCTCTATCGGCGGCCTCGTTGCGCAGCCCGATG
+GCACAGTTGCGCTCGTCCTCCCATTGAGGAGAGATTCTGCCGGCAACCCGCTATCGGCAT
+AATTAGCCGGGAGAGACCCTGGGGCCTGAAGTCAACGAAATGCTCTGAGCCAGGGACCGT
+ACTCGTCGTTTACCACACACATAACCGCGTCATGCCACAAATACTGCCATGCCATCCAGA
+CGCACTCAAGCCTGGAGCGGTTCAGGGACATGGTTCCTTCCATCCACCGCTTCCTCGAGC
+GCATCAGCTCTGCCGAGCTCCACGACCAAAGTACATCAGGGCGCACAGGGACCTGCGCTT
+CGCCAACATTGTGCGCGACCCGGACAGCCTCAGCATCACGGCAATGCTGAACCGGGCGTT
+CAGCGCCGTCGTTCCTGCGGCCAGTGGAACCCGTCCAAGGCGTTCCAGTGGAACGTTTTG
+AGCGACGCGACAGCGAACACGGAGAAGTACGAGATGCACAAGGTCTTCGAAGCCGTCTGC
+GAAGGAGAAGGGCCTGCACCAGAGTCTCCGCGACCTAAAGCCGAGCTTGAGACAGGTAAT
+GATGATTAACGCCGGGAGCTAAGTGCGCGCCATTACCGAGGTCTGCCCCAGGGGCCAGCG
+ACAGGACGAGGGGCAAAAATGGGAGTCCTTAAAATTAAGTCCTCCTTCTTAGGTAGTGTA
+CAGAGTAAATGTCGGATAAAGCCGATAGTACTAAACCTGTCAATGGACCGAGTCAGTCAA
+CTCTTGTCAGGAGTGTCCTGTTGTGCCTGGAGCTGCAGGGAACGTCGTTATAGGACCGAG
+GAATGACTTCGTGGTATTTACTCTGATCGAAAGGGGCAGTCTCTTGAAGCCACTGTTCCT
+CACAACTGATACTGTCGTTAAACACTCAATCACCTAGTCAATCCTGCTATGTTCCTGAGA
+CCTTCACTTGTGCCAAAGATGAGACAGTCATATCATCTGAGCGTAGTCAGTCTTTACCGA
+ATGAGGCAATGGTGGATTTTGTTCTTTTGGCAGGCTATATCGGACTTTTATACCTACAAA
+CCCAACTCGGCAGCGCGATGATCATTCATCAAGACACGACTGAAAATGAAGAATGGCCAC
+ATCCCGTGTAAGATGAGATGAGCGTAACAGACACCGGGACTCAGTGCATAGGTCATGAGA
+TTGAACGGTCTCATTCTGACCCTGCGAGTGTTTCGCTTCCCAGTTGCGACGCTTGCATTC
+CTTCCATTAGTATGACAAAACCTGAGGAAATCAGCAGTGTCGAAGTGTCCGGTTAATTGA
+TTGTTAATCTGATGATCATGCAGCATGCAACGGGACGATGACATCAGACCCTGCTGTGGC
+GCATGCTTTATCGATAGTTAGCTACCCCGGGTTGGTATTGAACACAGTGGGATTGTACAG
+AGCAAAAGTTGTTGTCGATTATGCTAAAGTAAAGTTATGGAGCATGATGATATTTCAACC
+TAGCAAGCCAATATCCGCACGGTGCCTCTTTTCTTTTTACTACTTTGCTAAAGTGCCTTT
+ATCGATTCTGCGTAATCGATAGTTAAAAATAAACAAAATTATCGTAAAAAAAAAGAAACT
+TTTATATATTATCTATAATAATATTAAATAGTCCCGATTAAAACTTAGTAAAGCTTATTT
+ATAAATGTTTGTAATAATTTGATATTTTTTTTGACTTAAGTAGTTGTTTAGCCGTTTATA
+TGTTTTTTATTATATTAAAGAAAAAAAAGAAATTCTTTTTTTTTTTTTTTTTTTATAAAA
+AGCATAGCCTGTACTAATTTTTCGTTAAATAAATAAGCCTAGATAATTTTATATAGTTCT
+TTTAAAAAGATTTTTAAAAGTTTATAATAAATAAATAGTTTAATAATTAAAATAATCAAT
+TTTTTTATTGTTTATTATAAAAGTTAATATATTAATTATATTAAGTATTTTATTGTTTTT
+TTAACATAATAGCGTGTTTTAAGGATTTTTTAAATAAATTTTTTAATTTTTTTTAGTTTT
+TTAATCGTAATATTTTATATATAATTTAAAAAAAATTAAATACTATATTTATATTTATAT
+ATTAATAATATAATAACAGTTAATATAATAATTTTTAATATATTTATTATTATTAATAAT
+AAGTTATTAATAATTCGGCGTAATTATAAAACTAATGCAACCGGTTTTATTAGTTTATAT
+TATACCGGTATTATTACGGCTTGTTTTAGGTTTAATTATTTATTATTTTATAAAGCAATT
+AGTTTAATATTAAATTTAATTATATTATTATTTTTTAACTATTAATATATATTAATTTAA
+ACGTTTAAATTTCGATTTAATATATTTATATATTTTAATTTTATAATTATAAAATCGGTT
+TAAAAAACTAGTTAACGTTTATATATTTTTTAAAAGTTTAAATCGTTAATAATTATTAAA
+ACGTAATTTAATTATAGTAATAATTTATTTTTTAATTATTTTTTAAAAAAACTAAATAAT
+ATATTTAAATAAATATTATTACTATTTTATTTAAAAACGAATTTTAAAAATATTATAATA
+ATAAAATAAATTAAGCTAATTTAGCCGAAACGGGCTATGTATTTAAAATAAAATTTTTAT
+TTAAAAGTTAATATATATATAGCTAATAAGTCGTAATAATAAAAAACGGTTTGATTTTTA
+TATATATGTTGTTATTTTTTTATTTTAAATAGTTATATTAAAAAATTATATAGTTTTATA
+CGTCGTTTGAGCTTATTTTTTATATCAAAGTTTAGTTTTAAAAAAAAAACTTAATGTTTT
+TTAAAATTTTATTTTAATATAATTTTATTTAAATAATTTCGGTTTCGGATAGTTTTGTTT
+TATAAGCATTATTATATCGTAATTTTGTTTAGTTTTGTTTAACTATTATTACGCGAAAGG
+CTTTCTGCTTCATACGAAGGGATAATTGCTTTATATAAGCAGAAATAAAGTAAATACTAA
+ATAGCCGTTATAAGTAAATAATACGTATAATATAAGTGAATAGTACGTATATAGTACGTA
+CATCGGGTAAAAAATAACCGGCGTAAATAAGTATTACGTACGACGATTACGGAATAGCCG
+ACGTAAATAAGTTATACGTACGTCGGATATTTTATATAGAGGCTTATATATTTTATACGG
+AATCTTTTTTAAAGATTTTTTTTTTAAAAAATAAATATAAATAAATTAATCATATAGTTA
+TTTATATTTGCCTTAATATATATAAAGCTTATTTAATATTAATTAATAGTTATAAAATGA
+TTATAAATTAATAAAAACGGAAAAAATAGTTAATCGAAAATTATAATAATACGATTTTAC
+GTTTTGTTTTATTCTCGTTTTATATTTCCGGTTTAAACAAGTTATATAAAAAAAACTTAA
+AAAAATTTATTTTAAATTATATTCGAAAAAAATAATAAGCCGATTTATACGATAAACTTT
+ATATAATAATTAAAAACGAATTTTAAATTTTGTTTAAATAATTAGTTTTATAAATTAAAA
+TAGCTTTATAATACGGTTTTAATAAAAACAGCGTTAAAGAATATTTTATATTAAATAAAT
+AAAAAACGACGATAATTTTAAATTATTTAATAATTTATTTAATGAATTTATAATAACGTA
+CGTAGTTTATTACGTATTATCGTATAAATAAATTTATATAATAAACGATTATTTGTTTTT
+TTTTATTTAAAAAAAACTTTAAAAACTAAATAAAATTTTAATTTAATAAGTTTATATAAA
+TTATAAAACAATTATTTTTTATATAACTAACGGAATAAAAA

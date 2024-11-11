@@ -1,0 +1,1062 @@
+##gff-version 3
+##sequence-region panelC-communesin 1 47541
+panelC-communesin	.	protocluster	1	47541	.	+	.	ID=protocluster-panelC-communesin_1;aStool=rule-based-clusters;contig_edge=False;neighbourhood=20000;cutoff=20000;core_location=[20000:27541];product=T1PKS;protocluster_number=1;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));category=PKS;tool=antismash
+panelC-communesin	.	proto_core	20001	27541	.	+	.	ID=proto_core-panelC-communesin_2;product=T1PKS;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));protocluster_number=1;tool=antismash;aStool=rule-based-clusters;cutoff=20000;neighbourhood=20000
+panelC-communesin	.	cand_cluster	1	47541	.	+	.	ID=cand_cluster-panelC-communesin_3;SMILES=C([*])C(-O);contig_edge=False;candidate_cluster_number=1;protoclusters=1,2;detection_rules=cds(PKS_AT and (PKS_KS or ene_KS ormod_KS or hyb_KS or itr_KS or tra_KS)),(indsynth or dmat or indole_PTase);product=T1PKS,indole;kind=neighbouring;tool=antismash
+panelC-communesin	.	region	1	47541	.	+	.	ID=region-panelC-communesin_4;region_number=2;contig_edge=False;tool=antismash;rules=cds(PKS_AT and (PKS_KS or ene_KS or mod_KS orhyb_KS or itr_KS or tra_KS)),(indsynth or dmat or indole_PTase);candidate_cluster_numbers=1,2;product=T1PKS,indole
+panelC-communesin	.	gene	2167	3531	.	+	.	ID=gene-PEX2_055360;locus_tag=PEX2_055360
+panelC-communesin	.	mRNA	2167	3531	.	+	.	ID=mrna-PEX2_055360;Parent=gene-PEX2_055360;locus_tag=PEX2_055360;product=Pyridoxal phosphate-dependent decarboxylase
+panelC-communesin	.	CDS	2167	3531	.	+	0	ID=cds-PEX2_055360;Parent=mrna-PEX2_055360;gene_functions=Aminotran_5,biosynthetic-additional (smcogs)SMCOG1180:Decarboxylase, pyridoxal-dependent ;product=Pyridoxal phosphate-dependent decarboxylase;sec_met_domain=Aminotran_5 (E-value: 6e-08, bitscore:24.1, seeds: 34, tool: rule-based-clusters);gene_kind=biosynthetic-additional;locus_tag=PEX2_055360;transl_table=1;protein_id=KGO59695.1;NRPS_PKS=Domain: Beta_elim_lyase (113-444). E-value:4.5e-09. Score: 27.8. Matches aSDomain:nrpspksdomains_PEX2_055360_Beta_elim_lyase.1
+panelC-communesin	.	PFAM_domain	2257	3294	231.7	+	.	ID=pfam_domain-PEX2_055360;Dbxref=PF00282.22;detection=hmmscan;evalue=1.20E-68;locus_tag=PEX2_055360;label=PEX2_055360;database=35.0;domain_id=clusterhmmer_PEX2_055360_0037;description=Pyridoxal-dependent decarboxylase conserveddomain;protein_start=30;tool=antismash;protein_end=376;aSTool=clusterhmmer;aSDomain=Pyridoxal_deC
+panelC-communesin	.	protocluster	2417	23903	.	+	.	ID=protocluster-panelC-communesin_5;protocluster_number=2;category=other;detection_rule=(indsynth or dmat or indole_PTase);product=indole;core_location=[12416:13903];tool=antismash;aStool=rule-based-clusters;contig_edge=False;neighbourhood=10000;cutoff=20000
+panelC-communesin	.	proto_core	12417	13903	.	+	.	ID=proto_core-panelC-communesin_6;tool=antismash;product=indole;detection_rule=(indsynth or dmat or indole_PTase);protocluster_number=2;neighbourhood=10000;cutoff=20000;aStool=rule-based-clusters
+panelC-communesin	.	cand_cluster	2417	23903	.	+	.	ID=cand_cluster-panelC-communesin_7;detection_rules=(indsynth or dmat or indole_PTase);product=indole;kind=single;tool=antismash;candidate_cluster_number=2;contig_edge=False;protoclusters=2
+panelC-communesin	.	aSDomain	2506	3498	27.8	+	.	ID=asdomain-PEX2_055360;database=nrpspksdomains.hmm;label=PEX2_055360_Beta_elim_lyase.1;locus_tag=PEX2_055360;detection=hmmscan;evalue=4.50E-09;aSTool=nrps_pks_domains;aSDomain=Beta_elim_lyase;protein_end=444;tool=antismash;protein_start=113;domain_id=nrpspksdomains_PEX2_055360_Beta_elim_lyase.1
+panelC-communesin	.	gene	4196	5998	.	-	.	ID=gene-PEX2_055370;locus_tag=PEX2_055370
+panelC-communesin	.	mRNA	4196	4653	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	mRNA	4711	5352	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	mRNA	5420	5482	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	mRNA	5548	5629	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	mRNA	5696	5830	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	mRNA	5891	5998	.	-	.	ID=mrna-PEX2_055370;Parent=gene-PEX2_055370;locus_tag=PEX2_055370;product=Cytochrome P450
+panelC-communesin	.	CDS	4196	4653	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	CDS	4711	5352	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	CDS	5420	5482	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	CDS	5548	5629	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	CDS	5696	5830	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	CDS	5891	5998	.	-	0	ID=cds-PEX2_055370;Parent=mrna-PEX2_055370;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;sec_met_domain=p450 (E-value: 2.6e-31, bitscore: 101.0,seeds: 50, tool: rule-based-clusters);product=Cytochrome P450;gene_kind=biosynthetic-additional;locus_tag=PEX2_055370;protein_id=KGO59696.1;transl_table=1
+panelC-communesin	.	PFAM_domain	4271	4653	101.0	-	.	ID=pfam_domain-PEX2_055370;Dbxref=PF00067.25;detection=hmmscan;evalue=6.90E-29;label=PEX2_055370;locus_tag=PEX2_055370;database=35.0;domain_id=clusterhmmer_PEX2_055370_0038;description=Cytochrome P450;protein_start=215;protein_end=471;tool=antismash;aSTool=clusterhmmer;aSDomain=p450
+panelC-communesin	.	PFAM_domain	4711	5095	101.0	-	.	ID=pfam_domain-PEX2_055370;Dbxref=PF00067.25;detection=hmmscan;evalue=6.90E-29;label=PEX2_055370;locus_tag=PEX2_055370;database=35.0;domain_id=clusterhmmer_PEX2_055370_0038;description=Cytochrome P450;protein_start=215;protein_end=471;tool=antismash;aSTool=clusterhmmer;aSDomain=p450
+panelC-communesin	.	gene	7833	9288	.	+	.	ID=gene-PEX2_055380;locus_tag=PEX2_055380
+panelC-communesin	.	mRNA	7833	7982	.	+	.	ID=mrna-PEX2_055380;Parent=gene-PEX2_055380;product=Catalase, mono-functional, heme-containing;locus_tag=PEX2_055380
+panelC-communesin	.	mRNA	8041	9288	.	+	.	ID=mrna-PEX2_055380;Parent=gene-PEX2_055380;product=Catalase, mono-functional, heme-containing;locus_tag=PEX2_055380
+panelC-communesin	.	CDS	7833	7982	.	+	0	ID=cds-PEX2_055380;Parent=mrna-PEX2_055380;product=Catalase, mono-functional, heme-containing;protein_id=KGO59697.1;transl_table=1;locus_tag=PEX2_055380
+panelC-communesin	.	CDS	8041	9288	.	+	0	ID=cds-PEX2_055380;Parent=mrna-PEX2_055380;product=Catalase, mono-functional, heme-containing;protein_id=KGO59697.1;transl_table=1;locus_tag=PEX2_055380
+panelC-communesin	.	PFAM_domain	7875	7982	438.5	+	.	ID=pfam_domain-PEX2_055380;Dbxref=PF00199.22;evalue=2.30E-131;detection=hmmscan;label=PEX2_055380;locus_tag=PEX2_055380;database=35.0;domain_id=clusterhmmer_PEX2_055380_0039;protein_start=14;description=Catalase;protein_end=347;tool=antismash;aSDomain=Catalase;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	8041	8931	438.5	+	.	ID=pfam_domain-PEX2_055380;Dbxref=PF00199.22;evalue=2.30E-131;detection=hmmscan;label=PEX2_055380;locus_tag=PEX2_055380;database=35.0;domain_id=clusterhmmer_PEX2_055380_0039;protein_start=14;description=Catalase;protein_end=347;tool=antismash;aSDomain=Catalase;aSTool=clusterhmmer
+panelC-communesin	.	gene	9972	10802	.	-	.	ID=gene-PEX2_055390;locus_tag=PEX2_055390
+panelC-communesin	.	mRNA	9972	10802	.	-	.	ID=mrna-PEX2_055390;Parent=gene-PEX2_055390;product=Methyltransferase type 11;locus_tag=PEX2_055390
+panelC-communesin	.	CDS	9972	10802	.	-	0	ID=cds-PEX2_055390;Parent=mrna-PEX2_055390;product=Methyltransferase type 11;sec_met_domain=PCMT (E-value: 1.7e-06, bitscore: 20.1,seeds: 9, tool: rule-based-clusters);gene_kind=biosynthetic-additional;gene_functions=PCMT,biosynthetic-additional (smcogs)SMCOG1089:methyltransferase ;NRPS_PKS=Domain: oMT (39-232). E-value: 3.9e-37. Score:119.2. Matches aSDomain: nrpspksdomains_PEX2_055390_oMT.1;locus_tag=PEX2_055390;protein_id=KGO59698.1;transl_table=1
+panelC-communesin	.	aSDomain	10107	10685	119.2	-	.	ID=asdomain-PEX2_055390;label=PEX2_055390_oMT.1;locus_tag=PEX2_055390;database=nrpspksdomains.hmm;detection=hmmscan;evalue=3.90E-37;protein_end=232;tool=antismash;aSTool=nrps_pks_domains;aSDomain=MT;domain_id=nrpspksdomains_PEX2_055390_oMT.1;domain_subtypes=oMT;protein_start=39
+panelC-communesin	.	PFAM_domain	10269	10565	77.5	-	.	ID=pfam_domain-PEX2_055390;Dbxref=PF08241.15;locus_tag=PEX2_055390;label=PEX2_055390;database=35.0;detection=hmmscan;evalue=9.80E-22;tool=antismash;protein_end=178;aSTool=clusterhmmer;aSDomain=Methyltransf_11;domain_id=clusterhmmer_PEX2_055390_0040;description=Methyltransferase domain;protein_start=79
+panelC-communesin	.	gene	12417	13903	.	+	.	ID=gene-PEX2_055400;locus_tag=PEX2_055400
+panelC-communesin	.	mRNA	12417	13579	.	+	.	ID=mrna-PEX2_055400;Parent=gene-PEX2_055400;product=Aromatic prenyltransferase, DMATS type;locus_tag=PEX2_055400
+panelC-communesin	.	mRNA	13645	13766	.	+	.	ID=mrna-PEX2_055400;Parent=gene-PEX2_055400;product=Aromatic prenyltransferase, DMATS type;locus_tag=PEX2_055400
+panelC-communesin	.	mRNA	13827	13903	.	+	.	ID=mrna-PEX2_055400;Parent=gene-PEX2_055400;product=Aromatic prenyltransferase, DMATS type;locus_tag=PEX2_055400
+panelC-communesin	.	CDS	12417	13579	.	+	0	ID=cds-PEX2_055400;Parent=mrna-PEX2_055400;gene_functions=DMATS;gene_kind=biosynthetic;sec_met_domain=dmat (E-value: 3.8e-141, bitscore: 463.0,seeds: 47, tool: rule-based-clusters);product=Aromatic prenyltransferase, DMATS type;transl_table=1;protein_id=KGO59699.1;locus_tag=PEX2_055400
+panelC-communesin	.	CDS	13645	13766	.	+	0	ID=cds-PEX2_055400;Parent=mrna-PEX2_055400;gene_functions=DMATS;gene_kind=biosynthetic;sec_met_domain=dmat (E-value: 3.8e-141, bitscore: 463.0,seeds: 47, tool: rule-based-clusters);product=Aromatic prenyltransferase, DMATS type;transl_table=1;protein_id=KGO59699.1;locus_tag=PEX2_055400
+panelC-communesin	.	CDS	13827	13903	.	+	0	ID=cds-PEX2_055400;Parent=mrna-PEX2_055400;gene_functions=DMATS;gene_kind=biosynthetic;sec_met_domain=dmat (E-value: 3.8e-141, bitscore: 463.0,seeds: 47, tool: rule-based-clusters);product=Aromatic prenyltransferase, DMATS type;transl_table=1;protein_id=KGO59699.1;locus_tag=PEX2_055400
+panelC-communesin	.	PFAM_domain	12504	13562	362.1	+	.	ID=pfam_domain-PEX2_055400;Dbxref=PF11991.11;domain_id=clusterhmmer_PEX2_055400_0041;protein_start=29;description=Tryptophan dimethylallyltransferase;tool=antismash;protein_end=382;aSDomain=Trp_DMAT;aSTool=clusterhmmer;evalue=4.30E-108;detection=hmmscan;locus_tag=PEX2_055400;label=PEX2_055400;database=35.0
+panelC-communesin	.	gene	15320	17265	.	-	.	ID=gene-PEX2_055410;locus_tag=PEX2_055410
+panelC-communesin	.	mRNA	15320	15639	.	-	.	ID=mrna-PEX2_055410;Parent=gene-PEX2_055410;product=AMP-dependent synthetase/ligase;locus_tag=PEX2_055410
+panelC-communesin	.	mRNA	15698	16407	.	-	.	ID=mrna-PEX2_055410;Parent=gene-PEX2_055410;product=AMP-dependent synthetase/ligase;locus_tag=PEX2_055410
+panelC-communesin	.	mRNA	16487	16526	.	-	.	ID=mrna-PEX2_055410;Parent=gene-PEX2_055410;product=AMP-dependent synthetase/ligase;locus_tag=PEX2_055410
+panelC-communesin	.	mRNA	16890	17265	.	-	.	ID=mrna-PEX2_055410;Parent=gene-PEX2_055410;product=AMP-dependent synthetase/ligase;locus_tag=PEX2_055410
+panelC-communesin	.	CDS	15320	15639	.	-	0	ID=cds-PEX2_055410;Parent=mrna-PEX2_055410;NRPS_PKS=Domain: AMP-binding (39-375). E-value: 2.1e-59.Score: 192.9. Matches aSDomain:nrpspksdomains_PEX2_055410_AMP-binding.1;protein_id=KGO59700.1;transl_table=1;locus_tag=PEX2_055410;gene_kind=biosynthetic-additional;product=AMP-dependent synthetase/ligase;sec_met_domain=AMP-binding (E-value: 1.6e-72, bitscore:236.4, seeds: 400, tool: rule-based-clusters);gene_functions=AMP-binding,biosynthetic-additional (smcogs)SMCOG1002:AMP-dependent synthetase and ligase 
+panelC-communesin	.	CDS	15698	16407	.	-	0	ID=cds-PEX2_055410;Parent=mrna-PEX2_055410;NRPS_PKS=Domain: AMP-binding (39-375). E-value: 2.1e-59.Score: 192.9. Matches aSDomain:nrpspksdomains_PEX2_055410_AMP-binding.1;protein_id=KGO59700.1;transl_table=1;locus_tag=PEX2_055410;gene_kind=biosynthetic-additional;product=AMP-dependent synthetase/ligase;sec_met_domain=AMP-binding (E-value: 1.6e-72, bitscore:236.4, seeds: 400, tool: rule-based-clusters);gene_functions=AMP-binding,biosynthetic-additional (smcogs)SMCOG1002:AMP-dependent synthetase and ligase 
+panelC-communesin	.	CDS	16487	16526	.	-	0	ID=cds-PEX2_055410;Parent=mrna-PEX2_055410;NRPS_PKS=Domain: AMP-binding (39-375). E-value: 2.1e-59.Score: 192.9. Matches aSDomain:nrpspksdomains_PEX2_055410_AMP-binding.1;protein_id=KGO59700.1;transl_table=1;locus_tag=PEX2_055410;gene_kind=biosynthetic-additional;product=AMP-dependent synthetase/ligase;sec_met_domain=AMP-binding (E-value: 1.6e-72, bitscore:236.4, seeds: 400, tool: rule-based-clusters);gene_functions=AMP-binding,biosynthetic-additional (smcogs)SMCOG1002:AMP-dependent synthetase and ligase 
+panelC-communesin	.	CDS	16890	17265	.	-	0	ID=cds-PEX2_055410;Parent=mrna-PEX2_055410;NRPS_PKS=Domain: AMP-binding (39-375). E-value: 2.1e-59.Score: 192.9. Matches aSDomain:nrpspksdomains_PEX2_055410_AMP-binding.1;protein_id=KGO59700.1;transl_table=1;locus_tag=PEX2_055410;gene_kind=biosynthetic-additional;product=AMP-dependent synthetase/ligase;sec_met_domain=AMP-binding (E-value: 1.6e-72, bitscore:236.4, seeds: 400, tool: rule-based-clusters);gene_functions=AMP-binding,biosynthetic-additional (smcogs)SMCOG1002:AMP-dependent synthetase and ligase 
+panelC-communesin	.	PFAM_domain	15368	15616	44.8	-	.	ID=pfam_domain-PEX2_055410;Dbxref=PF13193.9;description=AMP-binding enzyme C-terminal domain;protein_start=383;domain_id=clusterhmmer_PEX2_055410_0044;aSDomain=AMP-binding_C;aSTool=clusterhmmer;protein_end=466;tool=antismash;evalue=2.10E-11;detection=hmmscan;database=35.0;label=PEX2_055410;locus_tag=PEX2_055410
+panelC-communesin	.	PFAM_domain	15699	16407	202.2	-	.	ID=pfam_domain-PEX2_055410;Dbxref=PF00501.31;aSDomain=AMP-binding;aSTool=clusterhmmer;protein_end=375;tool=antismash;description=AMP-binding enzyme;protein_start=124;domain_id=clusterhmmer_PEX2_055410_0043;database=35.0;label=PEX2_055410;locus_tag=PEX2_055410;evalue=1.20E-59;detection=hmmscan
+panelC-communesin	.	PFAM_domain	16487	16526	202.2	-	.	ID=pfam_domain-PEX2_055410;Dbxref=PF00501.31;aSDomain=AMP-binding;aSTool=clusterhmmer;protein_end=375;tool=antismash;description=AMP-binding enzyme;protein_start=124;domain_id=clusterhmmer_PEX2_055410_0043;database=35.0;label=PEX2_055410;locus_tag=PEX2_055410;evalue=1.20E-59;detection=hmmscan
+panelC-communesin	.	PFAM_domain	16890	16893	202.2	-	.	ID=pfam_domain-PEX2_055410;Dbxref=PF00501.31;aSDomain=AMP-binding;aSTool=clusterhmmer;protein_end=375;tool=antismash;description=AMP-binding enzyme;protein_start=124;domain_id=clusterhmmer_PEX2_055410_0043;database=35.0;label=PEX2_055410;locus_tag=PEX2_055410;evalue=1.20E-59;detection=hmmscan
+panelC-communesin	.	aSDomain	15699	16407	192.9	-	.	ID=asdomain-PEX2_055410;locus_tag=PEX2_055410;label=PEX2_055410_AMP-binding.1;database=nrpspksdomains.hmm;specificity=substrate consensus: X;evalue=2.10E-59;detection=hmmscan;tool=antismash;protein_end=375;aSDomain=AMP-binding;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_PEX2_055410_AMP-binding.1;protein_start=39
+panelC-communesin	.	aSDomain	16487	16526	192.9	-	.	ID=asdomain-PEX2_055410;locus_tag=PEX2_055410;label=PEX2_055410_AMP-binding.1;database=nrpspksdomains.hmm;specificity=substrate consensus: X;evalue=2.10E-59;detection=hmmscan;tool=antismash;protein_end=375;aSDomain=AMP-binding;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_PEX2_055410_AMP-binding.1;protein_start=39
+panelC-communesin	.	aSDomain	16890	17148	192.9	-	.	ID=asdomain-PEX2_055410;locus_tag=PEX2_055410;label=PEX2_055410_AMP-binding.1;database=nrpspksdomains.hmm;specificity=substrate consensus: X;evalue=2.10E-59;detection=hmmscan;tool=antismash;protein_end=375;aSDomain=AMP-binding;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_PEX2_055410_AMP-binding.1;protein_start=39
+panelC-communesin	.	CDS_motif	15813	15890	19.8	-	.	ID=cds_motif-PEX2_055410;detection=hmmscan;evalue=2.70E-06;label=NRPS-A_a6;locus_tag=PEX2_055410;database=abmotifs;domain_id=nrpspksmotif_PEX2_055410_0002;protein_start=311;protein_end=337;tool=antismash;aSTool=nrps_pks_domains
+panelC-communesin	.	CDS_motif	16489	16526	12.6	-	.	ID=cds_motif-PEX2_055410;protein_end=138;tool=antismash;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_PEX2_055410_0001;protein_start=122;label=NRPS-A_a3;locus_tag=PEX2_055410;database=abmotifs;detection=hmmscan;evalue=7.40E-04
+panelC-communesin	.	CDS_motif	16890	16899	12.6	-	.	ID=cds_motif-PEX2_055410;protein_end=138;tool=antismash;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_PEX2_055410_0001;protein_start=122;label=NRPS-A_a3;locus_tag=PEX2_055410;database=abmotifs;detection=hmmscan;evalue=7.40E-04
+panelC-communesin	.	PFAM_domain	16900	17148	42.9	-	.	ID=pfam_domain-PEX2_055410;Dbxref=PF00501.31;detection=hmmscan;evalue=2.60E-11;database=35.0;label=PEX2_055410;locus_tag=PEX2_055410;description=AMP-binding enzyme;protein_start=39;domain_id=clusterhmmer_PEX2_055410_0042;aSTool=clusterhmmer;aSDomain=AMP-binding;protein_end=122;tool=antismash
+panelC-communesin	.	gene	18165	18893	.	-	.	ID=gene-PEX2_055420;locus_tag=PEX2_055420
+panelC-communesin	.	mRNA	18165	18893	.	-	.	ID=mrna-PEX2_055420;Parent=gene-PEX2_055420;locus_tag=PEX2_055420;product=Serine hydrolase FSH
+panelC-communesin	.	CDS	18165	18893	.	-	0	ID=cds-PEX2_055420;Parent=mrna-PEX2_055420;product=Serine hydrolase FSH;transl_table=1;protein_id=KGO59701.1;locus_tag=PEX2_055420
+panelC-communesin	.	PFAM_domain	18213	18794	42.8	-	.	ID=pfam_domain-PEX2_055420;Dbxref=PF03959.16;database=35.0;locus_tag=PEX2_055420;label=PEX2_055420;detection=hmmscan;evalue=4.90E-11;aSTool=clusterhmmer;aSDomain=FSH1;tool=antismash;protein_end=227;protein_start=33;description=Serine hydrolase (FSH1);domain_id=clusterhmmer_PEX2_055420_0045
+panelC-communesin	.	gene	20001	27541	.	+	.	ID=gene-PEX2_055430;locus_tag=PEX2_055430
+panelC-communesin	.	mRNA	20001	20210	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	20268	20412	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	20474	20742	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	20797	21159	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	21236	22175	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	22245	26593	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	26668	27334	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	mRNA	27393	27541	.	+	.	ID=mrna-PEX2_055430;Parent=gene-PEX2_055430;locus_tag=PEX2_055430;product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	20001	20210	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	20268	20412	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	20474	20742	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	20797	21159	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	21236	22175	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	22245	26593	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	26668	27334	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	CDS	27393	27541	.	+	0	ID=cds-PEX2_055430;Parent=mrna-PEX2_055430;transl_table=1;protein_id=KGO59702.1;locus_tag=PEX2_055430;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (16-441). E-value:2.6e-167. Score: 548.9. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KS.1,Domain: PKS_AT (548-867). E-value: 2.2e-94.Score: 308.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_AT.1,Domain: PKS_DH (937-1118). E-value: 4.3e-26.Score: 84.1. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_DH.1,Domain: PKS_ER (1680-1963). E-value: 8.2e-30.Score: 95.8. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_ER.1,Domain: PKS_KR (2000-2176). E-value: 1.1e-50.Score: 164.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_KR.1,Domain: PKS_PP (2285-2356). E-value: 8.4e-11.Score: 34.0. Matches aSDomain:nrpspksdomains_PEX2_055430_PKS_PP.1;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;gene_kind=biosynthetic;sec_met_domain=itr_KS (E-value: 2.6e-167, bitscore:549.0, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 2.7e-94, bitscore: 308.0,seeds: 1682, tool: rule-based-clusters),adh_short (E-value: 2.5e-47, bitscore:153.3, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 9.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters);product=Acyl transferase/acylhydrolase/lysophospholipase
+panelC-communesin	.	PFAM_domain	20043	20210	253.6	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00109.29;detection=hmmscan;evalue=2.20E-75;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;description=Beta-ketoacyl synthase, N-terminal domain;protein_start=14;domain_id=clusterhmmer_PEX2_055430_0046;aSTool=clusterhmmer;aSDomain=ketoacyl-synt;tool=antismash;protein_end=265
+panelC-communesin	.	PFAM_domain	20268	20412	253.6	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00109.29;detection=hmmscan;evalue=2.20E-75;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;description=Beta-ketoacyl synthase, N-terminal domain;protein_start=14;domain_id=clusterhmmer_PEX2_055430_0046;aSTool=clusterhmmer;aSDomain=ketoacyl-synt;tool=antismash;protein_end=265
+panelC-communesin	.	PFAM_domain	20474	20742	253.6	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00109.29;detection=hmmscan;evalue=2.20E-75;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;description=Beta-ketoacyl synthase, N-terminal domain;protein_start=14;domain_id=clusterhmmer_PEX2_055430_0046;aSTool=clusterhmmer;aSDomain=ketoacyl-synt;tool=antismash;protein_end=265
+panelC-communesin	.	PFAM_domain	20797	20967	253.6	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00109.29;detection=hmmscan;evalue=2.20E-75;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;description=Beta-ketoacyl synthase, N-terminal domain;protein_start=14;domain_id=clusterhmmer_PEX2_055430_0046;aSTool=clusterhmmer;aSDomain=ketoacyl-synt;tool=antismash;protein_end=265
+panelC-communesin	.	aSDomain	20049	20210	548.9	+	.	ID=asdomain-PEX2_055430;domain_id=nrpspksdomains_PEX2_055430_PKS_KS.1;protein_start=16;domain_subtypes=Iterative-KS;tool=antismash;protein_end=441;aSDomain=PKS_KS;aSTool=nrps_pks_domains;evalue=2.60E-167;detection=hmmscan;locus_tag=PEX2_055430;label=PEX2_055430_PKS_KS.1;database=nrpspksdomains.hmm;ASF=found active site cysteine: True, scaffold matchedGSSS: True,found active site histidines: True
+panelC-communesin	.	aSDomain	20268	20412	548.9	+	.	ID=asdomain-PEX2_055430;domain_id=nrpspksdomains_PEX2_055430_PKS_KS.1;protein_start=16;domain_subtypes=Iterative-KS;tool=antismash;protein_end=441;aSDomain=PKS_KS;aSTool=nrps_pks_domains;evalue=2.60E-167;detection=hmmscan;locus_tag=PEX2_055430;label=PEX2_055430_PKS_KS.1;database=nrpspksdomains.hmm;ASF=found active site cysteine: True, scaffold matchedGSSS: True,found active site histidines: True
+panelC-communesin	.	aSDomain	20474	20742	548.9	+	.	ID=asdomain-PEX2_055430;domain_id=nrpspksdomains_PEX2_055430_PKS_KS.1;protein_start=16;domain_subtypes=Iterative-KS;tool=antismash;protein_end=441;aSDomain=PKS_KS;aSTool=nrps_pks_domains;evalue=2.60E-167;detection=hmmscan;locus_tag=PEX2_055430;label=PEX2_055430_PKS_KS.1;database=nrpspksdomains.hmm;ASF=found active site cysteine: True, scaffold matchedGSSS: True,found active site histidines: True
+panelC-communesin	.	aSDomain	20797	21159	548.9	+	.	ID=asdomain-PEX2_055430;domain_id=nrpspksdomains_PEX2_055430_PKS_KS.1;protein_start=16;domain_subtypes=Iterative-KS;tool=antismash;protein_end=441;aSDomain=PKS_KS;aSTool=nrps_pks_domains;evalue=2.60E-167;detection=hmmscan;locus_tag=PEX2_055430;label=PEX2_055430_PKS_KS.1;database=nrpspksdomains.hmm;ASF=found active site cysteine: True, scaffold matchedGSSS: True,found active site histidines: True
+panelC-communesin	.	aSDomain	21236	21571	548.9	+	.	ID=asdomain-PEX2_055430;domain_id=nrpspksdomains_PEX2_055430_PKS_KS.1;protein_start=16;domain_subtypes=Iterative-KS;tool=antismash;protein_end=441;aSDomain=PKS_KS;aSTool=nrps_pks_domains;evalue=2.60E-167;detection=hmmscan;locus_tag=PEX2_055430;label=PEX2_055430_PKS_KS.1;database=nrpspksdomains.hmm;ASF=found active site cysteine: True, scaffold matchedGSSS: True,found active site histidines: True
+panelC-communesin	.	aSModule	20049	27517	.	+	.	ID=asmodule-panelC-communesin_8;type=pks;monomer_pairings=pk -> pk;tool=antismash;locus_tags=PEX2_055430;iterative=;complete=;domains=nrpspksdomains_PEX2_055430_PKS_KS.1,nrpspksdomains_PEX2_055430_PKS_AT.1,nrpspksdomains_PEX2_055430_PKS_DH.1,nrpspksdomains_PEX2_055430_PKS_ER.1,nrpspksdomains_PEX2_055430_PKS_KR.1,nrpspksdomains_PEX2_055430_PKS_PP.1
+panelC-communesin	.	CDS_motif	20650	20697	17.2	+	.	ID=cds_motif-PEX2_055430;protein_end=193;tool=antismash;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_PEX2_055430_0001;protein_start=177;label=PKSI-KS_m3;locus_tag=PEX2_055430;database=abmotifs;evalue=1.40E-05;detection=hmmscan
+panelC-communesin	.	CDS_motif	20893	20931	13.3	+	.	ID=cds_motif-PEX2_055430;domain_id=nrpspksmotif_PEX2_055430_0002;protein_start=240;tool=antismash;protein_end=253;aSTool=nrps_pks_domains;detection=hmmscan;evalue=4.70E-04;locus_tag=PEX2_055430;label=PKSI-KS_m4;database=abmotifs
+panelC-communesin	.	PFAM_domain	20992	21159	97.8	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF02801.25;evalue=4.40E-28;detection=hmmscan;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;protein_start=273;description=Beta-ketoacyl synthase, C-terminal domain;domain_id=clusterhmmer_PEX2_055430_0047;aSDomain=Ketoacyl-synt_C;aSTool=clusterhmmer;tool=antismash;protein_end=391
+panelC-communesin	.	PFAM_domain	21236	21421	97.8	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF02801.25;evalue=4.40E-28;detection=hmmscan;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430;protein_start=273;description=Beta-ketoacyl synthase, C-terminal domain;domain_id=clusterhmmer_PEX2_055430_0047;aSDomain=Ketoacyl-synt_C;aSTool=clusterhmmer;tool=antismash;protein_end=391
+panelC-communesin	.	CDS_motif	21127	21159	12.2	+	.	ID=cds_motif-PEX2_055430;domain_id=nrpspksmotif_PEX2_055430_0003;protein_start=318;tool=antismash;protein_end=333;aSTool=nrps_pks_domains;evalue=5.90E-04;detection=hmmscan;locus_tag=PEX2_055430;label=PKSI-KS_m5;database=abmotifs
+panelC-communesin	.	CDS_motif	21236	21247	12.2	+	.	ID=cds_motif-PEX2_055430;domain_id=nrpspksmotif_PEX2_055430_0003;protein_start=318;tool=antismash;protein_end=333;aSTool=nrps_pks_domains;evalue=5.90E-04;detection=hmmscan;locus_tag=PEX2_055430;label=PKSI-KS_m5;database=abmotifs
+panelC-communesin	.	CDS_motif	21311	21355	10.1	+	.	ID=cds_motif-PEX2_055430;tool=antismash;protein_end=369;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_PEX2_055430_0004;protein_start=354;locus_tag=PEX2_055430;label=PKSI-KS_m6;database=abmotifs;evalue=3.50E-03;detection=hmmscan
+panelC-communesin	.	PFAM_domain	21431	21799	60.5	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF16197.8;description=Ketoacyl-synthetase C-terminal extension;protein_start=394;domain_id=clusterhmmer_PEX2_055430_0048;aSDomain=KAsynt_C_assoc;aSTool=clusterhmmer;tool=antismash;protein_end=517;evalue=2.10E-16;detection=hmmscan;database=35.0;locus_tag=PEX2_055430;label=PEX2_055430
+panelC-communesin	.	CDS_motif	21890	21943	20.2	+	.	ID=cds_motif-PEX2_055430;database=abmotifs;label=PKSI-AT-mM_m1;locus_tag=PEX2_055430;detection=hmmscan;evalue=1.70E-06;aSTool=nrps_pks_domains;protein_end=565;tool=antismash;protein_start=547;domain_id=nrpspksmotif_PEX2_055430_0005
+panelC-communesin	.	PFAM_domain	21890	22175	174.5	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00698.24;domain_id=clusterhmmer_PEX2_055430_0049;protein_start=547;description=Acyl transferase domain;protein_end=814;tool=antismash;aSTool=clusterhmmer;aSDomain=Acyl_transf_1;detection=hmmscan;evalue=4.20E-51;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0
+panelC-communesin	.	PFAM_domain	22245	22759	174.5	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00698.24;domain_id=clusterhmmer_PEX2_055430_0049;protein_start=547;description=Acyl transferase domain;protein_end=814;tool=antismash;aSTool=clusterhmmer;aSDomain=Acyl_transf_1;detection=hmmscan;evalue=4.20E-51;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0
+panelC-communesin	.	aSDomain	21893	22175	308.0	+	.	ID=asdomain-PEX2_055430;evalue=2.20E-94;detection=hmmscan;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;ASF=Neither malonyl-CoA or methylmalonyl-CoA specific,found active site serine: True, scaffold matchedGHGE: True;database=nrpspksdomains.hmm;label=PEX2_055430_PKS_AT.1;locus_tag=PEX2_055430;protein_start=548;domain_id=nrpspksdomains_PEX2_055430_PKS_AT.1;aSDomain=PKS_AT;aSTool=nrps_pks_domains;protein_end=867;tool=antismash
+panelC-communesin	.	aSDomain	22245	22918	308.0	+	.	ID=asdomain-PEX2_055430;evalue=2.20E-94;detection=hmmscan;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;ASF=Neither malonyl-CoA or methylmalonyl-CoA specific,found active site serine: True, scaffold matchedGHGE: True;database=nrpspksdomains.hmm;label=PEX2_055430_PKS_AT.1;locus_tag=PEX2_055430;protein_start=548;domain_id=nrpspksdomains_PEX2_055430_PKS_AT.1;aSDomain=PKS_AT;aSTool=nrps_pks_domains;protein_end=867;tool=antismash
+panelC-communesin	.	CDS_motif	22130	22175	34.3	+	.	ID=cds_motif-PEX2_055430;detection=hmmscan;evalue=8.20E-11;database=abmotifs;locus_tag=PEX2_055430;label=PKSI-AT-mM_m3;protein_start=627;domain_id=nrpspksmotif_PEX2_055430_0006;aSTool=nrps_pks_domains;tool=antismash;protein_end=661
+panelC-communesin	.	CDS_motif	22245	22300	34.3	+	.	ID=cds_motif-PEX2_055430;detection=hmmscan;evalue=8.20E-11;database=abmotifs;locus_tag=PEX2_055430;label=PKSI-AT-mM_m3;protein_start=627;domain_id=nrpspksmotif_PEX2_055430_0006;aSTool=nrps_pks_domains;tool=antismash;protein_end=661
+panelC-communesin	.	CDS_motif	22685	22729	11.0	+	.	ID=cds_motif-PEX2_055430;database=abmotifs;locus_tag=PEX2_055430;label=PKSI-AT-mM_m8;detection=hmmscan;evalue=1.70E-03;aSTool=nrps_pks_domains;tool=antismash;protein_end=804;protein_start=789;domain_id=nrpspksmotif_PEX2_055430_0007
+panelC-communesin	.	aSDomain	23129	23671	84.1	+	.	ID=asdomain-PEX2_055430;evalue=4.30E-26;detection=hmmscan;ASF=catalytic triad H,G,P found: False;database=nrpspksdomains.hmm;locus_tag=PEX2_055430;label=PEX2_055430_PKS_DH.1;protein_start=937;domain_id=nrpspksdomains_PEX2_055430_PKS_DH.1;aSDomain=PKS_DH;aSTool=nrps_pks_domains;tool=antismash;protein_end=1118
+panelC-communesin	.	PFAM_domain	23129	23986	163.5	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF14765.9;tool=antismash;protein_end=1223;aSDomain=PS-DH;aSTool=clusterhmmer;domain_id=clusterhmmer_PEX2_055430_0050;protein_start=937;description=Polyketide synthase dehydratase;locus_tag=PEX2_055430;label=PEX2_055430;database=35.0;evalue=7.30E-48;detection=hmmscan
+panelC-communesin	.	CDS_motif	23213	23290	30.7	+	.	ID=cds_motif-PEX2_055430;detection=hmmscan;evalue=1.10E-09;database=abmotifs;locus_tag=PEX2_055430;label=PKSI-DH_m2;protein_start=965;domain_id=nrpspksmotif_PEX2_055430_0008;aSTool=nrps_pks_domains;tool=antismash;protein_end=991
+panelC-communesin	.	aSDomain	25358	26206	95.8	+	.	ID=asdomain-PEX2_055430;evalue=8.20E-30;detection=hmmscan;label=PEX2_055430_PKS_ER.1;locus_tag=PEX2_055430;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_PEX2_055430_PKS_ER.1;protein_start=1680;protein_end=1963;tool=antismash;aSDomain=PKS_ER;aSTool=nrps_pks_domains
+panelC-communesin	.	CDS_motif	26318	26416	38.3	+	.	ID=cds_motif-PEX2_055430;aSTool=nrps_pks_domains;protein_end=2033;tool=antismash;protein_start=2000;domain_id=nrpspksmotif_PEX2_055430_0009;database=abmotifs;label=PKSI-KR_m1;locus_tag=PEX2_055430;detection=hmmscan;evalue=5.20E-12
+panelC-communesin	.	aSDomain	26318	26593	164.0	+	.	ID=asdomain-PEX2_055430;evalue=1.10E-50;detection=hmmscan;specificity=KR activity: active,KR stereochemistry: (unknown);database=nrpspksdomains.hmm;ASF=KR domain putatively catalyzing D-configurationproduct formation,catalytic triad S,Y,N found: True;label=PEX2_055430_PKS_KR.1;locus_tag=PEX2_055430;protein_start=2000;domain_id=nrpspksdomains_PEX2_055430_PKS_KR.1;aSDomain=PKS_KR;aSTool=nrps_pks_domains;protein_end=2176;tool=antismash
+panelC-communesin	.	aSDomain	26668	26919	164.0	+	.	ID=asdomain-PEX2_055430;evalue=1.10E-50;detection=hmmscan;specificity=KR activity: active,KR stereochemistry: (unknown);database=nrpspksdomains.hmm;ASF=KR domain putatively catalyzing D-configurationproduct formation,catalytic triad S,Y,N found: True;label=PEX2_055430_PKS_KR.1;locus_tag=PEX2_055430;protein_start=2000;domain_id=nrpspksdomains_PEX2_055430_PKS_KR.1;aSDomain=PKS_KR;aSTool=nrps_pks_domains;protein_end=2176;tool=antismash
+panelC-communesin	.	PFAM_domain	26318	26593	200.0	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF08659.13;protein_end=2177;tool=antismash;aSTool=clusterhmmer;aSDomain=KR;domain_id=clusterhmmer_PEX2_055430_0051;protein_start=2000;description=KR domain;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0;detection=hmmscan;evalue=3.10E-59
+panelC-communesin	.	PFAM_domain	26668	26922	200.0	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF08659.13;protein_end=2177;tool=antismash;aSTool=clusterhmmer;aSDomain=KR;domain_id=clusterhmmer_PEX2_055430_0051;protein_start=2000;description=KR domain;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0;detection=hmmscan;evalue=3.10E-59
+panelC-communesin	.	CDS_motif	26770	26880	60.0	+	.	ID=cds_motif-PEX2_055430;database=abmotifs;locus_tag=PEX2_055430;label=PKSI-KR_m4;detection=hmmscan;evalue=9.10E-19;aSTool=nrps_pks_domains;tool=antismash;protein_end=2163;protein_start=2126;domain_id=nrpspksmotif_PEX2_055430_0010
+panelC-communesin	.	aSDomain	27247	27334	34.0	+	.	ID=asdomain-PEX2_055430;label=PEX2_055430_PKS_PP.1;locus_tag=PEX2_055430;database=nrpspksdomains.hmm;detection=hmmscan;evalue=8.40E-11;protein_end=2356;tool=antismash;aSTool=nrps_pks_domains;aSDomain=PKS_PP;domain_id=nrpspksdomains_PEX2_055430_PKS_PP.1;protein_start=2285
+panelC-communesin	.	aSDomain	27393	27517	34.0	+	.	ID=asdomain-PEX2_055430;label=PEX2_055430_PKS_PP.1;locus_tag=PEX2_055430;database=nrpspksdomains.hmm;detection=hmmscan;evalue=8.40E-11;protein_end=2356;tool=antismash;aSTool=nrps_pks_domains;aSDomain=PKS_PP;domain_id=nrpspksdomains_PEX2_055430_PKS_PP.1;protein_start=2285
+panelC-communesin	.	PFAM_domain	27250	27334	26.3	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00550.28;evalue=7.30E-06;detection=hmmscan;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0;domain_id=clusterhmmer_PEX2_055430_0052;protein_start=2286;description=Phosphopantetheine attachment site;protein_end=2344;tool=antismash;aSDomain=PP-binding;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	27393	27481	26.3	+	.	ID=pfam_domain-PEX2_055430;Dbxref=PF00550.28;evalue=7.30E-06;detection=hmmscan;label=PEX2_055430;locus_tag=PEX2_055430;database=35.0;domain_id=clusterhmmer_PEX2_055430_0052;protein_start=2286;description=Phosphopantetheine attachment site;protein_end=2344;tool=antismash;aSDomain=PP-binding;aSTool=clusterhmmer
+panelC-communesin	.	gene	29124	30237	.	-	.	ID=gene-PEX2_055440;locus_tag=PEX2_055440
+panelC-communesin	.	mRNA	29124	29765	.	-	.	ID=mrna-PEX2_055440;Parent=gene-PEX2_055440;locus_tag=PEX2_055440;product=Phytanoyl-CoA dioxygenase
+panelC-communesin	.	mRNA	29830	29960	.	-	.	ID=mrna-PEX2_055440;Parent=gene-PEX2_055440;locus_tag=PEX2_055440;product=Phytanoyl-CoA dioxygenase
+panelC-communesin	.	mRNA	30009	30237	.	-	.	ID=mrna-PEX2_055440;Parent=gene-PEX2_055440;locus_tag=PEX2_055440;product=Phytanoyl-CoA dioxygenase
+panelC-communesin	.	CDS	29124	29765	.	-	0	ID=cds-PEX2_055440;Parent=mrna-PEX2_055440;gene_functions=PhyH;product=Phytanoyl-CoA dioxygenase;sec_met_domain=PhyH (E-value: 1.8e-22, bitscore: 72.8,seeds: 39, tool: rule-based-clusters);gene_kind=biosynthetic-additional;locus_tag=PEX2_055440;transl_table=1;protein_id=KGO59703.1
+panelC-communesin	.	CDS	29830	29960	.	-	0	ID=cds-PEX2_055440;Parent=mrna-PEX2_055440;gene_functions=PhyH;product=Phytanoyl-CoA dioxygenase;sec_met_domain=PhyH (E-value: 1.8e-22, bitscore: 72.8,seeds: 39, tool: rule-based-clusters);gene_kind=biosynthetic-additional;locus_tag=PEX2_055440;transl_table=1;protein_id=KGO59703.1
+panelC-communesin	.	CDS	30009	30237	.	-	0	ID=cds-PEX2_055440;Parent=mrna-PEX2_055440;gene_functions=PhyH;product=Phytanoyl-CoA dioxygenase;sec_met_domain=PhyH (E-value: 1.8e-22, bitscore: 72.8,seeds: 39, tool: rule-based-clusters);gene_kind=biosynthetic-additional;locus_tag=PEX2_055440;transl_table=1;protein_id=KGO59703.1
+panelC-communesin	.	PFAM_domain	29382	29765	72.8	-	.	ID=pfam_domain-PEX2_055440;Dbxref=PF05721.16;protein_start=43;description=Phytanoyl-CoA dioxygenase (PhyH);domain_id=clusterhmmer_PEX2_055440_0053;aSDomain=PhyH;aSTool=clusterhmmer;protein_end=248;tool=antismash;evalue=5.00E-20;detection=hmmscan;database=35.0;label=PEX2_055440;locus_tag=PEX2_055440
+panelC-communesin	.	PFAM_domain	29830	29960	72.8	-	.	ID=pfam_domain-PEX2_055440;Dbxref=PF05721.16;protein_start=43;description=Phytanoyl-CoA dioxygenase (PhyH);domain_id=clusterhmmer_PEX2_055440_0053;aSDomain=PhyH;aSTool=clusterhmmer;protein_end=248;tool=antismash;evalue=5.00E-20;detection=hmmscan;database=35.0;label=PEX2_055440;locus_tag=PEX2_055440
+panelC-communesin	.	PFAM_domain	30009	30108	72.8	-	.	ID=pfam_domain-PEX2_055440;Dbxref=PF05721.16;protein_start=43;description=Phytanoyl-CoA dioxygenase (PhyH);domain_id=clusterhmmer_PEX2_055440_0053;aSDomain=PhyH;aSTool=clusterhmmer;protein_end=248;tool=antismash;evalue=5.00E-20;detection=hmmscan;database=35.0;label=PEX2_055440;locus_tag=PEX2_055440
+panelC-communesin	.	gene	31243	32643	.	-	.	ID=gene-PEX2_055450;locus_tag=PEX2_055450
+panelC-communesin	.	mRNA	31243	32643	.	-	.	ID=mrna-PEX2_055450;Parent=gene-PEX2_055450;product=Transferase;locus_tag=PEX2_055450
+panelC-communesin	.	CDS	31243	32643	.	-	0	ID=cds-PEX2_055450;Parent=mrna-PEX2_055450;sec_met_domain=Transferase (E-value: 3e-19, bitscore:61.1, seeds: 7, tool: rule-based-clusters);product=Transferase;gene_kind=biosynthetic-additional;gene_functions=Transferase;locus_tag=PEX2_055450;transl_table=1;protein_id=KGO59704.1
+panelC-communesin	.	PFAM_domain	31441	32256	61.1	-	.	ID=pfam_domain-PEX2_055450;Dbxref=PF02458.18;protein_end=401;tool=antismash;aSTool=clusterhmmer;aSDomain=Transferase;domain_id=clusterhmmer_PEX2_055450_0054;description=Transferase family;protein_start=129;label=PEX2_055450;locus_tag=PEX2_055450;database=35.0;detection=hmmscan;evalue=8.30E-17
+panelC-communesin	.	gene	33873	35780	.	-	.	ID=gene-PEX2_055460;locus_tag=PEX2_055460
+panelC-communesin	.	mRNA	33873	34149	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	34198	34266	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	34317	34325	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	34383	34820	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	34875	35024	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	35080	35137	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	35219	35277	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	35336	35508	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	35565	35780	.	-	.	ID=mrna-PEX2_055460;Parent=gene-PEX2_055460;locus_tag=PEX2_055460;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	CDS	33873	34149	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	34198	34266	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	34317	34325	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	34383	34820	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	34875	35024	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	35080	35137	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	35219	35277	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	35336	35508	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	CDS	35565	35780	.	-	0	ID=cds-PEX2_055460;Parent=mrna-PEX2_055460;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59705.1;transl_table=1;locus_tag=PEX2_055460
+panelC-communesin	.	PFAM_domain	34092	34149	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	PFAM_domain	34198	34266	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	PFAM_domain	34317	34325	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	PFAM_domain	34383	34820	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	PFAM_domain	34875	35024	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	PFAM_domain	35080	35129	49.4	-	.	ID=pfam_domain-PEX2_055460;Dbxref=PF07690.19;domain_id=clusterhmmer_PEX2_055460_0055;description=Major Facilitator Superfamily;protein_start=152;protein_end=410;tool=antismash;aSDomain=MFS_1;aSTool=clusterhmmer;evalue=3.40E-13;detection=hmmscan;label=PEX2_055460;locus_tag=PEX2_055460;database=35.0
+panelC-communesin	.	gene	36201	37620	.	+	.	ID=gene-PEX2_055470;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36201	36252	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36307	36467	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36527	36648	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36696	36782	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36849	36909	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	36968	37054	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	mRNA	37111	37620	.	+	.	ID=mrna-PEX2_055470;Parent=gene-PEX2_055470;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36201	36252	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36307	36467	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36527	36648	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36696	36782	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36849	36909	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	36968	37054	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	CDS	37111	37620	.	+	0	ID=cds-PEX2_055470;Parent=mrna-PEX2_055470;gene_kind=biosynthetic-additional;product=Taurine catabolism dioxygenase TauD/TfdA;sec_met_domain=TauD (E-value: 2.1e-56, bitscore: 183.8,seeds: 119, tool: rule-based-clusters);gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;NRPS_PKS=Domain: TauD (54-328). E-value: 1.7e-56. Score:183.8. Matches aSDomain: nrpspksdomains_PEX2_055470_TauD.1;transl_table=1;protein_id=KGO59706.1;locus_tag=PEX2_055470
+panelC-communesin	.	aSDomain	36417	36467	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	aSDomain	36527	36648	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	aSDomain	36696	36782	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	aSDomain	36849	36909	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	aSDomain	36968	37054	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	aSDomain	37111	37524	183.8	+	.	ID=asdomain-PEX2_055470;evalue=1.70E-56;detection=hmmscan;database=nrpspksdomains.hmm;label=PEX2_055470_TauD.1;locus_tag=PEX2_055470;protein_start=54;domain_id=nrpspksdomains_PEX2_055470_TauD.1;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=328;tool=antismash
+panelC-communesin	.	PFAM_domain	36417	36467	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	36527	36648	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	36696	36782	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	36849	36909	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	36968	37054	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	PFAM_domain	37111	37524	183.8	+	.	ID=pfam_domain-PEX2_055470;Dbxref=PF02668.19;evalue=6.00E-54;detection=hmmscan;locus_tag=PEX2_055470;label=PEX2_055470;database=35.0;domain_id=clusterhmmer_PEX2_055470_0056;protein_start=54;description=Taurine catabolism dioxygenase TauD, TfdAfamily;tool=antismash;protein_end=328;aSDomain=TauD;aSTool=clusterhmmer
+panelC-communesin	.	gene	37668	41350	.	-	.	ID=gene-PEX2_055480;locus_tag=PEX2_055480
+panelC-communesin	.	mRNA	37668	37927	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	37979	39723	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	40116	40153	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	40213	40323	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	40378	40561	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	40614	40718	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	40768	41027	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	41088	41149	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	41202	41231	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	mRNA	41284	41350	.	-	.	ID=mrna-PEX2_055480;Parent=gene-PEX2_055480;locus_tag=PEX2_055480;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	37668	37927	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	37979	39723	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	40116	40153	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	40213	40323	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	40378	40561	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	40614	40718	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	40768	41027	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	41088	41149	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	41202	41231	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	CDS	41284	41350	.	-	0	ID=cds-PEX2_055480;Parent=mrna-PEX2_055480;locus_tag=PEX2_055480;protein_id=KGO59707.1;transl_table=1;product=Aldolase-type TIM barrel
+panelC-communesin	.	PFAM_domain	38274	38999	77.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF04082.21;description=Fungal specific transcription factor domain;protein_start=527;domain_id=clusterhmmer_PEX2_055480_0058;aSDomain=Fungal_trans;aSTool=clusterhmmer;tool=antismash;protein_end=769;evalue=8.60E-22;detection=hmmscan;database=35.0;locus_tag=PEX2_055480;label=PEX2_055480
+panelC-communesin	.	PFAM_domain	40127	40153	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	40213	40323	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	40378	40561	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	40614	40718	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	40768	41027	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	41088	41149	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	41202	41231	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	PFAM_domain	41284	41335	105.6	-	.	ID=pfam_domain-PEX2_055480;Dbxref=PF00701.25;domain_id=clusterhmmer_PEX2_055480_0057;protein_start=5;description=Dihydrodipicolinate synthetase family;tool=antismash;protein_end=282;aSTool=clusterhmmer;aSDomain=DHDPS;detection=hmmscan;evalue=2.10E-30;locus_tag=PEX2_055480;label=PEX2_055480;database=35.0
+panelC-communesin	.	gene	42280	44206	.	-	.	ID=gene-PEX2_055490;locus_tag=PEX2_055490
+panelC-communesin	.	mRNA	42280	42486	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	42538	42663	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	42718	42823	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	42875	43096	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	43147	43317	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	43377	43855	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	43912	43991	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	mRNA	44041	44206	.	-	.	ID=mrna-PEX2_055490;Parent=gene-PEX2_055490;locus_tag=PEX2_055490;product=Major facilitator superfamily domain, generalsubstrate transporter
+panelC-communesin	.	CDS	42280	42486	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	42538	42663	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	42718	42823	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	42875	43096	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	43147	43317	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	43377	43855	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	43912	43991	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	CDS	44041	44206	.	-	0	ID=cds-PEX2_055490;Parent=mrna-PEX2_055490;gene_kind=transport;product=Major facilitator superfamily domain, generalsubstrate transporter;gene_functions=transport (smcogs) SMCOG1106:majorfacilitator transporter ;protein_id=KGO59708.1;transl_table=1;locus_tag=PEX2_055490
+panelC-communesin	.	PFAM_domain	42571	42663	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	PFAM_domain	42718	42823	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	PFAM_domain	42875	43096	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	PFAM_domain	43147	43317	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	PFAM_domain	43377	43855	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	PFAM_domain	43912	43965	121.0	-	.	ID=pfam_domain-PEX2_055490;Dbxref=PF07690.19;aSDomain=MFS_1;aSTool=clusterhmmer;protein_end=439;tool=antismash;description=Major Facilitator Superfamily;protein_start=64;domain_id=clusterhmmer_PEX2_055490_0059;database=35.0;label=PEX2_055490;locus_tag=PEX2_055490;evalue=5.70E-35;detection=hmmscan
+panelC-communesin	.	gene	44696	45988	.	+	.	ID=gene-PEX2_055500;locus_tag=PEX2_055500
+panelC-communesin	.	mRNA	44696	44780	.	+	.	ID=mrna-PEX2_055500;Parent=gene-PEX2_055500;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055500
+panelC-communesin	.	mRNA	44849	45218	.	+	.	ID=mrna-PEX2_055500;Parent=gene-PEX2_055500;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055500
+panelC-communesin	.	mRNA	45272	45612	.	+	.	ID=mrna-PEX2_055500;Parent=gene-PEX2_055500;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055500
+panelC-communesin	.	mRNA	45672	45988	.	+	.	ID=mrna-PEX2_055500;Parent=gene-PEX2_055500;product=Taurine catabolism dioxygenase TauD/TfdA;locus_tag=PEX2_055500
+panelC-communesin	.	CDS	44696	44780	.	+	0	ID=cds-PEX2_055500;Parent=mrna-PEX2_055500;gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;gene_kind=biosynthetic-additional;sec_met_domain=TauD (E-value: 9.7e-51, bitscore: 165.2,seeds: 119, tool: rule-based-clusters);product=Taurine catabolism dioxygenase TauD/TfdA;transl_table=1;protein_id=KGO59709.1;locus_tag=PEX2_055500;NRPS_PKS=Domain: TauD (67-338). E-value: 7.8e-51. Score:165.2. Matches aSDomain: nrpspksdomains_PEX2_055500_TauD.1
+panelC-communesin	.	CDS	44849	45218	.	+	0	ID=cds-PEX2_055500;Parent=mrna-PEX2_055500;gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;gene_kind=biosynthetic-additional;sec_met_domain=TauD (E-value: 9.7e-51, bitscore: 165.2,seeds: 119, tool: rule-based-clusters);product=Taurine catabolism dioxygenase TauD/TfdA;transl_table=1;protein_id=KGO59709.1;locus_tag=PEX2_055500;NRPS_PKS=Domain: TauD (67-338). E-value: 7.8e-51. Score:165.2. Matches aSDomain: nrpspksdomains_PEX2_055500_TauD.1
+panelC-communesin	.	CDS	45272	45612	.	+	0	ID=cds-PEX2_055500;Parent=mrna-PEX2_055500;gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;gene_kind=biosynthetic-additional;sec_met_domain=TauD (E-value: 9.7e-51, bitscore: 165.2,seeds: 119, tool: rule-based-clusters);product=Taurine catabolism dioxygenase TauD/TfdA;transl_table=1;protein_id=KGO59709.1;locus_tag=PEX2_055500;NRPS_PKS=Domain: TauD (67-338). E-value: 7.8e-51. Score:165.2. Matches aSDomain: nrpspksdomains_PEX2_055500_TauD.1
+panelC-communesin	.	CDS	45672	45988	.	+	0	ID=cds-PEX2_055500;Parent=mrna-PEX2_055500;gene_functions=TauD,biosynthetic-additional (smcogs)SMCOG1121:dioxygenase, TauD/TfdA ;gene_kind=biosynthetic-additional;sec_met_domain=TauD (E-value: 9.7e-51, bitscore: 165.2,seeds: 119, tool: rule-based-clusters);product=Taurine catabolism dioxygenase TauD/TfdA;transl_table=1;protein_id=KGO59709.1;locus_tag=PEX2_055500;NRPS_PKS=Domain: TauD (67-338). E-value: 7.8e-51. Score:165.2. Matches aSDomain: nrpspksdomains_PEX2_055500_TauD.1
+panelC-communesin	.	aSDomain	44965	45218	165.2	+	.	ID=asdomain-PEX2_055500;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=338;tool=antismash;protein_start=67;domain_id=nrpspksdomains_PEX2_055500_TauD.1;database=nrpspksdomains.hmm;label=PEX2_055500_TauD.1;locus_tag=PEX2_055500;evalue=7.80E-51;detection=hmmscan
+panelC-communesin	.	aSDomain	45272	45612	165.2	+	.	ID=asdomain-PEX2_055500;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=338;tool=antismash;protein_start=67;domain_id=nrpspksdomains_PEX2_055500_TauD.1;database=nrpspksdomains.hmm;label=PEX2_055500_TauD.1;locus_tag=PEX2_055500;evalue=7.80E-51;detection=hmmscan
+panelC-communesin	.	aSDomain	45672	45889	165.2	+	.	ID=asdomain-PEX2_055500;aSDomain=TauD;aSTool=nrps_pks_domains;protein_end=338;tool=antismash;protein_start=67;domain_id=nrpspksdomains_PEX2_055500_TauD.1;database=nrpspksdomains.hmm;label=PEX2_055500_TauD.1;locus_tag=PEX2_055500;evalue=7.80E-51;detection=hmmscan
+panelC-communesin	.	PFAM_domain	44965	45218	165.2	+	.	ID=pfam_domain-PEX2_055500;Dbxref=PF02668.19;evalue=2.70E-48;detection=hmmscan;database=35.0;locus_tag=PEX2_055500;label=PEX2_055500;protein_start=67;description=Taurine catabolism dioxygenase TauD, TfdAfamily;domain_id=clusterhmmer_PEX2_055500_0060;aSDomain=TauD;aSTool=clusterhmmer;tool=antismash;protein_end=338
+panelC-communesin	.	PFAM_domain	45272	45612	165.2	+	.	ID=pfam_domain-PEX2_055500;Dbxref=PF02668.19;evalue=2.70E-48;detection=hmmscan;database=35.0;locus_tag=PEX2_055500;label=PEX2_055500;protein_start=67;description=Taurine catabolism dioxygenase TauD, TfdAfamily;domain_id=clusterhmmer_PEX2_055500_0060;aSDomain=TauD;aSTool=clusterhmmer;tool=antismash;protein_end=338
+panelC-communesin	.	PFAM_domain	45672	45889	165.2	+	.	ID=pfam_domain-PEX2_055500;Dbxref=PF02668.19;evalue=2.70E-48;detection=hmmscan;database=35.0;locus_tag=PEX2_055500;label=PEX2_055500;protein_start=67;description=Taurine catabolism dioxygenase TauD, TfdAfamily;domain_id=clusterhmmer_PEX2_055500_0060;aSDomain=TauD;aSTool=clusterhmmer;tool=antismash;protein_end=338
+panelC-communesin	.	gene	46669	47217	.	-	.	ID=gene-PEX2_055510;locus_tag=PEX2_055510
+panelC-communesin	.	mRNA	46669	47217	.	-	.	ID=mrna-PEX2_055510;Parent=gene-PEX2_055510;product=Major facilitator superfamily domain, generalsubstrate transporter;locus_tag=PEX2_055510
+panelC-communesin	.	CDS	46669	47217	.	-	0	ID=cds-PEX2_055510;Parent=mrna-PEX2_055510;product=Major facilitator superfamily domain, generalsubstrate transporter;locus_tag=PEX2_055510;protein_id=KGO59710.1;transl_table=1
+##FASTA
+>panelC-communesin JQFZ01000090.1 Penicillium expansum
+ATTTGTCGATGAGTGCTGCTAGTCGACGATCAACGCTGTCGAGGTCCGATGTGTTCAGAA
+AATGTAGAGTGAGTATGGCTGACAGCGGATCGGGCCGCAGGTGAAACTCTCCCGCGATCC
+TCTCTTCGTTAAACGACCGTAAACCCCTGAGCAGCAATTCCAGTACCTGCATCCAGGAGT
+GGTCATCTAAGCCCTCTGGGGCAGATACAGCGAGCTGGGTGGTAACACACGGGACGTCTG
+GGAATACTCGCACTGTTGCTTGAGTGACGACAGCAAACGTACCTCCCCCTCCTCCCCTTA
+ATGCCCAAAACAGGTCTTGATTGTGGTAATCATTGGCTACTACCAAGTCACCCTGTCAAT
+CATGAGATTAGATAAGTATTCATGCGAACAAAAGCCCATAGGCTGGGGTTGTTTGACAAG
+GAAATACTCACATCTGCCGTTACAGCTTGGATCTCCAACACATTATCGACAGCCAGCCCC
+CTATTGTGACTGAATTTCCCAGAGACACCGCCCCCTTGAAGGAAGCCACCAACAAAGCCG
+ACGGTGGGACATACTCCACCGACTACGGTGTATCCTTGTCGCGCGCCCTCGGCATAGAGG
+TCTCCGAGTATAACTCCAGCCCCAACAGTAACCGCAGGTCCCGAGGTTGTGACAGCCCCG
+ACTGGTTGGAAGTCATCATGATAATGTGTATGTTTCAGGTGGTGCGTGTGTATCTCGAAT
+GAGCCAGGGGCGCTGGAGCGTCCTGAGCCATCATGGCCTGTGTTTCGGATAACGAGTCGT
+AGGTTATGATTCTTGGCAAACTTTATGGCACACTGCACATGGGAGACCAACCGCACTGCA
+GCCGAGTACAAAGGAGTACGGCCTTGGTGACAAGGTAAATCCACAGGTCCTCCTACAAAA
+CACGTTTCCTCTCTGGTTGAACCGCTCTCCCAAACCCAGTCCTGTAGAGTCCCTACGATC
+GCTACCGTTAGTGACCTAATCCGGACACGAAATAAAAGGGCGTTTCTTACCTGGTTGTGC
+AGCCCTCCATCCGCTGTTTCGAGAAACGTTCAACAAAACGTCACAAGCCTGCTGTTCATA
+CGTAGGCTCATGGCAGATGCGCCCTATAGGCCGGACCGAAATCAAGTTTCCGTGAATCGA
+TGAGTTAAGGTTAGCCCAGTCAGTCTCGGATGGCCAACAAGGTTCCCACTGTCTACATCG
+ACAGAATGGCTGTTCTGTTGGATGTACTAAGTGTATAAACAGCGCTCCGAGGGCCACAAA
+GATGCTGAGGTGGACGGCACCGGCCATGAGTGGGGAGTTTGGAATTCTCCTATGAAAGCT
+ATCGACAAGCGCACGTCAAGATTGGAGTTGCAGAACGTGAATGGAGCAGGTCATCTGTCA
+GAGAGCACAATACTATGTCTACGAGGCCTATGCGGGGGAGGTCCGAAATTGTCACAATCT
+AAACAGGAGGCAACTCTGGGAGGGCTGGACGCAAGGGTAAAACGGAGGCGTTGTGTAGCA
+CTGCATGATGTGATACATCCCGCGCATGACTGTAAAACTCAGAATATTTCGCGAATTTTT
+GGCATACGCAAGGGATTGTTATAGCCACCGCTTGCGAATCTTCAGTAGCTGCACGACTAT
+AGCTACATTGCTGGACTGGCTATTTACGACAGCCTCAGCCAGCCAATTTCCAGCGGTATG
+AACAATATCATGCACTAGTCACTACATCTCACAGGAGAAATAGTGTACTGCAGTAGTCAC
+ATACTGCATGTTTGAATATTTAACTAAAAAACAGCGGTCAGTTTGCTCTGCTCGATCGAA
+GCAATGCTCGTCCTACTAGAATAATAAAGAGAGGTATCCATTGGAGCTGACCGCTTTATT
+CAGTGGCAGCATCATGCTTGCTGCAGCAAGGGCTGGGGAATGTAGCAGATTCTTACAGAT
+CTCGAAGCAAGAAGGATGCTAGATTTAGCTAAGCACGTACCAAAAGCTCCATCATATTTT
+GACAAGTGTCGCTTCATCCACCATATTCTGTGGCATATTGTTCTTTTGCCAACCCTCCAT
+CCACCTTCTTAGCACAATTAGCTAGTACTTTGTTTCGCTATGATGACTGAAAAAGAGGAC
+CATGACGATAAATTCCATACAAGGGTTTCAATTGCAACTCTATCTGCGCTGAAGAGAGTA
+CTAACAATGAATTCCCCAACTGCCTCTGATCCTATTGTCCGAACACTGGATGCCCCTGAA
+ACGAAAGACATGCAAGAGGCATTCCTCCCGGGAGAGAGCCCACAAGACGTCGCATCAGTT
+ATCCAGGAAACCATGGATATTTTCGACAAACGCATGCGTCTCACGCACCCACACTGCTTT
+TGCTATGTACCGTCATGTCCATCTCCGCTAGCCTGGGTGGGGGACCTGTTCACCTCACTC
+TACAATGTAAACGCGGTTAGTTGGGATGTGAGTTCTGGTCCAAGTGCAATGGAACAAGGA
+ATGATCAGGTGGCTGGCCCAGCAGGTTGGTCTTCCTCCTTCTGCTGGTGGATGCTTTGTC
+TCCGGTGGCTCTATGGCAAACCTATCCGCCGTCGTGGCAGCTCGAGATAAGTTGCTTCCC
+CCTATGCGACGGGCTGAGGGAACCATATACACATCGGACCAAACGCATATATCGATAAAG
+AAATGTCTCCATATAATCGGCTTCGACGAACACCAAATCCGCGTTATCCCCACAGACCAC
+CTATTCCGCATGGACACTGATATCCTGCGACGAACGATTGCAGCCGACCGCCAATGTGGT
+CGCCTACCTTTTCTCGTCGTGGCCAGCTGTGGAACCACAAATACGGGCAGCATCGATCCC
+CTCCATGCTCTAGCCGACGTGGCTGAAGAAGAAGGACTGTGGCTGCACGTGGATGGTGCG
+TACGGTGCGTCAATTGCCCTCTCCGACAAGTACCGCCATCTCGTGGATGGAATTGGTCGC
+GCAGACAGTATATCATGGGACGGACATAAATGGCTTTTCCAAACATATGGTTGTGGAATT
+GTCCTCACTCGTGATAGTGCGTCCCTCGCCCACAGCTTTGCCGTGGATGCAGAGTATATC
+AACTCGACGACACCGCACGGGGCCGTGAATTTCTACAACCTTAGTCCTGAACTCAGCCGC
+CCAGCGAGAGCCATGCCGCTTTGGTTTACGCTGAGGGTGCTGGGACGTCGGCAGATGGGA
+GAGATGATTGATCAAGGGTTCCTTCTCGCCCGCACCGCCGAAGAGGAGATTCGACGATAT
+CCGCATTGGGTGATCCTGGCACCAGTAACAGCGAGTATTGTCGTCTTCCGATACTGTCCA
+TTGGGGTTGAAGGATGATGATCTGGATACACTGAACCTGGCCCTCTCAGCTCGACTTTTG
+GCAGAGAATGTTGCGTCCATCCTCACAACAAACATCCGTGGTCGGGTAGCACTACGTTTC
+TGTGCAACAAACCCTGCCACCCAAGCAGATACAATCACGAAGGTGGTTCAACAAATGGAC
+CAAATGGCCAACACAATGCCCACTTGCGGACTTGGAATGTGCAAGGAATAGAGTATCACT
+TTCATGATGTTCAAATCAATTGTTTCGGATGTTCTTATTTTCGGTTTGGAGTGGCGTACG
+TTTCTGTTTACTATAAATGTTAGTGCTACATGATGGCTTTTAGCTCGTTAGTGTTTATAG
+AAACTATGACAGCAATGACTGCGGGAAAGATTGCCCTGCTTATCAAGCCATCGCCCAAGA
+TCCTTTGAATTTTATTGCATATATGCAGAAGAGTAATCAGGTTTGAATATTTTAGCAAAT
+GAATCGAGTACTTAGTTCAGGGACCCGTTAGTCCCAAAGTGCTGTATTACTAGTGTATCG
+TTTGAACTGATTAAGAATATGTAACAAACTAATGGTAGATTATCACAAATACTAGGCTAG
+GTGTCTTGATTTCTAGATTTATCAGGCCGCCACAGGATGAATGGCAAAGAAGCGAAAGGA
+ACCATATTAAATTGAGGTGATTGTCCCTGCATAAGTAGTAGTACCCGACAATTTAACTAG
+AAAGCCACAACAGTGTAATATTGTGCGGTGCAGGCCTGGCCAATATACCACTGATGAGGA
+TAATCAGAATGAATCAACTACATCACATTCACGTTCCGGGCATAGAGCGACAACTTTGCT
+TTGGTGCCCCGTCATGTGCGCGCATGCCTGGTCCAGCGCATCGAGTTCCTGCTTATTAGA
+CTTTGGCCGACGTGCGCTTTCGTATCAGGATATCTGTCGTACCAACCATACCGTCTCCGC
+GGCCTTCTTTTGTTGATTGGACGTCTGGGAATGTCTTGCTGGGGTCCACTTTCACATCGT
+ACTCCATGATGAAAACTGCACAAAGCACTTGGACAACATGCGCCCCAAAGACTCTCCCCG
+GACATAGACCTGACCCGTGGCTAAATGACAGATAAGTGTCAGTGGCAGTAGTAGCGCGGA
+TTGTGACATTGTTGGTGACTGGGTCATAAAAGCGGAATCCGTCAAAGGTTGTCGGATTTG
+GATAAAAGTCTGGGTCGCGATGGATGTATTTGGCTGGTACACAGAGATTGACGCCAGCGG
+GGATGTGCATATCCATGGACTGTACGTAGATGGGCTTCTCTGTCCGTCGACTGACAGTAG
+CTAAAGATGCGCGATGGATATCAGTGATAAGCCCTTCAAGTCTAGATTGTGGTACTCCAA
+AATGAAAAGCATGAGGCCGAAAAAACTCACATTGGGCCGGAACGTATAAACGAAGTACTT
+CTCTGATAAAACTCTCGAGCTTCGGAGTACGTGCGAGGAAATCGGAAGACCAATCATTGG
+ATTCGAGTGCGGAGGATATCTCCTCCCGGAGCGCCTGTAGATAGCCTGGATTTTTACCGA
+TTGCCATAAGCATAAAAAACAGCGTCGGCATTATCGGGCCCCAGAATTCGTATGTGTAGA
+AAACTGCCTCCATACAGACCTTCTCGAGGTCGCTGTCTTGTTCGCCAAGAGTACCTTCCT
+CCATATGCATTTTTATAAGGGCAGTCATGAACGTAACATCTTCATCAGATGCAGGAACCT
+TTCCCTCACCTTGCGCCGCCTTGGCCTGAAGTTTAGCAATGCGGCTTCGGATGTCAGGCA
+ACATTCTTTTCTTCAGATGCGGGAGGTTTGCATAAAACCCACGAATGGTGGGATGAACGA
+GCGATACTATTTTCCACAAGGAACGAGGCCAAGTGAAGTAAATAGAGTTGATACCATCGA
+CCCCGTTAGCAAATGTAATCAATCGCTTGTGGAAATCCTGATCATCAGCATACGCTGGAC
+CATACAGAATCCTGGCATTGAGCTTGATCACCAAGTCGCTACAGACTTGCATGAGGTCAA
+GCGATACCCATTCTAAAAAAAAAATCTGTTAGTTAATGCGTAGTTGGTTACCGAATGGGA
+GGTCGGTTGTCACCTTTACTGTCGCCGATAATTCCAGGGAGTAGGCTAAGTGTCTCCTTC
+ACCAGAATCTTCTGAACAGCCACTATATGATGAGTGTTGGTATACACCATTCAGATCAAG
+GGCAGCATAAAGAAAATCGTTGCTTACAGAGCAACTCCTTTTTTGCGAAGAGAAGAGCAA
+CTTTGGAGTGGGCCTTTGTGAGCACTGTGTGATGTTTAATCTTTCCTCCCTGTGGTTGGA
+AAAGACACATAGTTAACTACCAAAGCCCCCAAGGCGGGTCCAGAAGAAATCCTACCTCTT
+GGGCCCAGTGTTGAAAGCTGATCTGGTCAAGTGGAAGATTGCGCCAATCGTGACTGAGTT
+CCGACGGGAAGATGAGGGACCAGTTGTTTAGTTCCGTCTTCCTTGCGAATACTTTACCCC
+GTTTCGTGTACTGTGAGCGATAAGCAAACGTCCTCAATTTATCTAAGCACTTGAACAGTT
+AAGAACGCACTCGATAATATCCGTCAAGCCAAGTCTGTTCAAGACCGTCACCAGTTGTGT
+TTCCCGCCCAAAACCTGCCCATGAAATAGCTCCGAGGGAATGCCGGAGCTAACTTCATGT
+AGGGCAGAGAACGATATAGAAGATCGACATAATCGACCAGAAATACCAGCAATAAACCAA
+GAGCTGCCAGCCCTACGAACCCGAGCAACTGTGCATTGATGCCAACAAAGCCCACAGGGG
+CATAAATCAATTCCAAACTCATAGCCGCAATGGCGCCGGCGTGATGAAATGGATCGGCCT
+AGAATGGACCAGATAGCTGTGCTAAAGAGAGCTTTGAGAGATTTACACAGGCAAATCCTA
+TGACAATAACGCTCGGGAGAGACCGCTGAGGGTATGACCAGTTTTAACAATGTCCCTTGA
+CATCAGTTTACCAGTGTCCTTAGAGAGAGCATAGCGGTGAGAAAATATCAACCAATGTGA
+TGCAGGGGCAAGTGATACAACGCAGGCAAGGGACAGAGATCTGGATTGCGAATCTGCTCG
+CGCATTCCGTTGCTCTTCCCTTCCTCTTCGAGATCGATCGCCTCCGGTACATTGAGCCGG
+GTCGGCGGAACCAAATGAAAGACTTTTGCATGATTTACCTACCAGCTCCCTGTAACTCAC
+AAACTCTGTGTCCGTTGATCTCCTGTACAAATGGCGTGGTACTGTAACATGAAGCCAATA
+CAATATAATACATATCTTCGCCTGGCCAAGCTCGGGATTTGGAAGGTGAGATGAGATGAC
+TACGAGATCCACACATGCCAGAGAGTGGCGGAAAGGTGGAACAACAGGAGCCGATGGGAG
+TGGTTGGCTACCAGATACTACGGTAGGAAATTGATATTGTCTCTACGGAGGACGGAGGAG
+TACTCCGTACTAGCATCCATTTCACCTGCATAAATTATAAATGTTTTTGAGAATATTATA
+TTTTCGAAGTTCAAGTTTATATTGGTAAATATTTAAGATTTAAGATTTTAATTTATAATT
+TATAATTCAACTACAAAGTATATTATAGAGTGTAATTTATTTGATGAATAATATCTCTTA
+TTACTGGCTCTCTGAAGAATTCCCATCGTAGCAGGTCCTTCTCCACCCTGCCGTGTTAGC
+TCGTGAAGAGACGCTAATGCGCGCACGCCACCAGTAATAAATATGGTATTATTTCAAATG
+CATAACATCAATTAAATACAAAAAGGGGTACGAGCTACATACTGGTAGCTGATGAATATT
+AATTATTGGTATTGATATTACTGGCAAAAAAAAAAAAAAAAAAAAAAAGNTCGGCCCTTC
+TCGCCCGAGCTGGCTCAACACGTTATGCGGCCATGCAGAGAAGGGCTGACTGACAGCCCC
+AATGGAGGGACAGTTGCTTTGACAAGGGCTAAAGTAGGGATAGATTGCATTTGTGCCGAA
+GGTTGGCAGAGCGGGAATACGACCTGGGGTAGGTATACTGCACGAGCGGGAACATGGCTG
+CAGCCGCACAGCCAGCCACTTCGACCCAGGTATGATACATCCAGACCACCAATAAGCAGG
+ATGGCTTACAGTAGCGGTGAAACATTCTCATCTCTGGCGGGGCATTCATCACCCTCGCGA
+ACAGGACATCGATGCAGGTATCGGTCAGCGGGCCCTTGCCTTTGCTTGAGCAAGGGATGT
+CGATTTTGTATTTTTCCCGTGGAGGGATCATTTCTCCAGCGCGTGCTGGGGCTATGATCA
+AGATCGAGACCGAATTCAGCCAATGTAGTGTGAAAGAGCAAATCAGAAGCGTGTGAACTG
+TGCGCGATAAGTACGCCGGCGGCCCCATACTTGTCTACTCTTTTCGCACACTAAGTACTT
+CTTCTTGAAATCCATCTCCCATCGCTGCAGACTCTCCAGAGATAGCAGGTAGTGCCAGTA
+TGGGGAAACCAACCATTAGGGGATGTCCAGCGATGGAAAGAAGCGGCACTACTCCGAGAT
+TTGCCCAAAACCCTGTGGTAAATGACACAGGCCTTCTAGAGGCGTTGTCACATTTCAATC
+GCGAGAAGATCCCCGAGCGTGTCGTACATGCAAAAGGCACGGGTGCGTATGGGGAATTCG
+AGGTGAGTCATGACTAGTCCACATGCCGAAGTAATCAATTTCTCACCTATGGAAAACCAG
+GTGACCGATGATATTTCCGATATATGCAACATTGACATGCTTCTGGGAGTCGGGAAGAAA
+ACCCCGTGTGTGGGACGCTTCTCCACCACTGGACTTGAGCGCGGTTCCGCTGAGGGAATC
+CGGGATGTCAAAGGGTTGGGCTTGAAATTTGACACCAAGGAAGGCAATTGGGACTGGGTC
+TGCATCAATTTCCCCTATTTTTTCATCCGTGATCCAGCCAAGTTTCCGGATCTTATGCAT
+GCCCAACAACGGGACCCCAAAACCAACTTGTTGAACCCAAATATGTATTGGGACTGGGTA
+GCGGATAATCCTGAGTCTCTACACCTGGTTCTCACGCTTTTCAGCAAACTGGGAACCATG
+TTCAACTGGCGCACCATGAGTGCGTACCTGGGCCATGCGTACAAATGGACCATGCCAGAC
+GGGTCTTTCAAATATGTTCATGTCTATCTCTCTCCAAATGGCGGACCTTCGAACGAAAAT
+GCTAGCATGGACGACGCCATGGATGAGAACATCAACGATCCAGATGGGGCCTCCCGGGAC
+TTGTACGAGGCTATCGAGCGTGGAGACTTTCCAACTTGGACCGCCTATGCCCAGGTCGTC
+GACCCAGAGGATGCTCCGGACCTTGATTTCAATATCCTTGATATGACCAAGCATTGGAAC
+TACGGCTTTTATCCGAAAAACGGTTCGGTGATCCCAAAGCGAGCATTTGGGACATTAACT
+TTAAACCGGAATCCTGAAAAATATTTTTCGGAAATTGAGTGTCTTACCTTTTCGCCATCA
+AACCTCGTTCCTGGTGTCCTCCCTTCGGAGGATCCGATCCTCCAAGCTCGTATGTTCGCG
+TACCCGGACGCTCAGCGCTATCGTCTGGGTGTCAATCCTGAAAACCCACCGGCTCGGCCC
+AAAAAGCCCCTCAGTCTTAAGCCAGGAAGCCAAAAGTTTGACGAGTGGGTCAGTCAGGTC
+TCTTCCCCGGCCTGGTCGGAGGCCAAGGAAGATGACTATGAGTTCGCGAGGGAGCTATAT
+GAATGGTACCCTCAGTTTCGAGACCAGGAATTCCAGAACGAGTTGATCGATAACCTAGCC
+GAGTCCATCTCCCAGACTTGCGACGCCGTCAGGCAGAAGGTCTACCGTACATTCGCTCTG
+GTCTCCACCGACCTTGCGGATCGTGTCCGTGAAGGGGTTGAGAAGCGGCTTGAAACAGCA
+GCCACAAACTCAACTCCGCAGGAGCTCCCAGGACGAGCGAGGTTGTAAACCCAGCAGAAG
+CTTTAAACCCTTTGTTCCTTCGAAGGGCTTTCACTGGATGCAGCATGTCTAACAGCTCAC
+ATCATCATATCAACACGCAATCACACCATCAGGTAAATGAGCGGCCTGTAGGTAAAGAAT
+CCAATTGATATTTTATTCTGCAAATCAATGCAATTGTTAAATAGAGAGCCATTTTACTTT
+GACTCAGGTAACAAAAACGAAAGACTGCAGTACATCCTAATCAAGCTACTGGCCAGCGGT
+CAACGGGCTGTTACAGCAAGTTTCGGTTCCGCGCCTGAAAACAGCGGTGCTTATTTAAAC
+TCAAGCGAGGGAAAGTCCACAATCTAGCGTCCTAGGGTAGTATCATTGTTTATTACATTG
+AGTCAGCTATGTACTACCATCCTCATTATACGGTTGGGTAGACTTTCCTGAAATTTTGAT
+CACGTCCCATTGGTTCGCCTTGGTGCGCCCCAAGACAGCTTACTGGCAAGTTCTATACCA
+CTAGAGTCTGGGACTTATGTTCTCAGGTTCTGACCTTGATTGTTTTTCTCTTACATCCCA
+CCTTGAGCATTTCGTCTACAGGAAACAGGAAAAGTACGACTTGTTTTGCGTCAAAATGAG
+CATCATTTTGCTATTTTTGCTTGCCTTAACGTAGCAACGAACAGGGAAAAAAGCTCGAAA
+GTAGGCTTATACTAGAGGCGCTCTGCAGTGATAAGTGCATATCCGAGCTCGTTCATTTCC
+TCCAGAATGGATGCTATTTCGAGAAGCTTTTGCCCCAGTTCACCCCCCAGGGATAGACCC
+TTTGTTTCAAACAATTTGCAGGAAGGCCGGATGTTCTCTCGTATGTCGGTGACATCAATG
+ACCTTAAACCCGGCCTGGCGTAGAAGATTTTGGAGGTCATCAGCAGAGACCAAGGGGGGT
+TCAAAGATTTCTGCATAGCGTGCCAAGACCGGTGAATCGGGGCACGGATGATCAGAAACA
+AGATCTGCAATGACCAGTCGACTGCCGGGACGAAGGACTTGAGCGATCTGCGCGAGGGCA
+GTGCGTTTGTCGAGCATGTGCACCAGGGATTCAATGGCGTAGGCACCGTCAAAAGAGGCA
+TCCCCAAACGGCAGATCCATCGCGTCGGCAAACTGAAAGTGGACTTGTCCAGCCGGCATT
+TTTCTTCCGTACTGAGAGCGAGCAACTTCGACTTGCTGCTTGCTAATGGTGATTCCGGTC
+ACTTGAGCATCATAGATGCCGGCTAGTTGTGCGGTGGACTTTCCTGTCCCACAGCCAACA
+TCGAGGATGTGCTCTCCTTGGGCAGGAGAAAGTCGGACGCCAACCTCGCGCGTCAGTCGG
+TCGCCGACTACCTCAGCTGTTTCTTGCTTACTCGGGTCCTCCCAATACCCGACATGGATA
+TATCCCCCCAACATATCAGTCAGACTGTCAGAGGTTTCGTCGTATATTTCACCAACGTCA
+GTAGGTGTTGGGTGACTTGGGTCAAGGGCAATAGCTCTCAGGTTTTCGGTTTCGCTTGCC
+ATTTTTATCAAAGGATATATGAATAGGTCTAAGAGGAGATTATGCTATCGCAGGCTATGT
+CGACAGAATAATTGGTATGAGGTTGGGGTATTCCGTGCGTTGTCGTTCGGTCGTTCATAT
+ATATATATTAAGCCAACGATTCACATGACCTAGGTCTTTCGCAATGAGGCATGTTCTTAT
+CTTTACGCACACCAAAAGTAGATCAATCTTTTACTTGAATTTCAATTATCAAGATATATG
+TTGCATTCGAGAGTCCTTAATCTGGTCTGGCCACTTGATTGAATTAGTTGGCAGTGCGTC
+AAAATTCTGCGAAATCTGTGCTACGTTCACAGGATTGACAAATTACATTTGCTGAATCTT
+GAAATTGACGCCTGGTAAAAGGTGTGTTGATGGAGAAAAGGTTATTGGGTGCAGACATAC
+CACTAGGAATCGGCGCTAAAGTGCGCACTACTACATTTAACTGTTATATCCGAACCCTGC
+GAAGGTTTACGGCCCTTTGGTATTGAACAGCTCATTTGATTTGATATGGAAGTGCTGCAC
+CCGTATTAATTATTGGCATTACCTAAACCACAGCGAAATGAAGGCAATACCGTCTGTTTC
+GATAACCATGGGTGGGATTTATACAGTACAAGATGGATCAAGTTTGTCGTAGGCTTCGTT
+GAGTGGCTGAAATCTAAAATAGTCACGACATCGCAGGCGCTCTTGTCTCCCAGCACGCAA
+CAGTCTATGATCCATCCAGTAAGGGGCTCAGGTTACATTTTCCCGCCCTGCACCCATAGC
+TTAATGTACGATGACCCAAGTGATGAGTAAATTTCATAAGTCGAACTAACCAGCCGAGCC
+ATTCCAAGTGCAGGCGGTGAAACATTTGTCTCGTACAATTTCTCCACCACTGAATACCCA
+GACAGCTGAGAATGGCGAATCTGTAGTGTTCATTTTTGCGAAACCCACGTAAACCTTCCA
+ACCAGCCAATAAATCTCTGGTTCTCGCGCACTTAAGATTCCAATAGTTCCGACATTCTGC
+AAGCCGTGCCCTTGCTTCTATATGTAGTACAATAAGGGGCCGGAAAAAAAGGCATCTGCT
+GCTTCCGCATGTATTCTGACATGATCGACTTGGCAGTGAATCAGATCTCTTGTATGTTCA
+CCGACAACTGACTGGTCACCATGAAGATGTGCCATTGAAGTGCCACACAAAGCGGTATGC
+ACAAGACGATGCAGTGGGAAGGCTGGCTGGAGTTTGATGCACCGCATACCCCTTGCGAAA
+CATATGCAATTACTCCAGCAAGCGTAGAGCATAGTTTTGGCAGTGCGTCCAATAACTTCA
+AGATCACGGCCCGTGATGTATGTTTCAGAGGGAGAGACCGGGTGACCGTATTCAAGCAAG
+CACCACATTCCATCTGCAAGCCATGCTCATACATGGGGTGCTCATACATGGGCAAAGGTG
+GTATGGACAGCTCCTCGACTGGATATCCTGCTGTTGTCCCCATCAGCTCCTGCACACGTC
+GGAATAAATTTACCCCTCTCCCCCAGTCCCAACTATCCTCTATCGTGACCCTCCATCCCT
+AGACTTTCAACAACTGAGAAAATACCTACCCACAACCCGAGACCGAGAAATCAGCCATGG
+GCACACATGACATGTCCCCTAATGCATCCCACTCGTATATTTACAGAGTGTTGAGTGACA
+TTTTGGAGTTCCCCGATAATGAACAGCGCATGTGGTGGCATAGCGTGGCACCGATGTTTG
+CGGAGATGCTTCGGGCTTGCGGATATGATATTCACGAACAGTACAAGATCTTGGGCATCT
+GGAAGAAGGCTGTCATTCCATTCTTAGGGTGTTATCCGACAAATGACGGACCGCGGTGGT
+TAAGCATCCTCACGCGATACGGGACTCCCTTCGAGCTGAGCCTCAACTGCTCCCATCGTC
+TTGTACGATACACCTTCGAGCCAATCAACGCTGCAACTGGGACAGACAAGGATCCTTTCA
+ACACTCAAGCAATCTGGGAGAGCCTGAGCCAGCTCAGACGTTTGAACGGGGACGTGGATA
+CGGAATTGTTCAATCACTTCAAAGCCAACCTTACCGTGGACAATGCGGAATCAGCGCATC
+TTGTAGAAAGCAATCTGGCCGGCTCCAAGATTAGAACGCAAAACAAGCTGGCCCTTGACC
+TACAAAACGGAAGTTTTGTGGTCAAGGCCTACTTCTACCCCACCCTCAAGTCTGCGGCAA
+CAGGACGCTCCATCACGGACCTGATGCTTTCCTCGGTGAGGCAACAGGTTCAGAAATGGT
+CCCCCACTCTGGCGCAACCCTTGTCTGTGCTGGAGGAATACATAGAGGCACGGGGACCAG
+ACAGTACAGCTTCCCCGCGACTTCTTTCTTGTGATTTGATCAACCCCGAGCGTGCGCGCA
+CTAAAATCTATTTGCTGGAACGGCAGGTCTCGATCGAGGCAATGGAAGACTTGTGGACTC
+TGGGTGGTCGCCGGAAGAGTGACTCGGCTTTGGCCGCATTGGACATCATCCGGGAGATCT
+GGAGCCTTATCCAGCTGCCGCCATGCTTGGCCTCCTATCCTTCTGGCTATCTACCTCTCG
+GGACGGTTCCGGACGAGCAGCTGCCCCTAATGGTTAACTATACGCTGCGACCCGACGACC
+CAATGCCGGAGCCTCAGGTATACTTTACAACATTTGGGCAGAATGATTTGCACGTAACCA
+ACGCGCTCACAGCCTTCTTCGAGCGCCAGGGCTGGACGGAGCTCGCTGAGTCTTACAAGG
+AGAATTTGCGTGCCTATTAGTACGTTCCCTCTATGACCCTTTCTTCGAATACCCGTATAG
+CGCTAATCATAATGACTATGACAGTCCACACGCAGATCAGGAGACGGCCAACTACATCCA
+CGCTTACGTTTCTTTCTCCTACCGTAAAGGCGTCTCCTACATGAGTGTGTATCTTCAGAC
+GTTGGAGACGGGCGACTGGCCTATTAGTAAGTTCCCCGCAGCTCACCCAATGCCACAAAT
+AACATCGTTGTGCTGACATTATCCAGCCTACTCCCCCAAGCGGCAATACCTCTGCAATGA
+ACATCCCATCCATCTGAAAGAGCTCGCCAAGGCTTGTGCCTAGCATGTCCGAGGAGAAAG
+CAAGGAGAAGGATCGAGCGCGACCGTGTTGATGCTACGAACTGACTGACTTTCAAGGCAA
+AGGAGGAAAGTGAGAGGTTGAAAATCGAACTATATCGAATACTAAGGTTAAATTTATAGA
+TTATAGGGTATTTAACCCGGGATCTATGTGATTACTAGTACGAGGGAAGCCATACAAAAG
+TGCATATCACAATCTGTCATTATTCCTCTTGAAAAGCCTTTCTCCTTGTTATTCAAGTAG
+TTAGAGAGTTCAATGCCACTGAGGTTACCTGTGCACTGTCGCAATACATATATCTGTGAG
+TTATATGCCCGGCTTTAATCGAGGATATGCTTTAGTAAATAATCATGTGCATGTATTCAT
+GACGCCTAAGTCAACTGTATCTTGATACAATTGACTTCAAATGCCTACAAGATACAAATT
+ACCTCGGGAGATACTCTAGAACGTACAATAGATGCATACCTTTTATCAAATACTGGCATC
+GAACATATCTAAACGCATGCATATGCAATGTGTGCATCAATAATTGAATAATACCAAGTA
+CTCGCGTCGAACATATCTCTCCACATGTATACGCAGTGTATACATCAATAATTGGACAAT
+AATAAATATCCGCATGACTATAAGCATCCGAAAGCTGATAAATCATTGGAGAACGGAGAA
+GACACAGAAAGTGTAACCGACCAGGGCTTGTAAACGTCACATGTTGACCACGTGAGCACC
+CCTGTTGCATCGCCACGTAGAACATCCCATATCTTTAAGTTTTTGATAAATTCTACGTCC
+GCTTAGCTGGTTTCACTCAAGGCTGGCTTCAGCCCTTCACATATCAAAGGCTTCTCCTCT
+TACGAAAAGAGATCGAAGGATGAAGATTAAATTTTATGTTTGTACATATTAATTATGTAA
+AATATTTCCTCCTGCCCTGAGCTCAATATTTTTTACCTTACACTGCGTTTTTGGTGGGAT
+GGATAGTGATTGAATTGGATGTATTAGAATAAATACGTGCTGGCATAATTAAAGAACTAT
+TCCACGGCACTATTTCGACCACGCCCCTAGGAAGCAAGAGTTGTCGTTAAATTCGAAGGC
+ATTTCGGACTGGTGCGGTAAAGGGGTGATCTGCAATGTACTGCTAAATGAACTAACATCC
+ATTGTTGGCCTACAAATATCCGACAGCAAATACTGTTAATACTTTTTGGCTATGGGATAT
+TCTCTCAGGTACTTTCAGAACAATGGGTATAATTATTTTTAACAAATGCTTGGAAGCCAG
+AATTCTTCGAGAAATATCGTTTCGAGACATCGTATGTGTTAAATTGTGACCACAACCTTG
+TTGGGTCTAGATTGAAAAAGGCTATCATTTTGACCATCGGGCCATGGCAGCCGGCTGTTG
+TGATACGCACTCATATTTGTTATGCAAGAAGGTATGTTCCGATATCTTTCAGCTTCTCCT
+TCTGATGCTTCCCACTCGCTGTTTTGGGAAAATCTTCGCCAATTCCTGCGTCTCCAATCC
+AAAAGATTGCTTCCGGCGCCTTGTGCCATCCTAGAAGTTCTCTCACCCAGGCTCGGACTG
+CTTCATCGCTTGGTCGCTGCATATCGACGTATTGCTTTAAAAAGCAGCCGACAATCTCGC
+CTCGTGTTTTATCTGGAAGACCGACGACACTTGCTTCTTGAATAAACGGGTGAAGAATAA
+GTCTCTCTTCAATTTCCACGGGTGAAATATTCAATCCTCCTAGTCAGTTCAACTATTAGG
+TCAAGTCCAGAAGAATAGTTGTAGCATATGTACTTACCGCGGATGATAATGTCTTTGATC
+CGACCCGTTATGGTGCAATGATCATCTTCTCCAATAATGGCCTCGTCACCTGTATGCAGC
+CAAATGACTCCATCCGCATCGCGTGTCATGATCTCGCTTGTCTTCTCCTCGTCCTCCCAG
+TAGCCCTTTTGAAGAGGTAAGCCGCTTATACAAAGCTCACCTTTTTCACCCTGCTGCACG
+GTTCTCCCCCACCGATCCACAATCCTGGCATTGGTATGTGGCAGTACTTTGCCAATTGTT
+CTCAAAGAACTTTCACTGCAAAGACCCAACGGAGAGATGAATGTTGCTGGGCTAGTCTCC
+GTCATCCCATATCCGTTTAAGAAGTACTGCACCCCCATATCTTGGCAAATCTGAGTTATG
+AGGGCGTATGGGACAGGGGCGCCACCGGCAATGGCTTTCACCATGCTTCTTGGCTTATGA
+CCGCGCCCTTGCAATTTCTCCAGCACCGCAAAGAACATAGTGGGTACACCATAAATCACG
+GTGACATCGCGGTTTTGGAGTACATCCACCACAGCATCTGCACTAAATTTCTCCGTAGGG
+AACAAGATCAAGCAGCCACGCATGAAGGAACAAAGGAATGCGGAGACGAGACCAAAACTG
+TGGCAGAGCGGAAGTGGGGAGCAGATGATATCCGATTGTTCGAAATCACAGGCACGTGAA
+AAGAAATGGCTATTGTTAACCACGTTTCTGTAAATACAGCGGGGTGATATCCCATAGATC
+AGCTTGTTGGGGACAGGAATAACTTCATAGATGAACTCGTGCATACCTGTGGGTTAACAC
+GGCGGCTTTGGGATTTCCGGTAGTACCTGTGACGAGTCAATTATGCCATAGTCATGTAGC
+CGCGATTGATAGTACCAGAAGTAAACATAAGACAGAGTATGTCACTTGGCTGTACTGCCT
+GCTGCGCTGATTTGAGTATTGAATGATTATCTGCGCCTAGTAGAAAGTGTTGATATGATT
+GAATTCCTGCCCTGCCCCTCAAGTCACCCATATCTTGTAAAAGAATGATTTGCTGGATCG
+GTGAAACAGAATGAAGTGGAAAAGACAGTAAATCCATATATTTCGACAAAGGCGTGGATC
+CCGGTGGAGGAGCAATGAACAGCAACTTGCACCCTGGTGTTATCAGAACCCAAACATAAT
+GTCTAGTAATAGTATTGCTTATTACTTACCACTTTTTAAAACAGCCGCTTTCATTTCCCC
+AGGGGACATGTTTGACTGTAGAATCACAGCAGGACATCCTATTCTTGCGGCCGCCAAAAA
+CACATCCAGGAATTCGTAGCGATTTCCAGTTAGGATACCTATTCTGTCCCCATGACAGAG
+ACCAGCGGACAGGAGGGAAATGGCCACTAGTTTGCTGGTCTTGGCGAGCTCAGAATAAGT
+ACGTCGAATTGACTGCCAGGGAAACTCTACAGCAGCTTTATCCCTGTGGATATCACTCAG
+TTCATCGAGAAGATGTCCAAGAGTTGTCTCCAAAATTGTAGGTGTTTTGTCACCATACAC
+TATGGCAGGTCTTTTCATGGAAGGAGGAAGCTGGGGCGACTCCATGGTTCTCGTGACCAG
+TTTAGACAAAGATGATTCCAATTTTCAATTTAGTAAGAGTGGAGATGGCCTGGTTTTCAA
+CTTTATTGCGGGGATATCTTTCTGACTCAGGTTGTAGGTAAGGGGCTTAGCTGAAATCAC
+GTCGGTATGCGAAACCTGCAAAAGAAATGTGTTTGAAAAGGCCGTGCGTCATGTGTGTCA
+GCTGCTACTCCATCTTTTGCAAAAGATATTTTAATGGCTTGAAAACTGGATTACCGACAA
+TGTGGACCTCAGCTGTGTACACCGTAAGGGATATAGCGTCTGATGTATCATAATATGGGA
+GATCTGCTATATATGAAGTAGAAACTCTGAAGGTGCTAGAATATCCTAATTACGTGAGGT
+GCCGATCAAAATTCATATCTGATGTATCAGGTCGGATGAGTCCGATTGATACCTTGCTAG
+TAAGGCATCATGTTCCAGCTAACTTGGTTAACTAACTTACTATTGCATGAATCTCAACAC
+CTTGCGAAATGTCTCAGCATGGTCCACCAGTGAACATTCGTGCAGCATACAAATTGGAAC
+TCACACGGACCGTGCAATTAGAACACAAATGACATCACTACTGCCTCCCCTTCGCCTCGC
+CTTAATAGGCCCCAAACCTAATATTCTTCGGCTAGCATGTGTTTCATCAAGTATACTTTT
+AATCAAGTGCAAAACAGGTGAGGCGAGGTGAACAATTCGATTCGCCTACGTAGCTGACCT
+ACTTGTGCAACAAAACATCATAGGCGAGGATACAATAGTTCAAAAGGAAGATTGGCACAA
+CTAGAAATAGAGTCGCAGAGGAGCAGTGTACGAGAAACATTGTCAAGTTACTAGCCCTTA
+CATACTCCTATCGCCCACTAACAGTGAAGCTCCAGTGTCCTTCGCTAAGGTAACTCGCTT
+TGCGCAATGATCCACTCCATAGCACACAACATCTGGCGCACCTCCGGTCCTGATCGCGGA
+ATATCATGTCCGGACTTATGTTCGAATACCCGCAGTTTTGGCGAGTCAAAAAAGGATTGG
+ATCAAAAACCCGCAATTCCACAGGGCCTTGGCGTCAGTAGTTCCGCGCACGTGGAGCGTC
+GCAACAGGCAAGCGGGTCAAGCACAAGTCTGGGTGTAGAGCGCACGGAACATCTGGCAGT
+TCCCGGTCCAGGTAGAATCTTCGTGGTTCCTGGGTGATTGTCGTGCTGGCGTCGAGGATG
+TCCGTTAACATGGTCATGGCTATTCTGGCTCGCTCTGGAAGATCCGAAATCTGCGTGTCC
+TGGCAGGAGCGAATGCGTGACTCATTATCTCGACTGAGACAGCCCAATATACGATGACAG
+TACTCCGCATTACCCGCAAGAGGGACGACGGGCGAGCAAAGAATTAGGAATCGGAAGGGG
+AGAGACTCGTCTGGGTACGCCGCTCTTCGCTCTAGCAGATACGAGACGATAAGAGCTGCC
+CCCTGGCTAAAGCCGAAAGCGCCATCGAAAGGCCCATATGTGTGCAATGTCTCCTCTATG
+AGGGCATACGAATCAAGTTGACTTCCAGGATCAAAAAGACGATTATAGCAGGCAAACGGA
+CCAGGAAATACCTTTTCAATCCCTTCAGGACATCGTAGAGTGTTAACCCACATCGGTTGG
+GACGTGCATATAACATCAATAGAAGGTTACATACCGGGGGCAGGCGGGCAATCTACCTCA
+CCGGAGAGATAGTGGAACTCCCAACTAGGATCACACCCCTTAATCAACCCAGACATTTGA
+TACCTCAGCACGTCCGAGCTTGCTCCATGACCGTGGAGGCAGAGGATTCGCATATTGGTA
+CAGCAGCTGCTTCAATAACTAAATCAAGAAGCGGCCAAACGCCACAAATTTGTATAGAAG
+ATTAAATAGACGGATATGTGGGGGTATGTTTCGGGATGGCGGACAAGTTTTATTGAAATA
+ATATAGTAACTAAGTACGGAGAAGAACAAAAATGAACAAATGAATTAAGTGTTAAATCAT
+GCTAATCTTCCTTGTCGGCAGCTGAAAAGTCGGTGAAAAACCTTCCTCGTTTACTTTAAA
+CATATTGTGACACATGATATTTTCGGAACCAGCCCCATATAAATCCATGCGCTATTGTGG
+TGCTATAGGCAAGTATGGAGTACAATAAAATCAGATCGTGAGTGGTGGGTACCTCATCAT
+GCATATACCCTGGGCCAATGCTTTACAGTACTAATTTCTTCTCCCGTTTCTCGAGTGGTC
+TCCGCTTATTCTCCTGGGGCACGCTTCACTACCGGGAATGGAGACTACTTTGTAAAGGGC
+GATCAGAAGGAGAAAGAAGAATCCTGTATTGCCCTCTAATAGGCGGGAGTATATCCCTCA
+GGTCCGACAAAGAAACAAAAAGAGATCTAGACAAAGCATATCGGCATGAAAGCATCTAGA
+TGCGCCCATTAGCGATGTAGCAAATTACTACGGAGTACTCCGAATGGGATATGCAGGAGG
+AACCATATGTATACAAGCAGCACGGAGAATGTCAGTATTGGGTAGCATTGCAGATCAGTT
+GATCAAGCTCAAACTAAATAGAGAGCCCTTGCAGGTGAAGGAACGCAGAACAAGTGTCAG
+CTTTGTAAAAAGTTATTCATGCCGAGCAGGATTACTCCGCGCTCTGAATTCAAATCCTAG
+GGACAGAATATATTCGGCTCTACTCATTTCTTCTAAATCAAAGGTTACAAAGAAAGTTAT
+CTCGGGGGGTTCTACCAGCCATGTCTACTGAAACCCAGCCAGAGATGGCCTCCACGCCCC
+CGGAACCCATTGCAATTATTGGAATGAGCTGCCGGCTTTCTGGTGAAGCCTCATCCGTGG
+ATGGCTTCTGGGATATGCTGCGAAATGGGCGGACAGGTCATGGTCGTGTGCCGTCCAGTC
+GATATGAAGCATCGGCCTGGTACCATCCCAACCAAGACCGTAAAGGCGGAGTATGCTCCA
+AACCCAGGCGAGTCTAACAGCCTAGAACTGACCATAAAATTACTCAGATTAATCACGACA
+GCGGGTTCTTCCTGGAGGAGGATCCCTCTCGTTTCGACGCCCCATTCTTTTCTATCACCG
+CCAAAGAGGCAGCCGGCATGGATCCCACACAGCGACTTCTGTTGGAAGTAGCCTATGAGA
+CCTTCGAGAACAGTACGCGTTTACAAGTCCCCTTTCCATAAGTACAAACACATCTCATAT
+AGTATCACCACAGGTGGAGTGCCGATGGAGTCCTTGCCTGGTAGCCGCACCGGAGTATTT
+ACCGGGTGTATGACAAATGACTACGAGCTGCTCTCGACTGGAGACCTTTACAATATGCCA
+CATAATGCAGCCACTGGGAATGCGAGAGCTATGCTGGCTAATCGCCTGTCGTGGTTCTTC
+GATCTTCGGGGTCCTAGTATAATGCTCGACACGGCATGTTCCTCCAGCTTGACGGCCCTA
+CACTTGGCATCCAAATCACTACGCGATGGGGAGTGTGAGATGGTGAGCCTTCCTACTTCC
+CTTATCGTAGATCAATTAATGACTAACACCCCAAAGGCGCTCGTTAGTGGCGCTAGTTTG
+ATTCTACATCCCAACTTCACACAACGACTTTCCTCTATGCACATGTTGAGCCCAGATGGG
+ATAAGTCACTCTTTCGATGCGAGTGCAAACGGCTACGGCAGAGGCGAAGGATTTGCTGCA
+GTACTATTGAAGCCATTGCGCACTGCACTCGCGGACAATGATGCTATCCGTGCCATCATC
+CGCGCCACTGGAATTAATCAAGATGGGCGTACCCCAGGAATCACTATGCCAAGCCGCCAA
+GCACAGGCTGGCTTGATCAGGGCGCTTTATGGCCCGGGGTTGCCATCTTTACAAGAGACA
+GCATTTTTCGAAGCTCATGGGACAGGCACTAAGGTTGGCGTACGTAACCCTTCAGATCGT
+GATAGGCCAGATTCCATGAATGTTCTTTGATATACTGATATGCTTATTGGCCTAGGATCC
+GACAGAGCTATCAGCAATTGGTGAATGCCTAATGGGTGCAGAAACCAGTACAAACGACCG
+TCTCTACGTCGGTTCGGTAAAGGGTAATATTGGCCACACTGAGGGTGCGGCGGGTGTGGC
+AAGTTTGATCAAGGTAGTGCTCTGCCTAGAAAACGACATGCTAGTCCCCAATGCCGGGTT
+CTCCAAATTGAACTCAAACATCCACTTAGACAAGTGGCTTTTACGACTCAGTGATAAAAC
+CATCCGCTGGCCGTCACATCTTCCCCGGCGCGCTAGCATCAACTCGTTTGGCTTCGGCGG
+CTCCAACGCTCACGCAATTGTGGAAAGTGCTTCGACATACTTGGAGCGTCCAGCCGCACT
+CTTAAGTGGATTGGACAAAGGCGAGCCGCAAATTGTGGTCTTCTCCACACACGACAAGAC
+TGGTATCGACCGAGTGGCCGCGAAATGGGGGCCCTTTCTGCAGGCCCAGATCGACGCCGA
+GCAGAATATTTCATTTCGAGACATTGCATATACCATGTATGCGAGACGTTCACAGCTTTC
+GTTTCGTAGTTTCGCAGTGGCTGGCTCGCTGGGACAGCTGCGTGATGCGCTACAGCAAGG
+CCTGCCGCACTTCCTCCGAGCGAACGGAACCGCCCACGCCAACCTAGCCTTTGTCTTCAC
+CGGGCAAGGAGCGCAGTGGGCACAAATGGGTGTGGAGCTGTTGCAGGTCACTAGTTTTAG
+AGAAAGCATAACCCGCAGTGAGCAGATTCTTTCAAGTCTCGGCTGCCCCTGGAACCTATT
+CGAGGAGATACAGGTAGAGGCCGCTACCTCCCGCATGAACCAGCCGGATCGGAGCCAGTC
+TATCTGCTGTGCGCTTCAAATAGCCTTGGTCAATCTTCTGGCAAGTTGGGGAGTACACCC
+AAAGGCCACTGTAGGCCATTCTAGTGGAGAAATCGGTATGATAATGTTTTTTCTACGCTT
+CTAGGCTGCGTTTCTTAAGGATATAATGCTAACGTCCAGAACAGGCGCAGCATATGCAGC
+AGGTTTTATCACGCAAGAAGATGCGATTCGCATTGCATATTTCCGTGGTCTATGTTCTCT
+CCAAGTTGCCTGCCATGGGCGAGCCGGGGCTATGCTGGCTGCCAATCTGTCTCTTCCTGA
+TGCTCAGACGTATCTTCAAGGCGTTCCTCCACGGTCCGTAGTGGTGGCATGTGTGAATGG
+TCCCAAGAGTGTGACGCTATCAGGGGATGCAGACCGCATTGATCAGCTGGAAAAGCAGCT
+GCAAGCCGATGGCCTTTTTGCACGCAAGCTGCGAGTGGAGACAGCGTATCACTCGCCGCA
+TATGAATATGGTGGCTGAAGGTTACAGACATGATTTGCAAGATATTCAACCCGCAAAATG
+TGGAGAGAGCTCTATAGCTATGTTCTCATCTGTCACCAAGGAACGTGTTTACGCGACGGA
+CATGACGGCGGATTACTGGGTGCGCAACTTGGTCAGTCCAGTGGAATTTCTGTCTGCCGT
+CACTAGTCTAGCGAACATGACTGAAGCTAGTCAATATCGCCACCGTGCGGTAGCCGTGAA
+ATGGAGTGCATTCCTTGAAATAGGCCCACACGAAGCATTGAAGGGGCCATTTCTTCAGGT
+ATTGAAGTCTATAAACGCGGGGTTGAGTACAGTGCCTTATCATGCCTTGGTGCGACGACA
+CGCAGACGCGCTCCAAACAACTCTCAATGTTGCCGGGCTTCTATGGTGTATCGGTATACC
+AATCGACATAGAGGCAGTCAATTCTAGCATCAACACCGCAGTACCACAGCTTATGCACAA
+CTTACCGTCGTATCCATGGAATCACCAGGGTTCTTTCTGGCATGAACCAGTGGCATCAGC
+CCGCCTTCGCAAGCGCAGGGAGCCCCATCATGATTTATTGGGGAGCCCGATGGATTTCCA
+AAACGACACAGAGCCACGCTGGCGCAACTTCTTGCGGGTGTCAGATATACCCTGGCTGGC
+GGATCATGTTGTCGCCGACTCCATCCTGTTTCCTGCTGCTGGTATGATTGTAATGGTGGC
+CGAAGCTGGCCGTATCTTGGCAAACACGTCGCTGCGCTTAGAGGGCATTGAATTTAATGA
+TCTTGCATTCCTGCAAGGCCTTGTCATTCCAGATGACGATCGTGGCGTTGAAACAGTCCT
+TCATGTGGCTCCGTATCACGAATTAGCAGAATGGTATGAATTTACCCTCTTCTCGCTCCC
+TGAGGACGGACCTTGGGTGCGACACGCGACCGGAACTTTTACCCTACATTATGATGCCCG
+TGGGGTTCCTTTGAATGTGGAGGAATGGGGTCTTAGTGTTGAGAGGTTCCGAAAAATACA
+AACCGCTGAATGCGAGACTAACCGCGATGCCGTCTACGAATGGTTATCCCAAACCGGTGG
+CGTCACCATGGGGCCTGCTTTCCAGTCTGTTTCTCGCGCTGCCTTCTGCACGGAGGAGAA
+CCGGCTTTGGATCGAAGGAGAGGTGACGGATACCCGGACTATGATGCCCTCCGAGTACGC
+ATCGCCATGCTTTATCCATCCAACCTCGCTCGATACCCTCTTCCAGGCTGCCGTCCTGTC
+CTGTTCGGATGCTCTTGGCAATCAAAATGCTAAGATCCCGGTTGGAGTTGATAGGCTTTA
+TCTATCTACTACCTGGGACCTCCAGCAAGGGGACTATTTCTCCGTGCACACAGAAACTTG
+TTTGAACGACGGTGATTCGCGATTGGACTCCATAGCCTCTGATGTATCCTGGTCGCAGCC
+ACGTGTCGTGCTCAAGGGGGTCCGCCTTGGCCCTGTACCCATGAGCAAGGTCCCTTCTAC
+CTCTACCACAGCGGGTGTTGACAGTGGTACAAGTCGGTTTTCCTCTATTGTCTGGGCACA
+ACATCTGGAGTCGCCGACCTCTCCCGCACTGGCGGGGCATGATCGGGACGGCCAGCTGAC
+AGACTGGGTACGGGATATCTGCTACACTTATGGGAACGCTTGCGCTCTTGTCGTCACCCA
+ACCCAGCTGGAAAAGCCCGGCAATGACGAGTATCCAGACTGTTAGGCCGCAACTTGGGTC
+ACGACCATGCTTGCAGGGGCTTACCATCGTCATCGTAGGACTTGACAAGGCAGCAGATGA
+ATTTGCAACTGCAGTCACACGCTTGATGCCGGGTGCTCAGGTGAAGCAGATAGCTGCACT
+GCAGGACTTCAGCCCATCCACCTTTAATGAATCTTTCTTTGATGTGGTTCTCGTGGACCA
+ACCATGCATCGGAAATGCAGCGGATGCGGATGTTCTTCTTACGTCGCTCAGCTCTACCAC
+CAAGCAAGATGGGGTGCTCGCCGTTCGCACGTATGACAGTCAGCTCGATCCCATGGACTA
+TATTCAGCGATCATCCGAATGGAAAGTAAGTGGCCGGATTCGGGATGGAGACTTTTTACT
+CGCCCATAGGCAGAGGATTCCTGCACCACTTGACTCTACCATTTTTGTGCTCATGCCGGA
+TACTGAACAAATACCACCCACATTCAGAGTCGCGTTGGAGCGCGCTCTCTCCGCTGTGGG
+CGTAAAACTATGTCCTGTTGATGTGGAGGACATCAATGGCCTCGCCGGCAAGATGGTCAT
+TTCTTTGCTCGAGTTCCGCCATCCATGGACATCTAAGTGGACTTCCGTCGCCATGGCACA
+GTTCAAGATGCTCTTAGAAGCCAGATACATTTTGTGGGTCTCACCAATCCCCATTCTGTC
+CAAGGATGCCTCTGCAGCATCTTTTGGTGCCTCCACGGGGCTTCTCCGCACCTTGCGCAA
+CGAGCAGCCCGGTGTGACCTTGCCACAAGTCCAGTACGACCCAGATGACCCAAACAGTGA
+GACTTCACTGGCACAGGGTATCCTCCAAGTTATCCAACTCACACTTGTTCCTGTACCCCA
+TAGAAATCATGACATGGAGTACCGGTTGCAGCATGGTCGTTTGCTAGTGCCACGAGTTGT
+CTCTGAAGCTGTTGTAGACGACAAGATGCAAACTTTGCTACATGGTCCACGGCCAATTCT
+GGCACGCCTTGCTGACGACCCTCGCGCACTACGCTTCCATGCGGGCTCCCCAGACGGTCA
+TGGTGGCCAATGGGTAGAGGATCGTCAGCTGGTGTCTGACGTACCAGACGACCATGTGGA
+GGTGCAGCTAAGCCTTCGGAGTGTTGTGGCACGCGGTAGTAGAAATTTCAATGCCCACGA
+ATCGCGGCTGTCGGTTGTCGAAGCCGTTGGCGTTATCAGGAAACTTGGCTTCGCAGGATC
+TACCGATCTCTCTGTCGGCGATATCGTCGTACTACTGGTGCCTGGAGCAGGGACAGTGGA
+CGGGATGTCGAACCGCATTCAAGTATCATCCAAAGCTGTTGCAAAACTGCCCGCGCAATT
+GACATTAGCGCAGGCAGTGACCGTTCCTCTGGCTTACATTCTGGCCTACACGAGTCTGTT
+CGACATCGCTCGACTTGGTCCTAACTGCAGAGTCCTTCTTGTCGGGCCTGTGGGTCCCAT
+ATTAAGGGCTCTTCTTAGCTGCGCTCTGGAGATCCGGGGGATGCAGGTGTATGTGGCCAC
+CGAGGAGCGTGCCGTTGTTGAGGAACTGGTGGCACAGTATGCCATCGCCCCAGAATATGT
+TCTTAGCATTCATGGTGGGCTTGATGGTCGTATCGCTGATTTGACGGAGGGAAAGGGGGT
+GACTGCAGTTCTCTCCTGCTTAGGTGGCTCGAGTGGTCGACTTGCCGCGCGCTGCCTAGG
+ATCCGGAGGTCACTATGTTGATCTTACCGGCGAGATGAATCTGGCAGCCCTGCCAAAAGC
+GGTCGTTTCTCAAGGCTGCACGTTCACCTCCGTAAACCTGAACTCTATGCTGCAAAACCA
+GAGTGAGAAGGTCTACTCATCGTTCCGTCGCGCAGTCGCTACTATCGGACTGCATCACCA
+GATCCAGCCTACTAGCATCTTCCCAATTTCCAAATGGGCTGAGGCAGAATCTTTGGCCCG
+GCAGACAGGAATCTCCGTGGCCATTGACTTTACCGACCCCGGTCAGGTTCCCGTGGTGCC
+CGCTTTGCAAGAGCCAGTCAATTTGCCTCCGCAGCAAACCTACCTTTTGGCGGGTGGTCT
+GGGCATGATCGGCTTAGGTTTTGCAAAGACGCTTGTCGACAGTGGTGCACGACACCTCGT
+GATCCTTTCCCGCTCTGGTGTACTTCAACCTTCGCAGAGAATAGCAGTTGCCAGTCTTGC
+CGATCAGGGCTGTCACGTTGAGATCATCCGCTGTGACATTTCCCAGGAAGCGGACCTTCA
+ACAAGTTCTGTCACAAGTTCGCTCTCAGAACTGGCAGTTAAAGGGCATCATACAATGTGC
+GACAGTTCTCAAGGTGTGTAGTCCCGTTGTTGCCCTCACTTTCTTTCATCTCCTATTCGG
+TTGACAATATGAATTAATGTTTATTAGGATGCTGCGTTTCACACAATGACCTTCGAAGAC
+TGGGCCTCCTCCACGAATCCGAAAATTCTCGGCACACTGAATCTGCATAAGGTTTTCGTC
+GACGTAGACTTGGATTTCTTTATCACTTTATCATCTGTCTCTGGCTTGATTGGCAACATA
+GGTCAAGCCAACTATGCTGCCGGCAATGTCTTCATGGATGAGCTGATGATCTGGCGACGT
+GCCCATGGCCTACCAGGGCATAGTATAGATATTGGACTCGTTCCCGACGCCAGCGGAATG
+AGTGATATGGCGGAGACCGCCGAAGTCCGTCGCTCCCGCTACAGCCATCTAGAAGGAACA
+GAAATCACCCTTCGCGAGCTGCAGATGCTGCTACGGGTCATTATCCTCGGAGACATACCC
+GTCCCAGTCCAGATCATTGCTGGAATCACGGATGATCTTCCTCGTGAGGGTGCATCTTCG
+TGGCAATATGATCGCAAACTCGATCATCGAGTTCGCCTTGGTCATTCTGAGCCCGATAAT
+ATGCCCGCTCAGATTAGCGAACTGCTCAAGAGTTCACCTACCATTGAAGACGCTTCCTAT
+GTCGTTAACCAGGCGTTGAGAGAGTACCTGGCCAGTGCGATGGCCACGACAGCGGATACG
+ATAGATTCAGACTTACCCTTGTCGTCTCTAGGTGGTGAGTCAACAAATCCAAATCCCTGT
+GAGCCTTGTAAGTGAGATGCTGACGTTAGTAGTGGATTCGCTCAAGGTCACTGAAGTGCA
+AAATTGGGTGTCGCGTAAGATGGGAGCGCAGCTATCCTCGTTTGATTTCCTAGGAATGCA
+GCCTCTTAGGGTCCTGTCGGAGAAGATTGCTGCACAGAGTGCTTTTGTCACTGTTTCATA
+GATATGTCACTGTTTCATAAATATATGTGCAGGATCTGTCGTTATAGATCTCATACAGAA
+ATCGGTGTGCCTTTTAGTCGAGATCAAACAAAACTTGTTCCGTCCTGTCACTGCGATATT
+CAATACTTGCTTTCGGGCACACTCTCTGTTACTCACTGGCGGCTCCAAGGAAGCCTTTCC
+TTCGTCCCCCCAAGCACCCACCGGCTTTCCTAAAGAGAGTCCGGCAGAACACTCTAAGCC
+TGATTGTGGCTGGCGCAATACGTATTGTGGTGCTACATAGCCCAAATTGTTGGTGAGAGA
+ATTTAAATCAAATTTTCGAAAATGATTGCAGTAAGATATACAGGTTTGAATATTTCAAAC
+TAAAGGGTCCGTCTGTGGAAGGGATTTGTGGTATACGAACAAAAATGACTAAATCTGTTC
+GGGCCCTAACAGATGTTGGGGCCTAATATATATCCCGCAGCAAAGACAACTATGTTGTAG
+AGATCTTCAGTTCGTAATGCAACAGGAGTAACCAAATAGCGGCTTGATTTTCCTACGTGA
+GTATGGCATCCGATAATGACGTAAATGTTTTCGCATTGGATTACACAAACTCCTTATTCC
+ATTCCAGCCCTACACTGTTGCAGCGAAGGCCCTAGAAATCGCGAGGTTCAGCGCCCAAGC
+CGAGTATTACTGTATGTTGTGCTAGTATGGTATGCGGTCAAACCAGGGTTATAGATCTCT
+AGAAGGAGCGGTCTGAAATCTTTCAGGTGGAAGTGCGTTGTACTGTTGTACATACCAATA
+AAAGTACCTTGGGGCCCTTGCCTCAAGCTGTACAGCTCACATATGAGCGTCGTGTAGTCT
+AAGATCGACGAAATCTGCACGCTGGAACCTCAGGCCCGCTCGCCCACAGTCCAGAAAGGG
+CTCGAATACCTTCGCGACCTGTGGACGTGCATCAGCATCGCCGATCGTCATTGTGCGTTT
+ACGGAGGGTCTCTGACGACGGCGCCATTCCACGCCGACGCCGATGATCTGGAATTATGAG
+ATCAGGGTTCACGATCTAGTCTCTCTGACCAAGTTTTACTTTTCCAACCATGGGGAGTCT
+GACCACCGAGTTGTGCGGGGGCTGCCATCTTCCTCATTAACATCGGCATGGCACTGTACG
+GGGAAATTGGAGGAGATAGTCCGAGGGATACAGAGTTCGCCCTATTGAACATATCGTTCT
+ATCGATTTCCATGCTACCAATGTAGATAAATTGACGGAAATCAAGGTGTACAGCAATGTA
+TGGTAAAAATGACAGATGTGTATGACTCTAACTAAAATGACGGATTTCCACCATTTGACA
+ATTTGTGCGGATAATAATGACTAAGCTTAATATGCACTGTCACAGCGGTCCGTGTATTTT
+CCGAGGTGTTAAATACCCGGTTCCCAGTCATGTATTGTAACCATGTATTGTAACAAAGCT
+TTCGACATAAACTACTCTGGAGAACAGCGGCTTTCTCTAGTTTCATTCTTCTCGATCATC
+CTTGAACTGCCTGGTGGGAAGTGCTTTGTGGCTCATAAGTATCGGATCCAAGATGAATAT
+AGATACCCTGCTACAGATGTATGTTATATCTGCGCTTCAACTACATGCTCTCCTTCATTT
+GGCTTCATACCACCATCGTCCTCGCCCTCCGGTTGCGCATTCGGGTCTACCACTAGCAGG
+GGGTCCTTCTTGTCGACCCAACCCTGAAACAGCTTTGAAAGGCTATACCCCATAAAGCGT
+TGCAGCCATGTCGGGAATGTCCGCACTGTCTCAATATCATATGTTAGGTACTGATTCTCC
+ACCTGGCGAAGATGACTTCGCGCCGCAAACACGGCCGCGAGGACGCGCCGACGGTCGGTC
+GAGTAGTTGACGCTGCCGGCGTGTATAACACTGCTCAGCATCAGGTAGGCGTCCCCTGGG
+CGCATCTCCGCATACCGGATGCGCGGGTCGTCATTGCTCGGGTGATCGTACTGGTAGTCC
+CAGAGGTGACTGCCCGGGATGAAGCGTGTGGTGCCGTCTTCGCGGGCGCACTCGGTCAGC
+GCGACCATCATCGCACAGCCGCTGTCGCGACCGAGACTGTATTCGCTGGCGCCGCTGTTC
+CAGTTCTGCTGCGTGGCATCGTCCCGGTGGAGACCTTGGTCGCCAGATCCGGGATTCACA
+TAGAGGGCTAGGGTTGAGTCCAACTGAGGGGGACTTTTTACGCTCATCCAGGTGCCTTTC
+TCAGCCTATTGATACACAGTTAGCTCGGGTGGATGGTGATAAATCAGATAAATGCCATGG
+GCCCCTTACCCAGCATTCGTACGTAGAAGTCAGGAAGTAGTTGCGAACCGCGGTGAAAAG
+CTTATTTCCAACAATAGAGTGGGCATAGGTCGGCGACTTGCTGAGCAAGCCGGCCACTTG
+GCAGTAGTTCTTGGGAAAGCCTACAGCCATTAGCTCGAGGCCACACAGCCGTGGCTACTA
+ACACTTACCCTCGAATGAATCCGCTTGCTTATCGTATGGCTGGAGTTCCTGGCGAACCTT
+ATCGACGGTACTCCGGTCGAGCAGATTTCGCACAATGCACACCCCCGCCACTTTTAAAGC
+CTCTATGGCCTCGTGGGCGGCGACATCGTCGGTGGCGGATGATTTTAGTATCACAATTGG
+GATCTCCGAGACCTTTGTCTCTTGATAATGACTTTGAGGTGCTGTATCGACTGTCATTTT
+GGAGTTCTATGAGATTCTCACATGCAGGTTTGGGCTTATCCCCTTGAGGCAGAGGGAAGT
+AGAAGTAGCTGGCAGTCTTTGCTTTTTTACTTCTCTGTATCCTTCTTGTACAACATACCA
+CCCTCGCTCGCATGCCCTGCGGGACGCCCATCCCCTTGCGTTTTCTTGCCTCGGCCGCCC
+TCCATGACACACGTCAAGTTGCGGTCAGCAGAAATAATCAATGAGGAGCTGACTTAGCGC
+CTGAAGAAAACATTCGGTATGCACATCAATATGCAGGAGGGGTCATCTGGCCAGATGGGA
+AGTCTTCTAAGGAAGGAAATAAGCCATCAATAACCACCATTGGATCAACCCGATGCATCA
+GCTTGCCGGATTCTTTTTCGGCGCGCACTGCTAAATGGAGATTGAAACCCCCAGATTGTC
+TCTCTTCCATCGAGTTAGTCTCGGTGTTCTTCACTTTACTGTTTATTTTATCCAATTTTG
+CAGTTCCTTAGCTCCACATCCTACAGTGATGCATCTCATACTTCGCCGTACTAATCGAAA
+TAGAGTTCGACAGCTCGCTCCATGACCCTCCTATAAAATCGCTAGCTTCCTCCTGCAGAT
+AGAGCTTTACGATCTGCGAAGCTGGGATGATCAATTTGTAGGAATGACAAGAGCGATGCC
+GTGAGGCATTTGTGAAATGGCCCCGATCTGCAGTTTCGTCCAGTGGGTTAATACCGTATT
+CACTCGATAAATAGACACCTGTACAGAGTACTCCGAAGCCAATTGGGGGTATTTTAGATT
+ATCCATTATAACATGTGAACATTTGAGCTCAATTGGAGTTAATTACATTGTTGCACTCAG
+ACCTGATTGCAGCACTCTCGTGGGATAGAACTATGTAGCTTTCAATGTCACGTTTGGTCC
+CTTTATCATCAATGACTATGATGAGGTTTTCTTTTGTATCTGAAAATTGGCTACTTCCAC
+GCACAGCTGTAGGTTGCCACCTGAATTTTCACACATGGGGTTCTATATCTTCTCCAAGGC
+CCATAACACCAAGTCATCTTCCATGAAAGCGCTCCACGCGGAGTCCTCTAGCGTAACACA
+CACATCCCAAGGAACATCATTAATGTCCTCTACCCTGTCCCTGCCGCAGGTTGGCATGAT
+ATCGCAGATACCAGGGTACATTCCTGACTGCACATCAAAACTGTTGGCTCGGCCTATCTC
+CGGGCCAAAATCAAGACCGTTGATGTCTAGGTGTCTTAAGCTGCTCACTGTTATATCTGT
+AAATTTCATACTAGTTGCCCCCCAGTCAGATTGCTCTCGAAGGTAAGAGACCAGTCCTCC
+GGTATAATCTTTTTCATCGAGAAGCTTCAATTCTTTTCGGATCCGAAGAGACAAATTGGT
+GAGTTCATTCAGATGTGCATGCATGGGACTTGTTCCGCATCTTGAAGAGGGAACCGTTGG
+AGGATCGATATCGACGACCAGTGGGATGATGGTATTTCCAAGATAGCTGTCCGGAAGAGA
+AGGATGGAATTTTCTGCGCAGATTCACGGGCACCGCAAGTTGGGTGGTGAGGTTTTTGGT
+CTGCTCGGTTTGCCGAGCTCGGGTCATACAGATGGTAAGTAATGCTGTCAGGACGTCATT
+CCTGGAAATGGCTGGGTCTTGGTCGGTGGGCTTGGCAGCATTGCACGCATCCTTCAAAGC
+TCGGATCTTGGAAGCTGGGAACGAAAATCGTCGACTGGTGATGCCCTTGTCAAGGCCAGG
+AATAATATCATTGGATTTGAATATCCTGTCATAGGCCTCTGAATCAGATCCAGAGGATGG
+AGCTGCACTTTCAAGAATGATCTGTCTTGAGGATGCTTCCTTTGCATAGGTAGTGGGCAG
+AGAAACTGGGTGATCCATGGCTGAATTGGCACAGCAGCATGTTGCTAACATCTTCAGAAC
+GGTTCCAAGGCCACTTCCATCGAAAACAGCGTGGTTGAGCGTCATGCATAGCAAGATGCC
+ATCTGGGAATACGCTTGCCCGAAATCGAGCAACAGGGCTTGGTCGGTCTGCTGGGATAAT
+GATCGGTAAAGCACACCAAGAGTCATCAAGGTCGGAACACCCTGTCGGCCCAGGAGAACA
+CGTTGCCACGAGGGTGGTATCCCGGTAGTGTTTGATTTGCAGCATCGGGATCCATTCTAG
+TGATTCTGGAGAAGGATGTATCTCCATCACGTTGCGCTTGCCAGGCAATTTGGAGGATGG
+AACCCTCGCACCTGATAGGAATGGGAGGGCACGTGTCAGCCTCTCCACGCCATCCTTCAG
+TGCACTGACAGCGGTGGTTGGGTCATGCAGTGGAAAGGATATGAAGCTGGATACATAGAA
+GTCCTTTATGATGTGATCCAAAGGGGTTAGAAGGTATGGCTCAAATGACAAGGAACGTTC
+CATTTTCCACGGCGAACAGATAAAAATGTACGATCGGCGAAGTGTATGCTATCAAATATA
+TCAATTAATGGGTGGTGCCGCAGATATAGGGACTTTCAGTTCGCTTACTGTCCACACACA
+GGATAGGCCCTTAGCTTTCGACCAGGGGGTGACTACTCTCAATCCTGCCCGTACGCAAGG
+GGGCATACAAATGCGGGTGAAATCATACATGTTTCCGCAGCACCAGATTTGGTGCTGATC
+ATGTCGACAATTTTCGAGGTAAATGTTATTTCATGCGCTCTGCAGGTATCCAAGCGCATG
+GTACGGAGTACTCTTATTGGTATTCACTATGGTAAACCCCCACCTAACAATATTTACACC
+GCTTCTTGAAGGCATCCGTGCTCCTGATTCGACGGTCTGTCATATTAATATAGTGATATT
+GGGCGATGATATACGTTTTTGGCAAAACGATTATGGGCGTTGTGAATGTGCAGATTCGAT
+TGTAGTGGGCTAGCATCAGTGGCATACATTCCAAGCCTTCGATTGTCTCTTGCAGTTCAT
+CACAAGGTGCGAATAGTGTATCTCGGAATATAGCAGACATTAAAAAAAAGATCCGCGAGG
+AACGAAAGCGCGAAAGAGAGAGAGAGCGAGGTGCAGCACATGGTTTCCGAGGAGCATGAA
+TTTTCTGCCATCCCGTCTGACATGCCAACTGATCGGCACATAAGAACTGTGCATGATTAC
+GGTGTTTTCCATCTTCCTTCGCCTGCTACATACAGTGTGCCTTTTCTGTGTATCTGTTTT
+TATCAACTCGGATGTTTGAATATATTTACCCCTACAGGAAAGTTTGGACAAAAGGTGGCA
+CAGACTAAAATTGCCATTAAAGCAGCTTTCGACTATAGAGTTGCGCTTGAAGTTTATAGA
+TGCATGCCTAATACTGCTGCTAAGGCTGGTAGGTCCACGCCGGTGTGGTACACTTGGTCA
+ATGCATTCCGCAGTGGGAGTTTGTAGAGCTTATCGAGCGTTGGAGTCCCTATAATCGTCG
+AAATTTGACTGATCATATCATAAAACATGACAGAAATCTATGTTGTAGGTTTACAACAAA
+CGTATGGTACGATTAATAATATGTATAACTCGAACATCAATTTCACTGGACAATCTGACC
+TAGTCTTAATGCGCACTTTTTGTGCGTGAAATCCACCATTTAGCAGTCCATAGACTTTCC
+AAGGTAGTATTCATTTTAACTAATCAAAAGGATCAGGTAGTGTACTTGAATCCCACATTC
+TCCTTATCCGTCATATCCAACCAATCATGGTCAGCAGCCGTGCGAGCTTCGATGGCTTCT
+GCACGCTTCTTATTGCTCAAATGGCAAACCACACCATATGCTGTAATGGCAAACATCGCA
+ACGACGTAGCATATAATCATTGCCACAGTGCCGCCAGTATATTCGGGGGCTTGATCTGCT
+CGGAATGTTTGAGGTCCGATGATGTTTCCGGTGGCCCAGGCAATGTAAAACCAGGCGTAG
+AGTGTGATTCTAAAATAATGTCAGAATGGGACTCATGCTTTGTAGGCGGTATCTTACTTC
+TTTGTATGACCTGCAACGTTAGCCTGGTATACCGAAACCAAGGTGACGTAAGGGGCCCAG
+TATGTACTAGACCAAATTAGCAAAAGCAAAGCATTCTGGAGACTATGTTGACTTACTATA
+AAATGCTGTGAAGAATTGACGTTAGTATAAATAAGCGATATTTATGGGACGAGGAAACTT
+ACTATAGCCCAACGAGCTGACCGGCAAGGTTTGTTCGCGGTAACGCATAACAAAGCACAG
+CTCCAAACAGAGGTAGGAGGATGGAGACTGTCACGATTGCAGTACGATATCGTCTTGTAG
+TGGCAGCCAGATAAGAGAGACCGATTCCAGACAATGTACTCATAGCACCGGGAGGCATAG
+CGAGTAACGATGTCTGAAGGGAATCGAAGCCAAGCCCGGAAATGATGAGCGTGTTGAAAG
+TTGTCAACCCGCCATTTGGTACCTGCAAAGCAGCAATGGCAATCCAAATCAACCATGTCT
+TGATATCGAAGATAGCTTCCCAGACTTGCTCCATTTTGAAAGTCTTAGACTCGATACCGG
+TGTTATCGGCGGCTTTGCGTTGAATGACAATGTACTTTTCCCGGGGGGTCAGGAATTTGG
+CTTCCAGCGGGTTGTTTGGCCTATTCGATCTTGTCAGTCATTTTGTTCTATCTCCGATGA
+AATCTGCTTCGTACAGTACGAAATACACCACGACAGATGTGACGATAGTGAGAGCTCCTA
+CGAGAAGGAAGATAATCTTCCATCTTTCGTATGGGCCTTTGTAATACCCGACTACCCAAG
+CGACGAAACCATTAATAATGGGTGCAACCACATTGAGAATAATACTAAATCATCACGTCA
+GTATATCATGTTACTGGTCAGGAATGAGTCATCTGGTACCTGTTTCTCTTTGGTTGTTCC
+TCGGGTCGATACCACATTGACACAACCATTGTGACGGCTGGGATCAACAGTGATTCACAA
+CCACCCAGAAGAAACCTGCATGCAAAAAGGCCGCCAAAGCTGGTGCATGCTGCCATACAC
+ATCTCCAAAATACCCCAGCAGAGAACATTGAAAGCGAAGAATGGCACGGCAGGGACCCTA
+AGTGAGTTAGACACAAGTTGGCCTTGGGGGAACAAAAGCACGATAGGTGTCTTACCTCTG
+CAGGCAATAGGCCAAAGGACCCATGAATAACAATCCACCGAAGAATGGCGCTGATCCAAT
+CCATGAATACTCAGCTCCAGTAAGATTCAGATCCGTCTTGATGTTGTAAACTGCAGCCGC
+CGAGATGGCCGTTTTATCAAGGCCTGAGAGAGTAGCGCAAACGAATAGCTATTCCATATT
+AGTTAGTATTGAATCATATTTGGAATGGAACAAGAGCTTCGCACAGTGGGGATAAGTCTC
+CAATCAATTCGGCGGATCAACTTTCGTTCTTCCTCAACCGACCAGGTGTCACCATCCATT
+TGATCAGCATAGTCGCTAACGATCTGTGCGGCAATATCAACATCTTTGTTTCGTCCAGCC
+TTGATGGCTTTCACAGCTGCATCGGCTGTAACACCTCCGCCCTTAGGCTCGTCACTGATG
+GTGACTTGATCAGCAGCCATATTCAAAGTTCGCAATGTTTCACTCAGATGGAGATGATCG
+GCTGTAATTCATCCAGTGAAGATCCTAGAGTTACTCATGGACTTTCAATATATGTTATAT
+TCATCTTATGCTTTAACTTTTGGTTATCGGTAGCTTCTTCTTCGATATGAGATCCCACCA
+TCTCGGCCAGATCTTCTTATCAACGGCCATCGATAACCAGTGGGGCTCCACGTGGGGCTG
+TTTTTGAGTTGGCCGCGCGGGCAACCGATTTCATTCCTCGCGATAACGTATGAGACCATC
+TAACAGCTTGGAATGACATAGATTTAGAGCTATGGTACGGAGTAGGTATTTTATAATCAT
+AGGGTCCAATGCACCTTTCAGAATTCAAAGTTGTACAATTCAAATTTCACTAAGCTTTCT
+ATTGCATTGTCCCGTCAAAAATGGTGTCAGAGACAGTCGAAGCCAATGGGCCACTCTACC
+CAGATTACCTACGTGAGTCTCGTTTCCAAAAAGAATCAAAGGTTCATGAACTCATATGAG
+ATATAGCCTTCTATGACCCCCTCGAAAAGGTCGAGATGGTCGGGCCATTCGAGCACGATG
+ACCCGGGCCACCGAGCCGATCCATCATTCCCGAACCTTTTGGAAAAAGCGACTAATGTCC
+TGGAATTGAGCCCTCATTGTGGAACAGAGCTTCAGGGAGTTCAGATTGTGAGATATTCTG
+CCAATATCAAAGTTAAAAAGAATTCGTCTAATGTATCCAAATCTAGTCGGAGCTGTCAAC
+CCAGGGCTTAGACGAATTGGCCCTCATGGTCGCAGAACGCGGATGTTTAGTGTTCAGGGA
+CCAAGATTTTACGAATCTGGGCTTTGAGAAGCAGAAGGAGATCGCCTCGTGAGTTTACCC
+ACTTGATGAAGCCTTCAAATTCTAACATGTTTTAGTCATTTTGGGCCCCTTCACAAACAT
+GGATGGATGCCTCATCCTAAAAATGGTCCTGAGGAGTTTGTCATCGTCTATGACTCCAAG
+GAGTAAGTGCTATGTTTTAAGAACTACTGTTCTGCTCACAGCCGTGTCTAACGCATCATT
+TCCACCAGTGACTTGCGTATTCGCAAATCTTGGGCAAGAAAAAGCCCTATTCAATTCCAC
+GTCGATCAGGTAATGACCACTGCCTAAGACCCATAATGATCGAGAACTCACAAACCCTTT
+TCAATAGTCCCCTGAGTCTCAGCCTCCTGGTGCGACATTCTTCTGCATGCTCGAGTCCCC
+TCCAGGAGCGGGTGGAGACACGGTCATTTCAAACGTGAGTCTCGATTCAAAAGGCAAGCA
+AGCTTTAGTCGGCTAACAAATTCCTCGAAGATGGCCCGCGCATTTGATCGCCTTTCTCCT
+TCATTCCGCAAGCGACTTGAAGGCCTCAAAGCCGTTCACACCACAGCAAACCCAATCATG
+CGTGAGATCCGCGACAACGGCCCGGATTCAGTCTTGCGTCGCCCTATCACTCGAACCATT
+CACCCAGTCGTAGTTGTTCACCCTGTCACTAAAAGAAAAGCTCTATTTGTCAACTCCTCC
+TACACCCAAAGCATTGTTGGCTGGGATGAGGAAGAGTCAGACTACATGCTGAAGTTTCTG
+TTCGATCATATCAATCGCGGTCATGATTTCTGCTGTCGCGTGCGATATGAGCCTGGGACT
+GTGGTTATCTGGGATCAGAGAGTGACGCAGCATTCGCAGACCTTGGATTATTCAGCTGGT
+TCTCGCAGACATGCTTTCCGCTTGACACCGCTGGCTAATGTGCCGATTCCCAGTTTGATT
+GAGGAGGATGATGGAGAATGTGCTAAAGATGAAGGGAGGATGCTGCTCAATCTGTGCTGA
+TTCTTCGAATGTGTAGATTATTATTTATTATACTGAGCTCCCAGTTTCTATGTCCCATTT
+CCAATTAGAGTCTCCACCTTGATAAATCCGAGGTTTGTTAAGCCTTTAACCCCTGCTGCG
+CCATTTGCTGAGATGCGCGTTGCCCAGCGCCATCTGCGAATCCAGTCTTGTAGTTCAGTA
+TGTTCTTTCTCAAAGGAGTATTTTAAAAGTTCGGGCATTGATTGACTGTCAGTCTGATTG
+GGTGGCGTGACAATTTGTAGTAAATGCACCATGAAGGAACCAGCGATAGCAAAATTAGGT
+CGACTCCCTAGTAGATTTGTTAGATCGAGAGTTCTGCGGTGTAAATCAACATACTCACAA
+CTATGCCAAAATGCATTCCACTGAGCTCCAGTGAGCCTTTCCACGAACTCAACAAATTCC
+TTAACACATAGCAATGCTCCTGTGACAACTGCTTTTGCACCCTCGTAGGTCGCCTCTGGC
+TCTTCTTTGTTGACCTTGATTATTGCCGGCCATCGATCTAATGGCCGTAGCAAAGCGCGT
+AGAAGCGCCACGTGCGTGACTATGTATGACAGATAAAGTGATCCATTCCCATCGAGGTCT
+TCGCCAGAAATGACTGCATTAGAGACCGGTCTCAGATTGCTGGGTAAATTGTCCCGCCAG
+TCCTTAAGCCTCACGCGCATGGGCCGTGCCAGGTCCAAGGAGTATTGGAGGTCATTGGAT
+GTCTTCCCGATCGCCTTCACCGAATAAAAGGACCTTTGAATGTCCGAAAGTATCGTCGAC
+AAATTTGACAAATGATAGATATGACTCTGTGTATCCGGAGAATCTGATAGGGTATCTTGT
+ATATCATCTGCCTTGAGCATAGAAACATCGTAATCATCATCACCTAAGTGGCTGGGCATT
+CCTCTTGCGAGGGCGACCCACTTCTCCATGGCATAGAGACCCCACCAGAGTCGACGCCGA
+AGCCTCTTCTCCCACGCTGGAATAGACGTCCATGATCCTGTATCTCGATGAAGCCCAATG
+GTTTGTGCAACAGCCAGGGAGGTGGCCATGAGCGTCCATGCAAACGCGGTATCGGAGAGA
+TACATATTCGTAGGAAGTCGCTGTTGAAGAAGCAGACATGCTTGAAGTGTCGCGAGAGAA
+GGAGCGTGAAGCTCCTGCGATATACAAAGCCAGCAAAGCCGGTATAACTCCTCGCTAGAA
+GGCGGATTTAAAAGCATTGTGTAGAGACTATCGTCATACATGACGAATGGAAGCGCGGTT
+GCGCAGATTGCTGTCAATAATGCCAGGGGCATTTTGTTCAACTCAGCTGATGATGATGGT
+ATTTGATGACTGGATAGGATCGGAAAGTAAGGATCGATATAACGTGAATATAATTTGATA
+AGATGCCACGCTGCAGTGGGATCCATCATGGCCCATAGACGAGGCCATCCATTTTCCGTA
+AGTTGTGGATCAAGCTTTGGCTCCGCTTTTTCCAGAAGAGAGTGATCGGTAATACCAAAA
+ACGGTAGGTGGAGAGAAGTCAACAGTTGCCATCTCTTTCTGACCCGGGTTGTCCATGATT
+CGATATTTCAAGCCATTCACCTTTGGTAATGAGACATTTTGATCGTTGTATTTCTGGTGG
+CTCAAGATATGAATATCAGTCACTCCCGTTGGGCCGATATAGAAGCTAAATGCGTCTGGA
+ATAAATTCAAGGGAATTGATTTGAGAAGGCGAGTCACTGGTTGCTACTAGTTTTTGACTT
+GGTGGAAATCTTCCAGGGCTGGATGAGAGGCTGCTTCGCGAGTGAAGGCTCGCTGTATCA
+TCTTGGCTGAGAGACGAATGACTTGTTCTGGGGCTTGTTGACTCGAGCTCTTGATTAGCA
+CCCAGAAGGCTCCCCTGCGGTGATACTGCCTCAAGATCTTCACTTTGCCCAATGTTCGGT
+CGGGTCTCGGTCAAAAGATCCTGCCACCCATCAGGCTGCTCGCAAGTTCCAAAAGTTTCA
+GTTTGTTCGCACAATCTAGCCCTCTTCCGTGGCCCTGGGCCCTCTTCGAACGTGCATTCT
+TGATATTTGTTGGTGCATCGAAGGCATGGTGGTCCATTGGGCATGTCACAAGCGACTTTG
+CGTCTGCGACAAGCGTCACAAGGCCGACATTTTCTAGACTTGTACAAACGTCCATTCAGA
+ATCGGAGCAGAAGCAGAAGTTGAAGTTGAAAATTCCATTATCACATCAAAAGCTAAGAAA
+ATAAAGAAGGGAAACAAAAGAAGTAGTAAAATGGGGTCTTATCTCCAGCACAGACGTCGG
+CTTATCAGAGTCTAACAAAGTCAAGCGGGGGGAAATTCCCACTTTCACCCTTCTCATTCT
+CGGCCTGTCAATTCAAAATTGGCTTTGTTACTGCTCATTTCGTTCACAGTGTCGCCTCCA
+GATCCAATAATGCTTTCAAATACTCACTCGATAGAACTGCATCCGCCACTTTGTCGTCCA
+TCGGCAACAGTGGCAGCCGGGGTCTATCGCCGTACCCAAAGTGTCGATGCAACAGCTTCT
+TCATCCCCGCAATCTGCAGTCATCTCAGCATTTGCATCAGAAAGTTATAATTTTTATTCA
+GAATTCACTTACTCCAATCTTCAGTGCCACACCATCCGCAAGAGCAATCAAGTTCTGTAG
+CTCAGTGGCTTGTTTGCTAGACCCGCTGTCTTGGCACAAATTCCACAGTTTCACGCATGA
+TTTCTACCCGCTTGTCAGCCAATTCCCTATTACATTCAAGTCATTGAAAGCTCTTACCGG
+TGCTATGTTTGGCAGACCACTGATCGCACCCGCTGATCCAACAGAAATGGATGGCAGCAA
+GAAGTCAATAAACCCATCGATGGCCCGAAAGGGGGTCGCCGACGATCGGGGGAAAGCCGC
+TTGGAATTCTGGTCTCGAAACCTGAGCCATGATTCGAGTCAATTTGCCGACATTGGCGCA
+TCTGCAGGGCTACGTTAGCCAATTTGATTGAAAGTTGAAGGATAGAAACGAACGTTAGTT
+TCACGCCACAAATATTAGCGGAGGACTGGATTATCTGGACAATCAAATCGCTATCCATGT
+CAATTCCACCTGATACGGCGGGGAAATTGTATATGATACTGCAAGATGTTAGGGACTTGT
+CGTTCTAAGAGCTGGGGTGATACATACACTGGCAACGGCGATGCTTCTGCGATATCCACA
+AAAAACTTCTTTATCGAAGAGGTATCTGCCAAAAGAGCTCCGGCATAGTACCCTGGTGGG
+ATAACCATCACATAATCTGCGCCGGCTTCTGCAGCATCTTTGCAAAGTTCAATAGACTCG
+CGAGTACTAGCTCCTCCCGCACCTGCGACGATTGGAACATCATGAAGATTGACCTCATCT
+AAAGCGACACGAGCAGACCGAATGATGGTTTTTTTCTCTTCTCGGTTCTGCAATCGTATA
+CTCCATTAGCGTTGTAGACTTGTTGTCTTGGAATCAAAGTTTCTCACCAGATGTATAGCC
+TCACCCATAGACCCGGAAACTACTGGGATTGTTCCCGCACTCGCAATGACTTCCAAGCTG
+GTTAATATTTGGCGCAGCTCTATGAGTTTCCATGTTCTTACATTTGACATGGCTTTGCAA
+AGCCTCGATATCTTGATGTCACATTAGCTATACTGCAACTCCACTAAAGCATATATATCT
+CACCAATATCCTCATTCTCGTGGAAGAAACACGGCAAAGGCGTATAAATCCCGGTAGGCA
+GTGGCCGCATGTTTGGTGGCTGATGTTCAAGGGTGTGTGGCAAATTATCGATTGACAAGT
+CTTCGGCCAAGCAGAATATTGATTCTGTTCTTTGTCTTCAAACCCTTTTTGACATTGAAA
+TTAAGATCATATCTAATCGCGAGATTGAAATAAAGCCGATAATGACAGGGCGAAGATAAG
+AACGAGATTTTGGGCGCGGCAGACCTGCTTTCCCCGCGCAGCTTATCGAATTGATAGTGA
+CATACTCCATACATACGGAGTACATGTAGTGACATTCCCCCCTGTACACTGTTATCTATG
+TGGGTACCTAGTTTCCATTAGCGTTGATTCATTCCCCGTGGCTAGACTCAACTCGTGATT
+TCGCTTTATTTTATTACCGTTCTATGGCTATTTGATTGGAGGGTTCTTTAGCTCGTCAAC
+TGCTTTCTGGTTGATGCGCTGTGCCATGATGGCTACTAACTTCATTTACAGTCTGGGCGC
+GGGGATTACCTATCCGGTAGTGGCGGTGGAGACGTACAATTTACGCTTACGAGCTAACGT
+CCAGGCTCTGGGATTCACAGTTCAGTTTGTGCTTCCGTATATGGATGGTACTACTAAGGG
+CTACTGGGGGCCCGGGAGGGCAAGTTAGGGCTTTTTTTTGTCGGGCTTTTATTCCTTCCC
+TAGTGATAGTTTTCTTCGATATCCCGGAGATAAAGGGGCTGCTGGTTAAGGAGCTTAATG
+CACGGTTCGAGCTACGGTATCGACGGAGGCATTCCAGCACACAGGAAACAGTCAGGCATG
+AAGGTATATTTACTTCTAGGCTCTTTGGATTAAAACTAACACTTGAGGGGCAACTAACCT
+ATGTATATGTACCCGCTAAGTGCACATAGGCTTTAGTTATTCTCCAGAAAGGGGCCCTGG
+AGATCCCAGAACTTCCTTAAGGTCAAAATCTGGGCAGTATTATAGCACAAATCGGAACAA
+CGGGCTATCCTCGCCCATTTCTCCTAGCTCCTCGGTAGTGTATTTCCTCTCAATCTCGGC
+AACGTCCAATCCACCCCGTCGCTTATTTTCCTTGCGCATTAAAAACCAATGTATAGTAGC
+AGGGATCATAGCTCCAAGCACAGTTGCACCAACTGAGAAGCCAAATCCAAGAGGATAAGT
+AGGCGCCTACTTGATGTCAGTTAATTCCTTCATTCCAGACTTCCTAGACCAACTCACTTC
+GCTTGAAATATAGATATTAGATCCAATACTACCACCACCGACGCTACCGAGGAGCATCAG
+AAGACCAATAGCAGCGGCTCGCTTGGATGGGTTCGTAATGTTGGAAGCTGTCCAAGCGCC
+AACCTGAATTAATCGTCAGTCAACGTTCCAAACCTTGATTTCACAGATAGAGCTTACAAT
+AGGAGCTTGTGCCGAGTATCCAGCTGCAGCTAAGAAAATAGCAAAGTAGCTCACGCCTGG
+GATGGAAGGGTGGTGAACTGTTATCCACAAAATAATGATACCACTAAATCGGTCCAGTTA
+GTGCGGCCCTTCATCTTGGTAGAGAGTAACTTACATCAGACCCAGGGTATACGCGCCCAT
+GATGCACAGATACCGTCGCTGTGTTTGATCACTAATATAACCAACGGCAACACAAACGCA
+CGTGGCAAAAATGTAAGGGGGCGTGGTCATGACTTGCGCTTTCACCGCAGTGTATCCCAA
+GTTTGCAACCATTGTGGGCAGAGTATAAGACAGGGAGTACGTAGGTACGGAGCCACCCCA
+CCAGAACAACATCATCCTGAAGGCGAATTAGTTAGGAGCGGTCAAGGAGACTTGAAAAGG
+ACGTACATAAAATAGGTTTTCCGATCCTTTGCCGCTGCAACCACATCACTCCAGCGGAAG
+GTATAAGTTGAAGACACAGGGCCATTGGCATATTTGACACGAAGGGAAGCATATTCAAGT
+TCCTCGTCAGTAAGCCATTTGGTACCTTTGCCAGCCTGATATTGATGAGGAAACGCACTG
+TTAACGACCGATTAGTCTGTTGCCCGACAGAATTAATGAGTTGTTGGGGGTGTTACGGTA
+AGCAAAACAGGCAAGCAAGTCCAGCAAAAATGGTGATGCATCCTTCAATAAGGAAGAGCC
+ACCTCCAGGCTCTCCAGCCGAGATTTCCATCAAGTGATCCGACTCCGTAGGCAATGACAC
+CACCAAAGGCACCTGCGGTTGTGTTTGCACCGTAGAAAATAGCCATTCGCGTGCCGATCT
+CTTTCGGTGTATACCACATGGAGAGAATGAAGTAAGCACCTGGGTACAGTCCAGCCTCAG
+TTATTCCCAGCATCAGACGGATAACGACAAAGCCAGCATAAGAGCTCGCTTGCGAGGTGA
+GAGTTGTGATAAGCCCCCATGCACACACGATGAATGGGAACCATATTTTAGGACCGACTC
+TTCGAAGCATGATATTGGAGACTGGCTCAGAAAGCCCGTAGGTGAAGAAGAAGTACATCA
+GAGCCAGATTATACTGGGTACCACTCATGCCAAGGTCCTCAAGGAGGCCGAATAACTATG
+CATGAAACTGTTTAGATTTTTGAATGAGATCTCAAGTATGAATGTGCTTACCTTTGCATT
+TCCTGCATTTGATTTATCCAGCGAACACATCAAGTATAGAAAGCTAAGTGTCGGAAGCAG
+GCGTAGATCCACTGAGTTCAAAGTTAGGATACGAAACGTTCATTGTTGCAAAAGTCATAC
+ATTTGCGAAGAAGCTTCTTCCTTGAGGCGCCGCTGAACACATTTTCCAAGTGAAGAAAGC
+GCTCATACTCTGATACCGAGCTTTCATCGGTCACAGTAGTGACTGCATCGCCTTTCTTCT
+CCGTGTCGGTCATGGACAATGGCGGCGAAGAATCAGTCGACTCCATAGTGAGATATCAGG
+AACTAATTTTTACTTCGACTTTGAGATTATCTATCGCGAGGAAGATGGAACTTAAAGAGA
+TCTTGACATTCATCCTTGTCTATCTTTCCATATCTAGAGCTTGATATCTCCCAGTAGGTA
+GAAAGCAGATGGTTGGATTTGACACTGTGCACAATCGGGGTTTGTCCTATCTAACATGGA
+TCATCAATGCTCAATGCAGGTATAGCAAACAGGAATAAGCCTATCTAAATGTGACACTAT
+TGGTCTCCATTTCTTGGCCGCGATGAAAGGATAGCGCTGATAAGGATTGTCTGGGGTTTA
+TCGGAGCTTTGCCGAGCTGGCCGAGCGGCCAACTCGATCAGCATGGTACTTTGTACAATG
+CGAGATGCCGACATTGGAATTTTTGGGTTCCAATACTCTCCCGAGGTGTTATATATGCCT
+TGCACATTGGACCATCAAAATAAGTCCAACGGTGGTTATTTGGGTCAACAACAAAATGTC
+GACCACTACAGTCATTACTCCCGGCACCATCACACGGGAGAAGAACGAAAATGGCGCCCC
+TCTATATCCCGACTACATGCGTAAGCCTGAATCCAATAACGAATTTCTGATTAAATCTCG
+GGGTAAACACTAAACTTTATTTCAACAGCATTCTACGACCCTCTTGAGAAGGTAGAAGAT
+ATCGGTGCCTTCGAGCATTTCGATCCCGGTCACCGCGCTGATCCCAAGTTGCCCAATCTT
+CTGAAGAATGCGACCAAAGTCTGGGAACTATCTCCTCATGTGGGAACTGAGATTCACGGA
+GTTCAGCTCTCCCAACTTGACAGCGCTGGTTTGGATGAACTTGCTCTTCTTGCTGCGCAG
+AGAGGTGCCTTGGTATTCCGCGATCAAGACTTTGTGAATATTGGCTTCGACGCACAAAAG
+AAACTTGTCAGCCATTTTGGTCCTTTGCATATTCATGGCTGGGCCCCTCACCCTGCTGCT
+GGATCTGAAGAGCACATGATTATCTACGATCATAAAGAGTAAGCATAACAATCGACGCAT
+CGTCATGGTCAATTAGTGACACATTTCCTAGTGATCTCCGAGTCCGCCAATCTTGGGCTG
+GCCGTAGCCCAGTTCAATGGCACACAGATCAGAGTCCCGAACAACAGCCCCCTGGAACCA
+CTTTTATCGCTATGCTCGAGTCCCCAACTACCGCTGGGGGAGACACTCTGGTGAGTTCTA
+GCGTAAGGGCATACAGCAGTCTCTCGCCTCGCTTTCGCAAGCGTCTTGAAGGCTTGACAG
+CTATTCACACGAACAATGACGGCGTCAGTCAAGAGCTCAAACACGGTCAACAAGCCGTTA
+TGCGGCGCGGAGTGCTTCAGGCTGAACACCCCGTTGTACTTGTTCACCCTGTTACAAAGC
+AGAAAGCCCTTTGTAAGTTTATCTCGGACACGTTCATGTATTTGTATCTTTTTTTAACAT
+TATCTTTTCAGATGTCAACCCAGTTTACACGAAGAAGATCGTCGGCTTCGATCAGGAAGA
+GTCGGACTGCATCCTCAAGTTCCTTTTCGATCACATTGCCAAACGACAGGATTTCTCTTG
+TCGCATCCGCTATGAAGCTGGGACCGTCCTTGTATGGGACCAGCGGGTCACCAATCACTC
+GCAGACTCTTGACTACCCCATTGGAGATCGTAGACATGGGTTTAGGTTAACTCCCCTGGC
+GAACAAACCAATCCCGGCCAAGATTGAGGAGGATGATGAGGAATTTTCAACAGATGACGC
+TCGACATCTCGTAGGCAACGCTTCATAATAGGCTGCTTGTGACAATTAAAGCTCACATGG
+CCAGTGCCACCTTCAGGTTATTAGCGTGGCAATTAGCTGACAATCCGAGAGGATTTCTTT
+AACTTGCTGTCTTCTATATATCCTAAAGTAGGTAGCTTAGTAGAGGGAAGTAGTCACGCC
+AGGACCTAATGGGATCACCCTTGGAGCATATATATAACGGTACTGATTCTATATATTCCA
+CTACCTTTTATAGAAGTGTGGTTGATATATATAATGGAACTATTGCGCCGATGAGCATAA
+ACGACACGCACTCGTTCTCCGTTTCTCTTTCAGTCTCTTCCTTCATCTCCCCGAATCGCA
+CAATCGCACTACAAGCTCCCCATCTAGAAGCTAGCTACTTCATCAAAAATGCAAAACGAA
+GACGAAGAGGAAAGAAATGACAGATCCCTCTGCAAACTCGTCATGTGCTTAGAAGGTGAT
+GGGGAATCTGGATCTTAGGGTCTCGCCGTATCTGTAAAAGAGGAACGGAAGAGGTACGAA
+CGCTAAGCCTATGAAGGCCAGGAGGCTGTTTCCCCAACCAAGGCCCAGAGACTTGTACAT
+GGGCGGTCCTGCAAGTGGTAATAAAGCACCAAATAGACTGCGCAAAACGGTGTTTGTAGC
+TAGGGCAGATGCGGCCGCCTCGGAGCCAAATGCATCAACAAGATATAACTAGGCGGGTAT
+AAAGATCAGAAAGGCACCGAGGGCAATGAACATAGTGCCTAGGATTGGAACAATCCAATG
+AGTGACTTTGTCGGCACTCCATCCGTACCAGAAGAAGCCGATGGGAATAATAGGCGCTGA
+CCAGATTATAAGAATTAGACGTAGCTCTGGCCGCTCGAGAGTTCCCTCGCGCGGCTGCTT
+GAGTAGCTTGTCGCTGAGAACGGCGAACAGCCCAATACTGATAATCATACCAACACCGAG
+ACCTAGATATGTAAGACCAGAGATGTCAGTGGCAAATTTGTATGTTGTTTCAAATACGGC
+AGGGAAGGTAGTAAAAAGAAGGTAGGTAAGACCGAACATGAAGGCGCAGTTTAGAGAGAG
+CGGGAGGATGATAGGCAATAGTAGCATCTTGAGGGGTCGCACTGTGGCGCGTGTTAAGAT
+CTGGGCTGGCGTACGGCGTTTGTTGTTAGTTCGAGCCTGCAGTTGACTGTTGCTGGTGGA
+TTTGCGTATAGCAGCCGCCTTGCGCTCGAGGAGAACTGGTTCGAAAGTCTCCTGCATTAG
+GATAAGGGTAAGCAAAGAGACCACCCCCGCCTAAATATTGTTCATATTAGACAATGATAA
+CATGGGAGCGATGTAGGGCTTTCCATTTACCAGGATTAAAATCAACCAAAATGTCCACCG
+CCATCCGAGGTATTGAGTAACGAAGCCGCCTATTACTGGGCCAATGACCAGACCAAGAAG
+CGGGCCAAGACCGAATAAAGCCATCGCTTTACTACGCTCGTTGGCTTGATAAAGATCCGC
+AATGGTTTTCCCCCAACCACCATCGGAACAGAGGCAGCACACCCACATATGAAGCGAAAT
+ACCATAAACATGGACCGGATC

@@ -1,0 +1,1406 @@
+##gff-version 3
+##sequence-region panelB-Asplup1-soppiline 1 63352
+panelB-Asplup1-soppiline	.	protocluster	1	63352	.	+	.	ID=protocluster-panelB-Asplup1-soppiline_1;product=T1PKS;aStool=rule-based-clusters;protocluster_number=1;cutoff=20000;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));category=PKS;core_location=[30000:38421];contig_edge=True;tool=antismash;neighbourhood=30000
+panelB-Asplup1-soppiline	.	proto_core	30001	38421	.	+	.	ID=proto_core-panelB-Asplup1-soppiline_2;detection_rule=cds(PKS_AT and (PKS_KS or ene_KS or mod_KSor hyb_KS or itr_KS or tra_KS));cutoff=20000;product=T1PKS;protocluster_number=1;aStool=rule-based-clusters;neighbourhood=30000;tool=antismash
+panelB-Asplup1-soppiline	.	cand_cluster	1	63352	.	+	.	ID=cand_cluster-panelB-Asplup1-soppiline_3;SMILES=C([*])C(-O);candidate_cluster_number=1;tool=antismash;kind=neighbouring;detection_rules=cds(PKS_AT and (PKS_KS or ene_KS ormod_KS or hyb_KS or itr_KS or tra_KS)),(Chal_sti_synt_C or Chal_sti_synt_N);contig_edge=True;product=T1PKS,T3PKS;protoclusters=1,2
+panelB-Asplup1-soppiline	.	region	1	63352	.	+	.	ID=region-panelB-Asplup1-soppiline_4;tool=antismash;candidate_cluster_numbers=1,2;contig_edge=True;rules=cds(PKS_AT and (PKS_KS or ene_KS or mod_KS orhyb_KS or itr_KS or tra_KS)),(Chal_sti_synt_C or Chal_sti_synt_N);product=T1PKS,T3PKS;region_number=1
+panelB-Asplup1-soppiline	.	five_prime_UTR	377	445	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_5;Parent=mRNA_12678;Name=jgi.p|Asplup1|204418;source=prediction
+panelB-Asplup1-soppiline	.	promoter	395	1669	.	+	.	ID=promoter-gene4021_5363;tool=antismash;note=bidirectional promoter;locus_tag=gene4021_5363,gene6537_8137
+panelB-Asplup1-soppiline	.	five_prime_UTR	1620	1860	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_6;Parent=mRNA_12679;Name=jgi.p|Asplup1|41382;source=prediction
+panelB-Asplup1-soppiline	.	exon	1620	2851	.	+	.	ID=exon-panelB-Asplup1-soppiline_7;Parent=mRNA_12679;Name=jgi.p|Asplup1|41382;source=prediction
+panelB-Asplup1-soppiline	.	gene	1620	3219	0	+	.	ID=gene-panelB-Asplup1-soppiline_8;Name=gene6537_8137;source=prediction;transcriptId=41382;Name=jgi.p|Asplup1|41382;portal_id=Asplup1;proteinId=41382
+panelB-Asplup1-soppiline	.	mRNA	1620	3219	.	+	.	ID=mrna-panelB-Asplup1-soppiline_9;Parent=gene-panelB-Asplup1-soppiline_8;Name=jgi.p|Asplup1|41382;proteinId=41382;track=FilteredModels1;Name=jgi.p|Asplup1|41382;transcriptId=41382;source=prediction
+panelB-Asplup1-soppiline	.	CDS	1861	2851	.	+	.	ID=cds-panelB-Asplup1-soppiline_10;Parent=mrna-panelB-Asplup1-soppiline_9;Name=jgi.p_Asplup1_41382;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	2909	3009	.	+	.	ID=cds-panelB-Asplup1-soppiline_10;Parent=mrna-panelB-Asplup1-soppiline_9;Name=jgi.p_Asplup1_41382;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	PFAM_domain	2434	2622	39.3	+	.	ID=pfam_domain-jgi.p_Asplup1_41382;Dbxref=PF01485.23;description=IBR domain, a half RING-finger domain;evalue=5.40E-10;aSDomain=IBR;protein_end=254;label=jgi.p_Asplup1_41382;tool=antismash;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41382_0001;detection=hmmscan;locus_tag=jgi.p_Asplup1_41382;protein_start=191
+panelB-Asplup1-soppiline	.	PFAM_domain	2791	2851	24.8	+	.	ID=pfam_domain-jgi.p_Asplup1_41382;Dbxref=PF01485.23;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41382_0002;database=34.0;locus_tag=jgi.p_Asplup1_41382;detection=hmmscan;protein_start=310;description=IBR domain, a half RING-finger domain;evalue=1.90E-05;aSDomain=IBR;tool=antismash;protein_end=355;label=jgi.p_Asplup1_41382
+panelB-Asplup1-soppiline	.	PFAM_domain	2909	2982	24.8	+	.	ID=pfam_domain-jgi.p_Asplup1_41382;Dbxref=PF01485.23;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41382_0002;database=34.0;locus_tag=jgi.p_Asplup1_41382;detection=hmmscan;protein_start=310;description=IBR domain, a half RING-finger domain;evalue=1.90E-05;aSDomain=IBR;tool=antismash;protein_end=355;label=jgi.p_Asplup1_41382
+panelB-Asplup1-soppiline	.	exon	2909	3219	.	+	.	ID=exon-panelB-Asplup1-soppiline_11;Parent=mrna-panelB-Asplup1-soppiline_9;Name=jgi.p|Asplup1|41382;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	3010	3219	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_12;Parent=mrna-panelB-Asplup1-soppiline_9;Name=jgi.p|Asplup1|41382;source=prediction
+panelB-Asplup1-soppiline	.	promoter	3220	3607	.	+	.	ID=promoter-gene8475_11345;tool=antismash;locus_tag=gene8475_11345
+panelB-Asplup1-soppiline	.	five_prime_UTR	3558	3937	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_13;Parent=mRNA_12680;Name=jgi.p|Asplup1|204423;source=prediction
+panelB-Asplup1-soppiline	.	gene	3558	6427	0	+	.	ID=gene-panelB-Asplup1-soppiline_14;Name=gene8475_11345;portal_id=Asplup1;proteinId=204423;source=prediction;transcriptId=204601;Name=jgi.p|Asplup1|204423
+panelB-Asplup1-soppiline	.	mRNA	3558	6427	.	+	.	ID=mrna-panelB-Asplup1-soppiline_15;Parent=gene-panelB-Asplup1-soppiline_14;Name=jgi.p|Asplup1|204423;Name=jgi.p|Asplup1|204423;source=prediction;transcriptId=204601;track=FilteredModels1;proteinId=204423
+panelB-Asplup1-soppiline	.	exon	3558	6427	.	+	.	ID=exon-panelB-Asplup1-soppiline_16;Parent=mrna-panelB-Asplup1-soppiline_15;Name=jgi.p|Asplup1|204423;source=prediction
+panelB-Asplup1-soppiline	.	CDS	3938	6223	.	+	.	ID=cds-panelB-Asplup1-soppiline_17;Parent=mrna-panelB-Asplup1-soppiline_15;Name=jgi.p_Asplup1_204423;phase=0;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	PFAM_domain	4529	4897	65.2	+	.	ID=pfam_domain-jgi.p_Asplup1_204423;Dbxref=PF01794.21;locus_tag=jgi.p_Asplup1_204423;detection=hmmscan;protein_start=197;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204423_0003;label=jgi.p_Asplup1_204423;protein_end=320;tool=antismash;evalue=6.00E-18;description=Ferric reductase like transmembranecomponent;aSDomain=Ferric_reduct
+panelB-Asplup1-soppiline	.	PFAM_domain	5045	5338	45.4	+	.	ID=pfam_domain-jgi.p_Asplup1_204423;Dbxref=PF08022.14;protein_end=467;label=jgi.p_Asplup1_204423;tool=antismash;description=FAD-binding domain;evalue=7.70E-12;aSDomain=FAD_binding_8;locus_tag=jgi.p_Asplup1_204423;detection=hmmscan;protein_start=369;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204423_0004
+panelB-Asplup1-soppiline	.	PFAM_domain	5363	6145	67.1	+	.	ID=pfam_domain-jgi.p_Asplup1_204423;Dbxref=PF08030.14;protein_start=475;locus_tag=jgi.p_Asplup1_204423;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_204423_0005;aSTool=clusterhmmer;database=34.0;tool=antismash;protein_end=736;label=jgi.p_Asplup1_204423;aSDomain=NAD_binding_6;description=Ferric reductase NAD binding domain;evalue=2.00E-18
+panelB-Asplup1-soppiline	.	three_prime_UTR	6224	6427	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_18;Parent=mrna-panelB-Asplup1-soppiline_15;Name=jgi.p|Asplup1|204423;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	6714	6722	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_19;Parent=mRNA_12681;Name=jgi.p|Asplup1|41387;source=prediction
+panelB-Asplup1-soppiline	.	gene	6714	8213	0	-	.	ID=gene-panelB-Asplup1-soppiline_20;Name=gene11631_13131;transcriptId=41387;source=prediction;Name=jgi.p|Asplup1|41387;portal_id=Asplup1;proteinId=41387
+panelB-Asplup1-soppiline	.	mRNA	6714	8213	.	-	.	ID=mrna-panelB-Asplup1-soppiline_21;Parent=gene-panelB-Asplup1-soppiline_20;Name=jgi.p|Asplup1|41387;Name=jgi.p|Asplup1|41387;transcriptId=41387;source=prediction;proteinId=41387;track=FilteredModels1
+panelB-Asplup1-soppiline	.	exon	6714	8213	.	-	.	ID=exon-panelB-Asplup1-soppiline_22;Parent=mrna-panelB-Asplup1-soppiline_21;Name=jgi.p|Asplup1|41387;source=prediction
+panelB-Asplup1-soppiline	.	CDS	6723	7895	.	-	.	ID=cds-panelB-Asplup1-soppiline_23;Parent=mrna-panelB-Asplup1-soppiline_21;Name=jgi.p_Asplup1_41387;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	five_prime_UTR	7896	8213	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_24;Parent=mrna-panelB-Asplup1-soppiline_21;Name=jgi.p|Asplup1|41387;source=prediction
+panelB-Asplup1-soppiline	.	promoter	8163	8702	.	+	.	ID=promoter-gene11631_13131;locus_tag=gene11631_13131,gene13570_15095;tool=antismash;note=bidirectional promoter
+panelB-Asplup1-soppiline	.	five_prime_UTR	8653	8822	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_25;Parent=mRNA_12682;Name=jgi.p|Asplup1|204426;source=prediction
+panelB-Asplup1-soppiline	.	exon	8653	8885	.	+	.	ID=exon-panelB-Asplup1-soppiline_26;Parent=mRNA_12682;Name=jgi.p|Asplup1|204426;source=prediction
+panelB-Asplup1-soppiline	.	gene	8653	10177	0	+	.	ID=gene-panelB-Asplup1-soppiline_27;Name=gene13570_15095;Name=jgi.p|Asplup1|204426;transcriptId=204604;source=prediction;proteinId=204426;portal_id=Asplup1
+panelB-Asplup1-soppiline	.	mRNA	8653	10177	.	+	.	ID=mrna-panelB-Asplup1-soppiline_28;Parent=gene-panelB-Asplup1-soppiline_27;Name=jgi.p|Asplup1|204426;Name=jgi.p|Asplup1|204426;transcriptId=204604;source=prediction;proteinId=204426;track=FilteredModels1
+panelB-Asplup1-soppiline	.	CDS	8823	8885	.	+	.	ID=cds-panelB-Asplup1-soppiline_29;Parent=mrna-panelB-Asplup1-soppiline_28;Name=jgi.p_Asplup1_204426;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	CDS	8948	9856	.	+	.	ID=cds-panelB-Asplup1-soppiline_29;Parent=mrna-panelB-Asplup1-soppiline_28;Name=jgi.p_Asplup1_204426;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	protocluster	8828	63352	.	+	.	ID=protocluster-panelB-Asplup1-soppiline_30;detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N);cutoff=20000;category=PKS;core_location=[38827:40142];product=T3PKS;protocluster_number=2;aStool=rule-based-clusters;neighbourhood=30000;tool=antismash;contig_edge=True
+panelB-Asplup1-soppiline	.	proto_core	38828	40142	.	+	.	ID=proto_core-panelB-Asplup1-soppiline_31;neighbourhood=30000;tool=antismash;detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N);cutoff=20000;aStool=rule-based-clusters;protocluster_number=2;product=T3PKS
+panelB-Asplup1-soppiline	.	cand_cluster	8828	63352	.	+	.	ID=cand_cluster-panelB-Asplup1-soppiline_32;protoclusters=2;product=T3PKS;SMILES=C([*])C(-O);detection_rules=(Chal_sti_synt_C or Chal_sti_synt_N);contig_edge=True;tool=antismash;kind=single;candidate_cluster_number=2
+panelB-Asplup1-soppiline	.	exon	8948	10177	.	+	.	ID=exon-panelB-Asplup1-soppiline_33;Parent=mrna-panelB-Asplup1-soppiline_28;Name=jgi.p|Asplup1|204426;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	9503	9592	39.6	+	.	ID=pfam_domain-jgi.p_Asplup1_204426;Dbxref=PF08209.13;detection=hmmscan;locus_tag=jgi.p_Asplup1_204426;protein_start=206;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204426_0006;database=34.0;tool=antismash;protein_end=236;label=jgi.p_Asplup1_204426;description=Sgf11 (transcriptional regulation protein);evalue=2.90E-10;aSDomain=Sgf11
+panelB-Asplup1-soppiline	.	three_prime_UTR	9857	10177	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_34;Parent=mrna-panelB-Asplup1-soppiline_28;Name=jgi.p|Asplup1|204426;source=prediction
+panelB-Asplup1-soppiline	.	promoter	10178	10418	.	+	.	ID=promoter-gene15286_17585;tool=antismash;locus_tag=gene15286_17585
+panelB-Asplup1-soppiline	.	five_prime_UTR	10369	10418	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_35;Parent=mRNA_12683;Name=jgi.p|Asplup1|204427;source=prediction
+panelB-Asplup1-soppiline	.	gene	10369	12667	0	+	.	ID=gene-panelB-Asplup1-soppiline_36;Name=gene15286_17585;portal_id=Asplup1;proteinId=204427;source=prediction;transcriptId=204605;Name=jgi.p|Asplup1|204427
+panelB-Asplup1-soppiline	.	mRNA	10369	12667	.	+	.	ID=mrna-panelB-Asplup1-soppiline_37;Parent=gene-panelB-Asplup1-soppiline_36;Name=jgi.p|Asplup1|204427;transcriptId=204605;source=prediction;Name=jgi.p|Asplup1|204427;track=FilteredModels1;proteinId=204427
+panelB-Asplup1-soppiline	.	exon	10369	12667	.	+	.	ID=exon-panelB-Asplup1-soppiline_38;Parent=mrna-panelB-Asplup1-soppiline_37;Name=jgi.p|Asplup1|204427;source=prediction
+panelB-Asplup1-soppiline	.	CDS	10419	12053	.	+	.	ID=cds-panelB-Asplup1-soppiline_39;Parent=mrna-panelB-Asplup1-soppiline_37;Name=jgi.p_Asplup1_204427;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	PFAM_domain	11211	11366	73.9	+	.	ID=pfam_domain-jgi.p_Asplup1_204427;Dbxref=PF06221.15;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204427_0007;database=34.0;locus_tag=jgi.p_Asplup1_204427;detection=hmmscan;protein_start=264;description=Putative zinc finger motif, C2HC5-type;evalue=7.80E-21;aSDomain=zf-C2HC5;tool=antismash;protein_end=316;label=jgi.p_Asplup1_204427
+panelB-Asplup1-soppiline	.	three_prime_UTR	12054	12667	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_40;Parent=mrna-panelB-Asplup1-soppiline_37;Name=jgi.p|Asplup1|204427;source=prediction
+panelB-Asplup1-soppiline	.	promoter	12668	12734	.	+	.	ID=promoter-gene17602_19742;tool=antismash;locus_tag=gene17602_19742
+panelB-Asplup1-soppiline	.	five_prime_UTR	12685	12970	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_41;Parent=mRNA_12684;Name=jgi.p|Asplup1|204429;source=prediction
+panelB-Asplup1-soppiline	.	exon	12685	13702	.	+	.	ID=exon-panelB-Asplup1-soppiline_42;Parent=mRNA_12684;Name=jgi.p|Asplup1|204429;source=prediction
+panelB-Asplup1-soppiline	.	gene	12685	14824	0	+	.	ID=gene-panelB-Asplup1-soppiline_43;Name=gene17602_19742;Name=jgi.p|Asplup1|204429;transcriptId=204607;source=prediction;proteinId=204429;portal_id=Asplup1
+panelB-Asplup1-soppiline	.	mRNA	12685	14824	.	+	.	ID=mrna-panelB-Asplup1-soppiline_44;Parent=gene-panelB-Asplup1-soppiline_43;Name=jgi.p|Asplup1|204429;track=FilteredModels1;proteinId=204429;source=prediction;transcriptId=204607;Name=jgi.p|Asplup1|204429
+panelB-Asplup1-soppiline	.	CDS	12971	13702	.	+	.	ID=cds-panelB-Asplup1-soppiline_45;Parent=mrna-panelB-Asplup1-soppiline_44;Name=jgi.p_Asplup1_204429;gene_kind=biosynthetic-additional;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 5.9e-63, bitscore: 203.8,seeds: 50, tool: rule-based-clusters);phase=0
+panelB-Asplup1-soppiline	.	CDS	13804	14700	.	+	.	ID=cds-panelB-Asplup1-soppiline_45;Parent=mrna-panelB-Asplup1-soppiline_44;Name=jgi.p_Asplup1_204429;gene_kind=biosynthetic-additional;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 5.9e-63, bitscore: 203.8,seeds: 50, tool: rule-based-clusters);phase=0
+panelB-Asplup1-soppiline	.	PFAM_domain	13130	13702	203.6	+	.	ID=pfam_domain-jgi.p_Asplup1_204429;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_204429;protein_end=516;aSDomain=p450;evalue=5.30E-60;description=Cytochrome P450;protein_start=53;locus_tag=jgi.p_Asplup1_204429;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_204429_0008;aSTool=clusterhmmer;database=34.0
+panelB-Asplup1-soppiline	.	PFAM_domain	13804	14619	203.6	+	.	ID=pfam_domain-jgi.p_Asplup1_204429;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_204429;protein_end=516;aSDomain=p450;evalue=5.30E-60;description=Cytochrome P450;protein_start=53;locus_tag=jgi.p_Asplup1_204429;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_204429_0008;aSTool=clusterhmmer;database=34.0
+panelB-Asplup1-soppiline	.	exon	13804	14824	.	+	.	ID=exon-panelB-Asplup1-soppiline_46;Parent=mrna-panelB-Asplup1-soppiline_44;Name=jgi.p|Asplup1|204429;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	14701	14824	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_47;Parent=mrna-panelB-Asplup1-soppiline_44;Name=jgi.p|Asplup1|204429;source=prediction
+panelB-Asplup1-soppiline	.	promoter	14825	14986	.	+	.	ID=promoter-gene19854_20854;locus_tag=gene19854_20854;tool=antismash
+panelB-Asplup1-soppiline	.	five_prime_UTR	14937	15031	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_48;Parent=mRNA_12685;Name=jgi.p|Asplup1|204430;source=prediction
+panelB-Asplup1-soppiline	.	exon	14937	15133	.	+	.	ID=exon-panelB-Asplup1-soppiline_49;Parent=mRNA_12685;Name=jgi.p|Asplup1|204430;source=prediction
+panelB-Asplup1-soppiline	.	gene	14937	15936	0	+	.	ID=gene-panelB-Asplup1-soppiline_50;Name=gene19854_20854;source=prediction;transcriptId=204608;Name=jgi.p|Asplup1|204430;portal_id=Asplup1;proteinId=204430
+panelB-Asplup1-soppiline	.	mRNA	14937	15936	.	+	.	ID=mrna-panelB-Asplup1-soppiline_51;Parent=gene-panelB-Asplup1-soppiline_50;Name=jgi.p|Asplup1|204430;proteinId=204430;track=FilteredModels1;Name=jgi.p|Asplup1|204430;source=prediction;transcriptId=204608
+panelB-Asplup1-soppiline	.	CDS	15032	15133	.	+	.	ID=cds-panelB-Asplup1-soppiline_52;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p_Asplup1_204430;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	CDS	15212	15637	.	+	.	ID=cds-panelB-Asplup1-soppiline_52;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p_Asplup1_204430;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	CDS	15747	15899	.	+	.	ID=cds-panelB-Asplup1-soppiline_52;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p_Asplup1_204430;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	exon	15212	15637	.	+	.	ID=exon-panelB-Asplup1-soppiline_53;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p|Asplup1|204430;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	15590	15637	49.2	+	.	ID=pfam_domain-jgi.p_Asplup1_204430;Dbxref=PF04117.14;protein_start=160;locus_tag=jgi.p_Asplup1_204430;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_204430_0009;aSTool=clusterhmmer;protein_end=221;label=jgi.p_Asplup1_204430;tool=antismash;aSDomain=Mpv17_PMP22;description=Mpv17 / PMP22 family;evalue=4.70E-13
+panelB-Asplup1-soppiline	.	PFAM_domain	15747	15881	49.2	+	.	ID=pfam_domain-jgi.p_Asplup1_204430;Dbxref=PF04117.14;protein_start=160;locus_tag=jgi.p_Asplup1_204430;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_204430_0009;aSTool=clusterhmmer;protein_end=221;label=jgi.p_Asplup1_204430;tool=antismash;aSDomain=Mpv17_PMP22;description=Mpv17 / PMP22 family;evalue=4.70E-13
+panelB-Asplup1-soppiline	.	exon	15747	15936	.	+	.	ID=exon-panelB-Asplup1-soppiline_54;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p|Asplup1|204430;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	15900	15936	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_55;Parent=mrna-panelB-Asplup1-soppiline_51;Name=jgi.p|Asplup1|204430;source=prediction
+panelB-Asplup1-soppiline	.	exon	16192	16839	.	-	.	ID=exon-panelB-Asplup1-soppiline_56;Parent=mRNA_12686;Name=jgi.p|Asplup1|214401;source=prediction
+panelB-Asplup1-soppiline	.	gene	16192	18033	0	-	.	ID=gene-panelB-Asplup1-soppiline_57;Name=gene21109_22951;proteinId=214401;portal_id=Asplup1;Name=jgi.p|Asplup1|214401;source=prediction;transcriptId=214579
+panelB-Asplup1-soppiline	.	mRNA	16192	18033	.	-	.	ID=mrna-panelB-Asplup1-soppiline_58;Parent=gene-panelB-Asplup1-soppiline_57;Name=jgi.p|Asplup1|214401;Name=jgi.p|Asplup1|214401;source=prediction;transcriptId=214579;proteinId=214401;track=FilteredModels1
+panelB-Asplup1-soppiline	.	CDS	16192	16839	.	-	.	ID=cds-panelB-Asplup1-soppiline_59;Parent=mrna-panelB-Asplup1-soppiline_58;Name=jgi.p_Asplup1_214401;gene_functions=transport (smcogs) SMCOG1005:Drugresistance transporter, EmrB/QacA ;gene_kind=transport;source=prediction;phase=0;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	16902	17708	.	-	.	ID=cds-panelB-Asplup1-soppiline_59;Parent=mrna-panelB-Asplup1-soppiline_58;Name=jgi.p_Asplup1_214401;gene_functions=transport (smcogs) SMCOG1005:Drugresistance transporter, EmrB/QacA ;gene_kind=transport;source=prediction;phase=0;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	17770	18033	.	-	.	ID=cds-panelB-Asplup1-soppiline_59;Parent=mrna-panelB-Asplup1-soppiline_58;Name=jgi.p_Asplup1_214401;gene_functions=transport (smcogs) SMCOG1005:Drugresistance transporter, EmrB/QacA ;gene_kind=transport;source=prediction;phase=0;transl_table=1
+panelB-Asplup1-soppiline	.	PFAM_domain	16471	16839	149.4	-	.	ID=pfam_domain-jgi.p_Asplup1_214401;Dbxref=PF07690.18;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_214401_0010;detection=hmmscan;locus_tag=jgi.p_Asplup1_214401;protein_start=78;evalue=1.30E-43;description=Major Facilitator Superfamily;aSDomain=MFS_1;label=jgi.p_Asplup1_214401;protein_end=480;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	16902	17708	149.4	-	.	ID=pfam_domain-jgi.p_Asplup1_214401;Dbxref=PF07690.18;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_214401_0010;detection=hmmscan;locus_tag=jgi.p_Asplup1_214401;protein_start=78;evalue=1.30E-43;description=Major Facilitator Superfamily;aSDomain=MFS_1;label=jgi.p_Asplup1_214401;protein_end=480;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	17770	17799	149.4	-	.	ID=pfam_domain-jgi.p_Asplup1_214401;Dbxref=PF07690.18;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_214401_0010;detection=hmmscan;locus_tag=jgi.p_Asplup1_214401;protein_start=78;evalue=1.30E-43;description=Major Facilitator Superfamily;aSDomain=MFS_1;label=jgi.p_Asplup1_214401;protein_end=480;tool=antismash
+panelB-Asplup1-soppiline	.	exon	16902	17708	.	-	.	ID=exon-panelB-Asplup1-soppiline_60;Parent=mrna-panelB-Asplup1-soppiline_58;Name=jgi.p|Asplup1|214401;source=prediction
+panelB-Asplup1-soppiline	.	exon	17770	18033	.	-	.	ID=exon-panelB-Asplup1-soppiline_61;Parent=mrna-panelB-Asplup1-soppiline_58;Name=jgi.p|Asplup1|214401;source=prediction
+panelB-Asplup1-soppiline	.	promoter	17983	18835	.	+	.	ID=promoter-gene21109_22951;locus_tag=gene21109_22951;tool=antismash
+panelB-Asplup1-soppiline	.	three_prime_UTR	18837	19140	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_62;Parent=mRNA_12687;Name=jgi.p|Asplup1|41419;source=prediction
+panelB-Asplup1-soppiline	.	exon	18837	20442	.	-	.	ID=exon-panelB-Asplup1-soppiline_63;Parent=mRNA_12687;Name=jgi.p|Asplup1|41419;source=prediction
+panelB-Asplup1-soppiline	.	gene	18837	20790	0	-	.	ID=gene-panelB-Asplup1-soppiline_64;Name=gene23754_25708;Name=jgi.p|Asplup1|41419;transcriptId=41419;source=prediction;proteinId=41419;portal_id=Asplup1
+panelB-Asplup1-soppiline	.	mRNA	18837	20790	.	-	.	ID=mrna-panelB-Asplup1-soppiline_65;Parent=gene-panelB-Asplup1-soppiline_64;Name=jgi.p|Asplup1|41419;proteinId=41419;track=FilteredModels1;Name=jgi.p|Asplup1|41419;transcriptId=41419;source=prediction
+panelB-Asplup1-soppiline	.	CDS	19141	20442	.	-	.	ID=cds-panelB-Asplup1-soppiline_66;Parent=mrna-panelB-Asplup1-soppiline_65;Name=jgi.p_Asplup1_41419;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	CDS	20506	20685	.	-	.	ID=cds-panelB-Asplup1-soppiline_66;Parent=mrna-panelB-Asplup1-soppiline_65;Name=jgi.p_Asplup1_41419;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	PFAM_domain	19180	19950	264.1	-	.	ID=pfam_domain-jgi.p_Asplup1_41419;Dbxref=PF03727.18;description=Hexokinase;evalue=1.10E-78;aSDomain=Hexokinase_2;protein_end=481;label=jgi.p_Asplup1_41419;tool=antismash;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41419_0012;locus_tag=jgi.p_Asplup1_41419;detection=hmmscan;protein_start=224
+panelB-Asplup1-soppiline	.	PFAM_domain	19978	20442	242.5	-	.	ID=pfam_domain-jgi.p_Asplup1_41419;Dbxref=PF00349.23;aSDomain=Hexokinase_1;description=Hexokinase;evalue=3.60E-72;protein_end=215;label=jgi.p_Asplup1_41419;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_41419_0011;aSTool=clusterhmmer;protein_start=8;detection=hmmscan;locus_tag=jgi.p_Asplup1_41419
+panelB-Asplup1-soppiline	.	PFAM_domain	20506	20661	242.5	-	.	ID=pfam_domain-jgi.p_Asplup1_41419;Dbxref=PF00349.23;aSDomain=Hexokinase_1;description=Hexokinase;evalue=3.60E-72;protein_end=215;label=jgi.p_Asplup1_41419;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_41419_0011;aSTool=clusterhmmer;protein_start=8;detection=hmmscan;locus_tag=jgi.p_Asplup1_41419
+panelB-Asplup1-soppiline	.	exon	20506	20790	.	-	.	ID=exon-panelB-Asplup1-soppiline_67;Parent=mrna-panelB-Asplup1-soppiline_65;Name=jgi.p|Asplup1|41419;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	20686	20790	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_68;Parent=mrna-panelB-Asplup1-soppiline_65;Name=jgi.p|Asplup1|41419;source=prediction
+panelB-Asplup1-soppiline	.	promoter	20740	21804	.	+	.	ID=promoter-gene23754_25708;locus_tag=gene23754_25708,gene26672_27959;note=bidirectional promoter;tool=antismash
+panelB-Asplup1-soppiline	.	five_prime_UTR	21755	21929	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_69;Parent=mRNA_12688;Name=jgi.p|Asplup1|204437;source=prediction
+panelB-Asplup1-soppiline	.	exon	21755	21988	.	+	.	ID=exon-panelB-Asplup1-soppiline_70;Parent=mRNA_12688;Name=jgi.p|Asplup1|204437;source=prediction
+panelB-Asplup1-soppiline	.	gene	21755	23041	0	+	.	ID=gene-panelB-Asplup1-soppiline_71;Name=gene26672_27959;source=prediction;transcriptId=204615;Name=jgi.p|Asplup1|204437;portal_id=Asplup1;proteinId=204437
+panelB-Asplup1-soppiline	.	mRNA	21755	23041	.	+	.	ID=mrna-panelB-Asplup1-soppiline_72;Parent=gene-panelB-Asplup1-soppiline_71;Name=jgi.p|Asplup1|204437;source=prediction;transcriptId=204615;Name=jgi.p|Asplup1|204437;proteinId=204437;track=FilteredModels1
+panelB-Asplup1-soppiline	.	CDS	21930	21988	.	+	.	ID=cds-panelB-Asplup1-soppiline_73;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p_Asplup1_204437;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	CDS	22261	22318	.	+	.	ID=cds-panelB-Asplup1-soppiline_73;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p_Asplup1_204437;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	CDS	22383	22889	.	+	.	ID=cds-panelB-Asplup1-soppiline_73;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p_Asplup1_204437;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	21981	21988	127.1	+	.	ID=pfam_domain-jgi.p_Asplup1_204437;Dbxref=PF07956.13;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204437_0013;detection=hmmscan;locus_tag=jgi.p_Asplup1_204437;protein_start=17;description=Protein of Unknown function (DUF1690);evalue=6.80E-37;aSDomain=DUF1690;protein_end=194;label=jgi.p_Asplup1_204437;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	22261	22318	127.1	+	.	ID=pfam_domain-jgi.p_Asplup1_204437;Dbxref=PF07956.13;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204437_0013;detection=hmmscan;locus_tag=jgi.p_Asplup1_204437;protein_start=17;description=Protein of Unknown function (DUF1690);evalue=6.80E-37;aSDomain=DUF1690;protein_end=194;label=jgi.p_Asplup1_204437;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	22383	22847	127.1	+	.	ID=pfam_domain-jgi.p_Asplup1_204437;Dbxref=PF07956.13;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_204437_0013;detection=hmmscan;locus_tag=jgi.p_Asplup1_204437;protein_start=17;description=Protein of Unknown function (DUF1690);evalue=6.80E-37;aSDomain=DUF1690;protein_end=194;label=jgi.p_Asplup1_204437;tool=antismash
+panelB-Asplup1-soppiline	.	exon	22261	22318	.	+	.	ID=exon-panelB-Asplup1-soppiline_74;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p|Asplup1|204437;source=prediction
+panelB-Asplup1-soppiline	.	exon	22383	23041	.	+	.	ID=exon-panelB-Asplup1-soppiline_75;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p|Asplup1|204437;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	22890	23041	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_76;Parent=mrna-panelB-Asplup1-soppiline_72;Name=jgi.p|Asplup1|204437;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	23128	23211	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_77;Parent=mRNA_12689;Name=jgi.p|Asplup1|41455;source=prediction
+panelB-Asplup1-soppiline	.	exon	23128	25506	.	-	.	ID=exon-panelB-Asplup1-soppiline_78;Parent=mRNA_12689;Name=jgi.p|Asplup1|41455;source=prediction
+panelB-Asplup1-soppiline	.	gene	23128	26067	0	-	.	ID=gene-panelB-Asplup1-soppiline_79;Name=gene28045_30985;proteinId=41455;portal_id=Asplup1;Name=jgi.p|Asplup1|41455;transcriptId=41455;source=prediction
+panelB-Asplup1-soppiline	.	mRNA	23128	26067	.	-	.	ID=mrna-panelB-Asplup1-soppiline_80;Parent=gene-panelB-Asplup1-soppiline_79;Name=jgi.p|Asplup1|41455;track=FilteredModels1;proteinId=41455;source=prediction;transcriptId=41455;Name=jgi.p|Asplup1|41455
+panelB-Asplup1-soppiline	.	CDS	23212	25506	.	-	.	ID=cds-panelB-Asplup1-soppiline_81;Parent=mrna-panelB-Asplup1-soppiline_80;Name=jgi.p_Asplup1_41455;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	CDS	25605	25931	.	-	.	ID=cds-panelB-Asplup1-soppiline_81;Parent=mrna-panelB-Asplup1-soppiline_80;Name=jgi.p_Asplup1_41455;transl_table=1;phase=0;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	23872	24189	114.3	-	.	ID=pfam_domain-jgi.p_Asplup1_41455;Dbxref=PF08170.14;protein_end=654;label=jgi.p_Asplup1_41455;tool=antismash;aSDomain=POPLD;description=POPLD (NUC188) domain;evalue=2.60E-33;protein_start=548;locus_tag=jgi.p_Asplup1_41455;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_41455_0015;aSTool=clusterhmmer
+panelB-Asplup1-soppiline	.	PFAM_domain	25033	25506	241.0	-	.	ID=pfam_domain-jgi.p_Asplup1_41455;Dbxref=PF06978.13;protein_start=51;locus_tag=jgi.p_Asplup1_41455;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_41455_0014;aSTool=clusterhmmer;database=34.0;tool=antismash;label=jgi.p_Asplup1_41455;protein_end=267;aSDomain=POP1;evalue=1.30E-71;description=Ribonucleases P/MRP protein subunit POP1
+panelB-Asplup1-soppiline	.	PFAM_domain	25605	25778	241.0	-	.	ID=pfam_domain-jgi.p_Asplup1_41455;Dbxref=PF06978.13;protein_start=51;locus_tag=jgi.p_Asplup1_41455;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_41455_0014;aSTool=clusterhmmer;database=34.0;tool=antismash;label=jgi.p_Asplup1_41455;protein_end=267;aSDomain=POP1;evalue=1.30E-71;description=Ribonucleases P/MRP protein subunit POP1
+panelB-Asplup1-soppiline	.	exon	25605	26067	.	-	.	ID=exon-panelB-Asplup1-soppiline_82;Parent=mrna-panelB-Asplup1-soppiline_80;Name=jgi.p|Asplup1|41455;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	25932	26067	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_83;Parent=mrna-panelB-Asplup1-soppiline_80;Name=jgi.p|Asplup1|41455;source=prediction
+panelB-Asplup1-soppiline	.	promoter	26017	27067	.	+	.	ID=promoter-gene28045_30985;tool=antismash;locus_tag=gene28045_30985
+panelB-Asplup1-soppiline	.	exon	30001	30906	.	-	.	ID=exon-panelB-Asplup1-soppiline_84;Parent=mRNA_12691;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	gene	30001	38421	0	-	.	ID=gene-panelB-Asplup1-soppiline_85;Name=gene34918_43339;source=prediction;transcriptId=224905;Name=jgi.p|Asplup1|224727;portal_id=Asplup1;proteinId=224727
+panelB-Asplup1-soppiline	.	mRNA	30001	38421	.	-	.	ID=mrna-panelB-Asplup1-soppiline_86;Parent=gene-panelB-Asplup1-soppiline_85;Name=jgi.p|Asplup1|224727;proteinId=224727;track=FilteredModels1;source=prediction;transcriptId=224905;Name=jgi.p|Asplup1|224727
+panelB-Asplup1-soppiline	.	CDS	30001	30906	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	30984	31461	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	31521	31861	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	31926	32294	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	32355	33253	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	33331	33427	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	33481	35627	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	35684	36142	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	36222	36693	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	36760	36872	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	36929	37052	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	37109	37177	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	37238	37682	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	CDS	37739	38421	.	-	.	ID=cds-panelB-Asplup1-soppiline_87;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p_Asplup1_224727;gene_kind=biosynthetic;gene_functions=T1PKS:PKS_AT,T1PKS:itr_KS,ADH_N,biosynthetic-additional(rule-based-clusters) ADH_zinc_N,biosynthetic-additional(rule-based-clusters) adh_short,biosynthetic-additional(rule-based-clusters) PP-binding,biosynthetic-additional (smcogs)SMCOG1022:Beta-ketoacyl synthase ;transl_table=1;NRPS_PKS=Domain: PKS_KS(Iterative-KS) (66-484). E-value:4.5e-152. Score: 498.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,Domain: PKS_AT (590-896). E-value: 2.7e-97.Score: 317.5. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,Domain: PKS_DH (960-1125). E-value: 2.2e-26.Score: 85.1. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,Domain: cMT (1413-1589). E-value: 4.4e-83.Score: 270.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,Domain: PKS_ER (1802-2119). E-value: 1.1e-114.Score: 374.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,Domain: PKS_KR (2143-2323). E-value: 7.8e-52.Score: 167.7. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,Domain: PKS_PP (2443-2517). E-value: 3.6e-12.Score: 38.4. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;source=prediction;sec_met_domain=itr_KS (E-value: 8.3e-165, bitscore:539.3, seeds: 96, tool: rule-based-clusters),PKS_AT (E-value: 1.2e-97, bitscore: 317.5,seeds: 1682, tool: rule-based-clusters),ADH_N (E-value: 2.2e-10, bitscore: 31.2,seeds: 66, tool: rule-based-clusters),ADH_zinc_N (E-value: 3.7e-16, bitscore:50.1, seeds: 86, tool: rule-based-clusters),adh_short (E-value: 3.6e-41, bitscore:131.8, seeds: 230, tool: rule-based-clusters),PP-binding (E-value: 3.5e-08, bitscore:24.7, seeds: 164, tool: rule-based-clusters)
+panelB-Asplup1-soppiline	.	PFAM_domain	30052	30204	28.0	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00550.27;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0025;database=34.0;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=2466;evalue=2.10E-06;description=Phosphopantetheine attachment site;aSDomain=PP-binding;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=2517
+panelB-Asplup1-soppiline	.	aSDomain	30052	30273	38.4	-	.	ID=asdomain-jgi.p_Asplup1_224727;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=2443;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1;database=nrpspksdomains.hmm;tool=antismash;label=jgi.p_Asplup1_224727_PKS_PP.1;protein_end=2517;evalue=3.60E-12;aSDomain=PKS_PP
+panelB-Asplup1-soppiline	.	aSModule	30052	38223	.	-	.	ID=asmodule-panelB-Asplup1-soppiline_88;locus_tags=jgi.p_Asplup1_224727;tool=antismash;type=pks;iterative=;complete=;monomer_pairings=pk -> pk;domains=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1,nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1,nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1,nrpspksdomains_jgi.p_Asplup1_224727_cMT.1,nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1,nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1,nrpspksdomains_jgi.p_Asplup1_224727_PKS_PP.1
+panelB-Asplup1-soppiline	.	aSDomain	30634	30906	167.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;specificity=KR activity: active,KR stereochemistry: (unknown);domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1;database=nrpspksdomains.hmm;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=2143;evalue=7.80E-52;aSDomain=PKS_KR;tool=antismash;protein_end=2323;label=jgi.p_Asplup1_224727_PKS_KR.1
+panelB-Asplup1-soppiline	.	aSDomain	30984	31250	167.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;specificity=KR activity: active,KR stereochemistry: (unknown);domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KR.1;database=nrpspksdomains.hmm;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=2143;evalue=7.80E-52;aSDomain=PKS_KR;tool=antismash;protein_end=2323;label=jgi.p_Asplup1_224727_PKS_KR.1
+panelB-Asplup1-soppiline	.	PFAM_domain	30637	30906	186.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08659.12;protein_start=2143;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0024;aSTool=clusterhmmer;label=jgi.p_Asplup1_224727;protein_end=2322;tool=antismash;aSDomain=KR;evalue=5.10E-55;description=KR domain
+panelB-Asplup1-soppiline	.	PFAM_domain	30984	31250	186.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08659.12;protein_start=2143;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0024;aSTool=clusterhmmer;label=jgi.p_Asplup1_224727;protein_end=2322;tool=antismash;aSDomain=KR;evalue=5.10E-55;description=KR domain
+panelB-Asplup1-soppiline	.	CDS_motif	30682	30792	53.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;protein_end=2307;label=PKSI-KR_m4;tool=antismash;evalue=8.20E-17;protein_start=2270;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0016;aSTool=nrps_pks_domains
+panelB-Asplup1-soppiline	.	CDS_motif	30826	30855	13.1	-	.	ID=cds_motif-jgi.p_Asplup1_224727;protein_start=2249;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0015;aSTool=nrps_pks_domains;protein_end=2259;label=PKSI-KR_m3;tool=antismash;evalue=5.90E-04
+panelB-Asplup1-soppiline	.	exon	30984	31461	.	-	.	ID=exon-panelB-Asplup1-soppiline_89;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	31152	31250	56.3	-	.	ID=cds_motif-jgi.p_Asplup1_224727;evalue=1.20E-17;tool=antismash;protein_end=2176;label=PKSI-KR_m1;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0014;aSTool=nrps_pks_domains;database=abmotifs;protein_start=2143;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan
+panelB-Asplup1-soppiline	.	CDS_motif	31323	31370	19.9	-	.	ID=cds_motif-jgi.p_Asplup1_224727;database=abmotifs;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0013;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=2103;evalue=3.20E-06;protein_end=2119;label=PKSI-ER_m9;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	31323	31461	51.8	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF13602.8;protein_end=2119;label=jgi.p_Asplup1_224727;tool=antismash;description=Zinc-binding dehydrogenase;evalue=1.70E-13;aSDomain=ADH_zinc_N_2;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=1983;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0023
+panelB-Asplup1-soppiline	.	PFAM_domain	31521	31789	51.8	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF13602.8;protein_end=2119;label=jgi.p_Asplup1_224727;tool=antismash;description=Zinc-binding dehydrogenase;evalue=1.70E-13;aSDomain=ADH_zinc_N_2;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=1983;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0023
+panelB-Asplup1-soppiline	.	aSDomain	31323	31461	374.6	-	.	ID=asdomain-jgi.p_Asplup1_224727;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1;aSTool=nrps_pks_domains;database=nrpspksdomains.hmm;protein_start=1802;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;aSDomain=PKS_ER;evalue=1.10E-114;tool=antismash;protein_end=2119;label=jgi.p_Asplup1_224727_PKS_ER.1
+panelB-Asplup1-soppiline	.	aSDomain	31521	31861	374.6	-	.	ID=asdomain-jgi.p_Asplup1_224727;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1;aSTool=nrps_pks_domains;database=nrpspksdomains.hmm;protein_start=1802;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;aSDomain=PKS_ER;evalue=1.10E-114;tool=antismash;protein_end=2119;label=jgi.p_Asplup1_224727_PKS_ER.1
+panelB-Asplup1-soppiline	.	aSDomain	31926	32294	374.6	-	.	ID=asdomain-jgi.p_Asplup1_224727;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1;aSTool=nrps_pks_domains;database=nrpspksdomains.hmm;protein_start=1802;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;aSDomain=PKS_ER;evalue=1.10E-114;tool=antismash;protein_end=2119;label=jgi.p_Asplup1_224727_PKS_ER.1
+panelB-Asplup1-soppiline	.	aSDomain	32355	32456	374.6	-	.	ID=asdomain-jgi.p_Asplup1_224727;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_ER.1;aSTool=nrps_pks_domains;database=nrpspksdomains.hmm;protein_start=1802;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;aSDomain=PKS_ER;evalue=1.10E-114;tool=antismash;protein_end=2119;label=jgi.p_Asplup1_224727_PKS_ER.1
+panelB-Asplup1-soppiline	.	exon	31521	31861	.	-	.	ID=exon-panelB-Asplup1-soppiline_90;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	31703	31741	12.8	-	.	ID=cds_motif-jgi.p_Asplup1_224727;tool=antismash;protein_end=2012;label=PKSI-ER_m7;evalue=4.80E-04;protein_start=1999;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0012;aSTool=nrps_pks_domains;database=abmotifs
+panelB-Asplup1-soppiline	.	CDS_motif	31823	31861	19.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0011;aSTool=nrps_pks_domains;protein_start=1956;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;evalue=3.20E-06;label=PKSI-ER_m6;protein_end=1972;tool=antismash
+panelB-Asplup1-soppiline	.	CDS_motif	31926	31934	19.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0011;aSTool=nrps_pks_domains;protein_start=1956;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;evalue=3.20E-06;label=PKSI-ER_m6;protein_end=1972;tool=antismash
+panelB-Asplup1-soppiline	.	exon	31926	32294	.	-	.	ID=exon-panelB-Asplup1-soppiline_91;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	31944	32006	27.9	-	.	ID=cds_motif-jgi.p_Asplup1_224727;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=1932;database=abmotifs;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0010;label=PKSI-ER_m5;protein_end=1953;tool=antismash;evalue=7.40E-09
+panelB-Asplup1-soppiline	.	CDS_motif	32031	32072	11.1	-	.	ID=cds_motif-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0009;database=abmotifs;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=1910;evalue=3.10E-03;tool=antismash;label=PKSI-ER_m4;protein_end=1924
+panelB-Asplup1-soppiline	.	PFAM_domain	32049	32294	31.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08240.14;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0022;aSTool=clusterhmmer;database=34.0;protein_start=1821;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;aSDomain=ADH_N;evalue=1.70E-07;description=Alcohol dehydrogenase GroES-like domain;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=1918
+panelB-Asplup1-soppiline	.	PFAM_domain	32355	32399	31.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08240.14;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0022;aSTool=clusterhmmer;database=34.0;protein_start=1821;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;aSDomain=ADH_N;evalue=1.70E-07;description=Alcohol dehydrogenase GroES-like domain;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=1918
+panelB-Asplup1-soppiline	.	exon	32355	33253	.	-	.	ID=exon-panelB-Asplup1-soppiline_92;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	aSDomain	33096	33253	270.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;protein_start=1413;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_cMT.1;aSTool=nrps_pks_domains;label=jgi.p_Asplup1_224727_cMT.1;protein_end=1589;tool=antismash;aSDomain=MT;evalue=4.40E-83
+panelB-Asplup1-soppiline	.	aSDomain	33331	33427	270.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;protein_start=1413;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_cMT.1;aSTool=nrps_pks_domains;label=jgi.p_Asplup1_224727_cMT.1;protein_end=1589;tool=antismash;aSDomain=MT;evalue=4.40E-83
+panelB-Asplup1-soppiline	.	aSDomain	33481	33753	270.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;protein_start=1413;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_cMT.1;aSTool=nrps_pks_domains;label=jgi.p_Asplup1_224727_cMT.1;protein_end=1589;tool=antismash;aSDomain=MT;evalue=4.40E-83
+panelB-Asplup1-soppiline	.	exon	33331	33427	.	-	.	ID=exon-panelB-Asplup1-soppiline_93;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	33353	33427	74.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08242.14;protein_start=1423;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0021;aSTool=clusterhmmer;database=34.0;tool=antismash;protein_end=1529;label=jgi.p_Asplup1_224727;aSDomain=Methyltransf_12;description=Methyltransferase domain;evalue=1.20E-20
+panelB-Asplup1-soppiline	.	PFAM_domain	33481	33723	74.2	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF08242.14;protein_start=1423;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0021;aSTool=clusterhmmer;database=34.0;tool=antismash;protein_end=1529;label=jgi.p_Asplup1_224727;aSDomain=Methyltransf_12;description=Methyltransferase domain;evalue=1.20E-20
+panelB-Asplup1-soppiline	.	exon	33481	35627	.	-	.	ID=exon-panelB-Asplup1-soppiline_94;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	34270	35112	212.4	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF14765.8;aSDomain=PS-DH;evalue=8.90E-63;description=Polyketide synthase dehydratase;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=1241;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0020;aSTool=clusterhmmer;database=34.0;protein_start=960;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727
+panelB-Asplup1-soppiline	.	aSDomain	34618	35112	85.1	-	.	ID=asdomain-jgi.p_Asplup1_224727;protein_start=960;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_DH.1;aSTool=nrps_pks_domains;label=jgi.p_Asplup1_224727_PKS_DH.1;protein_end=1125;tool=antismash;aSDomain=PKS_DH;evalue=2.20E-26
+panelB-Asplup1-soppiline	.	CDS_motif	34951	35028	32.5	-	.	ID=cds_motif-jgi.p_Asplup1_224727;protein_end=1014;label=PKSI-DH_m2;tool=antismash;evalue=3.00E-10;protein_start=988;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0008;aSTool=nrps_pks_domains
+panelB-Asplup1-soppiline	.	aSDomain	35305	35627	317.5	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSDomain=PKS_AT;evalue=2.70E-97;label=jgi.p_Asplup1_224727_PKS_AT.1;protein_end=896;tool=antismash;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;aSTool=nrps_pks_domains;protein_start=590;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan
+panelB-Asplup1-soppiline	.	aSDomain	35684	36142	317.5	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSDomain=PKS_AT;evalue=2.70E-97;label=jgi.p_Asplup1_224727_PKS_AT.1;protein_end=896;tool=antismash;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;aSTool=nrps_pks_domains;protein_start=590;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan
+panelB-Asplup1-soppiline	.	aSDomain	36222	36357	317.5	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSDomain=PKS_AT;evalue=2.70E-97;label=jgi.p_Asplup1_224727_PKS_AT.1;protein_end=896;tool=antismash;database=nrpspksdomains.hmm;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_AT.1;specificity=substrate consensus: pk,PKS signature: Malonyl-CoA,Minowa: mmal;aSTool=nrps_pks_domains;protein_start=590;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan
+panelB-Asplup1-soppiline	.	PFAM_domain	35347	35627	187.7	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00698.23;label=jgi.p_Asplup1_224727;protein_end=882;tool=antismash;aSDomain=Acyl_transf_1;evalue=3.90E-55;description=Acyl transferase domain;protein_start=588;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0019;aSTool=clusterhmmer
+panelB-Asplup1-soppiline	.	PFAM_domain	35684	36142	187.7	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00698.23;label=jgi.p_Asplup1_224727;protein_end=882;tool=antismash;aSDomain=Acyl_transf_1;evalue=3.90E-55;description=Acyl transferase domain;protein_start=588;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0019;aSTool=clusterhmmer
+panelB-Asplup1-soppiline	.	PFAM_domain	36222	36363	187.7	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00698.23;label=jgi.p_Asplup1_224727;protein_end=882;tool=antismash;aSDomain=Acyl_transf_1;evalue=3.90E-55;description=Acyl transferase domain;protein_start=588;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0019;aSTool=clusterhmmer
+panelB-Asplup1-soppiline	.	CDS_motif	35455	35502	10.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;evalue=2.20E-03;protein_end=846;label=PKSI-AT-mM_m8;tool=antismash;database=abmotifs;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0007;aSTool=nrps_pks_domains;protein_start=830;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727
+panelB-Asplup1-soppiline	.	exon	35684	36142	.	-	.	ID=exon-panelB-Asplup1-soppiline_95;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	35931	36035	28.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0006;aSTool=nrps_pks_domains;database=abmotifs;protein_start=671;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;evalue=4.80E-09;tool=antismash;label=PKSI-AT-mM_m3;protein_end=706
+panelB-Asplup1-soppiline	.	exon	36222	36693	.	-	.	ID=exon-panelB-Asplup1-soppiline_96;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	36313	36366	16.4	-	.	ID=cds_motif-jgi.p_Asplup1_224727;label=PKSI-AT-mM_m1;protein_end=605;tool=antismash;evalue=3.10E-05;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=587;database=abmotifs;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0005
+panelB-Asplup1-soppiline	.	PFAM_domain	36436	36693	92.0	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF16197.7;protein_start=436;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0018;aSTool=clusterhmmer;database=34.0;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=564;aSDomain=KAsynt_C_assoc;evalue=3.40E-26;description=Ketoacyl-synthetase C-terminal extension
+panelB-Asplup1-soppiline	.	PFAM_domain	36760	36872	92.0	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF16197.7;protein_start=436;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0018;aSTool=clusterhmmer;database=34.0;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=564;aSDomain=KAsynt_C_assoc;evalue=3.40E-26;description=Ketoacyl-synthetase C-terminal extension
+panelB-Asplup1-soppiline	.	PFAM_domain	36929	36941	92.0	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF16197.7;protein_start=436;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0018;aSTool=clusterhmmer;database=34.0;tool=antismash;label=jgi.p_Asplup1_224727;protein_end=564;aSDomain=KAsynt_C_assoc;evalue=3.40E-26;description=Ketoacyl-synthetase C-terminal extension
+panelB-Asplup1-soppiline	.	aSDomain	36676	36693	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	aSDomain	36760	36872	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	aSDomain	36929	37052	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	aSDomain	37109	37177	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	aSDomain	37238	37682	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	aSDomain	37739	38223	498.7	-	.	ID=asdomain-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_224727_PKS_KS.1;database=nrpspksdomains.hmm;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=66;evalue=4.50E-152;aSDomain=PKS_KS;domain_subtypes=Iterative-KS;tool=antismash;label=jgi.p_Asplup1_224727_PKS_KS.1;protein_end=484
+panelB-Asplup1-soppiline	.	exon	36760	36872	.	-	.	ID=exon-panelB-Asplup1-soppiline_97;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	exon	36929	37052	.	-	.	ID=exon-panelB-Asplup1-soppiline_98;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	36948	37052	110.3	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF02801.24;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=321;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0017;database=34.0;tool=antismash;protein_end=434;label=jgi.p_Asplup1_224727;description=Beta-ketoacyl synthase, C-terminal domain;evalue=5.90E-32;aSDomain=Ketoacyl-synt_C
+panelB-Asplup1-soppiline	.	PFAM_domain	37109	37177	110.3	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF02801.24;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=321;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0017;database=34.0;tool=antismash;protein_end=434;label=jgi.p_Asplup1_224727;description=Beta-ketoacyl synthase, C-terminal domain;evalue=5.90E-32;aSDomain=Ketoacyl-synt_C
+panelB-Asplup1-soppiline	.	PFAM_domain	37238	37402	110.3	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF02801.24;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=321;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0017;database=34.0;tool=antismash;protein_end=434;label=jgi.p_Asplup1_224727;description=Beta-ketoacyl synthase, C-terminal domain;evalue=5.90E-32;aSDomain=Ketoacyl-synt_C
+panelB-Asplup1-soppiline	.	CDS_motif	37014	37052	9.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=397;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0004;database=abmotifs;tool=antismash;protein_end=412;label=PKSI-KS_m6;evalue=4.90E-03
+panelB-Asplup1-soppiline	.	CDS_motif	37109	37114	9.7	-	.	ID=cds_motif-jgi.p_Asplup1_224727;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727;protein_start=397;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0004;database=abmotifs;tool=antismash;protein_end=412;label=PKSI-KS_m6;evalue=4.90E-03
+panelB-Asplup1-soppiline	.	exon	37109	37177	.	-	.	ID=exon-panelB-Asplup1-soppiline_99;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	CDS_motif	37160	37177	12.8	-	.	ID=cds_motif-jgi.p_Asplup1_224727;protein_end=382;label=PKSI-KS_m5;tool=antismash;evalue=3.40E-04;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=367;database=abmotifs;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0003
+panelB-Asplup1-soppiline	.	CDS_motif	37238	37264	12.8	-	.	ID=cds_motif-jgi.p_Asplup1_224727;protein_end=382;label=PKSI-KS_m5;tool=antismash;evalue=3.40E-04;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=367;database=abmotifs;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0003
+panelB-Asplup1-soppiline	.	exon	37238	37682	.	-	.	ID=exon-panelB-Asplup1-soppiline_100;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	37427	37682	210.4	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00109.28;label=jgi.p_Asplup1_224727;protein_end=313;tool=antismash;evalue=3.30E-62;description=Beta-ketoacyl synthase, N-terminal domain;aSDomain=ketoacyl-synt;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=63;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0016
+panelB-Asplup1-soppiline	.	PFAM_domain	37739	38232	210.4	-	.	ID=pfam_domain-jgi.p_Asplup1_224727;Dbxref=PF00109.28;label=jgi.p_Asplup1_224727;protein_end=313;tool=antismash;evalue=3.30E-62;description=Beta-ketoacyl synthase, N-terminal domain;aSDomain=ketoacyl-synt;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=63;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_224727_0016
+panelB-Asplup1-soppiline	.	CDS_motif	37463	37501	12.0	-	.	ID=cds_motif-jgi.p_Asplup1_224727;aSTool=nrps_pks_domains;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0002;database=abmotifs;locus_tag=jgi.p_Asplup1_224727;detection=hmmscan;protein_start=288;evalue=1.20E-03;tool=antismash;label=PKSI-KS_m4;protein_end=301
+panelB-Asplup1-soppiline	.	CDS_motif	37646	37682	16.5	-	.	ID=cds_motif-jgi.p_Asplup1_224727;evalue=2.50E-05;tool=antismash;label=PKSI-KS_m3;protein_end=240;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0001;aSTool=nrps_pks_domains;database=abmotifs;protein_start=225;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727
+panelB-Asplup1-soppiline	.	CDS_motif	37739	37746	16.5	-	.	ID=cds_motif-jgi.p_Asplup1_224727;evalue=2.50E-05;tool=antismash;label=PKSI-KS_m3;protein_end=240;domain_id=nrpspksmotif_jgi.p_Asplup1_224727_0001;aSTool=nrps_pks_domains;database=abmotifs;protein_start=225;detection=hmmscan;locus_tag=jgi.p_Asplup1_224727
+panelB-Asplup1-soppiline	.	exon	37739	38421	.	-	.	ID=exon-panelB-Asplup1-soppiline_101;Parent=mrna-panelB-Asplup1-soppiline_86;Name=jgi.p|Asplup1|224727;source=prediction
+panelB-Asplup1-soppiline	.	promoter	38371	38799	.	+	.	ID=promoter-gene34918_43339;tool=antismash;note=bidirectional promoter;locus_tag=gene34918_43339,gene43667_45060
+panelB-Asplup1-soppiline	.	five_prime_UTR	38750	38827	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_102;Parent=mRNA_12692;Name=jgi.p|Asplup1|227097;source=prediction
+panelB-Asplup1-soppiline	.	exon	38750	38958	.	+	.	ID=exon-panelB-Asplup1-soppiline_103;Parent=mRNA_12692;Name=jgi.p|Asplup1|227097;source=prediction
+panelB-Asplup1-soppiline	.	gene	38750	40142	0	+	.	ID=gene-panelB-Asplup1-soppiline_104;Name=gene43667_45060;source=prediction;transcriptId=227275;Name=jgi.p|Asplup1|227097;portal_id=Asplup1;proteinId=227097
+panelB-Asplup1-soppiline	.	mRNA	38750	40142	.	+	.	ID=mrna-panelB-Asplup1-soppiline_105;Parent=gene-panelB-Asplup1-soppiline_104;Name=jgi.p|Asplup1|227097;track=FilteredModels1;proteinId=227097;transcriptId=227275;source=prediction;Name=jgi.p|Asplup1|227097
+panelB-Asplup1-soppiline	.	CDS	38828	38958	.	+	.	ID=cds-panelB-Asplup1-soppiline_106;Parent=mrna-panelB-Asplup1-soppiline_105;Name=jgi.p_Asplup1_227097;transl_table=1;source=prediction;sec_met_domain=Chal_sti_synt_N (E-value: 3.1e-19,bitscore: 60.0, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 1.7e-19,bitscore: 61.2, seeds: 21, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelB-Asplup1-soppiline	.	CDS	39021	39673	.	+	.	ID=cds-panelB-Asplup1-soppiline_106;Parent=mrna-panelB-Asplup1-soppiline_105;Name=jgi.p_Asplup1_227097;transl_table=1;source=prediction;sec_met_domain=Chal_sti_synt_N (E-value: 3.1e-19,bitscore: 60.0, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 1.7e-19,bitscore: 61.2, seeds: 21, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelB-Asplup1-soppiline	.	CDS	39730	40142	.	+	.	ID=cds-panelB-Asplup1-soppiline_106;Parent=mrna-panelB-Asplup1-soppiline_105;Name=jgi.p_Asplup1_227097;transl_table=1;source=prediction;sec_met_domain=Chal_sti_synt_N (E-value: 3.1e-19,bitscore: 60.0, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 1.7e-19,bitscore: 61.2, seeds: 21, tool: rule-based-clusters);gene_kind=biosynthetic;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelB-Asplup1-soppiline	.	exon	39021	39673	.	+	.	ID=exon-panelB-Asplup1-soppiline_107;Parent=mrna-panelB-Asplup1-soppiline_105;Name=jgi.p|Asplup1|227097;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	39109	39555	50.9	+	.	ID=pfam_domain-jgi.p_Asplup1_227097;Dbxref=PF00195.21;label=jgi.p_Asplup1_227097;protein_end=222;tool=antismash;evalue=1.40E-13;description=Chalcone and stilbene synthases, N-terminaldomain;aSDomain=Chal_sti_synt_N;detection=hmmscan;locus_tag=jgi.p_Asplup1_227097;protein_start=73;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_227097_0026
+panelB-Asplup1-soppiline	.	exon	39730	40142	.	+	.	ID=exon-panelB-Asplup1-soppiline_108;Parent=mrna-panelB-Asplup1-soppiline_105;Name=jgi.p|Asplup1|227097;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	39861	40118	64.0	+	.	ID=pfam_domain-jgi.p_Asplup1_227097;Dbxref=PF02797.17;aSDomain=Chal_sti_synt_C;evalue=1.60E-17;description=Chalcone and stilbene synthases, C-terminaldomain;tool=antismash;label=jgi.p_Asplup1_227097;protein_end=391;domain_id=clusterhmmer_jgi.p_Asplup1_227097_0027;aSTool=clusterhmmer;database=34.0;protein_start=305;locus_tag=jgi.p_Asplup1_227097;detection=hmmscan
+panelB-Asplup1-soppiline	.	three_prime_UTR	41415	41534	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_109;Parent=mRNA_12694;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	exon	41415	41692	.	-	.	ID=exon-panelB-Asplup1-soppiline_110;Parent=mRNA_12694;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	gene	41415	43722	0	-	.	ID=gene-panelB-Asplup1-soppiline_111;Name=gene46332_48640;transcriptId=227279;source=prediction;Name=jgi.p|Asplup1|227101;portal_id=Asplup1;proteinId=227101
+panelB-Asplup1-soppiline	.	mRNA	41415	43722	.	-	.	ID=mrna-panelB-Asplup1-soppiline_112;Parent=gene-panelB-Asplup1-soppiline_111;Name=jgi.p|Asplup1|227101;track=FilteredModels1;proteinId=227101;source=prediction;transcriptId=227279;Name=jgi.p|Asplup1|227101
+panelB-Asplup1-soppiline	.	CDS	41535	41692	.	-	.	ID=cds-panelB-Asplup1-soppiline_113;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p_Asplup1_227101;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 3.8e-69, bitscore: 224.2,seeds: 50, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	41790	42227	.	-	.	ID=cds-panelB-Asplup1-soppiline_113;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p_Asplup1_227101;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 3.8e-69, bitscore: 224.2,seeds: 50, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	42279	42651	.	-	.	ID=cds-panelB-Asplup1-soppiline_113;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p_Asplup1_227101;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 3.8e-69, bitscore: 224.2,seeds: 50, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	42720	43286	.	-	.	ID=cds-panelB-Asplup1-soppiline_113;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p_Asplup1_227101;gene_functions=p450,biosynthetic-additional (smcogs)SMCOG1034:cytochrome P450 ;gene_kind=biosynthetic-additional;sec_met_domain=p450 (E-value: 3.8e-69, bitscore: 224.2,seeds: 50, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	PFAM_domain	41616	41692	224.3	-	.	ID=pfam_domain-jgi.p_Asplup1_227101;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_227101;protein_end=485;evalue=2.70E-66;description=Cytochrome P450;aSDomain=p450;detection=hmmscan;locus_tag=jgi.p_Asplup1_227101;protein_start=64;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_227101_0028;database=34.0
+panelB-Asplup1-soppiline	.	PFAM_domain	41790	42227	224.3	-	.	ID=pfam_domain-jgi.p_Asplup1_227101;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_227101;protein_end=485;evalue=2.70E-66;description=Cytochrome P450;aSDomain=p450;detection=hmmscan;locus_tag=jgi.p_Asplup1_227101;protein_start=64;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_227101_0028;database=34.0
+panelB-Asplup1-soppiline	.	PFAM_domain	42279	42651	224.3	-	.	ID=pfam_domain-jgi.p_Asplup1_227101;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_227101;protein_end=485;evalue=2.70E-66;description=Cytochrome P450;aSDomain=p450;detection=hmmscan;locus_tag=jgi.p_Asplup1_227101;protein_start=64;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_227101_0028;database=34.0
+panelB-Asplup1-soppiline	.	PFAM_domain	42720	43094	224.3	-	.	ID=pfam_domain-jgi.p_Asplup1_227101;Dbxref=PF00067.24;tool=antismash;label=jgi.p_Asplup1_227101;protein_end=485;evalue=2.70E-66;description=Cytochrome P450;aSDomain=p450;detection=hmmscan;locus_tag=jgi.p_Asplup1_227101;protein_start=64;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_227101_0028;database=34.0
+panelB-Asplup1-soppiline	.	exon	41790	42227	.	-	.	ID=exon-panelB-Asplup1-soppiline_114;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	exon	42279	42651	.	-	.	ID=exon-panelB-Asplup1-soppiline_115;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	exon	42720	43722	.	-	.	ID=exon-panelB-Asplup1-soppiline_116;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	43287	43722	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_117;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|227101;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	43413	43537	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_118;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|41483;source=prediction
+panelB-Asplup1-soppiline	.	exon	43413	43720	.	+	.	ID=exon-panelB-Asplup1-soppiline_119;Parent=mrna-panelB-Asplup1-soppiline_112;Name=jgi.p|Asplup1|41483;source=prediction
+panelB-Asplup1-soppiline	.	gene	43413	45454	0	+	.	ID=gene-panelB-Asplup1-soppiline_120;Name=gene48330_50372;portal_id=Asplup1;proteinId=41483;transcriptId=41483;source=prediction;Name=jgi.p|Asplup1|41483
+panelB-Asplup1-soppiline	.	mRNA	43413	45454	.	+	.	ID=mrna-panelB-Asplup1-soppiline_121;Parent=gene-panelB-Asplup1-soppiline_120;Name=jgi.p|Asplup1|41483;proteinId=41483;track=FilteredModels1;source=prediction;transcriptId=41483;Name=jgi.p|Asplup1|41483
+panelB-Asplup1-soppiline	.	CDS	43538	43720	.	+	.	ID=cds-panelB-Asplup1-soppiline_122;Parent=mrna-panelB-Asplup1-soppiline_121;Name=jgi.p_Asplup1_41483;transl_table=1;source=prediction;phase=0;gene_kind=transport;gene_functions=transport (smcogs) SMCOG1005:Drugresistance transporter, EmrB/QacA 
+panelB-Asplup1-soppiline	.	CDS	43791	45299	.	+	.	ID=cds-panelB-Asplup1-soppiline_122;Parent=mrna-panelB-Asplup1-soppiline_121;Name=jgi.p_Asplup1_41483;transl_table=1;source=prediction;phase=0;gene_kind=transport;gene_functions=transport (smcogs) SMCOG1005:Drugresistance transporter, EmrB/QacA 
+panelB-Asplup1-soppiline	.	PFAM_domain	43664	43720	160.1	+	.	ID=pfam_domain-jgi.p_Asplup1_41483;Dbxref=PF07690.18;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_41483_0029;aSTool=clusterhmmer;protein_start=42;detection=hmmscan;locus_tag=jgi.p_Asplup1_41483;aSDomain=MFS_1;description=Major Facilitator Superfamily;evalue=7.40E-47;protein_end=448;label=jgi.p_Asplup1_41483;tool=antismash
+panelB-Asplup1-soppiline	.	PFAM_domain	43791	44951	160.1	+	.	ID=pfam_domain-jgi.p_Asplup1_41483;Dbxref=PF07690.18;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_41483_0029;aSTool=clusterhmmer;protein_start=42;detection=hmmscan;locus_tag=jgi.p_Asplup1_41483;aSDomain=MFS_1;description=Major Facilitator Superfamily;evalue=7.40E-47;protein_end=448;label=jgi.p_Asplup1_41483;tool=antismash
+panelB-Asplup1-soppiline	.	promoter	43672	44722	.	+	.	ID=promoter-gene46332_48640;locus_tag=gene46332_48640;tool=antismash
+panelB-Asplup1-soppiline	.	exon	43791	45454	.	+	.	ID=exon-panelB-Asplup1-soppiline_123;Parent=mrna-panelB-Asplup1-soppiline_121;Name=jgi.p|Asplup1|41483;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	45300	45454	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_124;Parent=mrna-panelB-Asplup1-soppiline_121;Name=jgi.p|Asplup1|41483;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	45455	45608	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_125;Parent=mRNA_12696;Name=jgi.p|Asplup1|41484;source=prediction
+panelB-Asplup1-soppiline	.	gene	45455	46589	0	-	.	ID=gene-panelB-Asplup1-soppiline_126;Name=gene50372_51507;proteinId=41484;portal_id=Asplup1;Name=jgi.p|Asplup1|41484;transcriptId=41484;source=prediction
+panelB-Asplup1-soppiline	.	mRNA	45455	46589	.	-	.	ID=mrna-panelB-Asplup1-soppiline_127;Parent=gene-panelB-Asplup1-soppiline_126;Name=jgi.p|Asplup1|41484;Name=jgi.p|Asplup1|41484;source=prediction;transcriptId=41484;proteinId=41484;track=FilteredModels1
+panelB-Asplup1-soppiline	.	exon	45455	46589	.	-	.	ID=exon-panelB-Asplup1-soppiline_128;Parent=mrna-panelB-Asplup1-soppiline_127;Name=jgi.p|Asplup1|41484;source=prediction
+panelB-Asplup1-soppiline	.	CDS	45609	46523	.	-	.	ID=cds-panelB-Asplup1-soppiline_129;Parent=mrna-panelB-Asplup1-soppiline_127;Name=jgi.p_Asplup1_41484;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	PFAM_domain	45684	46430	172.6	-	.	ID=pfam_domain-jgi.p_Asplup1_41484;Dbxref=PF05705.16;tool=antismash;label=jgi.p_Asplup1_41484;protein_end=280;evalue=1.30E-50;description=Eukaryotic protein of unknown function(DUF829);aSDomain=DUF829;locus_tag=jgi.p_Asplup1_41484;detection=hmmscan;protein_start=31;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41484_0030;database=34.0
+panelB-Asplup1-soppiline	.	five_prime_UTR	46524	46589	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_130;Parent=mrna-panelB-Asplup1-soppiline_127;Name=jgi.p|Asplup1|41484;source=prediction
+panelB-Asplup1-soppiline	.	promoter	46539	47589	.	+	.	ID=promoter-gene50372_51507;tool=antismash;locus_tag=gene50372_51507
+panelB-Asplup1-soppiline	.	three_prime_UTR	47847	47961	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_131;Parent=mRNA_12698;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	exon	47847	48333	.	-	.	ID=exon-panelB-Asplup1-soppiline_132;Parent=mRNA_12698;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	gene	47847	49198	0	-	.	ID=gene-panelB-Asplup1-soppiline_133;Name=gene52764_54116;source=prediction;transcriptId=204630;Name=jgi.p|Asplup1|204452;portal_id=Asplup1;proteinId=204452
+panelB-Asplup1-soppiline	.	mRNA	47847	49198	.	-	.	ID=mrna-panelB-Asplup1-soppiline_134;Parent=gene-panelB-Asplup1-soppiline_133;Name=jgi.p|Asplup1|204452;Name=jgi.p|Asplup1|204452;transcriptId=204630;source=prediction;track=FilteredModels1;proteinId=204452
+panelB-Asplup1-soppiline	.	CDS	47962	48333	.	-	.	ID=cds-panelB-Asplup1-soppiline_135;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p_Asplup1_204452;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	48406	48518	.	-	.	ID=cds-panelB-Asplup1-soppiline_135;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p_Asplup1_204452;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	48579	48789	.	-	.	ID=cds-panelB-Asplup1-soppiline_135;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p_Asplup1_204452;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	exon	48406	48518	.	-	.	ID=exon-panelB-Asplup1-soppiline_136;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	exon	48579	48965	.	-	.	ID=exon-panelB-Asplup1-soppiline_137;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	48790	48965	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_138;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	exon	49025	49198	.	-	.	ID=exon-panelB-Asplup1-soppiline_139;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	49025	49198	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_140;Parent=mrna-panelB-Asplup1-soppiline_134;Name=jgi.p|Asplup1|204452;source=prediction
+panelB-Asplup1-soppiline	.	promoter	49148	49603	.	+	.	ID=promoter-gene52764_54116;tool=antismash;locus_tag=gene52764_54116
+panelB-Asplup1-soppiline	.	three_prime_UTR	49605	49804	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_141;Parent=mRNA_12699;Name=jgi.p|Asplup1|204455;source=prediction
+panelB-Asplup1-soppiline	.	exon	49605	49984	.	-	.	ID=exon-panelB-Asplup1-soppiline_142;Parent=mRNA_12699;Name=jgi.p|Asplup1|204455;source=prediction
+panelB-Asplup1-soppiline	.	gene	49605	50786	0	-	.	ID=gene-panelB-Asplup1-soppiline_143;Name=gene54522_55704;Name=jgi.p|Asplup1|204455;source=prediction;transcriptId=204633;proteinId=204455;portal_id=Asplup1
+panelB-Asplup1-soppiline	.	mRNA	49605	50786	.	-	.	ID=mrna-panelB-Asplup1-soppiline_144;Parent=gene-panelB-Asplup1-soppiline_143;Name=jgi.p|Asplup1|204455;transcriptId=204633;source=prediction;Name=jgi.p|Asplup1|204455;proteinId=204455;track=FilteredModels1
+panelB-Asplup1-soppiline	.	CDS	49805	49984	.	-	.	ID=cds-panelB-Asplup1-soppiline_145;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p_Asplup1_204455;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	CDS	50041	50317	.	-	.	ID=cds-panelB-Asplup1-soppiline_145;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p_Asplup1_204455;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	CDS	50374	50423	.	-	.	ID=cds-panelB-Asplup1-soppiline_145;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p_Asplup1_204455;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	49817	49984	121.3	-	.	ID=pfam_domain-jgi.p_Asplup1_204455;Dbxref=PF08534.12;aSDomain=Redoxin;description=Redoxin;evalue=2.70E-35;protein_end=165;label=jgi.p_Asplup1_204455;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_204455_0031;aSTool=clusterhmmer;protein_start=5;detection=hmmscan;locus_tag=jgi.p_Asplup1_204455
+panelB-Asplup1-soppiline	.	PFAM_domain	50041	50317	121.3	-	.	ID=pfam_domain-jgi.p_Asplup1_204455;Dbxref=PF08534.12;aSDomain=Redoxin;description=Redoxin;evalue=2.70E-35;protein_end=165;label=jgi.p_Asplup1_204455;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_204455_0031;aSTool=clusterhmmer;protein_start=5;detection=hmmscan;locus_tag=jgi.p_Asplup1_204455
+panelB-Asplup1-soppiline	.	PFAM_domain	50374	50408	121.3	-	.	ID=pfam_domain-jgi.p_Asplup1_204455;Dbxref=PF08534.12;aSDomain=Redoxin;description=Redoxin;evalue=2.70E-35;protein_end=165;label=jgi.p_Asplup1_204455;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_204455_0031;aSTool=clusterhmmer;protein_start=5;detection=hmmscan;locus_tag=jgi.p_Asplup1_204455
+panelB-Asplup1-soppiline	.	exon	50041	50317	.	-	.	ID=exon-panelB-Asplup1-soppiline_146;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p|Asplup1|204455;source=prediction
+panelB-Asplup1-soppiline	.	exon	50374	50786	.	-	.	ID=exon-panelB-Asplup1-soppiline_147;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p|Asplup1|204455;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	50424	50786	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_148;Parent=mrna-panelB-Asplup1-soppiline_144;Name=jgi.p|Asplup1|204455;source=prediction
+panelB-Asplup1-soppiline	.	promoter	50736	51832	.	+	.	ID=promoter-gene54522_55704;locus_tag=gene54522_55704,gene56700_57728;tool=antismash;note=bidirectional promoter
+panelB-Asplup1-soppiline	.	five_prime_UTR	51783	51877	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_149;Parent=mRNA_12702;Name=jgi.p|Asplup1|41526;source=prediction
+panelB-Asplup1-soppiline	.	exon	51783	51957	.	+	.	ID=exon-panelB-Asplup1-soppiline_150;Parent=mRNA_12702;Name=jgi.p|Asplup1|41526;source=prediction
+panelB-Asplup1-soppiline	.	gene	51783	52810	0	+	.	ID=gene-panelB-Asplup1-soppiline_151;Name=gene56700_57728;transcriptId=41526;source=prediction;Name=jgi.p|Asplup1|41526;portal_id=Asplup1;proteinId=41526
+panelB-Asplup1-soppiline	.	mRNA	51783	52810	.	+	.	ID=mrna-panelB-Asplup1-soppiline_152;Parent=gene-panelB-Asplup1-soppiline_151;Name=jgi.p|Asplup1|41526;proteinId=41526;track=FilteredModels1;source=prediction;transcriptId=41526;Name=jgi.p|Asplup1|41526
+panelB-Asplup1-soppiline	.	CDS	51878	51957	.	+	.	ID=cds-panelB-Asplup1-soppiline_153;Parent=mrna-panelB-Asplup1-soppiline_152;Name=jgi.p_Asplup1_41526;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	CDS	52277	52670	.	+	.	ID=cds-panelB-Asplup1-soppiline_153;Parent=mrna-panelB-Asplup1-soppiline_152;Name=jgi.p_Asplup1_41526;transl_table=1;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	51893	51957	190.0	+	.	ID=pfam_domain-jgi.p_Asplup1_41526;Dbxref=PF07080.13;tool=antismash;protein_end=130;label=jgi.p_Asplup1_41526;aSDomain=DUF1348;description=Protein of unknown function (DUF1348);evalue=1.40E-56;protein_start=5;detection=hmmscan;locus_tag=jgi.p_Asplup1_41526;domain_id=clusterhmmer_jgi.p_Asplup1_41526_0032;aSTool=clusterhmmer;database=34.0
+panelB-Asplup1-soppiline	.	PFAM_domain	52277	52586	190.0	+	.	ID=pfam_domain-jgi.p_Asplup1_41526;Dbxref=PF07080.13;tool=antismash;protein_end=130;label=jgi.p_Asplup1_41526;aSDomain=DUF1348;description=Protein of unknown function (DUF1348);evalue=1.40E-56;protein_start=5;detection=hmmscan;locus_tag=jgi.p_Asplup1_41526;domain_id=clusterhmmer_jgi.p_Asplup1_41526_0032;aSTool=clusterhmmer;database=34.0
+panelB-Asplup1-soppiline	.	exon	52277	52810	.	+	.	ID=exon-panelB-Asplup1-soppiline_154;Parent=mrna-panelB-Asplup1-soppiline_152;Name=jgi.p|Asplup1|41526;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	52671	52810	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_155;Parent=mrna-panelB-Asplup1-soppiline_152;Name=jgi.p|Asplup1|41526;source=prediction
+panelB-Asplup1-soppiline	.	promoter	52837	53887	.	+	.	ID=promoter-gene58755_63745;locus_tag=gene58755_63745;tool=antismash
+panelB-Asplup1-soppiline	.	exon	53838	54049	.	+	.	ID=exon-panelB-Asplup1-soppiline_156;Parent=mRNA_12703;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	53838	54049	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_157;Parent=mRNA_12703;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	gene	53838	58827	0	+	.	ID=gene-panelB-Asplup1-soppiline_158;Name=gene58755_63745;proteinId=41541;portal_id=Asplup1;Name=jgi.p|Asplup1|41541;transcriptId=41541;source=prediction
+panelB-Asplup1-soppiline	.	mRNA	53838	58827	.	+	.	ID=mrna-panelB-Asplup1-soppiline_159;Parent=gene-panelB-Asplup1-soppiline_158;Name=jgi.p|Asplup1|41541;track=FilteredModels1;proteinId=41541;Name=jgi.p|Asplup1|41541;source=prediction;transcriptId=41541
+panelB-Asplup1-soppiline	.	five_prime_UTR	54104	54195	.	+	.	ID=five_prime_utr-panelB-Asplup1-soppiline_160;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	exon	54104	54788	.	+	.	ID=exon-panelB-Asplup1-soppiline_161;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	CDS	54196	54788	.	+	.	ID=cds-panelB-Asplup1-soppiline_162;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p_Asplup1_41541;gene_functions=Pkinase;gene_kind=biosynthetic-additional;sec_met_domain=Pkinase (E-value: 4.5e-72, bitscore:233.2, seeds: 54, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	54842	55570	.	+	.	ID=cds-panelB-Asplup1-soppiline_162;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p_Asplup1_41541;gene_functions=Pkinase;gene_kind=biosynthetic-additional;sec_met_domain=Pkinase (E-value: 4.5e-72, bitscore:233.2, seeds: 54, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	55637	57528	.	+	.	ID=cds-panelB-Asplup1-soppiline_162;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p_Asplup1_41541;gene_functions=Pkinase;gene_kind=biosynthetic-additional;sec_met_domain=Pkinase (E-value: 4.5e-72, bitscore:233.2, seeds: 54, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	57593	57889	.	+	.	ID=cds-panelB-Asplup1-soppiline_162;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p_Asplup1_41541;gene_functions=Pkinase;gene_kind=biosynthetic-additional;sec_met_domain=Pkinase (E-value: 4.5e-72, bitscore:233.2, seeds: 54, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	57951	58183	.	+	.	ID=cds-panelB-Asplup1-soppiline_162;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p_Asplup1_41541;gene_functions=Pkinase;gene_kind=biosynthetic-additional;sec_met_domain=Pkinase (E-value: 4.5e-72, bitscore:233.2, seeds: 54, tool: rule-based-clusters);source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	PFAM_domain	54508	54788	223.1	+	.	ID=pfam_domain-jgi.p_Asplup1_41541;Dbxref=PF00069.27;label=jgi.p_Asplup1_41541;protein_end=376;tool=antismash;evalue=4.20E-66;description=Protein kinase domain;aSDomain=Pkinase;detection=hmmscan;locus_tag=jgi.p_Asplup1_41541;protein_start=104;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41541_0033
+panelB-Asplup1-soppiline	.	PFAM_domain	54842	55376	223.1	+	.	ID=pfam_domain-jgi.p_Asplup1_41541;Dbxref=PF00069.27;label=jgi.p_Asplup1_41541;protein_end=376;tool=antismash;evalue=4.20E-66;description=Protein kinase domain;aSDomain=Pkinase;detection=hmmscan;locus_tag=jgi.p_Asplup1_41541;protein_start=104;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41541_0033
+panelB-Asplup1-soppiline	.	exon	54842	55570	.	+	.	ID=exon-panelB-Asplup1-soppiline_163;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	exon	55637	57528	.	+	.	ID=exon-panelB-Asplup1-soppiline_164;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	exon	57593	57889	.	+	.	ID=exon-panelB-Asplup1-soppiline_165;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	57700	57889	126.5	+	.	ID=pfam_domain-jgi.p_Asplup1_41541;Dbxref=PF16797.7;description=Fungal kinase associated-1 domain;evalue=4.20E-37;aSDomain=Fungal_KA1;protein_end=1228;label=jgi.p_Asplup1_41541;tool=antismash;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41541_0034;detection=hmmscan;locus_tag=jgi.p_Asplup1_41541;protein_start=1107
+panelB-Asplup1-soppiline	.	PFAM_domain	57951	58123	126.5	+	.	ID=pfam_domain-jgi.p_Asplup1_41541;Dbxref=PF16797.7;description=Fungal kinase associated-1 domain;evalue=4.20E-37;aSDomain=Fungal_KA1;protein_end=1228;label=jgi.p_Asplup1_41541;tool=antismash;database=34.0;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_41541_0034;detection=hmmscan;locus_tag=jgi.p_Asplup1_41541;protein_start=1107
+panelB-Asplup1-soppiline	.	exon	57951	58827	.	+	.	ID=exon-panelB-Asplup1-soppiline_166;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	58184	58827	.	+	.	ID=three_prime_utr-panelB-Asplup1-soppiline_167;Parent=mrna-panelB-Asplup1-soppiline_159;Name=jgi.p|Asplup1|41541;source=prediction
+panelB-Asplup1-soppiline	.	three_prime_UTR	59682	60259	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_168;Parent=mRNA_12704;Name=jgi.p|Asplup1|204463;source=prediction
+panelB-Asplup1-soppiline	.	gene	59682	60865	0	-	.	ID=gene-panelB-Asplup1-soppiline_169;Name=gene64599_65783;source=prediction;transcriptId=204641;Name=jgi.p|Asplup1|204463;portal_id=Asplup1;proteinId=204463
+panelB-Asplup1-soppiline	.	mRNA	59682	60865	.	-	.	ID=mrna-panelB-Asplup1-soppiline_170;Parent=gene-panelB-Asplup1-soppiline_169;Name=jgi.p|Asplup1|204463;Name=jgi.p|Asplup1|204463;source=prediction;transcriptId=204641;track=FilteredModels1;proteinId=204463
+panelB-Asplup1-soppiline	.	exon	59682	60865	.	-	.	ID=exon-panelB-Asplup1-soppiline_171;Parent=mrna-panelB-Asplup1-soppiline_170;Name=jgi.p|Asplup1|204463;source=prediction
+panelB-Asplup1-soppiline	.	CDS	60260	60691	.	-	.	ID=cds-panelB-Asplup1-soppiline_172;Parent=mrna-panelB-Asplup1-soppiline_170;Name=jgi.p_Asplup1_204463;transl_table=1;source=prediction;phase=0
+panelB-Asplup1-soppiline	.	five_prime_UTR	60692	60865	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_173;Parent=mrna-panelB-Asplup1-soppiline_170;Name=jgi.p|Asplup1|204463;source=prediction
+panelB-Asplup1-soppiline	.	promoter	60815	60864	.	+	.	ID=promoter-gene64599_65783;locus_tag=gene64599_65783;tool=antismash
+panelB-Asplup1-soppiline	.	three_prime_UTR	60866	61388	.	-	.	ID=three_prime_utr-panelB-Asplup1-soppiline_174;Parent=mRNA_12705;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	exon	60866	61778	.	-	.	ID=exon-panelB-Asplup1-soppiline_175;Parent=mRNA_12705;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	gene	60866	63352	0	-	.	ID=gene-panelB-Asplup1-soppiline_176;Name=gene65783_68270;source=prediction;transcriptId=204644;Name=jgi.p|Asplup1|204466;portal_id=Asplup1;proteinId=204466
+panelB-Asplup1-soppiline	.	mRNA	60866	63352	.	-	.	ID=mrna-panelB-Asplup1-soppiline_177;Parent=gene-panelB-Asplup1-soppiline_176;Name=jgi.p|Asplup1|204466;proteinId=204466;track=FilteredModels1;Name=jgi.p|Asplup1|204466;transcriptId=204644;source=prediction
+panelB-Asplup1-soppiline	.	CDS	61389	61778	.	-	.	ID=cds-panelB-Asplup1-soppiline_178;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p_Asplup1_204466;phase=0;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	61837	62157	.	-	.	ID=cds-panelB-Asplup1-soppiline_178;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p_Asplup1_204466;phase=0;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	62237	62488	.	-	.	ID=cds-panelB-Asplup1-soppiline_178;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p_Asplup1_204466;phase=0;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	CDS	62599	62721	.	-	.	ID=cds-panelB-Asplup1-soppiline_178;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p_Asplup1_204466;phase=0;source=prediction;transl_table=1
+panelB-Asplup1-soppiline	.	exon	61837	62157	.	-	.	ID=exon-panelB-Asplup1-soppiline_179;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	PFAM_domain	62059	62157	33.2	-	.	ID=pfam_domain-jgi.p_Asplup1_204466;Dbxref=PF00172.20;domain_id=clusterhmmer_jgi.p_Asplup1_204466_0035;aSTool=clusterhmmer;database=34.0;protein_start=116;detection=hmmscan;locus_tag=jgi.p_Asplup1_204466;aSDomain=Zn_clus;description=Fungal Zn(2)-Cys(6) binuclear cluster domain;evalue=4.30E-08;tool=antismash;protein_end=158;label=jgi.p_Asplup1_204466
+panelB-Asplup1-soppiline	.	PFAM_domain	62237	62263	33.2	-	.	ID=pfam_domain-jgi.p_Asplup1_204466;Dbxref=PF00172.20;domain_id=clusterhmmer_jgi.p_Asplup1_204466_0035;aSTool=clusterhmmer;database=34.0;protein_start=116;detection=hmmscan;locus_tag=jgi.p_Asplup1_204466;aSDomain=Zn_clus;description=Fungal Zn(2)-Cys(6) binuclear cluster domain;evalue=4.30E-08;tool=antismash;protein_end=158;label=jgi.p_Asplup1_204466
+panelB-Asplup1-soppiline	.	exon	62237	62488	.	-	.	ID=exon-panelB-Asplup1-soppiline_180;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	exon	62599	63352	.	-	.	ID=exon-panelB-Asplup1-soppiline_181;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	five_prime_UTR	62722	63352	.	-	.	ID=five_prime_utr-panelB-Asplup1-soppiline_182;Parent=mrna-panelB-Asplup1-soppiline_177;Name=jgi.p|Asplup1|204466;source=prediction
+panelB-Asplup1-soppiline	.	promoter	63302	63351	.	+	.	ID=promoter-gene65783_68270;tool=antismash;locus_tag=gene65783_68270
+##FASTA
+>panelB-Asplup1-soppiline scaffold_146 
+TTTGCGTGGCGTCGGCCAGTTTCCGTCGCTTGTTGCTGGCAGAGGATGAGGACGGCGCGG
+ATCGCGATACGCTCCACGAGGCGATATCTTCGGTGGGGAGGATCTCCGCCCGCACACCAC
+AGACGGCGGTGGTGTCGCCAACACGCACGACCGCGCTGCCGTTGGTATGGGTTAGGGAGC
+CCGTGTTCGCGGAGGTGACTCGGAATTGCGAGGGGGAGCGGCCATTGGCACGGATTGAGG
+GCTGGTTGGTGGTGGGCGGTGGTGATAGGTGAGCGAGGAGGTATGCGTGAGGTTGAAGTC
+GGGCGAACTGTGAGGGGGGGAGAGAAAGCGACGGAGGGACGGTCGATTGTGCCGCGGGGC
+TTGCTCCTGATGCCATTTTGGGATCAGGATAAGCTTTGCAAGGGTCGTAACTGTTTTGGT
+CGGTGGGATTTCGGCGCGGGGTGACTTGGGGAGCAGATGCATCAGCGACGTATTTTTTTG
+CGCGGCAGAATAATTCCCACGACGAAGGCGGTGAATGGCCTACCTTTTCATGCTTCCTAC
+ATTGATCCCTGCTTCATGACGATACCAACTCCAACCCTGCCCTATTTGTCCCACTTGGCG
+CATTCTTATGTCCTATTTGGGCTGTATATCTGGCTTATTTTCTATCTGACATGAGTCTAT
+GTGGAGTTCTCTGTCGTCCTGAAGAGGTATAACTCTTACATGCGCGCCGCGGGAGGCCTC
+ACCTGCAATGACTGCGTTATGTTGACTGGGGCTGTTCAACTCACAGGGACATGATACTAC
+TACATTTTGCGCCAAACAAAACAGAAACTGCGGTGGAATTTCCGATACATGCACACATAC
+CAAACACTCGGGTGATCTGTGGATAAACACGACAATACGAAGAGGCATCTACTAGTGAAC
+CACGATGTGAGGAATGGCCTCTCCCAAATCTGTTGCAATTCAGTGCAATTATGGTCTCAA
+GGAGCAAATCCACCAACTAGCTTTGCCTTGGCTCTTCCACGACATACTATTATTGAGTAC
+TCGCGGTTGAAGGATCATCGTCTTGTCTATATTTAAATACGAGATGCCGTTGATCCCATT
+GGATCCGTACCGGACCCTTAATCTTGTGGAGGATGCGAGGAGTGCATGCGACCATCCTCA
+GAACTAGCATTATTGCACAAGATCATACAGAGGCGACTATACCTACTTGTTATGAACATA
+TGTCAGGCTGACAGTCACCCAAAGGATGGACGTAGCTCTACCGAGTCCGTGTTTGTTGCC
+CATCATGACCCGATCAACTCCGATAGTCCCAATATTTGCACTCTCCACCATGTGTCTCGT
+GTTGATCGACAGCATCTTCAACAAGCTTCCCAGTTTTATCAGGGCTCGACGTACTGACGT
+GTGTTGATTGTAATTTCACATTTCCAATCTGTGTCCTCCACACGAACTGAACCCGTCGAA
+TCCACACCGAAACGGATCGGATTGTTGCCTATCCCCCAAAGAGGGCAGTACCGATCCGTC
+TGCGTGGAGAAAGTGGCACCTTTGGATATTGAGACTCGTATTCACCAAGTGATAGCGATT
+TCTTGGCTTATTTGACGGTGGTTCTTGTCAGCTGCCCTGCAAGGACATTGTTTTCTTTGT
+GCGAGAAGGATCTTATAACCTTTCTTCTATTTTTGATGTGCACTTTCTTTGTCCGACACA
+CGATTTGGGCGAGATTCCACATACATATACCCTTTGCCGCCGTTGATCGCTTTATATGGA
+CGTGCCGCTGTGCTCTGGCTTGTGGTGACTCTAACCGAAACTAGGATTCATTGCAGGTCA
+GCGATTTGACATGTTTTGACGCTTGAACAGATAAAAACACCATACTCGTCGAACCTCATT
+ATGGATACACCTTATTCGGCATCGAACTCCCACGGGAGTCTCAGTACGGACAGCTTTCCT
+TCGTCTGAACGGCCGCATCGTGGCCACTACCATCAACATCGCCAACGCAACCGCTCGACA
+CCTCGACTGTCGCAAGAAAGTGTCCCAGCGATGGATAACGAAAGGACTGTGACTAGCTCG
+AATATAATCTGGTCTGATGAAGGCATGGGCGGCTGGAGTGATGCCATCACGGCTAGCACT
+GTGCTCTCATTACTTCACAAAGAGCCACTAGTGCCCCCACCAAGACAGATCTCTGCGGCG
+GAAAGTGGCAGACATGTCCAGAACCGAGGGACTTTACTGTGTACTGTTTGCTTCGGAAAG
+TTCGACGAAGAATTTTATCCCCAGTCACCTGTCGCAGCTGGCTGCGACCATTCAGGGATG
+CCCGGGGTGCACATCTGCATGGGGTGTCTTCGTCAGAGCCTTCACATACAAGTATCTTCG
+TCCCACACATGCGTCGTGACTTGTCCTCTTTGCCATGAACAACTATCCGATGAAGAAGTT
+CAACGTTGGGCGAGTCCCGAGACGTTCCAGATTTATGACCGTATACGGACCTGGCAGGTC
+TTAGAAGAGGACGCAGAATTTGTCACGTGTATTCGACCAGATTGCGGCTATGGACAGTTG
+CATGCGGATGGGCTCGACGACCCCATCGTTGTGTGTGGCTCGTGCGGAACTCGGACCTGC
+TTCATCCACCGAAAGACTCCCTGGCACGAAGGGTTAACTTGCGCCGAGTACGAGGAATCG
+ACACAGCCGAGGGCACATAATGCTCCATTACGGGATGGACGTCGACGAGAAGTTCATGAG
+GACGTTCCTCGGGCACCAGGCCTGAGACGGGGCTGGGTGAACACCAGCCCCGAAGAGCTT
+CTCAGCATGCGGATGATTGCCGATATTGCGAAGCCATGCCCGTATTGTAATGCGGCCACG
+GAGAGAGTCGGGGGCTGTAAATATATGAGATGTATGTATGCTCCTGTTTGAGACGAACGT
+GGGACGAGATGGCTAACCGGTTTGATAGGTGGGTTATGTCGACAGGAGTGGTGTTGGGAC
+TGTGGAATCCGATGGCGACGAGGTCATTTGGACTATGATTGCTCCATATCTACGCTGGGA
+AGGCGATAGATCCCTACCTAGGTATATTGGGGATAGTCCTGGGGAACTCGATACGGCTTA
+CGATATCTGGCATGGTGTGAATATCCATGAGTTACTCCGGTAGAACGGAGAGTATGGATG
+AGGTCGAGGTTCAGCATGTATATAGCCAAGGATACCCAAGAACGAATCGGTTCGTCCCAG
+CCTATCGGGAGCTCTTGCAGTATGTCTTGGGAGACAACCTGAGAGGGTGTACTCCGTATA
+TCCAGGGTTGACCGCCATATATGAGCAGATCCCAAGCCACCATGAAGACAGCAGACTGCG
+ATTAGGCGCCGGGCAGCCGGCGTTGGGGCCAATGGGCGGGGGAGCCTGAGGCGTGCAGGT
+GACGAAGGCGATGTGCCCGCATTAGCGCCTCCAGCCATGCCCGCTTCATTCTTGTTATTG
+GTGACCACCTGCAATCCTCCCATACTCTCTCTCTCTGCTTACTGCAGGGCCCATCAACTC
+AACCTCCGCCATGTCTCTCAACCCCCGCCGCAAGATGTGATATCCAATGAGAGAGTGCCG
+GTTCCCGTTGACCGGCAAAATGCGAAGCTCTCTGCACGGGTCCCCCTCCTAGTCCTGCGG
+TGTCCATGACCATCTATGTATCTGGACCGCCTCCCCCGGACGATCGTCTTTTCTCCTGTT
+GCGCAGTTTCATGTCTCGTTTACCGCCCAGGGAGTCCTCGACAGGAACTGCTTCCGTTTC
+ATATGACTTCTCTCCAATGATCTCGCATCCTTGGTAGATAGAAGACTGTGTTATCAACAA
+GAAAGTACCGACTGTCGCTGCGTGGCAATTACTCACGCCGTCGAGGGCGTTGTACGCAGG
+TTGTTTGTGGCCGGGACGGCTTCAATAGCCTGCGTCCGTGACATTCTATCGTCGACACGC
+ACTGAAAGGAAAAGAAAACATAACAGGAAGATAAGAAATGGTGACGACATGGGACTCGGT
+GGCTTCTCTTGCGAAGCGCATAATTATTCCGGACAATGCGGCGACGACGCCAGAAGAGAA
+AGCGGAACGACTGCGAGATCCATGGTCTCAAGCCGGTAAATATGCGCTGGGCTGGGTGTT
+CTTCTCCGTGGTATTACTCACCATCGCGACCACGATTCGATTCTATCATATCTGGGGAGA
+CAAAGTCCGGATCGCCCTATACAAGGAAAACCCCTCCGATTTGTCACCGTATGGCACACC
+CCAGGATGAATATGAGCTCCCAAGCGCCGGGACCGACAGCTCCTCCCGTCAGTTCTTCCC
+AGCGCATGGCCCCCTGCCCGGCGACAAGAAGCAGCAGTCCTCGGTTTCGACCATCGCGCC
+CATCAATAAGACTATTGCTTTTATGAGATGGATCTTCTATCGGCCTCTGCCAGTGTTGCG
+GATAGGGCCGATGAGCATCGTCTTTCCCTCACTGGGAGCATCTGCCATCGTCTTCGCGGC
+TCTCGTCTTTGTTGCACTGTACTCGTTTCTCCCGCATCCCCTATTCTATTCGTCCGTCAA
+GATTGGTTCCCCTCCGTTGGCTATCCGTGCAGGGATGATCGCCGTGGCTATGATCCCTTG
+GATTGTAGCCCTGAGTACACGTGCGAACTTCATTACCATGCTGACCGGGATTGGTCATGA
+GAGACTCAATGTCCTCCATCGCTGGGCTGGGTACCTCTGCTTGTTCTTGAGCCTGGTTCA
+CATGGTCCCGTTCTACGTCACGCCCATCTGGGAGCACGGCATGCTCATCTACTACCAACA
+GTACTTCCCGCAGAACATGTACATCTACGGGACTGGTTTCGCGGCACTGGCACCTCTGAT
+ATTTTTATGCATCCATTCTCTGCCGATCCTGCGTTCCTCGATATACGAGCTCTTCGTGAC
+GGTACACCAGCCCGTTGCGATTATCTTCCTTGGGATGCTCTTTTGGCATTGCAAGAACTT
+CCTCACCTCATGGCATTATCTCTGGGCCACGGTTGCCATCTGGGTACTTTCATTCGGTAT
+CAGGCTGTTCTATCTCAACTGGACCAACCCCTTCCGGCTATCATTCATGATTGGAGAAGA
+GTCTGCAGTGACCTTCCTCCCCCAGAATGCGATCAAAGTGACGGTTGCGACCCGGATGAG
+GTGGAAACCCGGACAATATGTGTACCTGCGCATGCCGGGGATTGCTTGGTTCCAGCGCCA
+CCCCTTTACCATCGCCTCATTGTGCAGCGATGACTTCCCATCCGAGTACGGCGAACAGTA
+CCGCGACTTGGCTCTCGTGTTCCGTCCGTTCAAGGGCTTCACCCGGAAAGTCTTCTTCAA
+AGCCCTCGAGCATGGCCCATACAAGACCTGGACGGCGTTCCTAGAAGGGCCATATGGCGG
+CATGCGACGAGAGATGGCGGCCTTCGACGACGTCGTCTTTTTCGCCGGCGGCAGCGGCAT
+CACAGCCATTGCCAGCCAGCTCTTGTACCTGATCAAGAAAATGCGCGACGGCGCCGCAGT
+AACCAAGTCCGTCCGGGTGGTCTGGTCGTTCCGGAATCCAGAGTCAATCGAGTGGTTCAA
+AGAGGAACTGCGCATCTGCCGAGATTACGCGCCCCCCAACACCGTGCATTGCCAGTTCTT
+CCTCACAGGACTCGGATCGCCCGGGCAGGCCCCGCCAGAACAAACCCAGTTCTACCGTGA
+CATCGTGCAAGAGAAGATCTACGACACCCTGCAGGGGATCGACAAACGCAACTCCGCCTT
+CATCCGCGAAGAAGCAGCAGGGGACACGGAGATCGAAAAGATGCTCCGTCGCGAGAACGA
+GGATGCCATCACCGCACTGCCCCAAGCCTACATGGCGCCCCATCTCAACACCAGTCGACA
+CTACGGTACCAGCTCGACCGACAGCTTTTCGACCTACGCGGGCAGCCAACAAAGTCTCCA
+AAACGTGCCGTTCGACTTCGGCTTCTCCCAGCAGACGCTGCAGTCGCCGTCTCCTGTGTC
+TGCACCTGCGCCTGCGCCCGCGCCCATGAAACCGATCACTCGGTTCGCGTCCCTGCCGCT
+GCAGAAGCGGAACGGATGGCGCATCGACTACGTCCGGCCGGATATCCCCCAACTGATGAA
+TGAGTTCTCCAAGTCGTTTGGTCGTCGGACGTGCGTGTTTGTCTGTGGGCCTCCGAGCAT
+GCGAGTGGAGGTCGCTGATACTGTTGCCCGGCTCCAACAACAGGTGATGGCTGATTCTAC
+CAAGGACGAGATCTTCCTGCATGCTGAGAACTACAATATTTGAGATGATGGTTTTTTTGT
+CTGTTTGGATGCTGGCATCTGGTTTGCAAATGGCGCGCGATACCCTGGTAATTGAATTGT
+TGATTAATACTGGATATGATCTCCTTTGTCATGACGTCTTTCCTTTGTACAGTTAAATCC
+CGAAGTATATATATAGGTTTGTTGAGGAAAGGATCTTTATTGAATGCATATTATGGGTTG
+ATATATACAGTGTTCTCTCTTCTTTATCCAGTATTGCGTCCTCCTTATGCTGTGCAGACC
+AGGCAAAACAAGTCTAGACCACACCGCGTGCCATGTATATACATCTAAGTCAGGGGTGGA
+TAGAACGGAAAACCAGGATGGAGACTGGGCTGTACATCGTCGAAAAGTGGGTGTCGAGAA
+GGGTATCCAGAATGCTCAGAACAACAACAAGAACAACCAAAAGAATAAACACAGCAAGCA
+AAAGCAACAACACACCACTCCTACCTACCTACTTAGATCTATAAAGACCTAGCCAAGTAA
+GATCACAACCGCTGAGGCTCATCATCCGCCTTGCGCTTCCTGCTCGACCCATCATCAGCC
+TCAACCTCAAGAAGCCTCGAGCCCGTAAACGGCCGCACCCCATGATCCTCCCTGTCATCA
+CCATCCTCCGCCTCGACCTTTTCCCAGTCCTCGTCGTCCTCGTTCTCATCGTCAGCGTCA
+GCATCGATATCCTCGCCCCGACTCTGCCGGGTCGATGGCTGCTTCTGCTCCCCACCAGCC
+GGAGGAGGGGCGCCCCGCGACAGCACGAGTTTAACGATCCGCGCCCCAGACGGCTTCAAT
+CGACGATAGTAGTTCTCAACCACACCCTCCTCTACCTGGAACCCCCGCGCAAGATACCAC
+TTCAGACCTTCCTCGTTGGCCTCGTGGACATGCGCGGTGACGGTGCGGATGTTGTAGTGC
+GTGACGAGGTCTGAGAGTGGATACGGAGGAGTAACCTTCCCACCTGAAGAGGACGGATTC
+GACGCGAACAGCAGCGAGTTGAGCAGAGAGGCGGCGATTCCACACCCGCGATACGGGGAG
+AGGAGATGCAGCGTTTGGATGTAGAGGTTTGTTGGGTCCGCCTGTGCCGGGGGCTGTTCT
+TGCGATGCGGCGAGGAACTCTGCGCTGGTTGCGGGGAGACGTTCTAATCGACATCTTATA
+CCCCCGATTACCTTGTCGGTGCCTGCGGTGGATGGTGTCGTGGTGGTGGTGGTGGTGGTG
+GTGGTGGTTGGGCCGGCAGCCACCGGGTGGTCATGGTAGAGAGCGACGCGGGACAGCGAC
+GCGACGACGGGGTCGGTGATAGTCGCCGTGTAGAAAGAGTTTGGATAGCGGATTGGGAGG
+AGCAGACCGGTGATGCGCGTCAGGGAGGGGATGTGCGCGGTGCTGACCGACTTGATGGTG
+ACGTGCGGATGCGGGGTTTGGTAGCCGGACTCGACGGGATGGGGGTATGCGGGGGGTTGG
+AAGGACGGGTCTTTGCCTGCTGGAGGCCTAAACTTGGCTGCGAGGGTGACGGACGAGCTC
+TGCGACGGCGGAGGCACTACCAGAGGGTGCGGCTGTCGCGGTGGTCGGGCGTGTCGGGCG
+TTGGGGGAGGAGGGGTGAGGAGGCGGAGGTGGAGGTGGAGAGGTGGTGGGCGGTCGGTTG
+GACTGATGCGCCTTTGCGAAGAACTGGTATGCCATGGTGGTTATCACGAGGGAACGAGAG
+ACTGTATAGACAGGATACTGTCTCGAGTGTTGAGAGTCGGAATGTGCGAGTCGGAGGTGA
+GGAGAAGAAGTGGTGACCGCAACGAGCGAAAAACGCGGAGATGAGATAAGATAAGATCGG
+CCGGTCGGCGACTCTCGCCAACGCAGACACTGACACTCGCTCTCTCCGTCTCTCGCTCTC
+GCGCTGCCCTCTGGCTATCACTTCCATCCCCCTCCGCGACGTCTTTCCCATCGCCCAGTG
+TGACGCTCTCGCCCGTTCCAGTCCCCTGGATGGTGTTTCCGCCAGGTGCATATATCCTTC
+GTGGTTGCAAGGTTGACCGAGGTGAGTTGCCAGCCAGCCCCCTTGAGCACGCTGTGCTGC
+TGCGGCAGTCTGCTAATTGTCGCCCCGGGTCTCGCGCTCCGGACAAAGATCCCTCTTGCT
+AGACCTTTCTGATAGATGGACTGCATCTGGTCCTTGTCCTTGCCTTGACTGTCGACGTTC
+GACCGGTTTTTCCACGCTCCTTTTGCACCAAACGTGCCGGGGCTCTTTCGCCCGGCGCTG
+CCGACTCCCATCCGCTGCCGCCCAGCGACCCCAGATATCGATTCACTGCCCGTCGGCTCG
+ATACTAGTGTATGGAGCCAATGTATTGAGTCCAGAGAACTCTTCTCTTGCATTGCGAGTC
+TTGGATTCTTGGTGTCAAGGTCCGTGATATTGAGTGGGATTCCTGCTACTGTATATTGGT
+TATATTGGCTCTGCAGGCCATACTACAACACGGAGGTGTGTTTCAGTCTATGCGCTCTAT
+TGTCCGTCATATACACATCTCTTGGAGCACTGGGTTGTTGGCCCAATTGTTTCGGTGTCT
+AGTCGTGCTGTTACATTGCATAATTCTGACACTCGTGTCTGCAGACTGCCTACAGACTCA
+AAATGGGCGAATCAAATGGCACAGAAGGAGGGAGTTCCTTTCCCTCGGGAACAATTGCGA
+AGCTAGTATGTCTCTCACGTCAATAGACGGTTGTGAGAGACCTCAGACACAGCGCTAACC
+CTATCAGACATGTGACATCCTCAACGACACCTTCTATAATATCATCCATGACATCGTCGC
+CAAAGTGCACCGCGACGAGAAGGTCGCGCGCATGCGTTCAGCGGTAGTGCTGGCTCGACA
+AAATGCCGAAGACGAAGCCAGCCGACGCCGGGAGGAGACAGGCGGAAAGCCGACTGGCGC
+AATCAACCCCGACTCGGAGGAGCTCAAAGATATCCGTGTAGAGACGGATGGAGCGGTCTT
+TGAGGACGGAAAAGTCTTCCTCAAGGGAAACCCCCTCCATACTACGAAAGAGATAGTCTG
+CCCCGACTGTCGACTGCCCCGTCTATTGTACCCAACGACTGGGATTGGCGCACGACCGCC
+CCCCGATCCATATCGAGAATACTGTCAGAAGCAGCCAATGATCAGCAAACCAGGTCATGA
+CGTGCATGGAAACCCCTTCGCGACGGACAAACTGAACCCAAAGAAGAAGAAACAAACCAC
+CACGTCCAATACCCCCGCCTCGAGCCCTCCCACGACGCCGGACGGATCCTTCAAACAAGC
+TGCCCCGGAGAAGGTGTCGTTCCCGACGGTCAAATGTCCCAACTGCCCGCGGTATTTTGT
+GGTGACGCGAGTGGCTCAGCATCTGGATCGCTGCCTGGGTCTCTCTGGTCGGCAGACGAA
+CCGGAACAAAACGCCCTTGGAGAATGGAAACAGCACGCCGACTTCTGCACCGCCCAAGCG
+CCCATTAGACGATGAGACGCCGACAACACTCCCGAAGAAAAAGAAGCTCGGGGCCCCGAA
+GAAGCTATCAGGGAAGAAGCCACCGCCCGGCCCCAGCAGCAAACTGAAGAACGGCATGAC
+GCCCGACATGGCGGCCGCGGCGGATACAGCGTCCGGCGACGCCGATATCAAGAGTGAAGC
+CAATGGCGATGCATAACCCTCCCCTTCTGCATTCTTGTTCTGACATCCCATTATCATCAT
+GTTTTCTTGCAGACATACAGGTGTGTCTGTATTGGATCGAGCCGTTGGACATAGTCTCCA
+TTTGCCTTTTTCTGTTCTTTACCCCTCATCCTCTTATTTAACGATCTTGACGTACATATT
+CGGCATCAACGGCGTCTACAGGACTTGCTCATCGTGTCGAAAAGTCTGGGACATCTCGGC
+GTCGCTTCTCTTTGTTTCTTTCGCTTTCCCATCGTCTTGTTTTAAGATTCGCTGTTATCT
+CTAGGGATAGATGTATTGTACAATAATTTATCAGTAACTGGGACGCCTGCTTTAACATTG
+GTCAGAAAGACCTCATAGCCAGTCAATAATCTCGCTCATTAGACATCAGATATAAACAAG
+TTGAATATGTCGATGTACATGTCATCATCATGTGACTTGTCGCTGTCCCAAAAGGGAAAG
+CTTCTCAACCAACACCAACACCGTCAGTCTTCATACCCATCTCCAAACTACCACAATCCC
+GTTACTCCTCCTCCTATATAACCCTCAACATCGGATCCATGTCCGACCAGGCCCTCCTCT
+CATGGGGAGTTCGTCGCCTCTCCCAGCTCCTCCCTCTAGACGAGGAATCCCTCACACAGA
+TCCTCAGCTACGCCGCCAGCCTCTCCAAAGAAGAAGGCGCTGAACACCTCAAGAACCTCC
+TCGGCGATTCCCCCGCCGCCTTTGAATTCGTCTCTGCCTTCAGCTCCCGTCGAGACCCCC
+CGCAACAGCGACAAAACCAACACAGCTCCGCCGATGCGTCATCTGCAGCCCGCGGCGGCG
+GCGGCAGAGACTCCCCCGCACCACCCAGCACGACAACAGGGAAGAAGAACAAGAAGACCA
+AACCCCCACTGCACAGCGCAGGTCCGCCCCGCCGGCCCGAGAACTTCGGGAACGTGGCCG
+GCGGCTACAAAAAAGCGGACCAGGAGGAGGACTACATGGCGTCGGCCTCGCGCAGTAAAC
+GCGGAGGAGAACCCTCCTACACAGACAACCCGCCAGCAACAACATTCTCCACTGCATCCT
+CTCGTACGCAGTCGCCCGCACCCTCGCGGCAGCCCGCACGACCTCCCCCCTCCGCATCAG
+GGCCCATGCTCTCCGACCTCCTCCCGAACGTCAAATCCAAAGCAGCGCGCAGTACGGCTG
+GCTCCCGCACCGGCGCCGGCGCCGGCGGCAGCTCAGGCACAGCAACACTGTCAAAGGCCT
+CCGGGTCCGGCTCAGGCGCCTCCCTCACTACGAACAACATTTCCGATCTCACGGCCGCAA
+TTGCCCTGCTGGAAGTATCTACGAACCCGACCCTGAACGGAAACAAACCACAGAAATGCA
+ACTGCTACGCAACACTACACCCGCTCTTCACGCCCGCACCCAACTGCCTCCACTGCGGGA
+AGATCATCTGCTCGCTGGAGGGCCTCCAGCCGTGCTCGTTCTGCGGAGCGGCGCTCCTCT
+CCGCGGAGGAGGTACAGGGTATGATCCGGGAGTTGCGGGCCGAGCGCGGACAGGAGAAGA
+TGCGCGCGCACAACGAGAGCATCCACCGGGATGGCGGGCCGGGGATGTTGGGTGGTACGA
+CTGGCGGAGGAGGTGGATCGAGTAAGTTGGATGCGGCTCGTGCGCACCGCGACAAGCTGC
+TGCAGTTCCAGGCGCAGAATGCGAAGCGCACGCGGGTGGTGGACGAGGCGGCCGACTTTG
+AGACACCCAATGTGGCGTCGACGCTGTGGATGAGTCCGGCGCAGCGGGCGCTGGCGCTTA
+AGAAACAACAGCGCGTGATGCGCGAGATCGAGGAGAAGGCGCGGCCCGAGTGGGAGAAGA
+AGAAGACCGTCATGAGTCTGGATATCAAAGGGGGACGGGTTACGCGGGTGTACCAGTCCG
+CAGGGTCGAGTGCCGCTGCGGCGGAAGAAGAGACCGCGGGAGTAGAGGAAGAAGCAGACG
+AGGACTTGAGCTACGACCCAGCGCAAAAGAGAAGTGGGGAGGCGTTCAGTCGAAACCCCC
+TTCTCGCCGCGGGGGGTTTGATGCGACCCATTTGGAAGGGTGCAGATGGGAAATCGGTTG
+AGAGCGACGCCAGCGCGCGCAAGGAGCGGAAACAAGCATGGCGACGAGTGCAGGATGACA
+GGGACGATAACGAGCAATGGATCCTCGACGGCGGATTGCACGGGTATTCCTAGTTGCTTA
+TTATTCTGATGCCATGCCCCGGTGCCCCCGTGCCCCCTCTCAAGTCGCACCTTTGCGTGG
+AACTCCCGCGTTGTCGCGTGGAAATCCCGCATTCGCGGCATTTTGCTGCGAAGTATCCGC
+GCAATGCATCTCCAATGGACGGGAGAGATACACCCTCCCTTCCCAGCCGTGGACGCCGAG
+GTGTAACACCGTCAGGACGGACCGCCCTGCCGTCTGATAAGAATTGAAACATTCTGCTCC
+GTCCCCAGTGTCCGTCTAATCGGCTACCACCGGTGGTGGTACCGTGTATGAATGATGGAG
+CGGACGGTTCCCCATAGTAATGTGGAACATCAGCTTACTCTCCGTACATACCCCATTGAG
+CTGGACACGGTTCTGACAAATAATGCATATACATCGATGGATATATCTGCATCATCATGG
+ATATAGACAGATGGTTATGAACCATCAATGAATTGCTATCTCACGTATGCACCACAACCA
+GAACCACATCCCTAGGAATAAAGTCTCAGTCGCAAGTAAGAATAGAGTTTCACCGGACAG
+TAAAGAGAGGCAGATGATCCCGTCGCATTGCTAATAATGATGAAATTGGCATGTCCGCCC
+ATGAACGCATCGGGGGACCGTATCTAGCCGAGCCAAAGGGAGTATATATCCAGAGTCAAC
+CCTCTCCCCTCCAAGCAAGCAGAACCAGAATCCACCCCGGATCAAGAGCAACCGACCGAC
+CAAACCAGAACAATTAATCACCGAAAGCACGCACAGTGGACAGTGTGTTCTGAATCCGGA
+CTCAGTCTAGGTTCAACTCATCTGGGGTTGCAAACGCGATTTGCGGAGGCTCCGGCTGGG
+CTCGGCTACTCTCGGGATATCGTCGTCATCCTCACTACATCATCCTACGGTCCTATTAAG
+CTATACTATCATGATCGTGCAGGAGATCTGCGCGCTTCTGTCGCCGTCCCGGCTGGCAAT
+AGGGCTGGTGTCCGTACTAGCCTGTCTATCCACACTCTACGCCATCTACAACCGCTACTT
+CCATCCTCTCCGTCACATCCCCGGGCCATTCCTCGCCTCCCTCACCCCCTGGGTCCAACT
+CTACCACGGCCTCCACGGCGACCGCCACCTCTGGCTCCACCGTCTGCACGAACAGTACGG
+GTCCCACGTCCGGGTCGCGCCCAACTTCGTCTCCGTCAACACCGCACAGGGCCTCCACGA
+CATCTATGGGCATGGGAAACGGATCAAAAAGGCGGACTTTTACAATGCCTTTCCGGCCAT
+CAAGGGCGTGTATAACACGCACAATGCGATCGATAAGACCGTGCATGGGCGCAAGCGGCG
+CGTACTGAGTCAGGCGTTCTCGGACCATGCGCTGAAGGGTATGGAGGATGTGATGTTGTT
+GCATGTGCGGCAGCTTTGTGCGAGGCTTGCTGGGGGCCGGGTGGATGCTGACGCTGATGG
+TGAGGATGCCTCGGGCCAAGGGCACGAGGGTGGGGTGGAGGCGCAGAAGAGCGTGGTGTT
+TAACCTGGGGGATTGGTTTAGTTATCTGACGTATGATGTTATGGGGGAGTTGTGCTTTGG
+GAAGAGCTTTGATATGCTTGTTTCGAGTGGACGGAGGAAGATGATTGAGTTGGTCGATCG
+GGCGGCGAATCGGCATTATGTGGTGAGTGACCCTTCCTACTGGATTATACATACAGGCAG
+CCTCTCCGATCTGATGATGTGATGATGCGGTGATATGGTGATGTTAGTACTGACTGAGGA
+CAGTGCGGGCTATGGATGCCCCTCGATAGCTGGCACCTCGACCAAATCTTCATCAACCGA
+CTGACCAACGACCGATGGAACTTCATCATGAAGTCGCGGGTGGAAGCGAACGCCCGAGCC
+AAAGAGCGCACCCAAGCCGGTCACGACTCCAAGAAAGATTTCTTCTACTACCTCCTCAAC
+GCCAAAGACCCCGAAACCGGCAAGGGTCTCACCACACCCGAGCTCTGGGGCGAGGCGAAC
+GTACTCATGATCGCCGGCAGCGACACGACGTCGACCACACTCGCCGCAACGGTCTTCTAC
+CTCGTGCGCAACGCCACCGCCATGACCAAGCTCCAGACCGAAGTGCGTGACGCCTTCACC
+ACCGTTGAGGAGATTACCAGCGGCGCGAAACTCAACGACCTGGCCTACCTCAAGGCGTGT
+CTGGACGAGGCGCTACGACTCGCCCCCGCCGTGCCGGGAGCACCCCCCCGAGAAGTCATG
+GAGGGCGGCGCCATGGTCGACGGGGTCTTCCTCCCCGGTGGAACGGACTGCGGGACCCCC
+ACGCTCTCCATCCACCGGCAAGCGGAGTACTACCGCGCGCCGGGGGCGTATCTGCCCGAG
+CGGTGGATTGAGGGGGCGATGTGTCGGGCGACGACGACGGGGGAGGAGTGGCGGACGAGC
+AAGGAGGAGGTTGAGACTGCGCGGCGCGCGTTCTGCCCGTTTAGCATTGGGCCCAGGGGG
+TGCATTGGGAAGAGCATGGCGCTGATGGAGATACGTCTGACGATTGCGCGGCTGATGTTT
+CTGTTCGACATGGAGCTGGCCGATCGGACGGGCGAAGACGAGGATGGTCATTTAGCGCTG
+GTGGATCATTTTACCAGCGCGAAGCAGGGGCCGAATGTTGTTGTTCGACGGAGGAGCTGA
+CGATGTAGACTATCCTCGTTATGAATTGGAGTATAATGACATACCATGTTTGATCTATTG
+TAAGTACCTTAAGAAAAGCATTGGGATAGAGAAAGAAACAACCAAGTAAGAGAGAACAAT
+AAACGAGAACGAGAGAATAACCAAAGAGTAGAATAGAAGCCTAGAAGAGAAAAGCCAGGA
+AGGACACGTGCGCAACACGTGCCGTTCTCCTCCTCGACAATCCAACTGAACAACTAAATC
+ACAATCCAACCCCTCAGCCTACATAAACAGAGGATAAAAAAGACCTCGGAGAGAGCGTGG
+ATAATGCCTCCTTCATCCCGGTGATGAAACCATGCCCCCATCATCACCCCTAACCGTCAC
+CCTGATCCAATCCACCATCCTCAACGCCATCTCCAACATCATCGCGCAGATCATAGACCG
+ACACAAGGAGAATGTAGGATACATACCCTCAATCCAAGAGGGAAATCCAACTCCAGAGAA
+ATGAGTGCGGGTGCAGTGCTAACCTCAACAGAAACCATTCACCCTCAACACCCTCGCCCT
+CCTCCAATTCATCGCCTACGCCATCATCATCGTCCCCATCAACTTCTCCTGGCAGAGATG
+GGTCGAATCCTGCTTCCCCGGTCTGCCAACATGGAGGTCTTCCTCCGACAGTAGTGGGGG
+CGACATCCCCCTCGTCGCTAACACCCCTACCACTACCACCACCACTACTACTACTCCTTT
+TACTCCCACTATCAATTCAGTAGAAGACCTCCTCCCCCGCAAGGAGAAGCCCGCGCGGCT
+TCCCCCGCCGCGCCAGCGATCGGGAATGTGGAACTTTGCGATGAAGTTCCTCCTCGATCA
+GACCGTTTGTTCGGTGCTGAATATCGTGTTGTTTGTTGTTTTGATTAATTTGCTCAAAGG
+GATGGCTTGGGGGGAGGTTTGGAGGCTTACGTGTGAGGTATTTCCCCCCTTTCTTCTTCT
+TTATTATCGAGTCTTATGTTGGGATATTTCGATTTCTTGTCATCGTTTATGTTCATGTGA
+TGAGAGGGAATGGCTAACAGGAACAGGACTTTGGCCCGATCATGATTGCCCGGCTGAAGT
+ATCGACCCGTCGTCTCGGTCTTGATGTATACCGTTGTTCCGGTAGACCGACGGGTCGTCT
+TTGGGAGTGCCTGTGGCGTGCTATGGGGGGTTTATCTGAGTCTCTATGCCGCTGTTTAAT
+CTATGGTGATAATACTTATATACCTATACACCCGGTGGGGAAGCTCATGTCTGTAATTAA
+ACTAGAATACATACCCCGGGAGAATAATGTTTATGAGAGGCTATATGAGCTATACAACTA
+ATTAAAAGAACAAGAAAAGACAATTAAAAAGGTATATCATCTATCCTGGTAGTTGCTGCG
+ACAATCTACCAGTGCTGCAACATCGAGGGGAGGCAAAAAGCAAAGAAAAAAGCAAGATGA
+GAGATGCAAATGATAATCACCGTTCATGTCGTGTCATGAGCGAGCCATGATCTACATCGC
+ATGTGTCTCAACATTCCGTCCCTTCACAGACACCCACTTGACAACAACGACTCCGAAAAA
+GGAGATCACGCTGACAGCGACAGTAACATAAAACGCCTCCGTGATAGCCTTGCTGTACGC
+CTCCAACACCGCCGGAAGCTCCTCGCTCGACACCACCTTCCGGAGCATCGTAGCCCCCAC
+GTTGACGACCCGGGCCGGATCAATTCCAGGGACGTCATGGACGAGGTTATTCCGGAGCTG
+GTTCGTAAACACGTTTTGTCCAACTGAGCAGAAGAGCGCACCCCCCAGGGTCTGCGCAAA
+CATTAAGAGCGCCGTCGCGGTGGGGATATCTTGGAACGCGAGGACCGCCTGCACGGCTAT
+CATGGGTTGCTGCATGCCGATGCCGGACCCAATCCCAGCGATGGCCTGGTACCCTATCCA
+GGCCGGATGGCCGGAGTCAACTTTCAGGGTCGTCAGCAGTCCACAACCGACGGCAAGGAA
+TATCGGCGAAAGGATCAGGAAGGGACCGTAGTGACCGAAGACGGTGACGAGAGCGCCAGA
+CACGAGCGAACAGATGACCATCGTAAGCAACATGGGAATGCTCATGATGCCCGACTTCAT
+TGCCGATGCGCCTTTGATCGCCTGGAACCAGATCGGCATCTAGATGGTCACGGTCACCTG
+GTTAGCAAGTCGTCCCGTCCGGTAGTTTCAAGGGGACTTACGTAGTAGACGATGACGAAG
+AATGCAGCACCCATGAAAAACAAGTAAAAGGTGCAGCCCCAAACATTGCGGTTTTTTAAG
+ATACGCGGCGGGACCATGGCCTTCTCTTGTTGCCAAAACTCGATGATGACGAAGGAGATC
+ATCAAGACACCAAACAGGACGAACAGAGCGATGACCCGCGCATTGCTCCAGGGGTATTTC
+GTGCCTCCCCACTGGAGAGCTAGCAACACACAGATTGTCGACGGGATGAAGGCCAGTGCC
+CCTGGGAGATCCAGCTGCGATATCTGGTCCTTGAAGCCGGAGCTGCATTTGACCGACTTG
+GGGGCCTTGAAGAACAGGACGATGAACAGGGCCGTCACGCCCCCCACCGGCAGGTTGATA
+TAGAAGCACCATCGCCAGGTGAGCTTGTCGGTAAACGCGCCCCCGATCAGCGGTCCGGCC
+ACACTGGCGATGCCGTACATCGACCCCAGCAGCCCTGCAAAGATTGGTCGTCGATCCAAA
+GCCACCGACTGGGCGATGATGAGGATTCCGCCGGAAAATAGCCCTGAAGCGCCCAGACCG
+GCGATGGCACGTCCGATAATGAGGGTGACCGAGTTCGGCGCCACGCCGCAGATGAGCGAT
+CCCAGTTCAAAGATAAACAGCGCTGTCAGGTATACCCATTTCGTCGAGTAGAAGGTGTAC
+ACCTTGCCGAAGATCAAGGTCAAGGCGCAGGTCGTCAGGAGATAGGAGCTTGCGTACCAA
+CCCACGTCCTCGAGAGACTGGAACTGATCTGTGATTCTGGGGATCGCCGTCGCAATGATG
+GTGTTATCCTAACAGGAAGATGAGGTTAGACGAGCTGTAGAGGGGCATGCGGCAGATGCA
+TGCACCTACCAACGCCAGACAGAAGGTGCTGAGGGATAAGGCCGTGGCCAGGAGGGCTAG
+TTTCCAAATGGTTGGGTATTCTGGGCCCTGGAGACCTTCATGCTCATTTGATTTGGAATC
+GGGTTGGGTGGACGCGTCGTCTAGTTGGGAGGGAGCAGGGACGAAGGGGCTATCCTTTTC
+CGTGAGCTGTGCCGACGTCGATGGTGTTTGCGAGGATGTTTCTGCTGGGGCAGGTGACAG
+TGCCTCACTCTGTGATGGGACGGTGGTAGCCATGGCTTTCGAGTTGTTCGAGTTGTTCGA
+GTTGGTGTGAAACGCGTCCAGCTCTACAGGCTCCTCTTTCCCTGGATGTGCCATGAGCAG
+TTGAACTCGCCAGAACCTGGTAACGAAAAGAGAATCAGGGGAAGAAGTAGATAAAGACGG
+ATGACGTGATAATGCGGTGTCAGGAAGAAGGAAACGGGGAAGGAGAAAGTTGCAAGGCAA
+GTACCGTCACCGGGAAGACGACCATCCGGAGCCGGAGGTTGCAGGCGAAAGGGACTGGAT
+ATTGATTGATATTGCATCCGACGTGGTCACTGTTGTCCTACCGTGGCTGAAGTCACCTGT
+TTGTGCCGTCCATCCACGTATTCACCAGACCATACTGGAGACAACATGAAGTGTCTCTCC
+CTCACCCGCCATTTCTCTCTCTCTCTCTCTCTCTCTCTCCCCTTGCGGACGGTGTCCGTA
+ACATATCCACCGACCACCTCAGATGAAAAGGTAAGACGAGAGTCCACGTCCAGACTCATC
+GCATTCAGTCGAACCAAACAAAGAGAGATCTGAGAGACTTCGGATACGCGCATTCGGCAC
+GGAGCGATCAACATCCGAACCGTTCAAAGCGAGTATGAGGACCACAAGGCCAGAAGGCCA
+GTTGAGGATCAGGAGAACAACAAAGAAGTCAAACTTCGGGGTTTGTGGTCAGGGCGCGCC
+TGCGGCGCGGCTGATTTGTCGGGTCGATCAATAGATCTGCCGCCACCGCCAGGATGCGAT
+GCAACTAGTTTCGAGTCTTGTCAGCTGCTGTTATGTATGGTCCAGGGGGTTAAGGGTTCC
+CTGTATAGTCTCTGCAGGGCTGGTTCACGGATACTGTATTTCGGACTCTTTCTCCATACA
+TACATAGTACAAAAGTCACACATGCAACGCCATTGACCAGATCTTCCAGTATGATACACC
+TTCTTCGTCCGTCGGGGTCAGGAATAGAAGAGAGTTAGGTTGTTCCGTTCATTAATCACA
+CATCAAATATAGACACATTGTGGGACACATTCCGGGACACGGGAGAAGGAAAAAAAGGAC
+AAGAAAAAAGATGATGATATATAAATAAAAATCGTTCCAGCGTGCCCACGGCTATCCCCT
+CTATTGGGCCGTGCTCTTCTTTTGCTTCTCCTTGCTCGCAACCAGAGCAATCAACGCCGC
+ACCCACTCCACTGCCATCTTTAGAAATCCCAATGCGCACCTTCTTGTCCCCGGCCGTACC
+CACTTCAGGGACCTCGCGCAGGGCATCGCGCAGATACCGCTCAAAGTTGGGGTAGAACTC
+GACCAGGCTCCCGTCCACCCCGATGTCCACCAGATCGTCGGTTGCCAGCTTGCCCGTGGA
+GATGAGAATGGCGGCGAGTGGCACGGCACTCAGACGCGCCGCCCGCTTGCCAATGGCGTG
+CACCACCGTCCGGATCGCCTGGCAGTCGCGGTCACTCGGGTTCTCGATCTTGAAGTGGTC
+TTTCAGCGCCGTCTTGGTCTGCTCCAGGGTCGGGCTCGTGTCGGACTCGGCCAGACTCAG
+GAAGCTGGTGTCGACGCCCCACTGGCGGAAGAGGTTGGAATTCTCCGGCACGAACACGGA
+GCTCGTCGCGCTGGCTTTCAGGAAGTCGAGCGAGTCGCTCACGTAGATGTGGAGCAGCAC
+GCGACGGAGGATCTCGCCCAGGAACATGCCCGAGACCCGCTTTTCGAACATCTGCACTCC
+GGGGTTGTTGCTCTCCGCGTCCAGTTGCTGGTCGTAGATCGTGTTGGGCAACACGCTGAG
+ATGGTTGTCGAAGCTGCCCCATTCCGCGTTGACGATCATCTCCCCCGTCGACTTGTCGTA
+GTCGGAGTGTTCGATCTTGTCCAGCTTCGTGATCTTGTCCAGCTTCTCGATGTAGGCTCC
+GTTCGTGCCGGTGCCGAAGATGGCGCCGAGGAAGGTGCCCGTCTCGCCGGGGGAGGTGTA
+CGAGCGAGCCATCAGCGTGCCCACCGTGTCGTTGACGAGGGCGGCCACACGCACGGGGAG
+AGCCAGCTCATCCAGGGCGTTCTGCAGCAGCGCGCAAACGTCGTGGCCGACGGCGTCGGG
+GATGTTGAAGCCCTTCGTCCAGCGAATGAGGGTGCCCTTGTTGATGCCCATCTGGCGGAC
+GGGGAAACTAAAGGTGAACCCCAGGTCGAACAGCTCCTCCTGGGCGCTTCCCTCCAGTCG
+GCGTCGCTCGTGGTGTTCAAAGTGATCGTTGTGGTGGATGCGCAGGAAGGACTCGATCTG
+GCGGGCCAGGAAATGGAACAGGTCCTTGGAGGAGCCGGACGCCATCAACTCGCGCGGGAT
+CATGATCTTCGACTGCGTGAGGGAGAAAGTGGTGTCGCCATGGAGGTCGATCGAACACAC
+GCGGAAGTTGGTGCCTCCGAGATCGACGGCCAGATAGAGGCCCTGCAGAGCGGTTAGTAG
+GGCGTGAGACAAGGTGGGCTGGGTCGGTTCGGATGGGAGTGATACCTCTTCCGTGCCATT
+GGGGACGGACGTGACATAGGTGGGAATCTGACTGAGAGTGGTTCCCTCCTCGGCCAGTCC
+TTCATTGATTTCCCGGATGTATTCCTTCACCCCGCGCTGGACCTCCGCGGCAGGGTAGTC
+GAATTCCCCGGCGATGCGCTCGGCTTCCTCCAACACAGCAGACATGGTGGGATTGGAAGA
+GGGAGGAGAGGAGAAGGAGAAGGAGGGAAGAAGGGTCAGATGGGTGGCGGAGGGGTAGAG
+GGGTAGTTAAGAGACGGATGGGAAGAAAGAAGAGAGAGAAGTAATTGCCCAGAAAGTTAG
+AATTAGGGTAAAATTTCCATGATGGATGATGAGGCTACTGCGGACAGCAGACACAACGAA
+GAGGGGTCGATGAGGTCAGTCCGTCCCACTTGCGCACCAAACGGCACCGCCGGATTCGCC
+GCTCGGCTCCATCCACCGCGAGTCTTGACGATGCCTTTTTCTCGAACAAGACCTACTTCT
+GTTCGCAGCAACACAGGAAGAGGGATTACTCGTTCCCCGTCCATCTCCAGTGGATGCCCC
+AGACCTGGTGCCTGTCTCAAGCGGAGATGCACTGACTCGCTCAGCAAACCCGCTGGAAAT
+CATTCGTGCCCTTCCATGACGCCATGAAACCGTGTGGGGATGGCCTCCGATGGCTTCCCC
+GGTGAGAAACATCTGGTTAGGGTTATGTCGCGAAGACAGGGGACGGAGTTGGCACACGGA
+AATCCTCATTAATATTGGCGGTATTTGCTGCACTGGTTGGATAGGATAGGATACTCTTAG
+GCATCAACAGGGTACCACATCTTATCTTTCTTCCGTGCTACATTGGGGTTGACCCTGAGG
+TGACATTGGAGCTGACATGCATGATGCCGTGGAATTCTTGGACTCGTTTTACCCAACTAG
+CCATTCTACCGCAAATGATGATTTATATTAAAGGCTTGCCTGCCTAACGATTCCGCCTAC
+TGCTATAGAAATCAATACTTTCCTTTCATTCTAGCCTATATCCTTGTAGCGTTCCTAATG
+ACCGTAGATTAGAAAATAATGCATGACCAAAATGCCGAAAGAGGAAACTGCATAAAGGGG
+ATTACATAAGAAAATGATCCCAGGTTCCCAGGCTCAGACTCAGGCACTCAGGCACTCAGG
+CTCAGTGTTTCTCCGAACCCATGACTAATCCCACGTGACCACCGCCGGCGGAAATCGGCT
+GAACCAACTCAACGGAGATATGCGAACTCCTCCTGCAAGACACAGCAATTGTCCACGGCG
+CGAAGAACCCTGCACTTCACCGCAGCGCCAATCCGACCCTCAAGCCCAACACCTACCCAT
+TTCGACCAAACGGAGGGGCATTTGGAAGAAAGCGACGCGCTTCCGACATCCCACCTACCT
+ACCTACCTTCCTACACACGAACACACAGCATGGGCTCCGGCAGCTCCAAGCCCGAGGCCT
+CGGCGGGCTCGAAGCACATTTTCTCTGGGTATGTATGGGTGCATTTGCTTGCCTGTTTGG
+TTTTGTCTTCTTGTTATTCCGGCGTGTTTGGTGGGGGAATGAATAGGGTTGTGGATGTGT
+TTTTTCTGTGGTCTGCTCTGCTCCATCCAGGTTGGGATGTCCGATGTCTCCCGAGAAAGA
+AGGGAGGGAAGGAAGGAATAATATCTTTTGGATGGAGAGAGAGACTACGGGGGAGACGCA
+GTGGATCACCGGTCGACATGATCATAAATTGAAAGAACCCCAGCTAACATCAATCAACAG
+TGGTGCCCCGGTTCAATTCTCCTCCAACCTCGTTGACTCCCTCCAGTCCAACTCGGAGGT
+ACGTACCCAAACCCCAAGACAGACACAGAGAGAGAGAGAGAACTAACCCAGCCGGTCAAC
+AGACGGACTCGACCCGCGCCAAAACCCTCGAACTCCAAATCCAAGCGCGCGTCGCCCAAG
+AACTCGACCGCCTCCGCGAACGCGAGCAGCAAACCCTCGCCGAGATCGAGAAGCGTCTCG
+CCGAAGTCAAAGACACGGCCAGCACCCAAACATACGCCGCCGCCGCACCGGCCTCCTACC
+CGGCCGGCTCACTGAACCTGGATGCGCCGCGGATCCCGTTCGCGGGCCGCGAGCACACGC
+CCATCCCCGTTGAGGCTGCGCCGCAGCCCATCAACCGCAGTCTGAACCGGGAGACGGTCA
+ACGCCGAGATCGAGGAGCTGCGGACTCGTCTGGAGGGCCGGAAGAAGCTGGCGGAGCTGG
+ATGAGGGGGTTGCCAAGGCGAAGGCCGATGTGGTGGGTTGTTTGCGGTTGAATGATCGGC
+GGCCTTTGGATTGCTGGAAGGAGGTGGAAGGGTTCAAGCGGGAGGTTGCCCGGCTTGAGG
+AGGCGTTTGTGGATCGTATTGTTGGTTAGATTGGTGTTGTTTTTGTGGGGGTTTGGGGGG
+GATGCAAAATGAGGAGAGAAAAGGAATGGGTGTTTTACCACCTCTGCAATAGACTCGGAT
+GTTTCGTGTTATGGATGTTGTGTGTATATGTATAGCTAGCTAACCGTCATTTTTACTTTC
+ACTTGCTTCTTTCTACTGATATAGACGCTACGCCGTATCCGGCCTGGATATGGTAACTCA
+TGTTGCGAAAGATTTTCTTACTACCAGGTAGCAAGCAACACTGGGTATCGTTAATCATGA
+CAGTACTATGGTCCTGCTATTCATACATAGGAGGCATTGGTGGATCTCAAATCAAATAAG
+CTCCCAATACCCTAGTCTTCCCACCCGTTCACCCGCAGCCCTGATAATACACATGTGTCG
+TTCGCGAGCCTGACGCTTAGACCCGGCATTGGAAGAGCCTGGAAGCACGACCTTCGACAA
+CAGAATCGAGCCGATGCCAGTTCCCTTCCCTTCCGAAAGATTATAGTTACCAGTCGTCAC
+AAACCCGATGACATCCTCCGCTGGCGGAAGAGGCAAATGCTCCTGCTCGGGTACCTCATT
+CAGCGGAGGGGAGATGAGCGATGCCGCAAGGCGTTTCTGCGGATCATCTTTGCTAGCACC
+GGGGGATTTGGACTGTTCTAAGTCGGTAGTGACTGAATCCTTCGACTTGACTGATGCAAG
+GGCTTGCCATTTCTTTCGCAACTCCAGGTCAGCGGTGGGGAGGCGGTAGATGCGAGCTTG
+AGGAACTGGAGTGCCGCGGTGGAAAAGTGATATCTTCACCGTTGCCAGCGCGGTGTTCTC
+AACCGTAGCCGATGGGTTGTTGACTGCATTGGTAGCTTCGGACGCTGTAAGATGGTGGAT
+GTCCAGTGGTGGATGAGCCTTCTGGTTAGAATCTGGCGCTGGGGCCTTTGCTTTTTGGCC
+CTGTTGCTTTGTTGTAGGGGCAGCAGCGACATGGCCTTGGACGAGCTTCTCCCAGTCACA
+AGCCCATCCTTGGCCGACTTCCCCCTTCTGACCACCCCCCAAGTCAATACTATCGAACTC
+GGTTCGGCGTCCTTTGGGACGTCTCTCCCACTCCTGTTTGGCTTCTTCCCGCACGCGCAA
+GTTCCAGGCCCAGCCAGCTTGGGTCCCGGGGAAATCGCCAGGGAACCAGGGCTCGCCACC
+TTCAAAGGCAAACTGTTGTTGTTCCTTCAGGCCACCAAACCTGATGTTTCCCCCGCTGGA
+AAGAGGATAGTACATCAAAGAATACCACACAGGAAGCACGCATTTCCACGGAAGCAGCAC
+CGTCCAGGATCCAGGAGCATTGCTGCTTTTCGGCTGAGAGTTGGACCGAGAAGCAACTAT
+AATCACTGGGATTCGAGGATCAGACGGCTGCGGCGGAGGATATTGGCCGGGTCCGGCTTC
+GGTTCGTCTGCGATTGATGGCTTTCTGACTAGGCAGTTGGCGTGCAGCGGCCAGGCGAGC
+AGAGCGGTCAAACAGTGCCGGAGAGGATTGAGTATGATCCGGAGTCCAAGTCGACAGTTG
+AATAGCCAGTGACTGCATATCCGCCTCCGATGTGGGAGGCTTCTGGGTCTTGGGAGGGAA
+GTGCAGACGTGGGTCTGATGCAGAAAACGCCAGAAGAGCATTCTGCGGCAGAGACGAAGG
+GTTGGACACACCTAGGAGTGATCTCCAGGTGGCTTCCGGGCTCTCTGCTGCGATTTGCCC
+CTCGTTCACGCCCAACGGCTTCAGCGCCGCGATCAATGCCTCCGTGGACCCCGGTCCAGT
+AATGTCGATACTGCCAATTTCGAATCGCAAGTCTTCAACCATAACCGGGGGATTCTGTCT
+CTTGGAATCCTCCAAAAGCACATTCCACAACTGTAAGAAAGCAGACGGGTGCACGCGAAC
+AAACAGTTTCCGATAGTCTTTTTTGTTCTTGTCCGTCGCATCCGTCGCATCCACCATCTC
+AACATCCTCCGACTTGCCCTGCGCACAGCGTATCAAAGTAACCGGTGCGATCGGTTTCCT
+GCGATCACCACCCTCAAACACCCACGCACGTAAACCCCTCGTCCCAGCCCTCCATTTCCT
+CCCCTTCACCCCCCAAGCCTCGTCGCCATCCACCCCAACAGCCCTCAACACCGCCTCCAG
+CCCGGCCTCAGCACCCTCCAGCTGAATCGTAGACACATAGCTCATATCCCACGCAACCGC
+ACCCCGCGCCCCCCGCGCACGATGAGAAGGTCTATAACTCTTCTCCGTCGGCGACAACGG
+CAGCGCAAATCGCCACACGGGGTCTTTCGACGTCGCCATGTGCGCGCGCTTCGCATGGAA
+CATATGCGTCGGGAGCCAGGTCTTGCAACGCTGGCGCTTCTTGAACTTCGAGTCTGGCGG
+GGCCGGTCGGGAGAGCTTGTTCTTCTTGATCTTGGGGACTCGCGGCGCAATGCTGGCGCT
+GTGGCTGCCCTCTGCTTCGAGTTGTTTGCGCTCTTCGTTGTCGCGCTTGGCCTTTGCGGC
+GGCGCGTTTCGCTTTGGTCTTTGAGTTGAGGTTCTGTAGACGGCGGGCGGTCTCGAGACG
+GAGACGCATTAATTCGGAGGGTTTTCGACGGCGGGCGGTTACCGTGGGGGTATTATCTTC
+GATCATCTGGAGAGTCAGTCATTAGCATCTCATCATGGACCTTCATCCCACCGAATACCA
+CAACACCACCACCACGAAATAGGTAAGTATGTAGGATGGTATACCTCTCTTTTCGCCCGA
+CTCCGCAACCGACTAGGAACCCTCTTCACATTATGACTTGCCGTCCGCCGTCGCAGCGAT
+CGAGGCACCTTCTGAAACGCCCGACTAGTCAAGGCCGCCTTGGACCGCTGCATGCCCGCC
+TCCAGCGCTCGGATCTCGAAACCGCGGGCATCAAGGTACGACGCAACATCTAGTTCACCG
+GCGGCCGAGAGCGCAGCCTCGGAAGACTGCACGGCGAGGGTTCGGGCATCGAAGGTTTTG
+GCGCGTTTGCGGGCGGCCCCGGAGGCATTTTGGGTTGCGTTTCCTCGCTTCGCGGCTGGG
+TTGAGTGCCATCCCCAGACCGTGTGAGCACGAGAAGAAAGAGGTTGGAAGTTCGAGAAGA
+AAAGGATTGTCTCAATTGGGGTGTTCCGGAGTAGTTGTGTGAAGCCGACCGGTCGGGACA
+GCGCGCTGGGTTAAAATTGGCCGAAGCTTTCGGGTTGGGAGAGCTTTTAGCGCGTCACTT
+CCCGATACGCACACACACACACCAATAATAGGATGACTAACTATTCGTAGATCGCGGGTC
+AGAGCTTAATTTATCCTACGTCTATGTGGTTTATTTTAAGCTCTTGATACTTTCGTTATA
+TACGGCTACTGTGAAAGTAAGGTATGTTCTTTTCATAGCATCGTTAGTTGTATTCTCTAA
+GTCAGCAACAACCACATTAATAAAGACGACTTTCTATTGCTATATCCAGACGTGCGCGCT
+AAAGTATTTACTTTAGCTAATATCTGCAGCGGATTTGAAGGAACAGGGCTTAAGCTGTTT
+AATCCAGAGTATGTTCTTTCGAATCTTACCTTCTAACTACGTACGCCTACACCACCACCA
+GTTGAAGGCTTAATTTCCTCTGCTTTTTAAACTCCGCAGAATACTCGCCAAATAGAATAG
+AAGGTTCTAAGCTTACAGAATAGTCTTAATAGAAAGCGGCAGCTTTCTAGCAGTCCTATT
+GCTCATATTCAACATCTTGAGAAAGCCGTGCAAATGGCAATGCAAACCCAGCTGCTTTTA
+GAGAAAGAGATTAAGGCTATATGAACTGAAAACGGACGGCAACGTCAGATAAAGGCAAGA
+AAGTGTGCTGATCTAGGTAATCACCGCCTTCTTAATGTATAGGAAGGTTAAAATCGGGTT
+CAGCAGCTTGATACGCAGCTTAATGAGCAGCTTACAGGATCTACTCTGGTGCCTCGTCGA
+CGACCTCCGCAACGCTATAGTGGCTGTGGGATAGTTGGACATACAATTCGAAATTGCCCT
+AGTAAATAGCTATTATTTCTCCCGTCCACTCAGCCGCACTGAAACTAAACGCCAGCAGGC
+TACTAGTTGGGTGGGTGAGGCGAATTCCTGTGATTATATGTCGGGGCTCACCCATTCTTT
+TCCCTTGCCGCCCTACCCTTCAGCCGATTCAGGCTGTTTGCCCTGAACGCCCTAAACGTC
+CTCTATTCTTCACCTGAATGCCCTGCACGCCCCTGAACGGCTGACGTGTCCCCTCGTCTA
+AATACCCTCCATCGCTATCACCCCTCCTCCCATTTGGCTGTCTTTTTGAGGCGCAAATAC
+CTCAATAGACTGGAGGAAATCAGTACAGTACAATGGCGCACCTGATATGGCTCTCCACAG
+CTACTGCGCTGAAAACTGGCAGTTGATTGCGGACCAAACATGATACGAGTGCATTATTAC
+TAGGGAGATAGCGGGATTGAACGAGCTACAGAGGGAAGAAGCGGTCTTTTTTAAATTGAG
+GGAGTATTTTCTGCATTATACTTTCAACCCAACGTACTATATCGGATCGACCACTTGGCT
+AAAAAGGCTAGCCGGTATAGAGCAGCAATAGGCTCTGACAAAACCCCCCCCTAGATAATT
+GGTGAATCCTGCTGACACACACGCTCGCTGCTTTATCCTAGATATACTGGCTTAGAGGTC
+TGTTTGTTTGACCTGGGTATCTGCTCTCGCTCATATGGCTCCCCAAGGCTTATTGATTGG
+CTCAAAGGTCTGTTTGTTCGACCTGGGGTATACACTCTCACTCAGGTTCAGTTCTGATAG
+GTACATTAACTCGAAGGTTCATTGTTCTACCTAGTGGTTCTTTTATTTAGTAATATCCCG
+GATTCAAACTTATGTCACTTTTGTCAGGAGATTAGGTGCTAAGTAGTAGACCTGAGAGGA
+CCAGAGTGGATTAGAAGAGTCCTGGGCTTATAATTTGTTGGATCGACCATTTGGCTAAAA
+AGGTTAGCCGGTACAGAGCAGCAACAGGCTCTGACAGACCATATTCTTACATGCATGTCA
+TATTGATGACACACTAGACTTAGGACGCCTTTAACTAGTCCTCGGTATTATTGGTGGCTT
+TGAACCTGATTGCTTACTCCGTATGGTTCTCACAACATCCATCGATCTGTGCCTGATATC
+TGCACCTTGCCTCTTGAGGAAAGATCACCTCCAACGGCCCCTTTCGCCCCAAACTTGCTT
+TGATCCCCTAACTTCTTGGCGGCATCTTGGGGCTCTAAGCATTAACAAATGTCGCGAGTA
+CCTGCGAATCCGCTCCGCCTATGTGCGTAGTCGGGCCTTGGATCTTTACTGCTCAATATC
+GCGTCGCTCCCAACCCTGCAGCGTTACATTCTTGGGGGCCGCCCCAACAATTGCTCGCTT
+AGTACTCATGACTCGCTTAATTAACTCACCTTTCCCTCCCCTTGTTCCCTGGTTGCTGTT
+TGTTGTATTCATGACCGAGACGATGGATGCAGAGTCCGAACGTACTCCGCGGTCGGCATG
+TTATCGCTGCCATTCCCAGAAACTCCGATGCGTCCAGGCTCGAGGACAAAATGACTGTGT
+CCGCTGCAGTCGAGCCGGGGCAGTTTGTGTGACAAGGCCTTCAAAGCGAGTTCGACAGGG
+TAAGTCTACGGCAACAGGGAAAGATTCCGAGACCCTTTCAGCGTCCAACAGCAGCCACGG
+ATCAAAAGCATCAACCTCGGAAGTATCCACTCATGGTAAGTATAATTATAGAATAAAAGA
+TTGGTACATACTGATAGAAAATCCTAGTGCACACTCATGATTTCAATGGTTTTGATAGTC
+TGCCCTCATGGGAGAGTTTGGATGGTGATCATCATATCTCGTTACCGACTGTGGAGAGTG
+GGCTTTGCTTGCCCGGAGAGCTTCACTGGGATTCAGTAATCGCGTCATCGTCAACCTCAG
+GGATGAATACAGCATCATTACCCATGGAAATGGTCCAAGAATGGAGCAATCAGCAAGATT
+CGACCCACGGCAGTAGTGACAACAGATCCTACCAGGAAAACACAGAGGAAGACCGAGACT
+GTGATTGGCTTGAAGCGCTGTTTTACCTCCATGCAAAATTGGGTCAACATGAAAGATCGA
+CATTGAATTTCGTTGAGACATGCCTGAAGGGTTTTGCAAGTCATGAATCGGCACCATCTT
+CCATTCAGTCCAATTCTAGCGCAGAGCTTACAGGGTTTCGGCCCAAGCCTCCCTGTCCGT
+TTGAAAAGATATTTGACTTGTCAATGCAACTGCTTCTACTTATCGGCAAAGTCTCAAAAC
+GAACAGACGACGCCGACAGAGCAGAAAACGCCTTTATGCAGTTTGAAACTTCTTTTGTCA
+CTGAACAAATTGACCAAACAGGTTTCAAGCCACTCATATATCTTGCAGACAAGGCCAACC
+TTTTCCTTCTGGTATCATGCTATACAAGGCTGCTGAGCTCATTCTGCTCAGTATTCGAGT
+GCTTCCACCGGATTATTACAAACCCCCACACCAAGAGCTCACAGGATTTTGCTGCACTAT
+ATATTCAATCATTCCTTCCGCGTATCCAAATGGGCGGTGTAACTCTATGCGCCAACCCCC
+GCTTCGACTTAGCAATGATCCTGAATTCGGCTGAAAATACATTGGATGAGCTCCATGGGA
+GTATGAAAAAGGCTCTTTTTGGGAAGAGATTGGATGGGCCTCCAGCAAAAACGCCAGAAA
+ATCTTGTTGGTTGCTCGTCAAACCAGGGCGGCTTGAGTGAAGTGGCGCAAACCTGGGAAG
+TAACTATACGTGATATTAATTCTACGGCGCTAAATGTGCTAAAGGCATTGAAAGAAAGTG
+TGTAAATATAATCAACTCTATAAATCAATAAGAAGTCCAAGAAAAGTTTCCGTGTCCGTG
+AATAACACTCAACAGCCATAACGCGGGAGGTATAAGTGGTGTTCCTAGAAGCCATTCGTA
+TGAGAACATTAGAGTCAAAATGAAACCTGATTGAGGCAAATCAATGCGATCCTTTTCGTG
+ATGTAGACCAAGGTCATCATTCATATATAGCAATAATGAATGGATACACCACAAGTGGAA
+GAGAAGACTGTACATAATTCCAATTTGGCAGTAGCACTATATCTATAGTGGAGAGCAGAT
+CTACATACGAGCTTCATACTTCTCCGCCAACTTCTTTTGAGCAAGCACACCCAAATCACG
+CACACTGTCTGCCCGCACAATCTCCAACACTGTAACTTCCACACCAATCTTTCGGCGAAT
+CCAGTTGCGTAGCTCGATGCTGATGAGCGAGTCAATCCCAACACTGGCAAGTGGAGCACC
+AAGGTCAACCACTTCAGTCTCCGCTCGCATCAAGAATCCAAACAAAGTGCGACCAATCTC
+GCCGGCCAATAGTTCGACCGTCTCGGGGGCTTTCAACATGGTCATATTTGAGCCGATCTC
+GCGGAGGAACTGGGCTAGAACTTGATCGGACCCGGTATAAGACGATACTGGCCCGGATTG
+GACTTCAAGATTCCTATAGACCAGCATACGGGGGTCTTTTCTCCAAATGGTTCGATTGCT
+CGGGGCGTCCATGGGGACCGTGGACCGCATGCCGATGCCAATCTGCGACCGAGTAACATA
+CCGGCCAAGAGCTTGATCGGCAACTGATTCGGCGGGCGAAGATCTGTGGAGCATGAGCTC
+GATTGACTCAAGCAGCTCAGGCTCTCGCATGAGGTACTGCGCTGTTGAACGTAGTGAGTC
+CAGGGTCTCTGGGTTCTGGCTAACGTATCCGATATCTTGGATGACACCAATATTAACTGT
+GGAAGCAGGGAGCCCGAGAGAATGCCGGTAGGCCACAAAGGCGTCCAGGAAGGTATTGCC
+AGCATTGTAGTTGGCTTGTCCCCATTGGCCACTCATTGCGCCAGCTGAGCTGAACAAGAA
+GAAAAAGTCTAGGGGCTCTTCCGGCTGCTCGCCGAGGAGCGCGTTGTGGAGATTCCATGT
+TCCTTGAACCTTAGGCTGGACTGCGCCCAGCCACTCATCCCAATTCATATCCACAAATGA
+GTTGTCCTGCAAGGGCGTTTGTTAGCATGTTACTAAAGGGGGAGGAAACAAGGCATATGT
+GATTTTGAACGCGTATGACTTACCCGAAGTACCATGGAAGATTGTAGAACACCTCCAACA
+GGCTTTCCAGATGCCCGGATAGCCCGAAGAACATCATCAAGCTTAGACACATCACCGGAT
+ATCCTGGTAGTGGTGCACCCGAGGACTGCTAGCTCTTGAACAAATGGATCATCATCAGGA
+ACATTCCCCGCCGATCGTGACAAGAACACAAGATGGCGGGCCCCATGCTCGACAAGCCAG
+GTTGCGATCGAACGACCCAAGCCACCCAGTCCACCGACAAATAGGTAGGCTCGATCTTGA
+CGCAGAACCAGTTCTTGCCGGAGTGGCTCAGCTGACAACTCGGTACTGTTTTCTGGCATT
+TTGATGACAATCTTGCCTATGTGCTCCCCGCGCTGCATGTAGCGAATGGCATCAACAATG
+GAAACAGCATCAAAAGTTGTCGTGGGCTTGATAGGTTGAATGAAGCCGGCTCGGTAATAG
+TCCATCGTACGAGTCATGATACTATAAACAATGAATTAGTCTCCCATTGTTTAAACGCAG
+CAGCCCTGAATCTATCATACCTTTCGATCCTTTCCGGTCGCTTGTTGGAGAAAAGAAGAA
+GATCAAACCCGACAAAGCTTCTGTTAGGCTCGAATGGTTGCATGTCAAGCAAGCCCTGGC
+CGACGAAGTCACGTCGGCCAATCTCGACGAAAGTACCGAACTCCGCTGTGCATTTCCAAG
+AAGCATGTAAAAGCTCACCCGAAAGTGAGTTGAGCACCACATCCACTCCCAGCCCATCCG
+TCTCTTCCATAATGCGCGGAAGGAACTCACTGGTGCGAGAGTTGAATATACGATGGCGCG
+GAATATTGAAAGTGGACATGAGCGATTGAATCTTCTCCTCACTCCCGACTGTAGCATAGA
+CCTAAGACATGTTCGTTAGCTAAACCGATATGATGCTCACTCGAGAGGTTCCGACAAAGA
+CTTACCTCCGCGCCTACCATTTGCGCAATGTACAGGGCCGCAATACCAACACCTCCACTG
+GCGGAATGAATCAAAACGGACTGTCCCTTGCGCAAACCACCAACGTCTAGGAGGCAGTGA
+ATCGCGGTGCAATAGACCGCGGACATAGTAGCACCCTCTTCGTATGTCATGGAGTCTGGC
+ATTTTAACACATAGGCGTTGATCAAGTTGCTGGGTGGAGGTGAGAGATCCACTTGAGCTC
+ATGATAACTCGATCTCCCACTGAAAGCTTGTGCACGGCAGATCCCACTTGGAGGACTAGA
+CCACTTCCTTCATATCCTAGTCCCCGGCCAATCGATGATTTCTCTGTGATCACTCCGGTG
+CTGATCAGAACATCCTAATTGTAAAGCGTTAGCCAATGTATGTCAACCACCGCAGCGTCT
+CTATCTGTGCAAACCTTGAAGTTCATCCCAACACAATTGACTTGAACCAGAACGTCATTT
+TCATCCAACCCATGGGAAACCGGCATGCTCTTCCAGCACAAGGTATCAACAAGACCGGGC
+CTGCTCTGTTCCAACTTCTTGACAGTGGAGCTATCAGCGACCGTGTTATTCTTCAGCTCC
+TCTGCAACTTGAATGTAGTGGTATCTGCTGATCAGTGGCTTTTGTCCCACAACGGCCCAC
+TCTGTAGTCGTGTTGATGTTCTGCTCAGAGATACGCCGCTGGAACTCTCCCAGCACCTGC
+GGTATATGAGCAATGGCTTCCTGCTCGAAATCCTCCAGCTCCAACGTCGCAAAGTCTAGG
+TTCAGCTCGGTGCGAATGACACGCGCAACTCCGTTAACCATCGCATACCTGGGGTCCTTG
+CAGCCTACTTGGCTAGCCCTTGTAACCCACAAAATTCCGCTGTCGGTATCTCGCAAGTGT
+GAAAGCAGTTCCTTGAGGTTTTCAAATGCTGATTCATGCAAATCATGGAAGAATGGCCTG
+TCAAGATCCAATATGGACACGACATCTTGCTCCGCGGGAGGTGGCGTGTTTTTATTCTCG
+ATTGCATAGAGATCGATTCCAAATCCAGCTGAGGAGAGAAGTTGGCTGATAGAAGCTGTG
+CCAGAAGAGCTTTCTTCACACCAATGAAGTAGGGTGATGCGCTTTGGTCGTTGTGTGTCT
+GCCACCGGCTTGGCGACGATGTTATTGTTCAGGTATCCATCGTGGCTCACTAAATCAACC
+CCCGAGAAGCCGGTCTGGCTCAGCAGGGCGTCCCACTGGTCGACGTCGATATACGGCTCC
+GGGTACCGGCCGTCTTTCTCCCCTAGCCACCATCCTGGAAGAACACCCATGACATAGTTG
+ATCCATTTTGTGGCTAGTGAAATGAATTAGACAGAATTAGATATTGCTTTCATTTAATCT
+GTGAATTGGAGAAGACGATATTATCCTTACCTGGCGATAATTCTTGAAGGAAGAGCCGAC
+CCTGAGGATGGAGCAACTTGCGGACATTCATAAGACTGTCCTGAAGAGTTGACGTCGCAT
+GGAGCACCTGTGGGTTTCCGTTAGCAGGACATCTCAGATATGTGCATTTGATGAGCTCAC
+ATTGCAGGCGATAATCAAATCAAAGGACTCTGCCTCGAAGCCCTGTGCAAGTGGATCCTG
+CGAAATATCCAACGTCGCAAATTCCAGTCCAGGATAATTCCCAAATCGCTTCTTTGCCTG
+TGGGAAGAATCCAGCACTAATATCGGTATACGTGTATGAATGGTACATTCGCTCTCCATA
+AAGAGATTGCAAGGCAGGAAGAACCGTCGCAGTAGTGCCTCCTGTGCCGGCACCGATCTC
+CAAAACCCGGAGAATTGGCTTCCGATGTGCGAGAAGCTCGAGGAACACCCGGTACTCTGA
+GTTTTGCATGAAGTCATACAACGAATGGAGAACCTCACCCTCTAGAAGGAGCTCAAGCTC
+ATCGGTTTCACCGGTGAAGATGCCCTGACACTCCTTCCAGATTCGATAGATGGCTGTCGC
+GGCCGCAGCGGCATCAGTTTCCAGGAGAGAAAGATAGAGACTCTCGATGATGTTTACCCG
+CTCCGCGTCCGAGACATGGGCAATATCATCCTCAGGCTGAAGGCCAGGGTATTTGCCGAG
+CTTAATGAGATCTGCGTTTGATTCAATCCACTTCTGGTAATGATTCAAATGCGACCGGGT
+TGGCTCAACCCCTTGAAGGCGGATAAATGTATCCATCATGGAGGCCGATGCAAATCTATC
+CAGGATGTGATGCAGATCGGTTCGGTCCTTCGCTGGGTGGATGAGTTTGGCAGCATCATC
+TATAAGATTGATATCTTCACGCCATTCCAATTCGACCGCGGCATGTGGATCCTGCCCAGA
+AGCATCGTCTGCATCACCAATTGCAGACATCTGCAGGCCCCTGATGTCAATTGTAACATG
+ACCATCTGAGACCGCGATGATGCTACCCGAGAGAGCGGCTGTGGGTTGCTCGTCGGCCCG
+AGCTTCAATGGTCATCTCTGGCTGTAGCGGAGGGCATATATAGATTTCTTCCATGTAGGT
+AGGGATACCGAGATGTTGGAATCGTCTTGTCAGTCCATTGAAGGTGGCAGGAACAACGGC
+TTGAAGCAAACAGTCCAGAGATACAGGGTGTACCGCATATTTGGACTCTCCCTCACGAAT
+ATCATTAACCACGTTGGCAATGATCTTGCGCTCAATGGGGTGAGCAGTCATGTCAGTCAG
+ACCCATGAATCGCGATCCATATTCAAGTCCCATTTCCTTCATCTTACGATACCACCCACG
+CCGCGACAACTTTCGTGGCAGTGACTCCAATGAAGGAGCTTGGTGCTCTCGATCTGACCC
+TGCGCATACTTGGCCAAAGATGTGCTTGACCCAGATTCCCTTGTTGTATGAATGAACACT
+GAAGTTGTACCACTTTGAGTCGGCCGCGTTGGTGAGAGGAATTCTCTGCAACTGAGTGAT
+CACTTCCACGTCTTGGCCCTGGTGCATGACCAGCGCAGCCTTAATGTGAACACGGCGGGC
+TGTAAACCCATTCTCTCTAGTAAGTTGACGAATAGCTTCTCCAGCCATACATATATAACC
+AACACCTGGAAAGACAATTTCACCAGCGACTTCGTGTTCCTTGATCCATGGCACCACATC
+GAGGCGGAGGATATTACGCCAGCTGGGATTCTGATCTGTGCTTTCGAGGACCCTTGATCC
+GAGGATATCATGATGAGGAAATTCCCTTAAACGCCATTCCTTGGAAAGACGACTTTCACA
+CCAGAGAGGCTCCTCATAATGCCAAGGATAAAGAGGCAAGTCTGGCAGGAAACGACCTTG
+GCTCAAAGCTGCAGTCAGATTCACTGGAATATTCTGCAGCCACATTTCACCAACTGCCTT
+CAGCAGATCCTTGTGGGAGTCACTACCCCGAGTCAATGTGTTGAAATACTCATCGGTTGA
+TTTATGGTGCTGGAGGATCTGTCGAATAGGCCCAGCCAGCGCCGAATGGGGTCCAATTTC
+TAGGAAGACCTTAGGTCCAATCAGAGACTGCACCAGTTCCTCCATGGCAGTTGAGAAGCG
+GACTGGAGAGACGAGGTTCTTGGCCCAGTACATGGGGCCCAGCTCTTGGCTTTGATCCAC
+TGGTCGGCCAGTAACGCTGGAAAAGAATTTGACTGAGGGATCAACGGCTTGGACTCCCTG
+GTTGGTGAGAAGAGCCACATATTCAGGTGCTACGGTCTCCATATGATCTGTAAACAATGT
+TATTAGCATATTCTGGCTCATTCATTACAATCGCATGACATACGAGAGTGATAGGCTCGA
+TCCACCTGGAGTGCCCGGACAAAGACATCGGGGTTGGCCTCCTTGATAGCTTTCATGGTC
+TCCTCTAATGGTTCTTTATCGCCTGTTAGAGTTGTACTGTTGGGACTATTCTCACATCCC
+ACGCGGACTCCTGGTCGCAAGTAAGGTGTGAGCTCTTCAGCCCCGAGGCCAACGGCCGCC
+ATGCCTCCAGGACGCTCTGCTGGGTTCAAACTGCACATCACTAAGCCACGATAAAAGGCA
+ATTTGAATCGCATCTGCTCCACTGATGGCGTGAGAGGCATAAGCGGCACCTATTTCGCCA
+CTGGAATGGCCTATTACGGCGTCTGGGTGGATTCCGTAATGTTCTAAAATATCGACCAGA
+GCGATTTGAATAGCTGTACAGCAGGGCTGTGAAAGCTCTGCCTCGGAAAGACGACTGTTC
+TTCTTCGAAGCTCGAATCTCGTCTATACGTTGCGTGAGAAACAGACACTTCATGTATAGA
+GGAGCCCACTTGATGAGGAATGAGAACACTGATTGACTTACCTATTAATTTCCATTTAGG
+AGGGTTTGGAAGAGCTTGAAGTACGTGATCCAGCTTCTCGATACTGCGTCGGAAACGAGG
+CATTTGGTCAATAAGCGATTTACCCATCTGTGCCCACTGGGCACCCTGACCGGTGAAAGT
+AAATATCAACATGGGAGGGGCTCTCCCACTGGTGCGGTAAGTCCTCGACGGGGCCCAATC
+ATCTTCGCCATTCGTGACACAGAAGCTGCGATGGGAAAGCTTCTCTCGCTTGAGAGCAAG
+AGAATAGGCCATGTCATCAAGAGACTCGGGGTGGGACAGGAAATAAGCTTGGTGGCTAGC
+GACCATCCTCTCCAACGATTGTTGGTGTTTAGCGGAAAATAGCAGCAATCGTGGTGTCAA
+CTCTGCCATTGCAACCTCTGTAGACTGTTCACTAGCCACAATTGTCCGCTCTGCTGACCC
+TATTCCAAAGGAGGCAGCGGATCCTAGCAGAACCTGAAATTTGTGTCAGTACCATAGTCA
+CTTGCAATATGGTCCTGCCATCTAACGATATATACTCACATGGGCGTTAGACCCACCGAT
+ACCGAAGGAGTTGACTCCTACCAGCTCGGCGCGGTCTTTGGGCCAGGGAAGTGGCTCTGT
+GGGTACTTTCAGCTTGCATCGCTCGAATGGAACTAATATTCGAGTCGTTAGTTAAATGAA
+TAGCAGGAGCTCAGCTGATGATACGCACTCTTGGGGTTGGGAGTCGTGAAGTTGATATTG
+GGCGGAATTGTTTTGTGTTCAAGCGCCAGGGTCATTTTAATGATACTTGACAAGCCTGAT
+GCGCCTTCACTATGTCCCAGATTGGTTTTGACCTAATGGAGCATTAGTATCTTTTGATTA
+AGTCGGAAAATACCTGGTTGTCACTCACCGAACCGATATAAATGCCATGCTCACCGAACA
+CATTGGCTACAGCCGCAGTCTCGATGGGATCACCGACCTAAGTAGAAATTAGTATCATGA
+TGCAAAAACAATAAAGTGTAATTGATAATGAACATACCGCTGTTCCTGTACCATGGCACT
+CAATCATAGCAGTCTTGGAGAAATCCGTGACACCGGCCAACTCGTGACCACGACGGATCA
+ACGTCTCGTGTGCAGCGGTATTTGGCGCTGTAAGGGTTGACGCTTTGCCACCAGCATTAA
+TGCATGTTGATCGGATAACAGAGCGAATGGGATCTCCATCGCGAATAGCATCGCTGAGCT
+TTTTCACGTACACAGCTGAAACTGCCTCACCGCGTGCGTATCCGTCGGCGTTTGCGTCAA
+AGGTCTTGCAGGATCCGCTCGGGGAGATAACACCCTGCTCTTGCATTGTAATAGAGGTTC
+GGGGAGAGTAGATGATATTTGCACATGCCACGATAGCGGAGTCGCAGTCCCCGGCTGAAA
+TAGCGTGGCAGGCGTCATACAGACCCGTGAGAGAAGAAGAGCAGGCGGTTCGAATTGTCA
+CACTGCAATTTCCAACGGTCAATAGTGTTCTTTGATATCAAGGCTGGTATGCAATTACCT
+GGGACCCATAAATCCGAACTCGTAGTGAATGCGGTTGGCCGACATATAATCTCCATATCC
+CGTGAGACGGTACATATGATAGTGCTGAGGATCTCTGCCATCGAGTTCCAGCCAGTCTCC
+CTCAAAGGTGCCGAGATAAACACCGATTTTGCGCCCGCGAAGCTCTTGAGGCCGCTGTCC
+AGCATTTTGAAGACACTCATACGTAACCTCCAGGGAAAGTCGCTGCTGAGGGTCCATAGC
+CTCAATCTCCTGTTTGGTCATCGACCAAAAAGAAGCATCCGCATTTCGCAGGTCTACATC
+ATCCAAGAAGTAGCCGTACTCACTGGCGACGTGTCCAATCTTTCCCGGTCCATACCAGTT
+CTCGACGTTATAGCGGTCTTTCGGGACGCGGCATCTCCCACTTCGCTTGTTGTATAATAG
+ATCCCAGAAGCCTTCCGCATCGCGGATGCCACCTGGAAGACGCATTGCCATGCCGCAAAT
+AGCCATAGGCTCCACCAACGGCGGATGATCGCCATCGGGAACGGGGACAGGGAGTTGATG
+GGAAGGACATGTCGAGCTCCCCTCGCTGGGGGTTGGCACTGGATTTGAATTCAGGGAAGA
+TGTTTCATTGTCCGTTGTAGCGGCCCCAGCAGTGGCTTCGAGTGGAGGAGGGTCCACAAA
+GTCGATATCTTGTGCAAGCATTTTGCCGAAAATGATTTCTATAAAATGAAAGGGTTGCAA
+ACACAACGGCGTCCTGTACCTAGGTAATAGGATTCGCAAATGAAGAGCTGTTAGGCAGCC
+ACAAGAACCCTTTTGGGGTTGAGATAGAAGAGAGAAAAAGGACTTTGATTCATCAATTCT
+TCTTTAAGAAGATCCGAGTTTATATATATAACAAAAATGGCCCCCATCGCCCTTCAACAT
+GATCTTAAAAGGGCCGTCGTGCTGACGGGACCGACATTCGGTAATCCGAATGCCATTCGG
+ACAGCCGGTCTTCCAGCGACTGCAAAAAAGCCCAGCCCCCGGGGGGTTTTTTTTCTTCTT
+TTTTGAATTCATCTACGTTTTGCGCTGCATTCCAAGTTGATCGCGAGCTTAATTCATACA
+GAATACTATGGTGCTCAACCACTCACCACCGCCAGGCCTGTACATCACTGGACTGGGGTC
+CCAATACCCTCCGTATCTTTTGGGACCGGAGAAGCTGGAGGAATTCGCGGCACGCTTCTA
+CGATGTGGAGAGTCCAGGGTATGCTATATCATTTTTTCTAACTGTGTTCACAGCAGGAAC
+CTCTAATCCAATGTATGTAGACTCAAAAAGCTCTTGCAAATCAACCGCTCCTCCGGCATC
+GAGACAAGATCTGCTGTTCGATCCTACGAAAGCGGATTTGCAACTCGACCCGAGGCGCCA
+ACGATCAGTGAGCTTGCCGAATTCTATCATCAAGCCGGAGTCGATCTCACCACTCAAGCT
+TGTAAGAAAGCTCTGCGGGAGTCTCAGATTAGCCCTCAACAAGTCACCCACACTATAGGG
+GTCACTTGCACCAATCAAGGTAACCCGGGATACGATCTCCTTGTGAATCGTAAACTGGGT
+TTATCGGCTAATGTTGATCGTATGCTTCTCCATGGTGTCGGTTGTGCAGGCGGACTCGCT
+ATTATGCGAGCTGCAGCACAGATAGCCTGCGGTGCTAGTATGCGACGGAAGCCAGTCTGC
+ATCCTTGCTTTCGCATGTGAGCTGTGTACTCCCAATGTCCGCCATGATCTGGCATTTGCG
+GAGAAAGCTGCCGATTCGGAAAACATCAGCATTGCAGGGGCTTTATTCTCGGATGCTGCT
+GCCGCGTTTGTTCTTTGCAACGAGTATGCTATGGCTGAAACCGAGATCACGCCCCTGTTT
+CAACTTCTCGAGTGGGGCAATGCCTTGATCCCGGATACGCTTGAGCATATGGCATTCTTT
+GCAGATGTTGATGGTTCGTTGATTCTTTCCTGAAAACGGGATATACACTAACCATTCGCT
+CCTGTGTAGGTTACCGGACTGTTCTCACTCGTGATGTTCCGCAATACACCAAGCACGCAA
+TCGGTCCAATGTTCGAGAAACTCCTTCCCTCTTATCAGAGCCAGATTCAATTTGGTTCCA
+GAGAGGGAGTAGGGGAAGTAACAAAGTCGCTAGGCATTAGTGATTTTGTGTGGGCCCTAC
+ACCCAGGAGGAGAGGCTATTATCGAGGGCGCAAAACAGGTTCTGGGTTTAACTGAAGATC
+AGCTGCAGGCAAGTCGGGAAATATACCGTACTCGGGGTAATTCATCCAGTGCGACAGTTC
+TGATTGTCCTTGATCGGCTTCGGTCATTGGGAAAGAGGGAGCATGTTGTTGCGACCTCAT
+TTGGTCCTGGACTAGCAATTGAAATGGCTATGTTGAGGAGATGCGAGGTTGATGAGGACT
+AAGATTGTTGGAAATGGCTTCCATGACGGATATTCAAGCGATTGACAAGATAGGATAGTT
+ATGTGTCTGATTCACTCTTGTAAGCTGCTTCTTCAGTCTGTCAATAATGCTTGGAGTTTC
+CAGAGTAAAGCAAAACAGCACTTTTCTATTGAACTTCATTTAATGCAGATATTTTCCTCC
+GAAGGCCATGTCAACCAGCAGCGCACAACATACTCCATGCAACGTCATATGCACCAAGGG
+AGACGAAAGTATAGCTTTGGATAATCCCTTTTCCACCGTCCTTCCACGCACCTCCTTCGA
+ACTCGGTTCCAAGCCAACCCAAAATGGAAATCGGAAATGAACACCCAACCGCCCAATGGC
+TCTAAATGTAGGTGCAAGATGATAGACCGCGAGCGCGCCCGCCATCCGCTCTCTCAAAGT
+CTGTGCATAGGGATCGTCGTGGGCCATTTTGGCTCGGTGCTCAAGATCAATCATGACACT
+GATCAATATAAGGCTGGTCACTGCTAACAAAACCCCATATTGCCTGATGAGCGGAGAAGC
+GTATGGCTGGGGTTGTGCCAGAGTCATCGAGGGCGAGAAGAGAAAGCCGAAGATGGCGGG
+AATCTCGGTGATGAGGTGCAAATACAAGCCAATCATGGTCGAGTAGGGATCAAGGTGTAA
+TGGGTATCTGGAATATATTTTGCTCGGTAGCTCTGGGTGGTTAAATCCGGCTTAGGGATG
+TTTTGTGAAATTCGAAATCGATGAATGTGAGATTTCCATTCTCAGAGCAGGCCATACCGA
+GGGAGCCTGGATCCATCTCTCTACGGCCATCGGACTCGGTCGTCGGTCAATCGGTGATCG
+GTCAATCGGTGATCGGACCTGGGTAATTATGGTGAGATCAGCGCCGAAATGGGGGCCAAA
+CCCTTTGGCAAGGCGTCCCTTAACATACAGTAGCCCGAAGACCTAGCCACGAACCTATTG
+AAAAAAAGCCGACCAACTAAGTTGCCGGTGCACTTCGTAGCGTACCTCACGAAATAGCGC
+TGTTACCTAGCCTGCCCATGGATGACGCCTGCTAGGCGTTTCGACAGTATCGTAACAAAA
+TGTGCACTGAACTTTTCCTGGCCTATGGAGTATAGTATGTGTCGGGACATATCCTCCCGC
+CAGAATAAGCAAAGACATGTTGTACGTAATCTTGCTAAGCTGCGGCTGTATGGATTCAGG
+GGCATTGGATGAGGACCTGGAACACATCTCTATCTACATGAATCAATTGACTTTACTTTT
+CTAGCATAAATGCTGTCCACTTAACTGTGTACACAGTACCTAGCTGGTGATACCAACAGT
+ATGTGTTCCAGGAAACAAAAGGGATACTGCGACCCTACGCCCTTTGCAATGATCTGCACC
+AAACTCAAAAATCTTCATTTGACCAGACGCACCCACACCCCTTGACCAACAGAGCAAGTG
+AGTGTCAAATGCTCCCTCCACGGTGCACTGTTGCCACTGGCCTCTATGTTCGAATATTCC
+TGAAGCAAACGGACCAAGACGTAGCTTGTTTCCGCCAAGGCAAATTGCTGGCCTAGAATA
+AAATCACAGGATTGTTAGTTATCAATTTGAAGTATAAAATATGACCCAGGAAACTCGAAA
+ATAATAGCCTAGCGATGATCATGACTTACCAGGGCAAATGCGCGGTCCTGCATTGAATGG
+CAGATACTCAAAAGTAGGCCGTGTCGTTTCCCATCGCTGAGGGCGGAATATGTGCGCATC
+CGCACCCCACAGATCTTCTCGCCTGTGCATGGAATAAACTTGATACACGACGAGCTGGCC
+TCGGGGCACAAAAATTGGGGCCATGCCATCCGAGCCACCCCCGCGAGGGAGAACTGTGTC
+ATTCTTCGCTACCCGTGCGTTGAGCGGCACTGGGGGGTACATGCGTAGTGTTTCCCTGAC
+AAACTGATTCAGGAAGGTAAGATCTTTAAGGTCTTCGAATGTGGGTTGGCGTCCACTTAA
+TTTCTCTCCAATCTCCTGTCGAAGCTGTGCTTGATACTCGGTTCTTCGGGCAAGTTCAAA
+TACCGCCGCACTCATGAGGCAGGCGGACGTATCGCGGGCAGCAACCACTGAGAATTGAGG
+GTCAGCACGACTTTGTAGGAAGCGTTTATAGCACTTACGGATGTTTAAGATCTGGTCCCG
+AATCTGCTTGGGTTCCTCTCCTTCTCGAGCAAGGGCATTTAAAAAGGTATACCGTTCCTC
+CTCAGCGTCCTCCGGTTGTACTAGCTTTTCTTTCGTCTCCGCATGCCACTCTTTAGCGCG
+ATCAACTGCTTTAGCCACGATCTCATCAACATAGTCGTGGACAAATTTGCAGGCAGCTGT
+ATACTGCGGATCATAGTAGAATCGGGCGAACCGGCCCAATCGAATGCGTTGTGCAATCCC
+GTCAATGCCACGTTCAAATGCCCATGCAAACTTGCGAGCTACCTCAGTAGCACTGGGCAT
+GAGCACATCGCTCGACTCACCGAATAAAACGTCTGTTCCGGTGTCCAAAGTCTAGACAAG
+AAGGGGATCGTGTTAGCGGAGTCGGAATGGTGCATCCGGGGAAATGCCAATCGACTCACA
+AATCGAAATACCCATTCTTGAATATCCACCGCAGTCCTATCGTTCGGAAGCGCCTCAAAG
+AGACGCTGGACATGCTTTTCGAAGAGACCCAAGTCGGCGACTTGTTTCCGCGTGAAGTTC
+GGCCGTACCAAGGCTCGACCATGCTCCCATGTCGGGCCGTCCGCGTTAAAGACGCCAATT
+CCCAACAGCTCGGCCGAGTTATCGCGACGCCGCTGGCCAATCTCGAAATCTTTGAATTTT
+GTAACCAACACGGCCTGCACATTTTTCGGTTCGTTGGTGAAGATCACATAGTCACCCATC
+AGATTGACGCCAAACGTGGATCCGACTTCTTGAAACCATTGTTGGAATGCTTCGAGGTAT
+CTGCTGTTGTGGGCTGCTTTGCCCAGACGGAAAAAGTGATCCAAACCAAATATGGGATCT
+TTGGACGGTGCTGAACGAAGCCGTTGGCATCCATCACGCTGGTGGAATTTCCGACACCGC
+AAATGCCAGGATACGGACACCCAGATCATTCGTGTGAGCCCAAACACCACAACCCCCAGA
+ACTATCGACGTCAAACTGTAATTCATGTTGCAAGCAATGATCGGTTGCTCGTTAATGGAA
+GTCTATCAACAGCAAATATAGGCACACCTCAGACGTTGAGCAAACAAAGACAATATTCGG
+CACTCGGAGATCCGACGACCGAATCCTGTAACAAGGAGGCCGTTGTCTCCATTCATCTTT
+ACTCTTTTTCTATTATCACCCCGCTTGGCCTACTTGTCTATTTTCTGCATTTTCATCTCT
+ACTGGTGGCACTCCTTTTGACCTGTGTAGTGCCCGAGATGGAGTCCACCCCTGCACGGGT
+TGAAACCTCAACTGAAGGAGGGCAAAATATCACCAACACACAACCACCCGAACCTGAAAG
+AAAAAGTCTCGGTATAAGATTCTGGCTCGCATTCTGGGCAATCGCTTTCACAAACCTCGC
+CGCCTCTTTCGATTCAACGACACTATCTGTTGCCCTCCCGGTATCGATCCCCGCCACCCC
+CAATATAAATAACCGTCTTCGATCGAAGCTAACGAGATATCTCTACCTAGATCATCGCCG
+CCGATTTGGGCGGGTCAACGACCGAAGCCTTCTGGGCCGGAACGTCCTACCTACTCGCCT
+GTACCATCTTGATGCTGATATGGGTAACGCTCAGCGACGCATTCGGTCGGCGACCCATCA
+TGCTCATCGCGCTGCTCGTGTTCACCGTCGGAGCTATCGTCTGCGCCGTGTCACATAATT
+GGCCGACCATGCTTGCTGGTCGGACAATCCAAGGCCTCGGTGGTGGAGGTGTCATTGCCT
+TGACGACTGTTTTGATCACCGATTTGGTACCACTACGCGATCGAGCTCGCTTCTATGCGC
+TTGTCAGTGTGGTGTGGGCGTTGGGGAGTGCCACGGGACCAATAATTGGAGGTGCGCTGG
+CGCAATCAGGGTCGTGGCGCTGGATCTTTTGGATTAACCTGCCAATTGTCGCTGTTGGGG
+TTGTTGGGATTGGGTTCTTCTTACGACTGAGCCGTCGATCTCGTTCGTTGTCGGAAAAGC
+TACGCTTGTTTGACTATACAGGGTCATTCTTGTTTATTGCTTCAATCACTGCCTTTTTGA
+TTCCTGTCACTTGGGGCGGTGTTCAATATGCCTGGTCCAGCTGGCATACTATTGTGCCAT
+TGATCCTCGGCGCTGTCGGGCTCCTCGCCTTCGTTCTCTACGAGTTCTGGATTGCACGAT
+CAGCTGCGGTCACCAAGAAGCCTCTTCTTATCCCGCCTGAAGTCCTGTCCAACTGGACGG
+TGGGTATTCTTTACGCGGGCAGCACATTTCACGGCCTCATCCTCTACAGTTTGGTCTACT
+ATATGCCCGAATACTTCCAGTCGGTCAAGGGCTACAGCGCTGTAATTGCTGGTGTGGCTG
+CGCTCCCACAGACAGTGACCATCGTGCCCTGTGCTATAATGGTAGGGGTAGCAGTCGGCT
+TCACAGGACGGTACCGCTGGGCCGTCTGGGTCGGCTGGCTCCTGACCTGCTTCGGTGTGG
+GCCTGCTCATTTTGCTCGAGTCCAACACAACTGTTGTGCAGTGGATTTTCCTGGAGGCTG
+TCTCCGGTCTAGGAATTGGGCTGCTCTTTCCATCCATCGCTCTCGCGATCCAATCCTCTG
+TGCCGCAGCGCCAAGTCAGCATGGCGGCGACATTGGTCTTGTTCTTCAGATCCATGGGAC
+AAGCGATTGGCGTTGCTATCGGAGGGGTGATTCTCGACAATCAGCTCCAAAAGCATATGA
+CTGATGCGGTGGCGAAGGCGGCTGCCAATGAATCGCAGGCGCAATCGTCGAATGCCATTA
+CAATGGTAGAAATATTGAAAAAGCTACCGGCCGACTCTTCCGAGGCGATCATGATCCGGC
+AGGCTCTGGTAGAATCATTCCAGGTGATCTGGATGGTAATATGTGGCTTTGCAGGCCTCA
+ATCTGATCCTGAGCATTTTCATCAAGGAGTTTGACATGAACCAGGATCATGAAACGGACC
+AAGGCTTTATGCACGAGGTACCAGAAAATAACCCTAGTATAAAAGCAGATCGCAATTAAT
+TGATGTTTCCACCGTTCTCCATATCTAGCAGTATGAAGCCTCCATGATGTTTGTTTTTTT
+CCGCTGGATACAACACGCAAGTATGGTTGTATGCAATCCCACTATTGTAGAACAAGCTGC
+CTCCTTTAAGCGGATTCACGTTTCTAGTCGGAGCAGAATGAATATGTATCAGTGTTCCTG
+ATTCTATAATGCGGCATAAAATCAATAATTTGAACAGCTTTCAGAAAGCCCGATGGATGA
+AATTTCATGTGAACGGTGCTATTGTGTGCTTGCATATTATGGGTCGCCTCACAATTGATC
+AAGTTTTATCAGAGCCGACTCCGGGCCTTATCGCCTGACGCAGATTCTGTTCGCCCAGAA
+GGTCTCGTGGTCTCCCTTCGCTTCCAGAACATTTGAATCTCATCCCAGTATTGATCATGA
+TGATCTCTCACCAAGCCGCAGTGTGGCCCGTCCGGAAAAGCAACCCCTTGAACCGCACAT
+CCCAGCTCAGATTCAGCTTCTTTCTGATGGGAAACCACATCCTCCCATCCAACCATAGGA
+TCGGCCATCGAGTACAAGTATAATCGCGCAGCTGTCGCCCCAAATACGCTAGGGTCATTC
+AGTTGCGCGCGCAGGTCTCGTACAGAACCCATCCACCCCGTCTGCTGGAGACCATTGATA
+ATGCCAATAACAGGGTAAAGTAAAGCCTTTCCCACTGTTTGGACCGGCAGAGAGGTAGGT
+AATGAGTGTGCAGCCGCCTGGTATGCGCGCTTAAAGGATGTATCGCCAGGGCAGCAATCA
+AAGATAATACCACCGAGATATCGCCCAAATTCTGAAACGGGATGAGTGGGATCGCTCTGT
+AACGAGAGAGCCAGCTGGATGGCAGTATTGCACCCGCCATGTGAGAAAATATGTAACAGA
+ATAGAATCTGTGCGTTCTTCCCCTGTGGCAGAGCCAATAAATCGCCGAATCACATCGCGG
+GCGGGAGCCAAACGGGTGTGGAGGACATGGAAGGGGAGTGCGCTGATTTCCAGTATGCGC
+GTAGTGATTAGAAGGACTGCGGAGTTGGCGTATAAAGCTTGATAGTCAGCAATGTATTTC
+TGGATGCGCCGAGGCGTTGCGCCGCCGAGCCAGGTACAGAGTATGATGAGGGCGGGACTG
+CTCGTCACACGTGGCTCTGGAGGCTGCAAGAAATGTATGTTTTCGCCGATAGGTTGTAGA
+GGGTTGAACGGGACTGCTTCCATAGCTTCTACTTGTGTGTATTGGATGTGTCTGACGGTA
+AGATCGGGAAATAAACTGATGGAGGACTTGAATCGATTTGAGGAGGAAAGAAGAAAGAGG
+AAGAGGAGGTAGGCGACTATCGCGGGTCACGTAAGCGCTAACCTCTGATTAGTCGACCGG
+GAGGGCGATACACCCCTTGTTGGATTAATGCAAATGTCCAGATTATTTGCTAAGCTATGT
+AGTGTCTTAATATCCGGATGTCTCACGAGTATGCACAGGTGACAAAGCTCTGGCATGGCC
+CAGAACCATTCTGAGCGCTGAGTATATTTTCCCATCCTCTTTGCCCCATTTCATTTTTTC
+AGACTGGTAAATCTAACCCATTCTTTAGCATAGGTCTTTGGGAGATATCTAGGATACTTA
+CCTTGGGATTGTTCCCAATCTTAATGAAGAAAAATTCCTTTCCATCAGTGGAAAGGCCGT
+AAACCGTGGTATCTTTTTTTCGCATATTCTTTCTGGTGCCATGGACGATACCTAGTCATA
+TATCAGCAAAGGATAGAAACATTAGAGTTAGTATAGTACTACCCATGTATCCAAGGCACT
+GGGCAATGCCTTCACTGGCATTGCCCTTCTTCTTTGTTTCCACTACGACGAGGTTCGTTG
+CCATCGGGTCGTTTACAGACTCATACCAAACCGAATAATCGGCCCGGCCGCTAACCTTCA
+TTTTGCCTTCTTGGGTGCAAGTAGTGAAAGCCAACGCAGTTTCATATTGCAGCTTTAGTG
+GCTGCGCCCCACTTTCGATTTTCATATGGGGATCATCCCCAAATCTCTCGTGATAGATTG
+CGTTGATGATTACTCGGTCGAAACGAGAGCGCACCATGGCTTCATTATCATGGTGGTATG
+TTCCCACCACCGAATCAAACTGGTCAAGTGATGATCCTAGCCCAATTCAGTATTTGATAA
+GCAAATATACCAATTTTAAGAGCCCTACTAAGATCTTCTGGCACCTCGCGTAGGGTAAAT
+TTTGGTGCCGTTGTCACGTCCCATATCTCCTTACTCTCCTTCACACAAAAGAGCTTAAGC
+ACATCCTCGCGGCTAAGCGAGCCAACATTAACCTTAGTAGTCATCATGGACTGCTCGAGA
+GAAGAGAGCTTTTCTTCAAACGCTTTTGCCAGACGATTGCGCTCAGATGCTTTCTTGATA
+GCTTTGAAAACATTCCGCTGGGCCCAACGACGAAATCCATTGAAAGCATTGGCTTTCTGC
+TTCTCAAAAACAAGCTCCATTGCACCTATGATAAGTTAAAAGAGGAGAGCAGCAAGGACC
+TTGGGTTATCGCAGATTAGACAGGGTGGGTGCAGAAGGTCGGATGAAGAAGAAGAGCAGG
+AAGAGCAAGACTACAAAACACAGACCAGTAACACAACTTGGGTGACTTTTTCTCTTGCTC
+AGCGATTCTCAAATTCCCAAATCAAAGCAAAACAAAATCGCAATCAGACCCCAGATAATC
+AACCGTTTCGTTATCCTCTCCTTGGTCATTACCCCCTTTCCCCACGTTGATTGCCGCTCC
+TTGAGATTCTATATTCTGTCCAACTCCATCACTCTGCTCGTGGTTTAGTGGCCATCCACA
+CACTTTTCCCTCTGGATTGTAACCCCAAAAGCAAGTCAGAATTTGTCTCTCGATCACCCA
+CGGTGACGGCCCGCTAACACCCTTCAGTTTGGCTTCTTCAGTGGTGGGTGTTAATGGGGC
+ATTCTTTTGTATCATATGGATGATATGACGCAGATAGGTGTAAACTCCAGGTAAACCCTC
+ATGTGTTAATAAGAAGATCGGTGATGATCGTACCTATAATATTAACTGTGAGTTGATTTT
+CCAGCATCAAGCACCTTATATAGTTCACGCAGAGTATTACTCTACCTCTTTGCCATCTAT
+GAGGTGGTGGAATTGGACAATATCCCCATGACAGACAATTCCATAAACATCGGGGTTTTC
+CTCATTACTCCGGCTCTGTCGGGCAAGGTATACTGTTTCTGGGCAAGTTAAATCACTTAG
+TAAGAAGGTCTTCCTGTATGAGTGTCGGCTTCACTTACTCATCTGCACTATGCATTGCTT
+TAAATCTGTTTTAACCTTTTCTGCCGTCTCTGCCTCGTGTATACACAGCCCCATACTCCA
+CTTATTGTAGTCGAATGTGAGCGCCCTGCCAATGCAGTTCGTAAAAGTCTTCACTTCTCC
+TTTATGTAGGAAGGTGAACCCGGCATAGTTCAAGCGTCTCTGTACAAGCGGACGCGGTAA
+CTGCAACATCTCAGACCTAGATAAGGGCAGGCTATCTATACGTCTTTTCTCCACCTCTAG
+TCTCTCGGCTGCGAGGCATGATCTCAGGACCACATCTAACTTGTCATGGCTCCCCTCACC
+ACCGCTGTAAAGATATAGGGTGCTGATACCACTTCGAATTAGGTCATACTCTCTGACAAG
+TTGAACTTTGCTTTTGGTTAATATCCCACGCTGAACAAATCTCTCCTAAGGGGCTGCGGC
+TTACTTAGATGGAGAGGTGTTTTGTATTCTTGTCTCGGGAGAAAAAGCTCTCGGCTGTGA
+ATCACTTCAACTATGCCCAGTATATCTGGCAAACTAAAGTTCTCCACGTGGGCGGTCTCC
+CCCCAACCCTCCAAAGAAGTCTGCGAGCGTGTTTGGACATGCTGGAAGCATACATTTCGC
+TTGTAGCTGACGGACTTGGGAGGCGGCGGAGCGTTGAGGGGGCGTCGAGAGCTGGACTGG
+GATATTCGTGATTGGAACGACTTGACGGAGTTCACCTTCGATCTCTTGTTGCGGACGAGG
+GTGGTCATGCGTACCGAAAAATCCCACGACGTCGCCATCAACTTTGCATCTGTAAGTCTA
+TCCTGCGTAGAACCTGGCAGCGGGGTAGGCATAGTGTTGAGCGATGTCGGACAGTTTGAG
+GAGACTGGGACATTAGATAATGGTTTTTGAATGGTATGAAGCCGTGTGGGATGGTAAATA
+CCATAATGATGCCAGAAGTACATAATAGATAGCTAATCCATATTAGGTGGAAAGTTCCCG
+TCATTAGAAGCCAACAAGCTTTAGCCTTTAAAATTATAATTAAATCTTCTCTAATTCTAA
+CAGAAAAATTCTATTTATACGTATAGAATCTGATATAAATTCTAAATATCTTTAATCTAC
+TCAAACTCCAACCATATGGTGTATAAGTGGGGAAAAAAGGTCTAATTTCTAAAGTCATTT
+CTAAAGTCATTACCCCACCACCAGAATCACCCTCCTCTTTCTATCGTATCTATCGTTGGT
+GCATTTACAGCTGCTTGATGACGTTCTCGGCGCTGGAGAACTCGAGGTGGTTCTTTGCGG
+GTTCACGAGCAGCGTAGGTGACCTTGCCGTGGTCGAGGACGATGACGTAGCGGGCAGTGC
+GACCCTCCTGGTCAACCCAGCCGATGCTCTTGGAGAACTTGGCGTCGGGGTCCGAGAGGA
+AGAGCTAGCATTCGGTTAGTATGACCATGATCACTCAATGGCAAGAAGGGGAGGACATAC
+GATGTCGTCGTTCTTGACGCCGTTGGCCTTGCCCCAGGCGCTCATGACGTAGGCATCGTT
+GTAGGCGAGGACGGCAACAACGTCGACACCCTTGGCGCGGATCTCGGGGAGTCTCTCGAT
+GTACTCGGGGACGTGGCGAGCCGAGCAGACGGGGGTGAAGGCACCGGGGAGGGCGAAGAG
+GATGACCTTCTTGTCGGCCCACTCCTTGGAGGCGTTGTAGTTGATGGGAATACCGCACGA
+GGTGATCTCGCCCTGCTCAGGGGTGTAGGGGATGTAGCTGTAGGAGTGTTAGTGGGTGAC
+GAGGGTGGTGGAGGACGAGGGAGAGCAACTTACGAGAAGACAGTGTCCGAGGGGAAGCTG
+TCGCCGGCGTTGATTCCAGACATGTTGAGAGTGGTGTTGGTATGAATTGGGATGGGTAGA
+TTGGGTTGGATAAATTGGTATGGGAGGAGTGGATCTGTGAGTTGTAGGAAACGATAAGGA
+GGGAGGGGGGGAGGTTATATAGGTTAGCAACGTGGGGACCAGCGAGGAGTCGGTGGCGGG
+TAAGTTTTACTGGGAGTCGACGGTTCCTGTCGGGCCAGCGAAACACGCAGCCACGGGCCG
+CCAGACCGCATTATGGGGTGATCCGAAGCAGAAGGATACCGAAACCTGTCGATTCGTGAG
+AGAGGCGAGCGGCCGGCGTGAAGACAGTGTATTATCAAGAAGACCGCCCGAGACTGACCC
+CCACCACGGCGGCCTTTCGGACTAGTTATCTAGACCGACCAGTTGACAAATCTGGCGTCA
+CTTTTTTTTTTCTGGTTGATGACGAGACCGGTGGATCCAAACGACCCATCTCGGACCAAT
+GACCCCTGACGTCGTGCTTTAGCGAGACTCGGATAGTTAGGTACACCGTTCTTCTTATCT
+AATCCTATCGGAGTATCGGGTTGGATCCGATGTACTCCCGCCGAGAATCCTCACGTGATC
+GCAACTCCCTCGGCGGTGGGGGATCTGCTGCCCCGAGAATTCTCCTCCAGAGTTTCCGAG
+TATCTGGGAGTTGTTGGAGTGAATCCTTATGGGCTTGTCATTGGTACTCCCGCCCTCCTC
+CCGCACCGTTGGGGCGGTCTTTGCCACCGGGCGGCGGCGATTGGGATTTCGGATATCGTC
+TCGGGTATTGATACGATCATCTGATAAGATTCCGCCTGAACCCTCCATGGCTACCTTGCC
+TAGGGCTTACTTAACTGCCTACGCTCTAGACTGGATTTCTTATGATCTGATTACAATAAG
+GGTTTTCCACCATTGGACAGGACTTTTCTGGCTGGAACGTCTCCATAATCGCCACACCAG
+TGATTAGCTAACCGTGATCGATGGCCCCTCCTTAGGATAAACCTTTGGTATGATAACCAC
+GGACAACGCTATGAACACATAATTGACTATAGACTATTGTTGTGGGTTGGAGGAATACAC
+GGTTCCCTTCCTCATGGTTGTATTGGATGATTTAACTGTACAGAATTGACTAGGAACAAA
+TACATCCGGAGCGAACCAATATATATCTCCTCATATCCTGGCACAACTATATACATCTCG
+CTCCTATAACATCTACATCGATGGCAACCCCATTGACAGCTTACAAAACTAGCTACCCAG
+TGCCAACAGCCATCTTGAATCTCCATGTCATCGAATTCCAGGAGAGATACAACTGTGTAA
+TACAACCCTAATCGCCGACCTACATGTGGCTGAGACACGTGATAATGCTTATTATGGCAG
+CTCCGTCATCGCGTCGCCATCAACCACGTTGGACATGACACTACTTCAACGCATCAAAGG
+CCTTCCAAAGCTTTGACTCAGTGTCCCTTTGATAGCAATGGCCGACAACAAACCCCCGTT
+CACGGCGGAAACAGCTAGGGCGAAAGTCAAGGCCGCCCAGAACCTATGGAATACCCAGTA
+AGTCCAAAGTCAATACTGTGACCCAGATTGTCTTAATGCATGACTTAATGTCCCCCGAGA
+AAGTGCCTTGTGTCTTGAAGGCACCGTTGTTTTGTTTTCTTCATTTCTCCCTCGACAGGG
+CGCGCATGCACGCCAACGTCGGCATGAGGAGCTCCTCATATCCGACGGTTTCACTCCTTG
+CATCCACCACTACGTAACTCCCTCGTGGCTTGTCCCAAACTCATCGCCTCCCGTCTGCCC
+AGATTATTCCATATTTACACAGCAGACTGGAGATGAAGCCCGCCGATCCCACGCTCACCA
+CATTCTTCTGATATAGAGACCCTATGCGGGTCGCTCAAGCCTACACCCCGGATTGCATCT
+GGCGCAACCGCACTTCATTCTTTTCTGGAACAGAGTCCATTGTCGCCTTCTTAACCGCAA
+AATGGAACCGCGAAAAAAACTACCGACTCCGCAAGGAATTATTTTCCTTCACGGACGATC
+GCATTGCGGTCCAGTTCTGGTATGAGTACCAGGATGCTGGTGACGGGTTGCGTTGGAAGC
+GATGCTACGGCCTCGAAGACTGGACGTTTGATCGGGACACTGGCAAAATGCGCAAGCGCA
+TGATGAGCGGGAATGACCTGCTTCTGGGGCCGGAGGGAAACGGGGAGGGAAGGTGGTTTG
+TCGACGGGGTGGATGTGGAGGAGGTGTCAATCGGGGAGGAGCATTGGTAAGAGAGACGTC
+TCGTCTTGCCTTGCTTCTGCGGGTATATGCGCCCCGCACAAGATTGTCAGATTCTGGAAG
+AAGAACAGGAAGAGAGTGAGACAATGGTGGTGAATTTATACCCTGCATACCCTGCACGGA
+TGTAGAGCCCGCGCTCTCGGCTCTCGGGGTTCACTTTCTTTCGCCATCACTATTACCACT
+CCGTAGTGGGATGAGAGGCAAAGCAGAGAAATAAAATGAGATTGATTTGCCCGGAGTAAG
+CGACACTATTGATACGTGCGCCGTAATATTCAATGGATGCAGACGTGGCGGATAGTGAGG
+AATGTTGGCCGGCGCGGTGGTGTTATCAGGCGAATGCCCCTCCCTTGATTCAACCCGAAC
+TTAAACAAACCCCCGTTGATTAAACCAACGCCCCCAATGGAGGGGACTGTCGGAAAATTG
+AGTCGCCAATGATCCCCCCCCCCACCGCTAGTATGTCATCTGCGAGATGAGCTTCCCCCT
+TCCTTTGGATCTCCCCAAGGGGGGAATGGGGAATGTACCGCGGGTAAAGGAACGCTCCGT
+TCAACGCCAACCACCATAACGGACCGGCACGAATCTCCGACCGTCACACGAGCAGTGATG
+GTGGGGGTTGGTCGTATAGCTGCGAGGACGATCTTGGATCCTCAAACAATGGGGAATTCG
+ACTTGTGATGTGGTGGGAGGTGGGATGATTTCGACCATCCCTGGGACGTACACTCGGCCA
+GATAGAATGAGAGACCCAGCATTTCTGGGACCCGAACAAAAGAGAAGAGACTTACGCTCA
+AAATCTCACGAACCGGGTCGGCCATGCCTGGGAAATACACCGTCAGCGAGAGGGGGGAGG
+CCGCCATAATCATGGTGCATTCCAGAGCATCAAGTGTCGGGGGAACCAGAGGAATTCAGC
+ACCAAACAAACAACCCACGACCCATTCCACGGGCTTAGCACGCTCCCATGGCATGCTCTA
+ACTCTGCTTGACGAGCCGTCTTTGCCTGTTGATGGTCTGTTTTGAGGGGATGTCTTTCGG
+GCAATCACCGGGACTCTCTCTCTCTCTCTCTCTTTACGGTCTGCTCCTCCATCTCTCGAC
+AAGCGCAGTCGGACAGTCTGCTGCTGCTCACTCTTTGGTCGCCATCACTCCCCTTCCCCA
+CGCTCCTTAATTCTCGTGTTGGTGTCAGTGTGGTTCATGGCTTGGAGAATACTAACCTAG
+GGACGGAGTTTTGGCTGTTTGCTCTTGTATTCGAGGAATTCGCGACGTTCTTTTCTTGGT
+GTATACCTTCCTTTTGACCTCACCAGTCCTTTTCGTGCCCTTCTGTTGTGATTCCCGCGA
+TCCTGGGACCTCATCCATTCATCCCAAGTCACTCATTACTCACGCGAAGGTAAGTCCTGC
+CGTCCAAGTCGCGTCCAACCCGATCTGACCTCTCTCCCTGCAGTCGCCATTGTCAACTAC
+AGCCATTCATTTCGCCATATGTTGCTCTGCACCAGACCCAGCACCTCGTTTTAGATTGGG
+TATCAACCCCAAGCAATGGATGAGAGAACCGTCTACCCCAACAACCAAACAATGCGTCCT
+CCACTCGCAGATGCCACCCATAGACTCAACTACTGTCAGCCACTGGGATCTGAACAGGAG
+GATCGATACGAATCAGAGCAGAACCGTCTACCGACGCCGGAACCAATGTCGATCGTAACC
+AGCCCGCAATCGGTAAAGGGAAACACGGACGTCACTTGCTTCTCCCCGGGGGCCGAGTCC
+CAGACGGGATCGAACCGGAACTCCACCCTCTCAGCGGCCTCCATTGTATCGGGCAAAGGG
+AAACGAAAGACTCATGTCGGGCCATGGCAGCTCGGACGGACCCTCGGCCGGGGGTCCACT
+GGACGAGTGAGGCTGGCCAAACACGCGTTGACCGGCCAGACGGCCGCCATCAAGATCGTT
+TCGAAGAAGTCGGCCGCTATAGCTCAAAGTGAGAGTATTGCGGCGATGGACCGCAATGTT
+GGAAACTTCAGCAGTACAGGGGCGAGACCTATGCCGTCGGGGATCGAGCGAGAGGTAGTC
+ATCATGAAACTGATCGAGCATCAGAATGTGATCAGCCTGTACGACGTGTGGGAAAACCGG
+GGAGAACTGTAGGTGTTGCTGGGATGAGTAGGTTGGAACATGGGCTGATTGATTCTTGCA
+GATATCTTGTGTTGGAGTATGTGGAGGGCGGCGAGCTGTTCGACTATGTGTCTAACAGTG
+GGCCACTCCCAGAGGAAGAAGCCGTCCGGTTGTTTCGTCAGATCATCGCTGGGCTTGGAT
+ACTGCCACCGGTTCAATATCTGCCACCGTGATTTGAAGCCAGAGAACATCCTGCTCGACG
+GATGGCACAATGTGAAACTGGCCGACTTTGGAATGGCTGCACTGCAACCAGATGGCCATT
+GGCTCAACACCTCCTGCGGAAGTCCGCATTATGCCGCCCCGGAGATCATCTACGGCCGGA
+AGTACCGCGGCGACAGGGCCGATATCTGGAGCTGTGGTATCATCCTTTACGCGCTCTTGA
+CCGGATACCTGCCATTCGATGGGGGTGACCTTGCCAATACCCTTCGGTTGGTCAAGAAGG
+GAGAATACTATATGCCGCAGGAGCTCAGTGATGAGGCGGCCGATCTGATCGATCGTATAT
+TGCAGAAAAGGCCGGAAGACCGCATCACGATGCTCGAGATGTGGTCGCATCCTCTGCTCA
+AGAAATACGAGAAGCTTCACGAAGCAATGGCCAACCATTATATTGGACCACCACCCCCGT
+TGTTGATCGAAGAATGTGGACCGATAGTTACCAGAAGGCAGGATATTGATCTTGATCTCT
+TAAGGAACCTTCAGACCTTGTGGCATGATGTCAAGCCCGACGTGTTGATCGAGAGAGTTT
+TAGACACGAGGTTAGTATCATTTATTTCTACTATCAATATGCAGATGGTGTGGATTGATT
+TTGACATCCTTGTTAGGCCTAACTACGAACGGATGTTCTACAACGCATTGGTCAAGTTCA
+GAAACGAACAGCTCGAGAACTATCAGGGTCAGCCGCTCGAATATTCGGCCAGTGACTACC
+ACCATATTTCGAAAGGCCCGCGCCGGACATCCAAGCGCAATAGTCGTCGTCCGCGTATAG
+CTAGAAGGACGGGAGAGCGACCTGCCACCAAGGATATCATTCAGGTTGACAGCCCCGTCA
+GGGAGGTGATACCAGGCCTCACAAATGCCTGCGATCCCTTCCGATCCTGCCAAGATGAAG
+TCGTTGAAAAAGAGGCCGAGCTGGCCAAGGAAGCCATCTTGAGAGACAGGTTCGCAGCGG
+AAAAGCACGCTCAGACCGAGCTCATCCCAGAGCCGCAGGTCAAGGTTGAAGAGTACGAGG
+ACGAATGTCCTCCCAGCTCGCCTTTCGCCCTCGTCCGCAACAAGAGATCGAAGGTGAACT
+CCGTCAAGTCGTTCCAATCACGAACATCCCAGTCCAGCTCTCGACGCCCCCTCAACGCTC
+CGCCGCCTCCCAAGTCCGTCAGCTACAAGCGAAATGTGTGCTTCCAGCATGTCCGAACAC
+GCTCGCAGACTTCTTTGTGCACTAAGCCAAAGAGTGCCCGGGCATCGTCATCAACTGCGA
+AGAGGCAGCCCAGCCAGAACAGCTTCATGGGTGTCGACGTCGACCCGAATCCCTTCGCGG
+ATAGAGAGAGCAGCCCGATGCTCCCGGCCCAGCCCACGGTGGTCCGCGGATCTGGAGTCT
+CGATCAAACACTGTTCTCAGCCCAAGAAGGTGCGCGACACCGACTTCATCTGGAGAGACG
+ACGCCCGGAAGGTCTCTCACGAGCTGAGCCAGATCTGCGAGGAAGCCTTCTTCAACGGCG
+GTTCCACATCCACAACCGCAACCGCCAGTAACTCCACCGCGTCTACAACCCCTGCAACGT
+CCGTGTCGATAGCATCCCCAGAGACTTCCCACAACCAGATCGCAGCGCACACCCCAAAGA
+GACAGGTCCCCTCGCATCCACTGCCCCCAACCTCCCCAACCTCCACCACTGCGCCTAATC
+TGACCGAGGCCCGTCGTAAGCTGATTGAACACTCAACGCAAGACGGATCAGACGAGATCC
+CGGCATATCTTGCCGCTGTCATCAGCCATCTAGACCGCTTGATAGAGCAAGACCAGCTAC
+GCCAGCGTGACAGGCGGGATCGACCTGCATCCCTGATCAGACCAGCCCACGAGACTGCCC
+AACTCCCCATCATCTCGGAAGAGCATAACAATGCGGACAGCAACAGAGGCAGTCCTAAGG
+CTCCATCACAATCCACTGCCGCAGTCCCGCCGCAAAGCCTTAGCCGCTACCGCAAAAGAA
+CCATCCGGATGGTGCCTCACAGCTCCATGCAGTCCATGGCGGATGCGACACCTTTAAACA
+TGTACAAAAAGAACAGGGATGGCGCGGCACAGCGCTCACAGCGTCCTCGTGGTGGATACA
+AGCTTATGCCTACGGAGGAGAAGGCCACAGATCCCACTCACTTGGATTCGCCCAACTTAC
+GTCTCCCTCGCAAGCCATGCGAGCTGGATCCCATCGCTGAGGTCCCAGGATCTCCGAGGC
+GTATTGGAACGCGTGGCACAGAGACGAAGAAATGGCCGTGGTTCCGGAACAGAACCCAAA
+TTCCTGATACCCCATCCAAGCTTGCTAAGGACGCTCCTCTGCAGCATGGCGGCACAACCG
+TAGCTGTGGAAGAAGTCGTCGGTACGCCGGTGGACTTGACGGACACATCCAATGACGCTT
+CGCAGAACGACACGACTGACAAGGAGGAAGCAGACAAGCCAAAGATGGGGTTCTTCCGGA
+AACTGATGAAGCGGAAAACAAGCAAGGCTGTTCCTGAAGCCCCAGCAGGTTAGTAACAAC
+ACGCACGCATCGTCCTCCTGTTTCACCTTCACTAACCTAACCCGTTCTGCAGCTGTTCAA
+CCGACGGAAAACACCGGACTCGTTGAAAGCCCCAAAACAAGTGACCGATCCTTCGACCAG
+AATAAACCTCTTCCGGCACGACCTCCCGTCGAGGGCAGGAGCCAAAACTGGTTTCAACGG
+GTATTCCAGTTCAAACCGGCCACGCGAGTCATTGCATTGAACGAGTCGAAGATGAAGAGC
+CGAAAGGAGGTGTACAAGCTTCTTCGGAAGTGGAAGAAGTTCGGTGTCGAAGATGTCTAC
+CTGGATAAGGCCAACAGCATCATTCGCGGCAGGGTAGGCGAAGTGAACTGTAAGCCCCTG
+CCCCCTGTCCCCCATCTCTTCAACTGTTTCCTAACCTCTGACCCATGCAGTCCTTCGTCT
+CCGACCAGTCGAGTTCTCAGCGGAGTTCTACACCGTCCTAGAGCACGGCCGCCAGGCGAA
+CATAAGTCTCGTCCGCTTCCGACAAGAGCGCGGCGCCGCCTCCTCCTTCAACAAGGTCGT
+TGACACGCTCTACAACGTAATGAAGCAGCGAGGCATGCTCGTCGAGGATCCTGCACGCGC
+AAGGAAGATGACCCGTATTCTTGACGCTTTCCCCGATCAATGAGAGCCATCTTCCGTCGG
+CGTCTCTTTTTTTTTGCATTTGCATTTGCCATTTGTTCGTTTCTACCCGTTTTGGTCGGC
+GCAGAGTCATCTCATTTTGCAATATTTCCCTAGCATGGAACCATTTTGATTTGCATTTGG
+AGCAGCATTTCTTTCCCTTTCTTTCTGTTTTTATTTCTGACTGGATTCAACCTAATCCGT
+CGTTTCATTCATTCTGTCTCTCGTTTCTTTCTTCCCACACCAGCCAGACCTCTACACATT
+CCTTGCGTGGCTGGCCTCGAGAAAACTCACCTTCACACATGCACACATTCGTTGAACCCT
+GGATACCCAGACCTGCCATTCATTCATTCGTGCACCCACAGCAAAGCCTGACTACCCAAC
+TACCATGTCACCCTTTATAATCATCCCATGGCCCCATCCACTCTCATTCTCCCAACTTCC
+CACTCCCATCCCCTGAACAAGACACAGACACAGACACAGACTCCAGCTACTATCCCTACT
+TGGTTGCATGTGTATGCTTTCTCGGGACGGGGCGAGTGAGTGGCAGACAAATAGCTAGCT
+TGGATGAGAGTGCCCTTAGTAGTTAATTTTCATTAGCATAGGATTCAGTAAAGATTAATG
+CATAATTGATTAATTGATTGTTACTCACACCCCAACACACCTCTAGCTGCTTTGCATGTA
+ACATGCATGCATGTATGCATATACTTTACTTTCCTGCCTATGTATGTATGTACTTACTAC
+TTACTACCAGATAACTAGAAACTTTCCCAAGTATGATATTTGAAGTGCCCCGGCTCTGCC
+ACTCACTACCTAATGAAACAGATAGATGCACTAATGTAGAAGAAAGAAAGAAACACTGTG
+CGTAGTAAATATTAAGTAGTAAGTAGTACGTAGACTCAATTGTACATAAGTAAGATCAGA
+CAGATCCTCAACAGAAGAATCATTAGTAGCTACCTACCTATCTACCTAGCGTGCCATACC
+GTCTTTGAGGAAACAGAAGAAAAACGCCATACTCCTCACCTACTCACCTACTCTCCTACT
+TGGGACTGGCTGTCTGTCTGTCTGTGAATACATACCTACATGAATGAGGCTATCTATCTA
+TCTATCTACCTATCTCAAGGTCGACCGACGCCCGCCGTCTTTTGTTTCCGGTTGGATAGT
+CAGGAAATATCAAGGTACCTACCTACCTACCTACCTACTTACCCGTTAAATTGCTATCGC
+ATCTTCCATGGACTTTGGCCTTACTTAGCTAGCGACAAAATACCTAAATACTACCTACCA
+TATGTAGCTATAGGTATAGCCATAGGCATAGGTATAGCCATAGGCGTAGGTGTAGGTATA
+GGCATAGGTATAGATAGGTACAGCCAACCCCAGCGGCAGCATCCAAAAAAAGGAAAGTCA
+TATTAAGCACCTGAGCTTCTAGAACAACTCTATATAAGGTAAATAACAATACATCCATAC
+AGTACATACAAACTTACCTAGATCAGACACCATAAAATAACGTCGTAGTACTGTCTGTAC
+CTAACCCCGTACGTCTATCTATCTATACCCCAGGTCTGTCTATCTATACCCCAGATCTAT
+CTATACCAATTCAAGGTCCACTCACTTTCTTACTCTCCTTACGGTACTATCTACTACCAC
+TGCACGATGTGAAGCTCAATTGGTCAAATCTGATGTCATTATATCTTCCGACTCACTCAC
+TCCTCTACTCCAGTCTCCATGGGAATCCAGATCCGTAGAAAGGTCTGACTCGACTCGTCA
+TATCGTAGGATATATCTGCGAGAAAATAGACACAAGCAAGGACAGACAGACAGTATGCAC
+AGATGCGGTGAATGACCAAAACGGATCAAACCGAGAAGCGCAGAAAGAACATGGCAAAGG
+TAAAGTCGCATGTGAGAAACAGAAAAAACAGAGTAAAATTGATCAGACAGCCTCCCAGTA
+AGAACAAAGGAAAAGTAGATAAAAGATAAGGAAAATAACACGAGGGAAAAAGAAGAAAAA
+AGCCAGCGTCCTTTTTTCGCAGCGGCGGAATAGTAATAAGCATTTCAAGCCAACCGGAAT
+CCGAAAGAAAAGAAACATATCAGGCATGAAACGCAGGACAGAGAGCCTCCCGAGATGTAT
+TGGAACAGGTCAAGAAAACGCGGAAAACGAGAAACTGCCGCCGGTAGGAGTAAGAACCCT
+CGTAAAAGCTTATCAAGAAAGAACAGTAAATCACAAACAAAAATAGTAGCAAAAACTCAC
+CCCATATTTCGCTTCGTGATGGATAAAACACAAAGAGCCATCCGTTTCCAATGCATACAA
+CGCTCATCCGCATGGTTTCCACTGCAGGAAAGCCTACCTGCTGAGGATTCACATCTTGTT
+GTAACTTTGCTTTTGTCGAACCAATCAGACCGAGGATCCTGCAGTGGATGTAGGATGCAG
+ATGCTCGGCGCGGTCGATAACACTCGAGTATTTGTTTGATACCTCTGCGCTGTGGTCGGA
+ACCGCGTCCACCGGTCCTCTGAGCATTTCATGATGAATGGCGAAAACAGCAAAGAAAAAG
+TGCATTAGTGGGTTGCCCCAAATAATTTATAAATCCGTGGTGTTGTATCGGTAAAAGGGA
+AATAAAGATGGCGTAGATACGAATTGCGGGTTGCTGAGGCAAAAGGCTGCTGTCTGGGGC
+ATCGCGTGGCAGCCAGCAGCTTCACACCGAGACATCAACAGGCAATCCGTACCCAGATCG
+TATAGCTCATAAGACTCTTGCTTCTCGTTTCCATGGCCTCATATCAGTCGAATAAACACG
+GTTAGATCGGCGTATCCTCCTCTTTTTTTGACTTCTCCTTTTCGTCGCCCCATTTCGTTG
+TGCACATCGAGAAATTTCGGACTTTGCATGCGCGAGCCCAAAGCTTCAATCTCAGCTCGA
+AAATCGCTCGAATGTCGGTTGTCGCGATGTTCAGAATTGGCAGGATCCTCATCAACCTCA
+CTCATCGGACAGAGACTCCTCAAACTCGTGAAATGAGTTTTCTCCTCTCCACTGCATCAC
+CGCTAGGTCCGTAGATGTTGCATGCAGCACATGCAAGCGAACCGTGTGGCCAGCACACAA
+AACCTTCCTCGTCCACCCAGAAAACCTTGCTGTACCTCCATTATTCACCACCGTGCGTCC
+ACTCCCAATCATCTATCAACATTCTCCAGACCCGCTGTGACATGCTCATTGGTTAGAAAG
+GCCGCGGATTATTGGTTTAATCCACGTCGGTTCAAAGCATTGAGCATGTCGCTGTCGGTG
+CTGGAGCGACCCTGGCTATCACCCGGATTAAGCATATCACGAACGTTCAGTCCTCCGCGC
+GCGGAGCTGCTCGGCGTCGAGGTCGGGGGAGGAGTCATGGCACCTTGCGAAGGATGCATC
+GGAGGGTAGGGGGAACTATGCGGCGATGACGAATGACGCCCATCGTACGGGTAAGCGGAC
+TGCGGGGAGGGACGTCGGTCGTTCTGCGGCGGAGGAGGATAGTATGGAGCCGGGTGCGTC
+TGGTATCCGGAGGCGGAGGAGGCCGGGGTGACGGGGGCGAGATTCGTGGGGTCAGGATAT
+TCGAAGCCGGAGCCGGAGCCACGACGACCGATGGGTCTCTGTATTTCAAGGCAATGAGCA
+CTAAAACAAGTCGGGGAGGTTAGGGGCACGGCTTACCGATTCCTGGGGCCCAGAAGCAAG
+GGGTGGGGCGGCGCCTCCATACGGATGCTGGTACATTCCTTGCGGCGGTGGGAGCGTCGA
+GTCCGGAGGCTGGGGCTGTTGTTGCGGAGGGAGAGGCTGACCGTGAGCACCGTAGAGCAT
+CACGCCAGCACCAGGACGTCCCTGCGACTGGGCGCCCCGCAGGTGAGGGTAGGCCGCATG
+TGCGGGCACGAAGGCCTGCGCTTGCGAGGAGACGGGGGTGAACATGCATTCTTGGTTGAA
+GCGGATACAGTTGTTGCAGCGTCCATCCTGCGAATTCTCAAACCCCGAGCAGCGGATCTA
+CAAACACCGAACGGAGTCAGCCGATGTCCCAAGCCGAATGGAACGGGGTGTCACTAAGGG
+ACGAGACGAGACATACCTTTCGTCTCCGACAATAGCGACAGGCAATGGCGGTGCGCTGTC
+GAGGAGCGGCGGCCTGGTATACAACAGTGGGGGGAGGTTGTTGAGCATAAACGTCACCGG
+GGCGGTAAGCACCTGGGGGGGGCGGAAGACGGTAGGGATCTTGCGGGCCCTGGACATGCG
+GGTGGATGGCCGCCATGTTGGATGGGGGCGGATACTGCGATTGGGGCGGCGGAGGATATT
+GGTCTGGGGGATAGGACGCCGGGGGATACTGAAGAGGAAACATGTCAGTGGAATGAACGG
+GAGTGAGATGGGGACAAGACGGGGACAAGACGGGAACAGCGACGGGGAGGTATAGAACAG
+GAGAAAGACAGGACATACGGGATATGAGGCCGGCGGATAGTGAGCGGACGGGTTGTCCTC
+AGGTTGACTAGTGTTCCACTGAGGTGGTGGATACTGTCCCTGTCGATTAGGGTCGCTGAG
+ATCGTGGGGATTGCTGGACATTTGTAGCAGAGGGAGGCGAGAGGCTGCTTAAAAAGAACG
+GACCGAAACGGAAGAGAGGGGGGAGACGCAGGATGATGTGAGTCGAGAGTCAGGTCCGTT
+GGTCGTTCGGGCCAAGGAGCAGGGCACGCAGGGGTGGTGTGTGTGTATGTATGTACGTAT
+GGGGAGGATGAGGTGGAAGGACGGAGTTGGATGGATGTCGGTATGTAACGAAACCGGCGG
+ATGTATGGTTCCGTATGTATGGGTATGTATGGGGTATGGCCAGTCGTCAGCCACTTGCGG
+GGGGGCTGAAGGCACGTAGGATGGCGACCACCAGGTGTGAAAAGGAGCCTGAAGGCGACC
+GGGATGGGGATGTCGGTCAAATCAAAAACAGTTCCAGCTCCCGTCGGGTGATGCGCAAGG
+CTAGCATAGCCTCGTGGTCACGCTGGTGGGGAGAGAGGCAATGGAATTAAAACAGGTAAC
+CGGTAATCAAGGGGATGATCAAGGCGACGGGCCAGCAGAATCGAGGGCAGCTGAGAAGGG
+AAGGCGAGGTGACCGGGGGTGGAAAAGGAAAGAAAGAGGCGGTAAGCAGAGAAGATGTCG
+AGGTGGTCAAATTAGCAAGGGTCAGGAAGGATGGATAGGTAGAGGGAAGGGG

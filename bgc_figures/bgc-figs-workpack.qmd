@@ -1,0 +1,411 @@
+---
+title: "cls-figs"
+format: html
+editor: visual
+---
+
+```{R setup}
+library(tidyverse)
+library(patchwork)
+library(gggenomes)
+
+anchor <- function(x, ..., .track_id = "genes", .align = "left"){
+	if(is.character(.align)){
+		.align <- c(left=0, center=.5, right=1)[.align]
+	}
+	if(is.na(.align)){stop("align required")}
+
+		a <- x |> 
+		#pull_track(.track_id = "genes", name == "MCP") |> 
+		pull_track(.track_id = .track_id, ...) |> 
+		group_by(bin_id) |> 
+		summarize(x = ((1-.align) * min(c(x, xend))) + (.align * max(c(x, xend))))
+
+	shift(x, bins = a$bin_id, by=-a$x)
+}
+```
+
+## gene_colors
+https://personal.sron.nl/~pault/
+https://jrnold.github.io/ggthemes/reference/ptol_pal.html
+```{r}
+#| eval: false
+# Colours in default order: '#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499'. Bad data: '#DDDDDD'.
+
+gene_colors <- tribble(
+	~gene_name, ~pfam_id, ~hex,
+	"T3PKS", "", "#882255",
+	"T1PKS", "", "#EE99AA",
+	"NRPS", "", "#661100",
+	"DMAT", "", "#0077BB",
+	"aldo-keto reductase","PF00248","#332288",
+	"p450","PF00067",'#6699CC',
+	"short-chain dehydrogenase","PF00106",'#88CCEE',
+	"pectate lyase","PF12708",'#117733',
+	"glycosyl hydrolase","PF00722",'#44AA99',
+	"glycosyl hydrolase","PF03443",'#44AA99',
+	"regulatory",NA,'#DDCC77',
+	"transport",NA,'#999933')
+
+c2p <- read_tsv("SSN_BGCs/cds2pfam.tsv", col_names = c("feat_id", "pfam_id")) |> 
+	mutate(pfam_id = str_remove(pfam_id, "\\..*"))
+
+strain_info <- read_tsv("jgi-taxonomy-with-copies.csv") |> 
+	janitor::clean_names()
+
+gene_colors$pfam_id |> paste(collapse="|")
+
+s_tested <- read_tsv("SSN_BGCs/selected_t3pks.txt", col_names = "bin_id") |> 
+	mutate(tested = TRUE)
+
+```
+
+
+# antiSMASH BGCs
+## fix GBK and compute similarities
+
+```{bash}
+#| eval: false
+# all scaffolds need unique ids ("scaffold_1" can appear in several species...)
+# use filenames as unique locus names
+for gbk in `ls */*.gbk`; do perl -i.bak -pe 's/^(LOCUS\s+)(\S+)/$1'`basename $gbk .gbk`'/' $gbk; done;              
+# bash - convert gbk to gff
+for gbk in `ls */*.gbk`; do gb2gff $gbk > ${gbk%.gbk}.gff; done;
+for gbk in `ls */*.gbk`; do gb2fna $gbk > ${gbk%.gbk}.fna; done;
+for gff in `ls */*.gff`; do gff2cds --id ID $gff > ${gff%.gff}.faa; done;
+for cls in `ls -D`; do mmseqs easy-search <(cat $cls/*.faa) <(cat $cls/*.faa) $cls/$cls-faa.o6 /tmp; done;
+for cls in `ls -D`; do mmseqs easy-search --search-type 2 <(cat $cls/*.fna) <(cat $cls/*.fna) $cls/$cls-fnx.o6 /tmp; done;
+for cls in `ls -D`; do minimap2 -x asm20 <(cat $cls/*.fna) <(cat $cls/*.fna) > $cls/$cls.paf /tmp; done;
+# mmseqs easy-search --search-type 4 <(cat *.fna) <(cat *.fna) 8-aa.o6 /tmp
+
+```
+
+## read gffs (store as rds to make things faster)
+```{r}
+#| eval: false
+clss <- list.dirs("SSN_BGCs/", full.names = F, recursive = F)
+clss <- set_names(clss, clss)
+#cls <- "8" #12 # 8
+
+for (cls in clss){
+	#gff_files <- list.files(paste0("SSN_BGCs/", cls), "*.gff", full.names = T)
+	#g0 <- read_feats(gff_files) |> 
+	#		mutate(bin_id = str_remove(file_id, ".gff$"))
+	#write_rds(g0, paste0("SSN_BGCs/", cls, "/genes.rds"))
+}
+
+gff_files <- map(clss, \(cls){list.files(paste0("SSN_BGCs/", cls), "*.gff", full.names = T)})
+
+```
+
+## read seqs and links
+
+```{r}
+cls <- clss[["1-1"]]
+
+g0 <- read_rds(paste0("SSN_BGCs/", cls, "/genes.rds"))
+s0 <- read_seqs(gff_files[[cls]]) |> 
+	mutate(bin_id = str_remove(file_id, ".gff$"))
+s1 <- s0 |> 
+	mutate(jgi_portal_name = str_remove(bin_id, "-.*")) |> 
+	left_join(strain_info) |> 
+	left_join(s_tested)
+ln0 <- read_links(paste0("SSN_BGCs/", cls, "/", cls, ".paf"))
+lx0 <- read_links(paste0("SSN_BGCs/", cls, "/", cls, "-fnx.o6"))
+lp0 <- read_sublinks(paste0("SSN_BGCs/", cls, "/", cls, "-faa.o6"))
+```
+## clean up gene names
+```{r}
+#| fig.width: 12
+#| fig.height: 3
+clean_functions <- function(x){
+	x <- x |> 
+		str_remove("biosynthetic \\(rule-based-clusters\\)\\s?") |> 
+		str_remove("\\s.*") |> 
+		str_replace("indole:dmat", "DMAT") |> 
+		str_replace("NRPS:.*", "NRPS") |> 
+		str_remove(":.*") |> 
+		identity()
+	
+		x[str_detect(x, "aldo.keto")] <- "aldo/keto reductase"
+		x[str_detect(x, "^(other)")] <- NA
+	x
+}
+
+g1 <- g0 |> 
+	filter(type=="CDS") |>
+	select(pick(\(x){any(!is.na(x))})) |> 
+	left_join(c2p) |> 
+	left_join(gene_colors |> filter(!is.na(pfam_id)) |> select(gene_name, pfam_id)) |> 
+	mutate(
+		introns=c(),
+		functions=coalesce(gene_name, clean_functions(gene_functions)),
+		functions = factor(functions, levels=unique(gene_colors$gene_name))
+	) |> 
+	left_join(gene_colors) |> 
+	relocate(.after=name, functions)
+
+```
+
+## compute cluster similarity
+```{r}
+if(length(unique(lx0$seq_id)) > 2){
+	lx1 <- lx0 |> 
+		group_by(seq_id, seq_id2) |> 
+		summarize(bitscore=sum(bitscore))
+
+	n <- nrow(group_keys(lx1))
+	lxm <- matrix(data=lx1$bitscore, nrow=n, ncol=n, dimnames = list(lx1$seq_id2[1:n], lx1$seq_id2[1:n]))
+	lxm
+
+	lxmh <- hclust(as.dist(-lxm))
+	plot(lxmh)
+}else{
+	lsmh <- list(
+		labels = unique(lx0$seq_id),
+		order = seq_along(unique(lx0$seq_id))
+	)
+}
+
+```
+## plot cluster similarity
+```{r}
+lx2 <- lx1 |> 
+	mutate(
+		seq_id = factor(seq_id, levels=lxmh$labels[lxmh$order]),
+		seq_id2 = factor(seq_id2, levels=lxmh$labels[lxmh$order])
+		)
+p_sim <- ggplot(lx2) + 
+	geom_raster(aes(seq_id, seq_id2, fill=log10(bitscore))) +
+	scale_fill_viridis_c()
+
+p_sim
+```
+
+```{r}
+#p <- list()
+p_cls <- gggenomes(g1, seqs = s1, links=ln0) |> 
+	#add_sublinks(lp0) |> 
+	pick_seqs(rev(lxmh$labels[lxmh$order])) |> 
+	sync() |>
+	#focus(functions == "T3PKS", .expand = 35e3, .max_dist = 35e3) |> 
+	anchor(functions == "T3PKS") |> 
+	identity() +
+	ggtitle(paste("Cluster", cls)) +
+	geom_seq() +
+	geom_link(size=.1) +
+	geom_gene(aes(fill=functions)) +
+	geom_bin_label(aes(x=-66e3, label=str_remove(strain, " v\\d+.*"), color=tested), data=bins(.group = vars(strain, tested)), expand_left = 0.25, fontface="italic") +
+	scale_fill_manual("Gene functions", values = deframe(select(gene_colors, gene_name, hex)), breaks = gene_colors$gene_name, na.value="cornsilk3") +
+	scale_alpha("Amino acid identity", range=c(0.1, 0.7)) +
+	expand_limits(x=c(-50e3, 20e3), y=2) +
+	scale_color_manual(values=c(`TRUE`="black"), guide="none") +
+	theme()
+
+p_cls
+n <- length(gff_files[[cls]])
+if (n<20) n <- 20
+#ggsave(paste0("SSN_BGCs/", cls, "/cluster-", cls, ".pdf"), p_cls, width=15, height=n/6 +.75)
+ggsave(paste0("SSN_BGCs/", cls, "/cluster-", cls, ".pdf"), p_cls, width=15, height=length(gff_files[[cls]])/10 +1)
+```
+
+## one function
+```{r}
+
+nika <- function(cls){
+	g0 <- read_rds(paste0("SSN_BGCs/", cls, "/genes.rds"))
+	s0 <- read_seqs(gff_files[[cls]]) |> 
+		mutate(bin_id = str_remove(file_id, ".gff$"))
+	s1 <- s0 |> 
+		mutate(jgi_portal_name = str_remove(bin_id, "-.*")) |> 
+		left_join(strain_info) |> 
+		left_join(s_tested)
+	#ln0 <- read_links(paste0("SSN_BGCs/", cls, "/", cls, ".paf"))
+	lx0 <- read_links(paste0("SSN_BGCs/", cls, "/", cls, "-fnx.o6"))
+	lp0 <- read_sublinks(paste0("SSN_BGCs/", cls, "/", cls, "-faa.o6"))
+	
+	g1 <- g0 |> 
+		filter(type=="CDS") |>
+		select(pick(\(x){any(!is.na(x))})) |> 
+		left_join(c2p) |> 
+		left_join(gene_colors |> filter(!is.na(pfam_id)) |> select(gene_name, pfam_id)) |> 
+		mutate(
+			introns=c(),
+			functions=coalesce(gene_name, clean_functions(gene_functions)),
+			functions = factor(functions, levels=unique(gene_colors$gene_name))
+		) |> 
+		left_join(gene_colors) |> 
+		relocate(.after=name, functions)
+
+	if(length(unique(lx0$seq_id)) > 2){
+		lx1 <- lx0 |> 
+			group_by(seq_id, seq_id2) |> 
+			summarize(bitscore=sum(bitscore))
+	
+		n <- nrow(group_keys(lx1))
+		lxm <- matrix(data=lx1$bitscore, nrow=n, ncol=n, dimnames = list(lx1$seq_id2[1:n], lx1$seq_id2[1:n]))
+		lxm
+	
+		lxmh <- hclust(as.dist(-lxm))
+		plot(lxmh)
+	}else{
+		lxmh <- list(
+			labels = unique(lx0$seq_id),
+			order = seq_along(unique(lx0$seq_id))
+		)
+	}
+	lx2 <- lx1 |> 
+	mutate(
+		seq_id = factor(seq_id, levels=lxmh$labels[lxmh$order]),
+		seq_id2 = factor(seq_id2, levels=lxmh$labels[lxmh$order])
+		)
+	
+	p_cls <- gggenomes(g1, seqs = s1) |> 
+	add_sublinks(lp0) |> 
+	pick_seqs(rev(lxmh$labels[lxmh$order])) |> 
+	sync() |>
+	focus(functions == "T3PKS", .expand = 35e3, .max_dist = 35e3) |> 
+	anchor(functions == "T3PKS") |> 
+	identity() +
+	#ggtitle(paste("Cluster", cls)) +
+	geom_seq() +
+	geom_link(aes(alpha=pident), size=.1) +
+	geom_gene(aes(fill=functions)) +
+	geom_bin_label(aes(x=-36e3, label=str_remove(strain, " v\\d+.*") |> str_remove("\\(phoenicis Corda\\) "), color=tested), data=bins(.group = vars(strain, tested)), expand_left = 0.25, fontface="italic") +
+	scale_fill_manual("Gene functions", values = deframe(select(gene_colors, gene_name, hex)), breaks = gene_colors$gene_name, na.value="cornsilk3") +
+	scale_alpha("Amino acid identity", range=c(0.1, 0.7)) +
+	expand_limits(x=c(-65e3, 40e3), y=20) +
+	scale_color_manual(values=c(`TRUE`="black"), guide="none") +
+	theme()
+	
+	lx2 <- lx1 |> 
+	mutate(
+		seq_id = factor(seq_id, levels=lxmh$labels[lxmh$order]),
+		seq_id2 = factor(seq_id2, levels=rev(lxmh$labels[lxmh$order]))
+		)
+	p_sim <- ggplot(lx2) + 
+		geom_raster(aes(seq_id, seq_id2, fill=log10(bitscore))) +
+		scale_fill_viridis_c() +
+		expand_limits(y=c(0, 20)) + 
+		theme(axis.text = element_blank(), axis.ticks.x = element_blank(), axis.title.y = element_text(hjust = 0, angle = 270)) +
+		ylab("BGCs as in a ->") + 
+		scale_x_discrete("BGCs as in a ->", position = "top") 
+	
+
+			
+	
+	n <- length(gff_files[[cls]])
+	if (n<20) n <- 20
+	
+	pp <- p_cls + p_sim + plot_layout(widths=c(10,1)) + plot_annotation(title = paste("Cluster", cls), tag_levels = "a")
+	ggsave(paste0("SSN_BGCs/", cls, "/cluster-", cls, ".pdf"), pp, width=15, height=n/6 +.75)
+}
+
+nika("8")
+for (cls in clss[1:29]){try(nika(cls))}
+#nika("18")
+#nika("23")
+
+```
+
+## Fig 7
+
+```{bash}
+#| eval: false
+# all scaffolds need unique ids ("scaffold_1" can appear in several species...)
+# use filenames as unique locus names
+cd for_fig7/
+for gbk in `ls *.gbk`; do perl -i.bak -pe 's/^(LOCUS\s+)(\S+)/$1'`basename $gbk .gbk`'/' $gbk; done;              
+# bash - convert gbk to gff
+for gbk in `ls *.gbk`; do gb2gff $gbk > ${gbk%.gbk}.gff; done;
+for gbk in `ls *.gbk`; do gb2fna $gbk > ${gbk%.gbk}.fna; done;
+for gff in `ls *.gff`; do gff2cds --id ID $gff > ${gff%.gff}.faa; done;
+for panel in panelA panelB panelC; do mmseqs easy-search <(cat $panel*.faa) <(cat $panel*.faa) $panel-faa.o6 /tmp; done;
+#for cls in `ls -D`; do mmseqs easy-search --search-type 2 <(cat $cls/*.fna) <(cat $cls/*.fna) $cls/$cls-fnx.o6 /tmp; done;
+#for cls in `ls -D`; do minimap2 -x asm20 <(cat $cls/*.fna) <(cat $cls/*.fna) > $cls/$cls.paf /tmp; done;
+# mmseqs easy-search --search-type 4 <(cat *.fna) <(cat *.fna) 8-aa.o6 /tmp
+
+```
+
+```{R}
+gene_colors <- tribble(
+	~gene_name, ~pfam_id, ~hex,
+	"T3PKS", "", "#882255",
+	"T1PKS", "", "#EE99AA",
+	"p450","PF00067",'#6699CC',
+	"OMT","",'#44AA99',
+	"DMATS", "", "#0077BB",
+	"Halogenase","PF00248","#332288",
+	"Catalase","PF00106",'#88CCEE',
+	"PhyH","",'#117733',
+	"Aminotransferase","PF03443",'#44AA99',
+	"Transcr. factor",NA,'#DDCC77',
+	"transport",NA,'#999933')
+
+g0 <- read_feats(list.files("for_fig7/", "*.gff", full.names = T))
+g1 <- g0 |> 
+	filter(type=="CDS") |>
+	select(pick(\(x){any(!is.na(x))})) |> 
+	mutate(
+		introns=c(),
+		functions=str_remove(gene_functions, "[,:()].*") |> str_trim(),
+		#functions = factor(functions, levels=unique(gene_colors$gene_name))
+	) |> 
+	relocate(.after=name, functions)
+
+
+s0 <- read_seqs(list.files("for_fig7/", "*.gff", full.names = T)) |> 
+	mutate(bin_id = str_remove(file_id, ".gff$"))
+
+seq_labels <- tribble(
+ ~seq_id, ~bin_label, ~seq_label,
+	"panelA-fscb", "Fusarium scipri", bquote(bold("Scirpilin")~"BGC"),
+	"panelA-xylPKS", "Xylariaceae sp. FL1272", "scaffold_96",
+	"panelB-soppiline", "Penicillium soppii", bquote(bold("Soppiline")~"BGC"),
+	"panelB-Asplup1-soppiline", "Aspergillus luppii", "scaffold_146",
+	"panelC-Asplup1-communesin", "Aspergillus luppii", "scaffold_4",
+	"panelC-communesin", "Penicillium expansum", bquote(bold("Communesin")~"BGC")
+)
+
+s1 <- s0 |> 
+	mutate(jgi_portal_name = str_remove(bin_id, "-.*")) |> 
+	left_join(seq_labels)
+lp0 <- read_sublinks(list.files("for_fig7/", "*-faa.o6", full.names = T)) |> 
+	filter(pident > 0.5)
+
+
+```
+
+```{R}
+#| fig.width: 9
+#| fig.height: 3
+gggenomes(genes = g1, seqs = s1) |> 
+	add_sublinks(lp0) |> 
+	flip(1,3) |> 
+	#pick_seqs(rev(lxmh$labels[lxmh$order])) |> 
+	#sync() |>
+	#focus(functions == "T3PKS", .expand = 35e3, .max_dist = 35e3) |> 
+	anchor(functions %in% c("T3PKS", "T1PKS", "DMATS")) |> 
+	pick(1,2,4,3,6,5) |> 
+	identity() +
+	geom_seq() +
+	geom_link(aes(alpha=pident), size=.1, fill="black") +
+	geom_gene(aes(fill=functions)) +
+	#geom_gene_tag(aes(label=functions)) +
+	geom_seq_label(aes(x=-35e3, label=seq_label), parse=T, nudge_y=-.1) +
+	geom_bin_label(aes(x=-35e3, y=y+.2, label=bin_label), expand_left = 0, data = bins(.group = vars(bin_label)), hjust = 0, fontface="italic") +
+	#geom_bin_label(aes(x=-36e3, label=str_remove(strain, " v\\d+.*")), data=bins(.group = vars(strain)), expand_left = 0.25, fontface="italic") +
+	scale_fill_manual("Gene functions", values = deframe(select(gene_colors, gene_name, hex)), breaks = gene_colors$gene_name, na.value="cornsilk3") +
+	scale_alpha("Amino acid identity", range=c(0.1, .5), breaks=c(0.5, 0.75, 1), limits=c(.5, 1))
+
+```
+```{R}
+ggsave("fig7.pdf", height=3, width=9)
+```
+
+```{R}
+gggenomes(g1,  links=read_links("SSN_BGCs/8/8.paf")) +
+	geom_link() +
+	geom_gene()
+```
+

@@ -1,0 +1,1259 @@
+##gff-version 3
+##sequence-region panelC-Asplup1-communesin 1 61340
+panelC-Asplup1-communesin	.	protocluster	1	61340	.	+	.	ID=protocluster-panelC-Asplup1-communesin_1;tool=antismash;core_location=[30000:31340];aStool=rule-based-clusters;product=T3PKS;neighbourhood=30000;cutoff=20000;category=PKS;contig_edge=False;protocluster_number=1;detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N)
+panelC-Asplup1-communesin	.	proto_core	30001	31340	.	+	.	ID=proto_core-panelC-Asplup1-communesin_2;detection_rule=(Chal_sti_synt_C or Chal_sti_synt_N);protocluster_number=1;aStool=rule-based-clusters;tool=antismash;neighbourhood=30000;product=T3PKS;cutoff=20000
+panelC-Asplup1-communesin	.	cand_cluster	1	61340	.	+	.	ID=cand_cluster-panelC-Asplup1-communesin_3;detection_rules=(Chal_sti_synt_C or Chal_sti_synt_N),(indsynth or dmat or indole_PTase);kind=neighbouring;SMILES=;candidate_cluster_number=1;tool=antismash;contig_edge=False;product=T3PKS,indole;protoclusters=1,2
+panelC-Asplup1-communesin	.	region	1	61340	.	+	.	ID=region-panelC-Asplup1-communesin_4;candidate_cluster_numbers=1,2;rules=(Chal_sti_synt_C or Chal_sti_synt_N),(indsynth or dmat or indole_PTase);region_number=1;product=T3PKS,indole;contig_edge=False;tool=antismash
+panelC-Asplup1-communesin	.	exon	59	430	.	+	.	ID=exon-panelC-Asplup1-communesin_5;Parent=mRNA_1054;Name=jgi.p|Asplup1|229352;source=prediction
+panelC-Asplup1-communesin	.	three_prime_UTR	618	830	.	-	.	ID=three_prime_utr-panelC-Asplup1-communesin_6;Parent=mRNA_1055;Name=jgi.p|Asplup1|182287;source=prediction
+panelC-Asplup1-communesin	.	gene	618	2497	0	-	.	ID=gene-panelC-Asplup1-communesin_7;Name=gene58682_60562;Name=jgi.p|Asplup1|182287;transcriptId=182465;portal_id=Asplup1;proteinId=182287;source=prediction
+panelC-Asplup1-communesin	.	mRNA	618	2497	.	-	.	ID=mrna-panelC-Asplup1-communesin_8;Parent=gene-panelC-Asplup1-communesin_7;Name=jgi.p|Asplup1|182287;proteinId=182287;source=prediction;Name=jgi.p|Asplup1|182287;transcriptId=182465;track=FilteredModels1
+panelC-Asplup1-communesin	.	exon	618	2497	.	-	.	ID=exon-panelC-Asplup1-communesin_9;Parent=mrna-panelC-Asplup1-communesin_8;Name=jgi.p|Asplup1|182287;source=prediction
+panelC-Asplup1-communesin	.	CDS	831	2342	.	-	.	ID=cds-panelC-Asplup1-communesin_10;Parent=mrna-panelC-Asplup1-communesin_8;Name=jgi.p_Asplup1_182287;source=prediction;transl_table=1;phase=0
+panelC-Asplup1-communesin	.	PFAM_domain	1074	1241	37.7	-	.	ID=pfam_domain-jgi.p_Asplup1_182287;Dbxref=PF00191.22;label=jgi.p_Asplup1_182287;detection=hmmscan;description=Annexin;evalue=1.80E-09;protein_end=423;protein_start=367;locus_tag=jgi.p_Asplup1_182287;aSDomain=Annexin;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_182287_0003;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	protocluster	1225	39311	.	+	.	ID=protocluster-panelC-Asplup1-communesin_11;aStool=rule-based-clusters;product=indole;neighbourhood=15000;category=other;cutoff=20000;contig_edge=False;protocluster_number=2;tool=antismash;core_location=[16224:24311];detection_rule=(indsynth or dmat or indole_PTase)
+panelC-Asplup1-communesin	.	proto_core	16225	24311	.	+	.	ID=proto_core-panelC-Asplup1-communesin_12;aStool=rule-based-clusters;neighbourhood=15000;product=indole;cutoff=20000;protocluster_number=2;tool=antismash;detection_rule=(indsynth or dmat or indole_PTase)
+panelC-Asplup1-communesin	.	cand_cluster	1225	39311	.	+	.	ID=cand_cluster-panelC-Asplup1-communesin_13;kind=single;contig_edge=False;product=indole;protoclusters=2;detection_rules=(indsynth or dmat or indole_PTase);candidate_cluster_number=2;tool=antismash
+panelC-Asplup1-communesin	.	PFAM_domain	1335	1520	62.5	-	.	ID=pfam_domain-jgi.p_Asplup1_182287;Dbxref=PF00191.22;protein_start=274;protein_end=336;locus_tag=jgi.p_Asplup1_182287;aSDomain=Annexin;description=Annexin;label=jgi.p_Asplup1_182287;detection=hmmscan;evalue=3.00E-17;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_182287_0002
+panelC-Asplup1-communesin	.	PFAM_domain	1542	1733	71.0	-	.	ID=pfam_domain-jgi.p_Asplup1_182287;Dbxref=PF00191.22;evalue=6.80E-20;description=Annexin;label=jgi.p_Asplup1_182287;detection=hmmscan;locus_tag=jgi.p_Asplup1_182287;aSDomain=Annexin;protein_start=203;protein_end=267;domain_id=clusterhmmer_jgi.p_Asplup1_182287_0001;tool=antismash;database=34.0;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	five_prime_UTR	2343	2497	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_14;Parent=mrna-panelC-Asplup1-communesin_8;Name=jgi.p|Asplup1|182287;source=prediction
+panelC-Asplup1-communesin	.	promoter	2447	3338	.	+	.	ID=promoter-gene58682_60562;locus_tag=gene58682_60562,gene61353_62013;note=bidirectional promoter;tool=antismash
+panelC-Asplup1-communesin	.	PFAM_domain	3289	3930	75.4	+	.	ID=pfam_domain-jgi.p_Asplup1_216058;Dbxref=PF04616.16;evalue=5.00E-21;label=jgi.p_Asplup1_216058;detection=hmmscan;description=Glycosyl hydrolases family 43;aSDomain=Glyco_hydro_43;locus_tag=jgi.p_Asplup1_216058;protein_end=214;protein_start=0;domain_id=clusterhmmer_jgi.p_Asplup1_216058_0004;tool=antismash;database=34.0;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	gene	3289	3948	0	+	.	ID=gene-panelC-Asplup1-communesin_15;Name=gene61353_62013;source=prediction;proteinId=216058;portal_id=Asplup1;transcriptId=216236;Name=jgi.p|Asplup1|216058
+panelC-Asplup1-communesin	.	mRNA	3289	3948	.	+	.	ID=mrna-panelC-Asplup1-communesin_16;Parent=gene-panelC-Asplup1-communesin_15;Name=jgi.p|Asplup1|216058;Name=jgi.p|Asplup1|216058;transcriptId=216236;proteinId=216058;source=prediction;track=FilteredModels1
+panelC-Asplup1-communesin	.	exon	3289	3948	.	+	.	ID=exon-panelC-Asplup1-communesin_17;Parent=mrna-panelC-Asplup1-communesin_16;Name=jgi.p|Asplup1|216058;source=prediction
+panelC-Asplup1-communesin	.	CDS	3289	3948	.	+	.	ID=cds-panelC-Asplup1-communesin_18;Parent=mrna-panelC-Asplup1-communesin_16;Name=jgi.p_Asplup1_216058;transl_table=1;source=prediction;phase=0
+panelC-Asplup1-communesin	.	exon	4552	5520	.	-	.	ID=exon-panelC-Asplup1-communesin_19;Parent=mRNA_1057;Name=jgi.p|Asplup1|207263;source=prediction
+panelC-Asplup1-communesin	.	gene	4552	6404	0	-	.	ID=gene-panelC-Asplup1-communesin_20;Name=gene62616_64469;proteinId=207263;source=prediction;transcriptId=207441;Name=jgi.p|Asplup1|207263;portal_id=Asplup1
+panelC-Asplup1-communesin	.	mRNA	4552	6404	.	-	.	ID=mrna-panelC-Asplup1-communesin_21;Parent=gene-panelC-Asplup1-communesin_20;Name=jgi.p|Asplup1|207263;transcriptId=207441;Name=jgi.p|Asplup1|207263;track=FilteredModels1;proteinId=207263;source=prediction
+panelC-Asplup1-communesin	.	CDS	4552	5520	.	-	.	ID=cds-panelC-Asplup1-communesin_22;Parent=mrna-panelC-Asplup1-communesin_21;Name=jgi.p_Asplup1_207263;source=prediction;gene_kind=biosynthetic-additional;transl_table=1;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein 
+panelC-Asplup1-communesin	.	CDS	5600	6120	.	-	.	ID=cds-panelC-Asplup1-communesin_22;Parent=mrna-panelC-Asplup1-communesin_21;Name=jgi.p_Asplup1_207263;source=prediction;gene_kind=biosynthetic-additional;transl_table=1;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein 
+panelC-Asplup1-communesin	.	CDS	6179	6404	.	-	.	ID=cds-panelC-Asplup1-communesin_22;Parent=mrna-panelC-Asplup1-communesin_21;Name=jgi.p_Asplup1_207263;source=prediction;gene_kind=biosynthetic-additional;transl_table=1;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein 
+panelC-Asplup1-communesin	.	PFAM_domain	4624	4752	34.8	-	.	ID=pfam_domain-jgi.p_Asplup1_207263;Dbxref=PF08031.14;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_207263_0006;aSTool=clusterhmmer;evalue=1.40E-08;detection=hmmscan;label=jgi.p_Asplup1_207263;description=Berberine and berberine like;protein_end=548;protein_start=505;locus_tag=jgi.p_Asplup1_207263;aSDomain=BBE
+panelC-Asplup1-communesin	.	PFAM_domain	5503	5520	70.1	-	.	ID=pfam_domain-jgi.p_Asplup1_207263;Dbxref=PF01565.25;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207263_0005;protein_end=255;protein_start=110;locus_tag=jgi.p_Asplup1_207263;aSDomain=FAD_binding_4;detection=hmmscan;label=jgi.p_Asplup1_207263;description=FAD binding domain;evalue=1.60E-19
+panelC-Asplup1-communesin	.	PFAM_domain	5600	6016	70.1	-	.	ID=pfam_domain-jgi.p_Asplup1_207263;Dbxref=PF01565.25;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207263_0005;protein_end=255;protein_start=110;locus_tag=jgi.p_Asplup1_207263;aSDomain=FAD_binding_4;detection=hmmscan;label=jgi.p_Asplup1_207263;description=FAD binding domain;evalue=1.60E-19
+panelC-Asplup1-communesin	.	exon	5600	6120	.	-	.	ID=exon-panelC-Asplup1-communesin_23;Parent=mrna-panelC-Asplup1-communesin_21;Name=jgi.p|Asplup1|207263;source=prediction
+panelC-Asplup1-communesin	.	exon	6179	6404	.	-	.	ID=exon-panelC-Asplup1-communesin_24;Parent=mrna-panelC-Asplup1-communesin_21;Name=jgi.p|Asplup1|207263;source=prediction
+panelC-Asplup1-communesin	.	promoter	6354	7361	.	+	.	ID=promoter-gene62616_64469;locus_tag=gene62616_64469,gene65376_66843;note=bidirectional promoter;tool=antismash
+panelC-Asplup1-communesin	.	gene	7312	8778	0	+	.	ID=gene-panelC-Asplup1-communesin_25;Name=gene65376_66843;source=prediction;proteinId=207264;portal_id=Asplup1;Name=jgi.p|Asplup1|207264;transcriptId=207442
+panelC-Asplup1-communesin	.	mRNA	7312	8778	.	+	.	ID=mrna-panelC-Asplup1-communesin_26;Parent=gene-panelC-Asplup1-communesin_25;Name=jgi.p|Asplup1|207264;transcriptId=207442;Name=jgi.p|Asplup1|207264;track=FilteredModels1;proteinId=207264;source=prediction
+panelC-Asplup1-communesin	.	exon	7312	8778	.	+	.	ID=exon-panelC-Asplup1-communesin_27;Parent=mrna-panelC-Asplup1-communesin_26;Name=jgi.p|Asplup1|207264;source=prediction
+panelC-Asplup1-communesin	.	CDS	7312	8778	.	+	.	ID=cds-panelC-Asplup1-communesin_28;Parent=mrna-panelC-Asplup1-communesin_26;Name=jgi.p_Asplup1_207264;gene_functions=Aminotran_1_2,biosynthetic-additional(rule-based-clusters) Aminotran_5,biosynthetic-additional (smcogs)SMCOG1180:Decarboxylase, pyridoxal-dependent ;phase=0;sec_met_domain=Aminotran_1_2 (E-value: 4.7e-06, bitscore:20.0, seeds: 48, tool: rule-based-clusters),Aminotran_5 (E-value: 1.3e-06, bitscore:21.6, seeds: 34, tool: rule-based-clusters);source=prediction;transl_table=1;NRPS_PKS=Domain: Beta_elim_lyase (147-361). E-value:4.2e-08. Score: 24.6. Matches aSDomain:nrpspksdomains_jgi.p_Asplup1_207264_Beta_elim_lyase.1;gene_kind=biosynthetic-additional
+panelC-Asplup1-communesin	.	PFAM_domain	7501	8541	216.9	+	.	ID=pfam_domain-jgi.p_Asplup1_207264;Dbxref=PF00282.21;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_207264_0007;aSTool=clusterhmmer;evalue=3.60E-64;label=jgi.p_Asplup1_207264;detection=hmmscan;description=Pyridoxal-dependent decarboxylase conserveddomain;protein_end=410;protein_start=63;aSDomain=Pyridoxal_deC;locus_tag=jgi.p_Asplup1_207264
+panelC-Asplup1-communesin	.	aSDomain	7753	8394	24.6	+	.	ID=asdomain-jgi.p_Asplup1_207264;aSTool=nrps_pks_domains;domain_id=nrpspksdomains_jgi.p_Asplup1_207264_Beta_elim_lyase.1;database=nrpspksdomains.hmm;tool=antismash;locus_tag=jgi.p_Asplup1_207264;aSDomain=Beta_elim_lyase;protein_start=147;protein_end=361;label=jgi.p_Asplup1_207264_Beta_elim_lyase.1;detection=hmmscan;evalue=4.20E-08
+panelC-Asplup1-communesin	.	exon	9870	10546	.	-	.	ID=exon-panelC-Asplup1-communesin_29;Parent=mRNA_1059;Name=jgi.p|Asplup1|216060;source=prediction
+panelC-Asplup1-communesin	.	gene	9870	11343	0	-	.	ID=gene-panelC-Asplup1-communesin_30;Name=gene67934_69408;proteinId=216060;source=prediction;transcriptId=216238;Name=jgi.p|Asplup1|216060;portal_id=Asplup1
+panelC-Asplup1-communesin	.	mRNA	9870	11343	.	-	.	ID=mrna-panelC-Asplup1-communesin_31;Parent=gene-panelC-Asplup1-communesin_30;Name=jgi.p|Asplup1|216060;source=prediction;proteinId=216060;track=FilteredModels1;transcriptId=216238;Name=jgi.p|Asplup1|216060
+panelC-Asplup1-communesin	.	CDS	9870	10546	.	-	.	ID=cds-panelC-Asplup1-communesin_32;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p_Asplup1_216060;gene_functions=p450;gene_kind=biosynthetic-additional;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 2.5e-11, bitscore: 36.9,seeds: 50, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	10607	10675	.	-	.	ID=cds-panelC-Asplup1-communesin_32;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p_Asplup1_216060;gene_functions=p450;gene_kind=biosynthetic-additional;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 2.5e-11, bitscore: 36.9,seeds: 50, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	10741	10822	.	-	.	ID=cds-panelC-Asplup1-communesin_32;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p_Asplup1_216060;gene_functions=p450;gene_kind=biosynthetic-additional;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 2.5e-11, bitscore: 36.9,seeds: 50, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	10892	11026	.	-	.	ID=cds-panelC-Asplup1-communesin_32;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p_Asplup1_216060;gene_functions=p450;gene_kind=biosynthetic-additional;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 2.5e-11, bitscore: 36.9,seeds: 50, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	11092	11343	.	-	.	ID=cds-panelC-Asplup1-communesin_32;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p_Asplup1_216060;gene_functions=p450;gene_kind=biosynthetic-additional;transl_table=1;source=prediction;sec_met_domain=p450 (E-value: 2.5e-11, bitscore: 36.9,seeds: 50, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	PFAM_domain	9909	10541	36.9	-	.	ID=pfam_domain-jgi.p_Asplup1_216060;Dbxref=PF00067.24;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_216060_0008;aSTool=clusterhmmer;evalue=1.80E-09;label=jgi.p_Asplup1_216060;description=Cytochrome P450;detection=hmmscan;protein_start=181;protein_end=392;aSDomain=p450;locus_tag=jgi.p_Asplup1_216060
+panelC-Asplup1-communesin	.	exon	10607	10675	.	-	.	ID=exon-panelC-Asplup1-communesin_33;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p|Asplup1|216060;source=prediction
+panelC-Asplup1-communesin	.	exon	10741	10822	.	-	.	ID=exon-panelC-Asplup1-communesin_34;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p|Asplup1|216060;source=prediction
+panelC-Asplup1-communesin	.	exon	10892	11026	.	-	.	ID=exon-panelC-Asplup1-communesin_35;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p|Asplup1|216060;source=prediction
+panelC-Asplup1-communesin	.	exon	11092	11343	.	-	.	ID=exon-panelC-Asplup1-communesin_36;Parent=mrna-panelC-Asplup1-communesin_31;Name=jgi.p|Asplup1|216060;source=prediction
+panelC-Asplup1-communesin	.	promoter	11293	12760	.	+	.	ID=promoter-gene67934_69408;note=bidirectional promoter;tool=antismash;locus_tag=gene67934_69408,gene70775_72237
+panelC-Asplup1-communesin	.	exon	12711	12860	.	+	.	ID=exon-panelC-Asplup1-communesin_37;Parent=mRNA_1060;Name=jgi.p|Asplup1|207265;source=prediction
+panelC-Asplup1-communesin	.	gene	12711	14172	0	+	.	ID=gene-panelC-Asplup1-communesin_38;Name=gene70775_72237;portal_id=Asplup1;transcriptId=207443;Name=jgi.p|Asplup1|207265;source=prediction;proteinId=207265
+panelC-Asplup1-communesin	.	mRNA	12711	14172	.	+	.	ID=mrna-panelC-Asplup1-communesin_39;Parent=gene-panelC-Asplup1-communesin_38;Name=jgi.p|Asplup1|207265;transcriptId=207443;Name=jgi.p|Asplup1|207265;source=prediction;proteinId=207265;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	12711	12860	.	+	.	ID=cds-panelC-Asplup1-communesin_40;Parent=mrna-panelC-Asplup1-communesin_39;Name=jgi.p_Asplup1_207265;transl_table=1;source=prediction;phase=0
+panelC-Asplup1-communesin	.	CDS	12919	14172	.	+	.	ID=cds-panelC-Asplup1-communesin_40;Parent=mrna-panelC-Asplup1-communesin_39;Name=jgi.p_Asplup1_207265;transl_table=1;source=prediction;phase=0
+panelC-Asplup1-communesin	.	PFAM_domain	12747	12860	436.6	+	.	ID=pfam_domain-jgi.p_Asplup1_207265;Dbxref=PF00199.21;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_207265_0009;protein_end=344;protein_start=12;aSDomain=Catalase;locus_tag=jgi.p_Asplup1_207265;evalue=8.80E-131;detection=hmmscan;label=jgi.p_Asplup1_207265;description=Catalase
+panelC-Asplup1-communesin	.	PFAM_domain	12919	13800	436.6	+	.	ID=pfam_domain-jgi.p_Asplup1_207265;Dbxref=PF00199.21;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_207265_0009;protein_end=344;protein_start=12;aSDomain=Catalase;locus_tag=jgi.p_Asplup1_207265;evalue=8.80E-131;detection=hmmscan;label=jgi.p_Asplup1_207265;description=Catalase
+panelC-Asplup1-communesin	.	exon	12919	14172	.	+	.	ID=exon-panelC-Asplup1-communesin_41;Parent=mrna-panelC-Asplup1-communesin_39;Name=jgi.p|Asplup1|207265;source=prediction
+panelC-Asplup1-communesin	.	promoter	15224	16274	.	+	.	ID=promoter-gene74289_75767;locus_tag=gene74289_75767;tool=antismash
+panelC-Asplup1-communesin	.	exon	16225	17369	.	+	.	ID=exon-panelC-Asplup1-communesin_42;Parent=mRNA_1061;Name=jgi.p|Asplup1|207266;source=prediction
+panelC-Asplup1-communesin	.	gene	16225	17702	0	+	.	ID=gene-panelC-Asplup1-communesin_43;Name=gene74289_75767;source=prediction;proteinId=207266;portal_id=Asplup1;Name=jgi.p|Asplup1|207266;transcriptId=207444
+panelC-Asplup1-communesin	.	mRNA	16225	17702	.	+	.	ID=mrna-panelC-Asplup1-communesin_44;Parent=gene-panelC-Asplup1-communesin_43;Name=jgi.p|Asplup1|207266;Name=jgi.p|Asplup1|207266;transcriptId=207444;track=FilteredModels1;source=prediction;proteinId=207266
+panelC-Asplup1-communesin	.	CDS	16225	17369	.	+	.	ID=cds-panelC-Asplup1-communesin_45;Parent=mrna-panelC-Asplup1-communesin_44;Name=jgi.p_Asplup1_207266;sec_met_domain=dmat (E-value: 1.2e-138, bitscore: 456.7,seeds: 47, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic;source=prediction;gene_functions=DMATS
+panelC-Asplup1-communesin	.	CDS	17435	17702	.	+	.	ID=cds-panelC-Asplup1-communesin_45;Parent=mrna-panelC-Asplup1-communesin_44;Name=jgi.p_Asplup1_207266;sec_met_domain=dmat (E-value: 1.2e-138, bitscore: 456.7,seeds: 47, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic;source=prediction;gene_functions=DMATS
+panelC-Asplup1-communesin	.	PFAM_domain	16300	17352	356.0	+	.	ID=pfam_domain-jgi.p_Asplup1_207266;Dbxref=PF11991.10;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_207266_0010;database=34.0;tool=antismash;aSDomain=Trp_DMAT;locus_tag=jgi.p_Asplup1_207266;protein_end=376;protein_start=25;label=jgi.p_Asplup1_207266;description=Tryptophan dimethylallyltransferase;detection=hmmscan;evalue=3.10E-106
+panelC-Asplup1-communesin	.	exon	17435	17702	.	+	.	ID=exon-panelC-Asplup1-communesin_46;Parent=mrna-panelC-Asplup1-communesin_44;Name=jgi.p|Asplup1|207266;source=prediction
+panelC-Asplup1-communesin	.	promoter	18857	19907	.	+	.	ID=promoter-gene77922_78891;tool=antismash;locus_tag=gene77922_78891
+panelC-Asplup1-communesin	.	exon	19858	19966	.	+	.	ID=exon-panelC-Asplup1-communesin_47;Parent=mRNA_1062;Name=jgi.p|Asplup1|207267;source=prediction
+panelC-Asplup1-communesin	.	gene	19858	20826	0	+	.	ID=gene-panelC-Asplup1-communesin_48;Name=gene77922_78891;source=prediction;proteinId=207267;portal_id=Asplup1;Name=jgi.p|Asplup1|207267;transcriptId=207445
+panelC-Asplup1-communesin	.	mRNA	19858	20826	.	+	.	ID=mrna-panelC-Asplup1-communesin_49;Parent=gene-panelC-Asplup1-communesin_48;Name=jgi.p|Asplup1|207267;Name=jgi.p|Asplup1|207267;transcriptId=207445;proteinId=207267;source=prediction;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	19858	19966	.	+	.	ID=cds-panelC-Asplup1-communesin_50;Parent=mrna-panelC-Asplup1-communesin_49;Name=jgi.p_Asplup1_207267;gene_functions=PhyH;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;sec_met_domain=PhyH (E-value: 1.2e-20, bitscore: 68.7,seeds: 39, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	20014	20144	.	+	.	ID=cds-panelC-Asplup1-communesin_50;Parent=mrna-panelC-Asplup1-communesin_49;Name=jgi.p_Asplup1_207267;gene_functions=PhyH;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;sec_met_domain=PhyH (E-value: 1.2e-20, bitscore: 68.7,seeds: 39, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	CDS	20209	20826	.	+	.	ID=cds-panelC-Asplup1-communesin_50;Parent=mrna-panelC-Asplup1-communesin_49;Name=jgi.p_Asplup1_207267;gene_functions=PhyH;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;sec_met_domain=PhyH (E-value: 1.2e-20, bitscore: 68.7,seeds: 39, tool: rule-based-clusters)
+panelC-Asplup1-communesin	.	PFAM_domain	19864	19966	68.7	+	.	ID=pfam_domain-jgi.p_Asplup1_207267;Dbxref=PF05721.15;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207267_0011;aSTool=clusterhmmer;detection=hmmscan;label=jgi.p_Asplup1_207267;description=Phytanoyl-CoA dioxygenase (PhyH);evalue=8.80E-19;protein_end=208;protein_start=2;aSDomain=PhyH;locus_tag=jgi.p_Asplup1_207267
+panelC-Asplup1-communesin	.	PFAM_domain	20014	20144	68.7	+	.	ID=pfam_domain-jgi.p_Asplup1_207267;Dbxref=PF05721.15;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207267_0011;aSTool=clusterhmmer;detection=hmmscan;label=jgi.p_Asplup1_207267;description=Phytanoyl-CoA dioxygenase (PhyH);evalue=8.80E-19;protein_end=208;protein_start=2;aSDomain=PhyH;locus_tag=jgi.p_Asplup1_207267
+panelC-Asplup1-communesin	.	PFAM_domain	20209	20592	68.7	+	.	ID=pfam_domain-jgi.p_Asplup1_207267;Dbxref=PF05721.15;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207267_0011;aSTool=clusterhmmer;detection=hmmscan;label=jgi.p_Asplup1_207267;description=Phytanoyl-CoA dioxygenase (PhyH);evalue=8.80E-19;protein_end=208;protein_start=2;aSDomain=PhyH;locus_tag=jgi.p_Asplup1_207267
+panelC-Asplup1-communesin	.	exon	20014	20144	.	+	.	ID=exon-panelC-Asplup1-communesin_51;Parent=mrna-panelC-Asplup1-communesin_49;Name=jgi.p|Asplup1|207267;source=prediction
+panelC-Asplup1-communesin	.	exon	20209	20826	.	+	.	ID=exon-panelC-Asplup1-communesin_52;Parent=mrna-panelC-Asplup1-communesin_49;Name=jgi.p|Asplup1|207267;source=prediction
+panelC-Asplup1-communesin	.	promoter	21993	23043	.	+	.	ID=promoter-gene81058_82376;locus_tag=gene81058_82376;tool=antismash
+panelC-Asplup1-communesin	.	exon	22994	24135	.	+	.	ID=exon-panelC-Asplup1-communesin_53;Parent=mRNA_1063;Name=jgi.p|Asplup1|207268;source=prediction
+panelC-Asplup1-communesin	.	gene	22994	24311	0	+	.	ID=gene-panelC-Asplup1-communesin_54;Name=gene81058_82376;portal_id=Asplup1;Name=jgi.p|Asplup1|207268;transcriptId=207446;source=prediction;proteinId=207268
+panelC-Asplup1-communesin	.	mRNA	22994	24311	.	+	.	ID=mrna-panelC-Asplup1-communesin_55;Parent=gene-panelC-Asplup1-communesin_54;Name=jgi.p|Asplup1|207268;transcriptId=207446;Name=jgi.p|Asplup1|207268;source=prediction;proteinId=207268;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	22994	24135	.	+	.	ID=cds-panelC-Asplup1-communesin_56;Parent=mrna-panelC-Asplup1-communesin_55;Name=jgi.p_Asplup1_207268;source=prediction;gene_kind=biosynthetic;transl_table=1;sec_met_domain=dmat (E-value: 5.3e-96, bitscore: 316.2,seeds: 47, tool: rule-based-clusters);gene_functions=DMATS
+panelC-Asplup1-communesin	.	CDS	24191	24311	.	+	.	ID=cds-panelC-Asplup1-communesin_56;Parent=mrna-panelC-Asplup1-communesin_55;Name=jgi.p_Asplup1_207268;source=prediction;gene_kind=biosynthetic;transl_table=1;sec_met_domain=dmat (E-value: 5.3e-96, bitscore: 316.2,seeds: 47, tool: rule-based-clusters);gene_functions=DMATS
+panelC-Asplup1-communesin	.	PFAM_domain	23093	24109	263.3	+	.	ID=pfam_domain-jgi.p_Asplup1_207268;Dbxref=PF11991.10;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_207268_0012;protein_start=33;protein_end=372;locus_tag=jgi.p_Asplup1_207268;aSDomain=Trp_DMAT;detection=hmmscan;label=jgi.p_Asplup1_207268;description=Tryptophan dimethylallyltransferase;evalue=4.40E-78
+panelC-Asplup1-communesin	.	exon	24191	24311	.	+	.	ID=exon-panelC-Asplup1-communesin_57;Parent=mrna-panelC-Asplup1-communesin_55;Name=jgi.p|Asplup1|207268;source=prediction
+panelC-Asplup1-communesin	.	promoter	25232	26282	.	+	.	ID=promoter-gene84297_86135;locus_tag=gene84297_86135;tool=antismash
+panelC-Asplup1-communesin	.	exon	26233	26518	.	+	.	ID=exon-panelC-Asplup1-communesin_58;Parent=mRNA_1064;Name=jgi.p|Asplup1|229357;source=prediction
+panelC-Asplup1-communesin	.	gene	26233	28070	0	+	.	ID=gene-panelC-Asplup1-communesin_59;Name=gene84297_86135;transcriptId=229535;Name=jgi.p|Asplup1|229357;portal_id=Asplup1;proteinId=229357;source=prediction
+panelC-Asplup1-communesin	.	mRNA	26233	28070	.	+	.	ID=mrna-panelC-Asplup1-communesin_60;Parent=gene-panelC-Asplup1-communesin_59;Name=jgi.p|Asplup1|229357;proteinId=229357;source=prediction;track=FilteredModels1;Name=jgi.p|Asplup1|229357;transcriptId=229535
+panelC-Asplup1-communesin	.	CDS	26233	26518	.	+	.	ID=cds-panelC-Asplup1-communesin_61;Parent=mrna-panelC-Asplup1-communesin_60;Name=jgi.p_Asplup1_229357;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein ;source=prediction;transl_table=1;gene_kind=biosynthetic-additional
+panelC-Asplup1-communesin	.	CDS	26570	27090	.	+	.	ID=cds-panelC-Asplup1-communesin_61;Parent=mrna-panelC-Asplup1-communesin_60;Name=jgi.p_Asplup1_229357;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein ;source=prediction;transl_table=1;gene_kind=biosynthetic-additional
+panelC-Asplup1-communesin	.	CDS	27141	28070	.	+	.	ID=cds-panelC-Asplup1-communesin_61;Parent=mrna-panelC-Asplup1-communesin_60;Name=jgi.p_Asplup1_229357;gene_functions=biosynthetic-additional (smcogs)SMCOG1138:FAD linked oxidase domain protein ;source=prediction;transl_table=1;gene_kind=biosynthetic-additional
+panelC-Asplup1-communesin	.	exon	26570	27090	.	+	.	ID=exon-panelC-Asplup1-communesin_62;Parent=mrna-panelC-Asplup1-communesin_60;Name=jgi.p|Asplup1|229357;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	26677	27090	69.8	+	.	ID=pfam_domain-jgi.p_Asplup1_229357;Dbxref=PF01565.25;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_229357_0013;protein_start=131;protein_end=273;locus_tag=jgi.p_Asplup1_229357;aSDomain=FAD_binding_4;description=FAD binding domain;label=jgi.p_Asplup1_229357;detection=hmmscan;evalue=2.00E-19
+panelC-Asplup1-communesin	.	PFAM_domain	27141	27152	69.8	+	.	ID=pfam_domain-jgi.p_Asplup1_229357;Dbxref=PF01565.25;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_229357_0013;protein_start=131;protein_end=273;locus_tag=jgi.p_Asplup1_229357;aSDomain=FAD_binding_4;description=FAD binding domain;label=jgi.p_Asplup1_229357;detection=hmmscan;evalue=2.00E-19
+panelC-Asplup1-communesin	.	exon	27141	28070	.	+	.	ID=exon-panelC-Asplup1-communesin_63;Parent=mrna-panelC-Asplup1-communesin_60;Name=jgi.p|Asplup1|229357;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	27894	28019	32.0	+	.	ID=pfam_domain-jgi.p_Asplup1_229357;Dbxref=PF08031.14;label=jgi.p_Asplup1_229357;detection=hmmscan;description=Berberine and berberine like;evalue=1.00E-07;protein_start=520;protein_end=562;locus_tag=jgi.p_Asplup1_229357;aSDomain=BBE;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_229357_0014;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	three_prime_UTR	29935	30000	.	-	.	ID=three_prime_utr-panelC-Asplup1-communesin_64;Parent=mRNA_1065;Name=jgi.p|Asplup1|182290;source=prediction
+panelC-Asplup1-communesin	.	exon	29935	30437	.	-	.	ID=exon-panelC-Asplup1-communesin_65;Parent=mRNA_1065;Name=jgi.p|Asplup1|182290;source=prediction
+panelC-Asplup1-communesin	.	gene	29935	31375	0	-	.	ID=gene-panelC-Asplup1-communesin_66;Name=gene87999_89440;proteinId=182290;source=prediction;Name=jgi.p|Asplup1|182290;transcriptId=182468;portal_id=Asplup1
+panelC-Asplup1-communesin	.	mRNA	29935	31375	.	-	.	ID=mrna-panelC-Asplup1-communesin_67;Parent=gene-panelC-Asplup1-communesin_66;Name=jgi.p|Asplup1|182290;track=FilteredModels1;source=prediction;proteinId=182290;Name=jgi.p|Asplup1|182290;transcriptId=182468
+panelC-Asplup1-communesin	.	CDS	30001	30437	.	-	.	ID=cds-panelC-Asplup1-communesin_68;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p_Asplup1_182290;sec_met_domain=Chal_sti_synt_N (E-value: 3.5e-18,bitscore: 59.9, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 9.1e-18,bitscore: 58.9, seeds: 21, tool: rule-based-clusters);source=prediction;gene_kind=biosynthetic;transl_table=1;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelC-Asplup1-communesin	.	CDS	30501	31153	.	-	.	ID=cds-panelC-Asplup1-communesin_68;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p_Asplup1_182290;sec_met_domain=Chal_sti_synt_N (E-value: 3.5e-18,bitscore: 59.9, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 9.1e-18,bitscore: 58.9, seeds: 21, tool: rule-based-clusters);source=prediction;gene_kind=biosynthetic;transl_table=1;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelC-Asplup1-communesin	.	CDS	31210	31340	.	-	.	ID=cds-panelC-Asplup1-communesin_68;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p_Asplup1_182290;sec_met_domain=Chal_sti_synt_N (E-value: 3.5e-18,bitscore: 59.9, seeds: 21, tool: rule-based-clusters),Chal_sti_synt_C (E-value: 9.1e-18,bitscore: 58.9, seeds: 21, tool: rule-based-clusters);source=prediction;gene_kind=biosynthetic;transl_table=1;gene_functions=T3PKS:Chal_sti_synt_N,T3PKS:Chal_sti_synt_C,biosynthetic-additional (smcogs)SMCOG1024:chalcone and stilbene synthase domain protein
+panelC-Asplup1-communesin	.	PFAM_domain	30049	30303	60.5	-	.	ID=pfam_domain-jgi.p_Asplup1_182290;Dbxref=PF02797.17;evalue=1.80E-16;label=jgi.p_Asplup1_182290;description=Chalcone and stilbene synthases, C-terminaldomain;detection=hmmscan;aSDomain=Chal_sti_synt_C;locus_tag=jgi.p_Asplup1_182290;protein_start=306;protein_end=391;domain_id=clusterhmmer_jgi.p_Asplup1_182290_0016;tool=antismash;database=34.0;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	exon	30501	31153	.	-	.	ID=exon-panelC-Asplup1-communesin_69;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p|Asplup1|182290;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	30619	31062	52.3	-	.	ID=pfam_domain-jgi.p_Asplup1_182290;Dbxref=PF00195.21;evalue=5.30E-14;label=jgi.p_Asplup1_182290;detection=hmmscan;description=Chalcone and stilbene synthases, N-terminaldomain;protein_end=222;protein_start=74;locus_tag=jgi.p_Asplup1_182290;aSDomain=Chal_sti_synt_N;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_182290_0015;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	exon	31210	31375	.	-	.	ID=exon-panelC-Asplup1-communesin_70;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p|Asplup1|182290;source=prediction
+panelC-Asplup1-communesin	.	promoter	31325	33176	.	+	.	ID=promoter-gene87999_89440;note=bidirectional promoter;tool=antismash;locus_tag=gene87999_89440,gene91191_92118
+panelC-Asplup1-communesin	.	five_prime_UTR	31341	31375	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_71;Parent=mrna-panelC-Asplup1-communesin_67;Name=jgi.p|Asplup1|182290;source=prediction
+panelC-Asplup1-communesin	.	five_prime_UTR	33127	33164	.	+	.	ID=five_prime_utr-panelC-Asplup1-communesin_72;Parent=mRNA_1066;Name=jgi.p|Asplup1|182292;source=prediction
+panelC-Asplup1-communesin	.	gene	33127	34053	0	+	.	ID=gene-panelC-Asplup1-communesin_73;Name=gene91191_92118;Name=jgi.p|Asplup1|182292;transcriptId=182470;portal_id=Asplup1;proteinId=182292;source=prediction
+panelC-Asplup1-communesin	.	mRNA	33127	34053	.	+	.	ID=mrna-panelC-Asplup1-communesin_74;Parent=gene-panelC-Asplup1-communesin_73;Name=jgi.p|Asplup1|182292;proteinId=182292;source=prediction;track=FilteredModels1;transcriptId=182470;Name=jgi.p|Asplup1|182292
+panelC-Asplup1-communesin	.	exon	33127	34053	.	+	.	ID=exon-panelC-Asplup1-communesin_75;Parent=mrna-panelC-Asplup1-communesin_74;Name=jgi.p|Asplup1|182292;source=prediction
+panelC-Asplup1-communesin	.	CDS	33165	33878	.	+	.	ID=cds-panelC-Asplup1-communesin_76;Parent=mrna-panelC-Asplup1-communesin_74;Name=jgi.p_Asplup1_182292;source=prediction;transl_table=1;phase=0
+panelC-Asplup1-communesin	.	PFAM_domain	33225	33572	29.6	+	.	ID=pfam_domain-jgi.p_Asplup1_182292;Dbxref=PF06094.14;label=jgi.p_Asplup1_182292;description=Gamma-glutamyl cyclotransferase, AIG2-like;detection=hmmscan;evalue=9.10E-07;locus_tag=jgi.p_Asplup1_182292;aSDomain=GGACT;protein_start=20;protein_end=136;domain_id=clusterhmmer_jgi.p_Asplup1_182292_0017;database=34.0;tool=antismash;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	three_prime_UTR	33879	34053	.	+	.	ID=three_prime_utr-panelC-Asplup1-communesin_77;Parent=mrna-panelC-Asplup1-communesin_74;Name=jgi.p|Asplup1|182292;source=prediction
+panelC-Asplup1-communesin	.	exon	34372	34389	.	-	.	ID=exon-panelC-Asplup1-communesin_78;Parent=mRNA_1067;Name=jgi.p|Asplup1|216067;source=prediction
+panelC-Asplup1-communesin	.	gene	34372	34729	0	-	.	ID=gene-panelC-Asplup1-communesin_79;Name=gene92436_92794;source=prediction;proteinId=216067;portal_id=Asplup1;Name=jgi.p|Asplup1|216067;transcriptId=216245
+panelC-Asplup1-communesin	.	mRNA	34372	34729	.	-	.	ID=mrna-panelC-Asplup1-communesin_80;Parent=gene-panelC-Asplup1-communesin_79;Name=jgi.p|Asplup1|216067;track=FilteredModels1;source=prediction;proteinId=216067;Name=jgi.p|Asplup1|216067;transcriptId=216245
+panelC-Asplup1-communesin	.	CDS	34372	34389	.	-	.	ID=cds-panelC-Asplup1-communesin_81;Parent=mrna-panelC-Asplup1-communesin_80;Name=jgi.p_Asplup1_216067;phase=0;source=prediction;transl_table=1
+panelC-Asplup1-communesin	.	CDS	34442	34729	.	-	.	ID=cds-panelC-Asplup1-communesin_81;Parent=mrna-panelC-Asplup1-communesin_80;Name=jgi.p_Asplup1_216067;phase=0;source=prediction;transl_table=1
+panelC-Asplup1-communesin	.	exon	34442	34729	.	-	.	ID=exon-panelC-Asplup1-communesin_82;Parent=mrna-panelC-Asplup1-communesin_80;Name=jgi.p|Asplup1|216067;source=prediction
+panelC-Asplup1-communesin	.	promoter	34679	35729	.	+	.	ID=promoter-gene92436_92794;tool=antismash;locus_tag=gene92436_92794
+panelC-Asplup1-communesin	.	promoter	36486	37536	.	+	.	ID=promoter-gene95551_96490;locus_tag=gene95551_96490;tool=antismash
+panelC-Asplup1-communesin	.	gene	37487	38425	0	+	.	ID=gene-panelC-Asplup1-communesin_83;Name=gene95551_96490;Name=jgi.p|Asplup1|216068;transcriptId=216246;portal_id=Asplup1;proteinId=216068;source=prediction
+panelC-Asplup1-communesin	.	mRNA	37487	38425	.	+	.	ID=mrna-panelC-Asplup1-communesin_84;Parent=gene-panelC-Asplup1-communesin_83;Name=jgi.p|Asplup1|216068;transcriptId=216246;Name=jgi.p|Asplup1|216068;source=prediction;proteinId=216068;track=FilteredModels1
+panelC-Asplup1-communesin	.	exon	37487	38425	.	+	.	ID=exon-panelC-Asplup1-communesin_85;Parent=mrna-panelC-Asplup1-communesin_84;Name=jgi.p|Asplup1|216068;source=prediction
+panelC-Asplup1-communesin	.	CDS	37487	38425	.	+	.	ID=cds-panelC-Asplup1-communesin_86;Parent=mrna-panelC-Asplup1-communesin_84;Name=jgi.p_Asplup1_216068;phase=0;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	three_prime_UTR	39169	39206	.	-	.	ID=three_prime_utr-panelC-Asplup1-communesin_87;Parent=mRNA_1070;Name=jgi.p|Asplup1|104712;source=prediction
+panelC-Asplup1-communesin	.	gene	39169	39804	0	-	.	ID=gene-panelC-Asplup1-communesin_88;Name=gene97233_97869;source=prediction;proteinId=104712;portal_id=Asplup1;Name=jgi.p|Asplup1|104712;transcriptId=104712
+panelC-Asplup1-communesin	.	mRNA	39169	39804	.	-	.	ID=mrna-panelC-Asplup1-communesin_89;Parent=gene-panelC-Asplup1-communesin_88;Name=jgi.p|Asplup1|104712;transcriptId=104712;Name=jgi.p|Asplup1|104712;track=FilteredModels1;source=prediction;proteinId=104712
+panelC-Asplup1-communesin	.	exon	39169	39804	.	-	.	ID=exon-panelC-Asplup1-communesin_90;Parent=mrna-panelC-Asplup1-communesin_89;Name=jgi.p|Asplup1|104712;source=prediction
+panelC-Asplup1-communesin	.	CDS	39207	39710	.	-	.	ID=cds-panelC-Asplup1-communesin_91;Parent=mrna-panelC-Asplup1-communesin_89;Name=jgi.p_Asplup1_104712;phase=0;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	five_prime_UTR	39711	39804	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_92;Parent=mrna-panelC-Asplup1-communesin_89;Name=jgi.p|Asplup1|104712;source=prediction
+panelC-Asplup1-communesin	.	promoter	39754	40402	.	+	.	ID=promoter-gene97233_97869;locus_tag=gene97233_97869;tool=antismash
+panelC-Asplup1-communesin	.	exon	40404	40645	.	-	.	ID=exon-panelC-Asplup1-communesin_93;Parent=mRNA_1072;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	CDS	40404	40645	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	40695	40833	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	40888	41650	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	41725	42492	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	42544	42780	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	42863	43478	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	CDS	43574	43712	.	-	.	ID=cds-panelC-Asplup1-communesin_94;Name=jgi.p_Asplup1_229358;sec_met_domain=Glyco_transf_28 (E-value: 5.1e-20,bitscore: 65.9, seeds: 43, tool: rule-based-clusters);transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=Glyco_transf_28,biosynthetic-additional (smcogs)SMCOG1102:glycosyltransferase 
+panelC-Asplup1-communesin	.	gene	40404	43803	0	-	.	ID=gene-panelC-Asplup1-communesin_95;Name=gene98468_101868;portal_id=Asplup1;transcriptId=229536;Name=jgi.p|Asplup1|229358;source=prediction;proteinId=229358
+panelC-Asplup1-communesin	.	mRNA	40404	43803	.	-	.	ID=mrna-panelC-Asplup1-communesin_96;Parent=gene-panelC-Asplup1-communesin_95;Name=jgi.p|Asplup1|229358;track=FilteredModels1;proteinId=229358;source=prediction;Name=jgi.p|Asplup1|229358;transcriptId=229536
+panelC-Asplup1-communesin	.	exon	40695	40833	.	-	.	ID=exon-panelC-Asplup1-communesin_97;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	exon	40888	41650	.	-	.	ID=exon-panelC-Asplup1-communesin_98;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	exon	41725	42492	.	-	.	ID=exon-panelC-Asplup1-communesin_99;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	41952	42356	27.6	-	.	ID=pfam_domain-jgi.p_Asplup1_229358;Dbxref=PF00201.20;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_229358_0019;protein_start=376;protein_end=511;locus_tag=jgi.p_Asplup1_229358;aSDomain=UDPGT;evalue=1.30E-06;label=jgi.p_Asplup1_229358;detection=hmmscan;description=UDP-glucoronosyl and UDP-glucosyltransferase
+panelC-Asplup1-communesin	.	exon	42544	42780	.	-	.	ID=exon-panelC-Asplup1-communesin_100;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	exon	42863	43478	.	-	.	ID=exon-panelC-Asplup1-communesin_101;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	43132	43329	49.1	-	.	ID=pfam_domain-jgi.p_Asplup1_229358;Dbxref=PF03033.22;domain_id=clusterhmmer_jgi.p_Asplup1_229358_0018;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=5.80E-13;detection=hmmscan;label=jgi.p_Asplup1_229358;description=Glycosyltransferase family 28 N-terminaldomain;aSDomain=Glyco_transf_28;locus_tag=jgi.p_Asplup1_229358;protein_end=162;protein_start=96
+panelC-Asplup1-communesin	.	exon	43574	43803	.	-	.	ID=exon-panelC-Asplup1-communesin_102;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	five_prime_UTR	43713	43803	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_103;Parent=mrna-panelC-Asplup1-communesin_96;Name=jgi.p|Asplup1|229358;source=prediction
+panelC-Asplup1-communesin	.	promoter	43753	44125	.	+	.	ID=promoter-gene98468_101868;locus_tag=gene98468_101868,gene102140_103168;tool=antismash;note=bidirectional promoter
+panelC-Asplup1-communesin	.	five_prime_UTR	44076	44216	.	+	.	ID=five_prime_utr-panelC-Asplup1-communesin_104;Parent=mRNA_1073;Name=jgi.p|Asplup1|182300;source=prediction
+panelC-Asplup1-communesin	.	gene	44076	45103	0	+	.	ID=gene-panelC-Asplup1-communesin_105;Name=gene102140_103168;source=prediction;proteinId=182300;portal_id=Asplup1;transcriptId=182478;Name=jgi.p|Asplup1|182300
+panelC-Asplup1-communesin	.	mRNA	44076	45103	.	+	.	ID=mrna-panelC-Asplup1-communesin_106;Parent=gene-panelC-Asplup1-communesin_105;Name=jgi.p|Asplup1|182300;track=FilteredModels1;source=prediction;proteinId=182300;transcriptId=182478;Name=jgi.p|Asplup1|182300
+panelC-Asplup1-communesin	.	exon	44076	45103	.	+	.	ID=exon-panelC-Asplup1-communesin_107;Parent=mrna-panelC-Asplup1-communesin_106;Name=jgi.p|Asplup1|182300;source=prediction
+panelC-Asplup1-communesin	.	CDS	44217	45026	.	+	.	ID=cds-panelC-Asplup1-communesin_108;Parent=mrna-panelC-Asplup1-communesin_106;Name=jgi.p_Asplup1_182300;gene_functions=PF00561,biosynthetic-additional(rule-based-clusters) Abhydrolase_6,biosynthetic-additional (smcogs)SMCOG1036:alpha/beta hydrolase fold protein ;phase=0;sec_met_domain=PF00561 (E-value: 3.8e-20, bitscore: 66.6,seeds: 48, tool: rule-based-clusters),Abhydrolase_6 (E-value: 6.4e-20, bitscore:66.7, seeds: 455, tool: rule-based-clusters);source=prediction;transl_table=1;gene_kind=biosynthetic-additional
+panelC-Asplup1-communesin	.	PFAM_domain	44316	44729	66.6	+	.	ID=pfam_domain-jgi.p_Asplup1_182300;Dbxref=PF00561.22;domain_id=clusterhmmer_jgi.p_Asplup1_182300_0020;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=2.80E-18;label=jgi.p_Asplup1_182300;detection=hmmscan;description=alpha/beta hydrolase fold;locus_tag=jgi.p_Asplup1_182300;aSDomain=Abhydrolase_1;protein_start=33;protein_end=171
+panelC-Asplup1-communesin	.	three_prime_UTR	45027	45103	.	+	.	ID=three_prime_utr-panelC-Asplup1-communesin_109;Parent=mrna-panelC-Asplup1-communesin_106;Name=jgi.p|Asplup1|182300;source=prediction
+panelC-Asplup1-communesin	.	promoter	45126	46176	.	+	.	ID=promoter-gene104191_106677;locus_tag=gene104191_106677;tool=antismash
+panelC-Asplup1-communesin	.	five_prime_UTR	46127	46321	.	+	.	ID=five_prime_utr-panelC-Asplup1-communesin_110;Parent=mRNA_1074;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	exon	46127	46608	.	+	.	ID=exon-panelC-Asplup1-communesin_111;Parent=mRNA_1074;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	gene	46127	48612	0	+	.	ID=gene-panelC-Asplup1-communesin_112;Name=gene104191_106677;source=prediction;proteinId=104771;portal_id=Asplup1;Name=jgi.p|Asplup1|104771;transcriptId=104771
+panelC-Asplup1-communesin	.	mRNA	46127	48612	.	+	.	ID=mrna-panelC-Asplup1-communesin_113;Parent=gene-panelC-Asplup1-communesin_112;Name=jgi.p|Asplup1|104771;Name=jgi.p|Asplup1|104771;transcriptId=104771;proteinId=104771;source=prediction;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	46322	46608	.	+	.	ID=cds-panelC-Asplup1-communesin_114;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p_Asplup1_104771;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=biosynthetic-additional (smcogs)SMCOG1050:monooxygenase FAD-binding 
+panelC-Asplup1-communesin	.	CDS	46675	46920	.	+	.	ID=cds-panelC-Asplup1-communesin_114;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p_Asplup1_104771;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=biosynthetic-additional (smcogs)SMCOG1050:monooxygenase FAD-binding 
+panelC-Asplup1-communesin	.	CDS	46977	47120	.	+	.	ID=cds-panelC-Asplup1-communesin_114;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p_Asplup1_104771;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=biosynthetic-additional (smcogs)SMCOG1050:monooxygenase FAD-binding 
+panelC-Asplup1-communesin	.	CDS	47182	47379	.	+	.	ID=cds-panelC-Asplup1-communesin_114;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p_Asplup1_104771;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=biosynthetic-additional (smcogs)SMCOG1050:monooxygenase FAD-binding 
+panelC-Asplup1-communesin	.	CDS	47464	48340	.	+	.	ID=cds-panelC-Asplup1-communesin_114;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p_Asplup1_104771;transl_table=1;gene_kind=biosynthetic-additional;source=prediction;gene_functions=biosynthetic-additional (smcogs)SMCOG1050:monooxygenase FAD-binding 
+panelC-Asplup1-communesin	.	PFAM_domain	46364	46608	196.4	+	.	ID=pfam_domain-jgi.p_Asplup1_104771;Dbxref=PF01494.21;domain_id=clusterhmmer_jgi.p_Asplup1_104771_0021;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=8.30E-58;description=FAD binding domain;label=jgi.p_Asplup1_104771;detection=hmmscan;locus_tag=jgi.p_Asplup1_104771;aSDomain=FAD_binding_3;protein_end=370;protein_start=14
+panelC-Asplup1-communesin	.	PFAM_domain	46675	46920	196.4	+	.	ID=pfam_domain-jgi.p_Asplup1_104771;Dbxref=PF01494.21;domain_id=clusterhmmer_jgi.p_Asplup1_104771_0021;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=8.30E-58;description=FAD binding domain;label=jgi.p_Asplup1_104771;detection=hmmscan;locus_tag=jgi.p_Asplup1_104771;aSDomain=FAD_binding_3;protein_end=370;protein_start=14
+panelC-Asplup1-communesin	.	PFAM_domain	46977	47120	196.4	+	.	ID=pfam_domain-jgi.p_Asplup1_104771;Dbxref=PF01494.21;domain_id=clusterhmmer_jgi.p_Asplup1_104771_0021;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=8.30E-58;description=FAD binding domain;label=jgi.p_Asplup1_104771;detection=hmmscan;locus_tag=jgi.p_Asplup1_104771;aSDomain=FAD_binding_3;protein_end=370;protein_start=14
+panelC-Asplup1-communesin	.	PFAM_domain	47182	47379	196.4	+	.	ID=pfam_domain-jgi.p_Asplup1_104771;Dbxref=PF01494.21;domain_id=clusterhmmer_jgi.p_Asplup1_104771_0021;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=8.30E-58;description=FAD binding domain;label=jgi.p_Asplup1_104771;detection=hmmscan;locus_tag=jgi.p_Asplup1_104771;aSDomain=FAD_binding_3;protein_end=370;protein_start=14
+panelC-Asplup1-communesin	.	PFAM_domain	47464	47698	196.4	+	.	ID=pfam_domain-jgi.p_Asplup1_104771;Dbxref=PF01494.21;domain_id=clusterhmmer_jgi.p_Asplup1_104771_0021;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=8.30E-58;description=FAD binding domain;label=jgi.p_Asplup1_104771;detection=hmmscan;locus_tag=jgi.p_Asplup1_104771;aSDomain=FAD_binding_3;protein_end=370;protein_start=14
+panelC-Asplup1-communesin	.	exon	46675	46920	.	+	.	ID=exon-panelC-Asplup1-communesin_115;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	exon	46977	47120	.	+	.	ID=exon-panelC-Asplup1-communesin_116;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	exon	47182	47379	.	+	.	ID=exon-panelC-Asplup1-communesin_117;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	exon	47464	48612	.	+	.	ID=exon-panelC-Asplup1-communesin_118;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	three_prime_UTR	48341	48612	.	+	.	ID=three_prime_utr-panelC-Asplup1-communesin_119;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|104771;source=prediction
+panelC-Asplup1-communesin	.	three_prime_UTR	48385	48575	.	-	.	ID=three_prime_utr-panelC-Asplup1-communesin_120;Parent=mrna-panelC-Asplup1-communesin_113;Name=jgi.p|Asplup1|182308;source=prediction
+panelC-Asplup1-communesin	.	gene	48385	49840	0	-	.	ID=gene-panelC-Asplup1-communesin_121;Name=gene106449_107905;portal_id=Asplup1;transcriptId=182486;Name=jgi.p|Asplup1|182308;source=prediction;proteinId=182308
+panelC-Asplup1-communesin	.	mRNA	48385	49840	.	-	.	ID=mrna-panelC-Asplup1-communesin_122;Parent=gene-panelC-Asplup1-communesin_121;Name=jgi.p|Asplup1|182308;proteinId=182308;source=prediction;track=FilteredModels1;Name=jgi.p|Asplup1|182308;transcriptId=182486
+panelC-Asplup1-communesin	.	exon	48385	49840	.	-	.	ID=exon-panelC-Asplup1-communesin_123;Parent=mrna-panelC-Asplup1-communesin_122;Name=jgi.p|Asplup1|182308;source=prediction
+panelC-Asplup1-communesin	.	CDS	48576	49706	.	-	.	ID=cds-panelC-Asplup1-communesin_124;Parent=mrna-panelC-Asplup1-communesin_122;Name=jgi.p_Asplup1_182308;transl_table=1;source=prediction;phase=0
+panelC-Asplup1-communesin	.	PFAM_domain	48597	48680	47.2	-	.	ID=pfam_domain-jgi.p_Asplup1_182308;Dbxref=PF00734.20;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_182308_0023;database=34.0;tool=antismash;aSDomain=CBM_1;locus_tag=jgi.p_Asplup1_182308;protein_end=370;protein_start=342;label=jgi.p_Asplup1_182308;detection=hmmscan;description=Fungal cellulose binding domain;evalue=1.70E-12
+panelC-Asplup1-communesin	.	PFAM_domain	49044	49649	198.8	-	.	ID=pfam_domain-jgi.p_Asplup1_182308;Dbxref=PF03443.16;locus_tag=jgi.p_Asplup1_182308;aSDomain=AA9;protein_start=19;protein_end=221;evalue=9.80E-59;description=Auxiliary Activity family 9 (formerly GH61);label=jgi.p_Asplup1_182308;detection=hmmscan;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_182308_0022;tool=antismash;database=34.0
+panelC-Asplup1-communesin	.	five_prime_UTR	49707	49840	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_125;Parent=mrna-panelC-Asplup1-communesin_122;Name=jgi.p|Asplup1|182308;source=prediction
+panelC-Asplup1-communesin	.	three_prime_UTR	52216	52272	.	-	.	ID=three_prime_utr-panelC-Asplup1-communesin_126;Parent=mRNA_1077;Name=jgi.p|Asplup1|104809;source=prediction
+panelC-Asplup1-communesin	.	exon	52216	52346	.	-	.	ID=exon-panelC-Asplup1-communesin_127;Parent=mRNA_1077;Name=jgi.p|Asplup1|104809;source=prediction
+panelC-Asplup1-communesin	.	gene	52216	53982	0	-	.	ID=gene-panelC-Asplup1-communesin_128;Name=gene110280_112047;proteinId=104809;source=prediction;transcriptId=104809;Name=jgi.p|Asplup1|104809;portal_id=Asplup1
+panelC-Asplup1-communesin	.	mRNA	52216	53982	.	-	.	ID=mrna-panelC-Asplup1-communesin_129;Parent=gene-panelC-Asplup1-communesin_128;Name=jgi.p|Asplup1|104809;transcriptId=104809;Name=jgi.p|Asplup1|104809;proteinId=104809;source=prediction;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	52273	52346	.	-	.	ID=cds-panelC-Asplup1-communesin_130;Parent=mrna-panelC-Asplup1-communesin_129;Name=jgi.p_Asplup1_104809;source=prediction;transl_table=1
+panelC-Asplup1-communesin	.	CDS	52401	53853	.	-	.	ID=cds-panelC-Asplup1-communesin_130;Parent=mrna-panelC-Asplup1-communesin_129;Name=jgi.p_Asplup1_104809;source=prediction;transl_table=1
+panelC-Asplup1-communesin	.	exon	52401	53982	.	-	.	ID=exon-panelC-Asplup1-communesin_131;Parent=mrna-panelC-Asplup1-communesin_129;Name=jgi.p|Asplup1|104809;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	52744	53025	30.7	-	.	ID=pfam_domain-jgi.p_Asplup1_104809;Dbxref=PF12796.9;locus_tag=jgi.p_Asplup1_104809;aSDomain=Ank_2;protein_end=370;protein_start=276;evalue=3.90E-07;label=jgi.p_Asplup1_104809;description=Ankyrin repeats (3 copies);detection=hmmscan;aSTool=clusterhmmer;domain_id=clusterhmmer_jgi.p_Asplup1_104809_0025;tool=antismash;database=34.0
+panelC-Asplup1-communesin	.	PFAM_domain	53080	53397	42.8	-	.	ID=pfam_domain-jgi.p_Asplup1_104809;Dbxref=PF12796.9;evalue=6.30E-11;label=jgi.p_Asplup1_104809;description=Ankyrin repeats (3 copies);detection=hmmscan;aSDomain=Ank_2;locus_tag=jgi.p_Asplup1_104809;protein_start=152;protein_end=258;domain_id=clusterhmmer_jgi.p_Asplup1_104809_0024;tool=antismash;database=34.0;aSTool=clusterhmmer
+panelC-Asplup1-communesin	.	five_prime_UTR	53854	53982	.	-	.	ID=five_prime_utr-panelC-Asplup1-communesin_132;Parent=mrna-panelC-Asplup1-communesin_129;Name=jgi.p|Asplup1|104809;source=prediction
+panelC-Asplup1-communesin	.	promoter	53932	55864	.	+	.	ID=promoter-gene110280_112047;locus_tag=gene110280_112047,gene113879_115435;tool=antismash;note=bidirectional promoter
+panelC-Asplup1-communesin	.	five_prime_UTR	55815	56284	.	+	.	ID=five_prime_utr-panelC-Asplup1-communesin_133;Parent=mRNA_1080;Name=jgi.p|Asplup1|182315;source=prediction
+panelC-Asplup1-communesin	.	exon	55815	56287	.	+	.	ID=exon-panelC-Asplup1-communesin_134;Parent=mRNA_1080;Name=jgi.p|Asplup1|182315;source=prediction
+panelC-Asplup1-communesin	.	gene	55815	57370	0	+	.	ID=gene-panelC-Asplup1-communesin_135;Name=gene113879_115435;proteinId=182315;source=prediction;transcriptId=182493;Name=jgi.p|Asplup1|182315;portal_id=Asplup1
+panelC-Asplup1-communesin	.	mRNA	55815	57370	.	+	.	ID=mrna-panelC-Asplup1-communesin_136;Parent=gene-panelC-Asplup1-communesin_135;Name=jgi.p|Asplup1|182315;Name=jgi.p|Asplup1|182315;transcriptId=182493;source=prediction;proteinId=182315;track=FilteredModels1
+panelC-Asplup1-communesin	.	CDS	56285	56287	.	+	.	ID=cds-panelC-Asplup1-communesin_137;Parent=mrna-panelC-Asplup1-communesin_136;Name=jgi.p_Asplup1_182315;phase=0;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	CDS	56339	57172	.	+	.	ID=cds-panelC-Asplup1-communesin_137;Parent=mrna-panelC-Asplup1-communesin_136;Name=jgi.p_Asplup1_182315;phase=0;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	exon	56339	57370	.	+	.	ID=exon-panelC-Asplup1-communesin_138;Parent=mrna-panelC-Asplup1-communesin_136;Name=jgi.p|Asplup1|182315;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	56411	56653	32.1	+	.	ID=pfam_domain-jgi.p_Asplup1_182315;Dbxref=PF01411.21;protein_end=106;protein_start=25;aSDomain=tRNA-synt_2c;locus_tag=jgi.p_Asplup1_182315;detection=hmmscan;label=jgi.p_Asplup1_182315;description=tRNA synthetases class II (A);evalue=4.60E-08;aSTool=clusterhmmer;database=34.0;tool=antismash;domain_id=clusterhmmer_jgi.p_Asplup1_182315_0026
+panelC-Asplup1-communesin	.	PFAM_domain	57014	57118	31.3	+	.	ID=pfam_domain-jgi.p_Asplup1_182315;Dbxref=PF07973.16;domain_id=clusterhmmer_jgi.p_Asplup1_182315_0027;tool=antismash;database=34.0;aSTool=clusterhmmer;evalue=1.70E-07;description=Threonyl and Alanyl tRNA synthetase secondadditional domain;label=jgi.p_Asplup1_182315;detection=hmmscan;locus_tag=jgi.p_Asplup1_182315;aSDomain=tRNA_SAD;protein_end=261;protein_start=226
+panelC-Asplup1-communesin	.	three_prime_UTR	57173	57370	.	+	.	ID=three_prime_utr-panelC-Asplup1-communesin_139;Parent=mrna-panelC-Asplup1-communesin_136;Name=jgi.p|Asplup1|182315;source=prediction
+panelC-Asplup1-communesin	.	promoter	57690	58740	.	+	.	ID=promoter-gene116755_117339;locus_tag=gene116755_117339;tool=antismash
+panelC-Asplup1-communesin	.	exon	58691	58775	.	+	.	ID=exon-panelC-Asplup1-communesin_140;Parent=mRNA_1081;Name=jgi.p|Asplup1|216076;source=prediction
+panelC-Asplup1-communesin	.	gene	58691	59274	0	+	.	ID=gene-panelC-Asplup1-communesin_141;Name=gene116755_117339;Name=jgi.p|Asplup1|216076;transcriptId=216254;portal_id=Asplup1;proteinId=216076;source=prediction
+panelC-Asplup1-communesin	.	mRNA	58691	59274	.	+	.	ID=mrna-panelC-Asplup1-communesin_142;Parent=gene-panelC-Asplup1-communesin_141;Name=jgi.p|Asplup1|216076;proteinId=216076;source=prediction;track=FilteredModels1;Name=jgi.p|Asplup1|216076;transcriptId=216254
+panelC-Asplup1-communesin	.	CDS	58691	58775	.	+	.	ID=cds-panelC-Asplup1-communesin_143;Parent=mrna-panelC-Asplup1-communesin_142;Name=jgi.p_Asplup1_216076;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	CDS	58828	59101	.	+	.	ID=cds-panelC-Asplup1-communesin_143;Parent=mrna-panelC-Asplup1-communesin_142;Name=jgi.p_Asplup1_216076;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	CDS	59166	59274	.	+	.	ID=cds-panelC-Asplup1-communesin_143;Parent=mrna-panelC-Asplup1-communesin_142;Name=jgi.p_Asplup1_216076;transl_table=1;source=prediction
+panelC-Asplup1-communesin	.	PFAM_domain	58721	58775	45.8	+	.	ID=pfam_domain-jgi.p_Asplup1_216076;Dbxref=PF01284.25;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_216076_0028;protein_end=128;protein_start=10;locus_tag=jgi.p_Asplup1_216076;aSDomain=MARVEL;evalue=6.50E-12;detection=hmmscan;label=jgi.p_Asplup1_216076;description=Membrane-associating domain
+panelC-Asplup1-communesin	.	PFAM_domain	58828	59101	45.8	+	.	ID=pfam_domain-jgi.p_Asplup1_216076;Dbxref=PF01284.25;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_216076_0028;protein_end=128;protein_start=10;locus_tag=jgi.p_Asplup1_216076;aSDomain=MARVEL;evalue=6.50E-12;detection=hmmscan;label=jgi.p_Asplup1_216076;description=Membrane-associating domain
+panelC-Asplup1-communesin	.	PFAM_domain	59166	59190	45.8	+	.	ID=pfam_domain-jgi.p_Asplup1_216076;Dbxref=PF01284.25;aSTool=clusterhmmer;tool=antismash;database=34.0;domain_id=clusterhmmer_jgi.p_Asplup1_216076_0028;protein_end=128;protein_start=10;locus_tag=jgi.p_Asplup1_216076;aSDomain=MARVEL;evalue=6.50E-12;detection=hmmscan;label=jgi.p_Asplup1_216076;description=Membrane-associating domain
+panelC-Asplup1-communesin	.	exon	58828	59101	.	+	.	ID=exon-panelC-Asplup1-communesin_144;Parent=mrna-panelC-Asplup1-communesin_142;Name=jgi.p|Asplup1|216076;source=prediction
+panelC-Asplup1-communesin	.	exon	59166	59274	.	+	.	ID=exon-panelC-Asplup1-communesin_145;Parent=mrna-panelC-Asplup1-communesin_142;Name=jgi.p|Asplup1|216076;source=prediction
+panelC-Asplup1-communesin	.	promoter	60016	61066	.	+	.	ID=promoter-gene119081_119514;locus_tag=gene119081_119514;tool=antismash
+panelC-Asplup1-communesin	.	exon	61017	61335	.	+	.	ID=exon-panelC-Asplup1-communesin_146;Parent=mRNA_1082;Name=jgi.p|Asplup1|216077;source=prediction
+##FASTA
+>panelC-Asplup1-communesin scaffold_4 
+TCCCCTACACCAATGACTGAGCCCCATACCAAGACAACATACACTAACACATGGACAGGA
+ATTCTTCGACCCTAACATCCGTGCCCTCGCGCAAGCCTGCACAACAGCCAGCAACTGGCT
+CTTCAACTTCCTCATCGCCCGCTTCACGGAGCAGATGTTCGCCGCGATGCACTACGGCGT
+GTACTTCTTCTTCGCGGCGCTGTCGTTCTTCGCCTTCTTCTTCGCCTTCTTCCTCATCCC
+CGAGACCAGCGGTCTGCCGCTCGAGGCGGTCGACCAGCTCTTCGACATCAAACCCATCTG
+GCGCGCCAACAAGATCCTCAAGGAGCGCCTGAAGGAGGACGAGGAGCGGTTCCGCTTCGA
+GATCAAGGAGGGTGCCTTCGACAAGAACGAGCCGCAGGAACACGTCGAGAACCGCGAGGC
+GGAGGCGTGATCAGATCGGTGTTGTGTATATATATGCGTGCTTTGGTTATTTTGCGGTTG
+TTGCTCTGGAGGCGACGAACTGGATGTTTGAACATACATACTTACTCTGGAATGTGCTTT
+TTTACGGTTTATGCGCGGTTTGTTTTCTTGCGTGCATGATATGGATATGAATAGACATAG
+GATTTTGCATTGCATGTTCACGTTTCTGATACGATTCATTCTTTCCTTTCATAAGTAGAC
+AAACAGACTGATAAACAACGTAGATATTAGACCCGCAGTTAAAATAACTAGAACAATAGT
+CTCCATACAAAGAAACATCCATCCACCCAAATTACCCTAACACTTTACTCATGGTATCAG
+TACACATAGACCCAACATGCTCCGATCGATAGAGATACACCCACCCTCCCCTACAGCAAA
+GCCATCAGACACTTCTGCACTTCTCCAGGGGGGATGATGGACAAAATCCTCGACGCAAGA
+TCCACCTTCAGCTCCCGTCCCAGACAAAGCTTCACAGTATCCAAATACTGACGATTCCAA
+TGCAGATGCGCAACCCAATAAATCAACCTCTTCTCATCGATACTATCCGCCCGTACACAC
+TCCGCCAACCGCTTCGCATGATACAACACCGGATCCTTCGCATGTTCCAGCATGGCCAAA
+AACACCGTCTTAAGATGTCCCGAGAACTCGTCCCGGATGACCTTCTCCAGACTCTTATGG
+TAGCGGGCCTCGAACGCCTGCGCAATAGCCGGGAGCTTCGCATCCGGCGCGTTGATAAAC
+ACCGCGCTGACCCCGAGCTCGTCGGTGCCCGTCTTCGCCTGCGTCGCTAGATGGATCTCC
+CGCACGTCCGCGTCCACCGATGCACCATCGAAATAGGTACCCGGTTCGGGTCGGGTCGCT
+TTCAGAAGCATCTCGAAGAACTGCTCCGTCTTACCGGAGAGGTCGCTTTTGACGTCATCC
+AGGAGCGATTTCTGATACTTGCTGACGTAGGCGTATTTGATGGCGCGGAGGTCAGCGTTG
+GATCGTCCGATCAGCACGTCGGTAAGGGCGGTTTCGTCCGTCCCCATGCCCGCGAGCGCG
+TTGTGCAGGTGGCGCACGTCGTGGCCGAGCGGGCCCGTCACCAGCGCTATCAGCACGTCC
+TCAAACGTTCCAGACACTTCCGACTTGACGTCCTTTTCGAGGTCGCGGCCAATTCGGTCC
+GTGTACGTGTGTCGGATGAGCGCCATCTGGAGCGGGTCCGGCTTGCTCAGGATGTTGATC
+AGCGCCGTTTCGTCCGTGCCCCAGCCTTTCATGGCCTTGCGCAGGGCGTTCGCTTCGGCG
+GTTGCGTCGCCCGGTGCGCGCTGGTCAGGGTCGTAGCCGAGCGAGGGCGGCACGGGGACG
+GCGCTTTGCGGTGGATAGCCACCGCCGCCGCCCTGCATCCCCCCGGCTTGGGGAGGATAT
+TGTCCGTATTGTCCCTGTGGTCCGGGAGGGGGGTATCCTTGCTGCTGGGGGGGGTATTGG
+CCTTGGGGAGGAGGATATTGGCCTTGTTGGGGGTACTGTCCCTGGGGCGGGTATTGTCCT
+TGAGGGGGATATTGTCCCTGAGGAGGGTATTGGCCTTGTGCAGGCGTAAAGTGGCCCTGT
+TGTCCGCCGGGGTATGGGCCTTGGCCTTGACTGTGCGGAGGGTATTGTCCGGGAGGAGAG
+GCCCATGCGGAGTTGTGTTGTGGCGGGGGCATCGACTGCTGCTGCGGGGGATAGCCTTGC
+GGCGGATACCCCTGTGGAGGAGGGTGTTGGCCATAAGGAGGCTGTTGTTGCTGCTGTTGA
+GGTGGCTGCTGCTGGTTCTGAGGGGGATACCCGCCCTGACCAGGCGGGGGGTACGGTTGT
+CCCGCGTAAGCCGGCTGTTGCGGCGGGGGACCGCCGTAGCTATTAGGGGGCTGATACGAC
+ATGCTGATGATGATGGATGGGCGGTCGTAGGATTGTAATTAGGGTTGAGGGCGACGAGGG
+GGGGATGAAAGTGAGGCGAGAGGGAGACAAGAGTGACCGGACGAGAGGCGCGCGGGGTCT
+GTCAGTTTAATACCGAATCAGAATGCCCATCAGCGTCAGCAATCAGTCACACCAGTGCAG
+TCATCATCGGACTTGATGGCCGGTCTGTGCCAGGAAGTGGTACGCCGGCGCCTCGTTGTG
+GCTGTGTGGGATACGAGGTACACGATATGAGCCCCTGCCAATGGACAGGGTCTGCCGGCG
+GGGACTCATGGCTCATGCCTGACTGGGCGATGATATGCAGCGGTTCTTCTGGTACACTTC
+CCTACTAGAGTGCTCTAGTGCTCTAGTCTGGTGGTTTTCAGCTGTTTGGTGGTTGATGGT
+GGAGATTGGGGGCGGAGTTAGGGCTTGGCAGGTCACCTGCTGTGCCACGGCGACATTTTC
+TCTGTCGGAGCTGTCAGAGCTTACAAAACCGAACCTGACGTGCGATGCAGGAACGATGTT
+CAGGTACAGGTACTGTGGAAGGGAATTAGGCTCATCGAGAGTTTGGGGTTGTCGATTAAG
+ATTCTACTCCGTACTGTCGGAGTATCCTCAACATTCCCCCTTTGCCCGCACCCCTCTCGA
+GTAAACAAGGAACAAACATGGATCTTCACAGCTCAATCGGAGCATCCACACGCCAACAAA
+GTATGTAGCCATCCGAATCCCTGTTAATCAGAGACCTCTACTGCCTGCGATGGTGTTGAT
+TATCTCATAACCTACTGCATCAAGTCAATAGACCGCATTCCCAGTGCGGCTGTACATAAG
+CACCTGCGATGGGCAATATATATAACTCCACCTTTTTAGAGAAAAATCAAGGCTGATTGG
+GGAATGATCTGTGTGTTATGTGTGTAACAGGAAGATGGTACATTTGTCATGTACTACTCG
+GCAGAGTCGCGCGAGGCAAATCCCACCGATTGTGTCGGGATCGCAACGTCGAAGTCAGTG
+AAGGGACTATACACCCATCTGCCCAAGCCATTCGCATGTCCACTGGATAACGCCAGCGCC
+ATTGACGCAGCAGGATACCAAGGCGACGACGGGACCTGGTATGTCACGTACAAGGTGGAC
+GGGAACCGACTCAACACCGACAACACGATGCACCCGACGCCGATAATGTTGCAGAAAACG
+GAGGCCGATGCGGTGACGCCCGTCGGGGAGCCGATCCAGCTTGTCGATCACAGTGACGCA
+GACGGCCCTCTGATTGAAGCGCCAAGCATCGTCAAACACGGGGGTGTTTACTACATGGGA
+TTTTCGTCGAATATGTTCGACACGATGTACTATGACATGAGCTGGGCCTATGCCAAGGCC
+ATCACGGGGCCGTGGACCAAATCGTCCGGTCCTGGAGCGCCGCTGTTAGTGTCGGGCGAT
+TCGAGCAGTGCTGGTCCATTGGGGGGTCCAGGAGGCGCTGACTTCCGTGAAGACGGACAG
+GCGATTCTCTTCCATGCGTTTAACAATGGGACGGACCCTAAGGAGAAGAGTCGTGGCATG
+TGGGCTGCGAACATTAAGCTGGAAGATGGGAAGATTACTCTTGTCTAGAGATGGGATGGG
+TATGCGGCGCTGTATTATACGGTGTTATCTGATAAGATCCTAAAAACATAACTTATAGTA
+TATAAAGATATATGATATTGAAGAATATAGATATAGCACAGATTAGAAGAGAAAAGATAA
+AAAGTTAACCAGGTAAAAATGAATATATAGCAGATTAGAAATGTAAGCTCAAAAGAGATA
+CTGTCAGCCCCCCAATTAGGATAGGCACATATAAAGCCATAAGTCTAGGCACTTATAGAT
+TCCCTATGTGCGTTAAATCCGCATACCAGTATTAATTGCAAATATACTTTGGTTCCAGGA
+AGCAGTTGTTTCAGAGAGTAGAAGAAAGTTATGCTTATGTTACTCATTCTTATCTTAAGT
+ACATCACCTGGGTAAATCAGGCATAATATAGTCCGTCCCTCGCTCCCGATGCGTACACTT
+GAGCAGGCTCTATATTCCGCTGCTACCGGTAAGGCCCTCCACAGAGAGCAGTTGTACAAG
+CACGGAGCCCTTCCAATTGTACAGTCATGCTGCTGATACAGTACAGGCACTAAAGATCTC
+TCTCAACCTCCATTGGATGGTTGCTCTTGCTATCTGCACAAACGAGGGACACTAGAAAAT
+CCGGTCCCAAATGCCACGCTGTTTCCTGCACAGACCATCATGATCCCAGTATTCACTTCC
+TACCCCTAACCTGGTAATGAACAATGAGTCCGCATCCCATTTCTGCTTAACAGCCAGTAA
+TCGCTCATAGTTCGTGCCCCAATACACCTTGCGGGAGTCAGCCTCATTTGGGTCGCCCAT
+GTTGAGATAGGACACCTTGTAGCTCGGGTCGAGTGAATATAGAATCGGCATTTGCACACT
+TGTCAGCTCTTTACTAGAGTATGCTCTGGCTTCCACAGAGCGATGGAGAGCCTTATACAG
+GTTGATCAGCAGTGCTGAATGGCGCCAACCAGGATGGACTGATGCGTTGACAGAATCACG
+ATTAGTATTCACAGCACCGCCAACTGTGTTGATAAAAACTTCATCACCAGGATGAAGATG
+TACCAAAGAGAGTGTCTTGGCTATCTGATATGGTCCTTCCTGGGACTTGAATAAGGGATT
+CGAGACCAGAACAGATCCTTGTGTGATTCCGTACTCTGCTGGGTAGACATCGGGACTCTG
+CCGTAAAGTCGAACTCACTAGAGCATGATATTCGGAGGAGTAATTGTATGGAATCCCTGA
+GCTTCGAAAATCCTCGAGGAATGGCCGTAGTCGACGATCAACGCTGTCACGGTCCGTTGC
+GTTCAAGAAATGTAGAAGCAGGCCGGCTGCCCGCGGGTCGGCCTGTAAGTGGATCTCTCC
+CGCGATCCCCTGATGGTTGAAAGACCGTAAAGTCTGGAGCAGGAGTGGCAGTGCCTGCGT
+CCAGAAGCGGACACCCAAGTCCTCTGGTGCCGACAGCGCAAACCGGGCGGTCACGGACGA
+GACATCTGGAAATACCCGCACTGTTGCTTGCGTGACGACAGCGAAAGTACCTCCCCCTCC
+TCCTCTTAATGCCCAGAACAGGTCTTGATTGTGGTAATCACTGGCTACTACCAAGTCACC
+CTGTCAATCATCGAATTAGAGAACGTCCACGACAGCAGGATCCCGCAGGCGGGATGCTTG
+GGCAAGGCAACGTCCTTACATCTGCCGTTACGGCTTGAATCTCCAACACATTATCGACAG
+CCAGCCCCCTGGTGTGACTGAATTTCCCAGAGACACCGCCCCCTTGGAGGAAGCCGCCAA
+CCAAGCCGACGGTGGGACATACCCCACCAACTACGGTGTATCCTTGTCGAGCGCCCTCGG
+CATAGAGCTCCCCGAGCGTGACGCCGGCTCCAACAGTAACCGCAGGCCCCGAGGTTGTGT
+CCGCTCCTAGGGGTCGGAAGCCATCATAGTAACGTGTGTGGTTGAGGTGGTGTGTGTGTA
+TCTCCATGGAGCCTGGGGCGCTGGAGCGCCCCAAACCATCATGGCCGGTGTTTCGGACCA
+CGAGTCTTAGGTTATGGTTCCGGGCAAATTTAATCGCATGCTGCACGTGGGAGACTGACC
+TCACAGCAGCCGAATATAGAGGAATACGGCCTTGGTGGCAAGGTCTATCCACAGATCCTC
+CTACATAACACGTCTCCTCTTCGGTCGAACCGCTCTCCCAAACCCAGTCCTGCAGAGTCC
+CTACCATCGCTCCTGTCAGCGACGTAATCCCGACATGAGAGAGAAGGACGGCCCGTACCT
+GGCTGTGCAGCCCTCCATCCGCTGTTTCGAGAAACGTTCAACAAAACGTCACAAGCCTGC
+TGTTCATATGCAGGCTCATGACAGACGTGCCCTACAGGCCTCACCGAGATTAAGTTTCCG
+TCGATCGATGCATTCAGGGTAGCCCAGTCAGTTTCAGATGGCCAACATGATTCCCACGGT
+CTACATCGACAGAATGGTCGCTGGGTCGGATGTAACAAGTGCATGGACAGCGCCGCGAGG
+GCCACGATAATGCTGAAGCGGACGATAGTGGTCATCATTCGTGGTTGGGAAGTTTAATCC
+AAAGCTCCTGACAAGCGCAAGTCAGGATTGGCATTCCGGAAGGCAAAAGGAGCCGGTCAT
+CCGTCAGAGGGCGTACTACTTAGTCTGGAGACATACGCCAGAGCGCCCAGATGTTGTTGC
+ATTCGGAACGGAAACGTGACTCTCAGATGGTTGGATGTAAGGGCCAAGGATAGCAGTGGA
+AGCAAGGCATGGAGTTAGAGGAGGGTTAGTTACATGTAAGGTGGTAGGGCTGTGCATACG
+TTTCTCCCTCACTGCTAAGGACGAGGCCAGAGATGAGATAACGGTGGTGCCCATACATAT
+GCAGGGAATTATCACGGCTACCACTCGAAAGTCCTTGAGTAGTTGTGCGAGCATAGCTAC
+ATACCTTGCTGGAGTCGCAATTCACGAGTCTCAGCCAGCCAGGGTCCATATCGTACATTG
+GATCTACGACTCCTCACAGGAGGAACAGTGCACTACATTAGTCGTATACTGCACAATCAG
+GTGTCTGCAAGGGAACAGCCGTCAGTTCGACCCGTGTGACCGAAGCAAGCCTCACAATAA
+TAAAAAGCGGTATCCCTTGAGATGACCGCGTTGCCGAGTAGCACTATCATGCCTCCTGCT
+GCAAGGGCTTGGGAATGTTACAAAATTCCCACAGAGTTTCGAAGCCAGAAGATGAAGGAT
+AGATTTAACTAATCACCTACCAAAAATCCCATCATATTTTGCCTTGTGTCGTGTCGCCTC
+ATCTAGCATATTTCGCGGCTTGTCAATCTTCTGCTCAAACTCCGTCCACCCTTTCGACCC
+ACCTGGACGTAATCTATCCAAGAAAAACTATAGCCAGTACTTTGTTTCAATATGGGGTCT
+GAGAAAGTGAGGTCTGAGAAAGAGGACTCTGCTGATGATCCCCATACAATGGCTCTAATC
+AAAGCTCTATCCGTGCTGATGGGGGTCTTAACGATGAATTCGCCAACTTCCTCCGATCCC
+ATCGTCCGAACACTTGATGCTCCTGGAGCGAAAGACATGCAAGAAGCATTCCTCCCAGAA
+GAGAGCCCACGAGACGTGTCGTCAGTCCTCCAGGAGACTGCGGATATCTTTGACAAACGG
+ATGCGTCTCACACACCCACATTGCTTTTGCTATGTGCCGTCATGCCCATCTCCGCTCGCG
+AATGTGGGAGACCTGTTCACATCGCTTTACAATGTAAATGCGGTTAGTTGGGATGTGAGC
+TCCGGTCCTAGTGCCATAGAACAAGCAATGATTAGGTGGTTGGCCACTCAGGTAGGTCTT
+CCACCTTCTGCTGGTGGATGCTTCGTCTCCGGGGGCTCCATGGCAAACCTATCCGCCGTT
+GTGGCAGCTCGGGATAAAATGCTCCCCCCTTTGCGGCGGCCGGAGGGAACCATATACATA
+TCCGACCAGACACATCTATCGATAAAGAAGTGTCTCCATATAGCCGGCTTCCATGAACAA
+CAAATTCGCGTGGTCCGCACAGACAACCTCTTCCGCATGGACACAACGATCTTGCGACGA
+ATGATTGCAGCCGACCGCCAAGCTGGCCGCCTACCCTTTCTCCTCGTGGCTAGCTGTGGA
+ACCACCAACACGGGCAGTATTGATCCTCTCCATGCTTTGGCAAACGTGGCTGAAGACGAA
+GGACTGTGGCTGCACGTGGATGGGGCCTATGGTGCGTCCATTGCCCTCTCTGACAAGCAC
+CGCCATCTCGTTGATGGAATTGGACGAGCGGACAGTATATCGTGGGATGGTCATAAATGG
+CTGTTCCAGACATATGGTTGTGGAATTGTCCTCACACGGGATAGTATATCCCTCGCTCAC
+AGCTTTGCTGTAGATGCCGAATATATCAACTCACCGACACCGCACGGGACCGTGAATTTC
+TACAACTACAGTCCCGAGCTTAGCCGTCCAGCGCGAGCCATGCCGCTTTGGTTTACACTT
+AGGGTACTAGGTCGCCGGCGCATGGGAGAGATGATCGACCAAGGATTCCTTCTCGCCCGC
+ACGGCCGCAGACGAACTCCGACGACATGCCCATTGGGTGATCCTGACGCCGGTAGCAGCA
+AGCATTGTCGTCTTCCGATACTCCCCTCCAGGGAGGAATGAGGATGGGGTGGATGCATTG
+AACCTGGCCATATCAGCTCGACTTCTGGCGGAAAACGTTGCTTCCATCCTCACAACAAGC
+ATTCGCGGTCGGGTGGCTCTCCGTTTCTGTGCGACGAATCCTGCCACCCAAACAGACACG
+GTCACGAAGGTAGTGCAACAAATGGACCAAATCGCCAACAAAATTGCTATTGGCGGGCAT
+ACTTTGTGCAAGGACTAGAGTTTCACTGCTAAAATGTTGAAACCCATGGTTTCCAATGGG
+TTTTCGTTATAGAATGGAATACGTTTCTGTTTACTGAAAATTCTAGAGCTACATGGCTTT
+CACCTCGATAGCTCCCATATGGGCTCTGATCGTAACGACCTCAAAACAAATTGCCCGAAT
+TGACAAGCTATAGTCCCAGCACGCTTTGAATGCGATTGTCTATCTGCCCATGAGTAATCA
+GGTTATGATACCTTAACAAATAAATAGTAGCCAGGCATCATTGGTTTATTACAAACTACC
+ACATTGTTAGTGTACCGCTTGAACAGTATGAGCATATACAACAATATAAATCAATACTAC
+ATCGTGAGGTCCGACAGAGGAAATGGGAGGTTGTCGTAAATTTCAGGTTGGGTTGTCCGA
+TCCTTAGATCTATGTAGCCATTGGATACGGATACCAAAGAACCGAAAGTATCAAATTGGC
+CTTGATTGGCCTAGAATAAGTAGTACTCGACAATCTAATGAGGTTTCAGAGCGCCATACA
+GCACAGTGCAGGGAATAGCGGATTAAGCCACCAATGAGAATAACCAGAATCAGTCAACAA
+CAGCGTGCATGACCCAAAGCACTAAGTTCCTCTATATTAGGCATTGGACTGCATGTGTTT
+CCGTATCAGCATATCTGTCCTACCAACCATACCGTCGCCGCGCCCTTCCTTTGTTGATTG
+GACGTCTGGGAACCTCTCGTTACTGCTGGGATCCACTTTCACATCGTACTCCATGATGAA
+AACAGCACAAAGCACTTGGACAATATGCACCCCAAAGACTCTCCCAGGACATAAACCCGT
+CCCATGACTATATGACAGATATGTGTCGGTGGCAGTCGTAGCCCGAACCGTGACATTGTT
+AGTGGTGGGGTCATAGAAGCGGAACCCATCAAAAGTGGTCGGGTTGGGATAAAAATCCGG
+ATCGCGATGGATGTATTTGGCTGGTACGCATAGGTTAACTCCCGCGGGAATCTTCATATC
+CATAGACTGTACGTAGATGGGCTTTTCTGTTCGTCGACTGACGGTGGCTGGAGAATAGTT
+ATCAGTGCTGAGCCCTTCAAAGCTAGTTTTTACAGCATTAGGATGGAGGCCGGAACAAAC
+TCACACTGGGCCGGAACGTATAGACGAAGCACCTCTCTGATAAAACTTTCGAGCTTCGGA
+GCACGCGCCAGAAAATCAGAATCCCAGCCATCGGATCCGAGTGCGGAGGATATCTCCTCC
+CGAAGGGCCTCCAGATAGTCCGGATTTTTAGCAGTCTCCATAAGCATAAAAAAAAGCGTT
+GGCATTATCGGCCCCCAGAACTCGTATGTGTAGAATACTGCCTCCATGCAGATCCTCTCC
+AGGTCAGCTGCTTCTTCGCCGAGGGTGCCGTCCTCGATATGCACTTGTATGAGTGCGGTC
+ATGAGAGTAACGTCCTCGTCAGAGGCGGGGATATTACCATCCCTTTGCGCTGCCTTGGCC
+TGTAGTTTGGCAATGCGGGATCGGATATCGGGCAGCAACTTTTCCTTCAGGTGTGGGATA
+TTCGCATAAAAGTTGCGAATGGTAGGGTGAATGCGTTTTAACAGCCCCCAAAATGGACGA
+GGCCAGTCGAAGTAGACAGAATTGATACCATCGACGCCATTGGCATACATGATTAATCGC
+CTATGGAAATCCTGATCATCGGCATACGCTGGGCCATAGAGAATCCTGGCATTGAGCTTG
+ATCACTAAGTCGCTGCAGGATTGCATCACATCAATTCGTGACCACCCTAATGAAGAAAGC
+TATTAATGACTGCCAGTTCCTTGCCGTGTTCGAAGTATGTTCTCACCTTTGCCAGGGCGG
+ATAATTCCAGGGAGAAGGTTAAATGTTTCCTTCACCAGAATCTTCTGAACAGCCACTGTG
+TGATGAGGGTCAGTCTATGGCATACAGATCAAGAGCGCCGTGAAGGCGACCATTACTTAC
+AGAGAAGGTTCTTCCTAGCAAAGAGAAGAGGTACTTTGGAGTGCGCTTTCGTGAGCATTG
+TATGGTCCTTGATCCGTCCCCCCTGTATTGAATAAGTCATTAGTATGGTCAACTACGCAA
+GTCCACAAAACTCCCCCAGATGAACACATACATCTTGAGCCCAGTATCGAAAGCTGATAT
+GATCAAGTGGTAGATTGCGCCAATCGTGGCTCATTTCCGAGGGGAAAATGAGGGACCAGT
+TGTTCAGTTCCGTCTTCCTGGCGAACACTTTACCCCGTTTGGTATACTGTATGAGTGGTA
+AGCGCCGCCCTCTGTTTATCCACTTTGCAGGTTGAACGATTGAACACGCACCCGATAGTA
+CCCGTCAAGCCAAGTCTTCTCCAGACTGTCGCCTGTTGTATTTCCCGCCCAAAATCTTCC
+CGTGAGATAGCTGCGAGGATATGCCGGTGCTAACTTCATGTAGGGTATCGAGTGATATAG
+CAGGTCAAAATAATCGACCAGGAATACCACCAGTACAACAAGGACTGCAATTCTCATCAA
+TCCGACCCACTGACCATTGATGCCAAAAAAGCCCGGCGACTCGTGAATCAACTCCATACT
+CATAGTCGTGATGTAGCGGGCGTGATTAACTGAATTAGGCTAGACTCGACCAAGTAGTTG
+TGGCTCGGGGAAGCCCTGAGAGAGATACACAGGCAACCTATACGGGAATGGCACTTGGGA
+GACACCACCGAGGGTATAATCAGTTTTAACAATGTCCCCCGACATCTGCTTACCAGTATG
+CTTAGAGATGGCCCGGCGGTGAGCAAAACTTGTCGAGTGCGAGCAACGGGCAAGGGGGAG
+CGGCCACGCAGGGGATAAAACCCAGGCAAGGGTTTAATCAGACATGCATCATCCCGTACT
+ATTCTTGATACAGAGTCGGAGGTCTATTGCCCCACATGCCAGAGAGTGGCGCAAAGATGG
+GACGGTCTCAAGCCGGTGAGAGTGGTGGCTATCATGTACTACCACGGGAGGAAGTGAATA
+TCTACATAGTATCGCCTCTACCATCATCATGTTCACTGTGCATATTCTGCAGGGTTCACA
+TTGCAAGTAGCGCCGCTTCTGATACATTTTATTAGGAAGGTGATACACGCACACCAGATT
+TGTTACAGAACACCCTGTGCCTACCCAACCATTAGTTCTATAGGCAGCTCCACGGGCAGT
+TCGTAGATAGGGTACGTGTAATTCCATGGGCAGTTTATAGGCAGGATACGCGCAGGTCTA
+TAGGTAGCTTCATGTGCATACACGCAGTTCTAGGCTATCTTAGGGGTGTGCCTGTATTAT
+CCACCTCCCTTTCATTATTTTCGGCTATACAGAGAAGAGCCACAGAGCCAATAGCTATGC
+AGATGCTTCTGCAAGGGCAAAGGTAGGGGTAGAATGTCTTTGATCCGAAAAGTGGCACGT
+TGGAAATTACCACCCGGGCATGTTATGTACATGACAGGAACATGACCGCAGCTGGCAGCT
+TTACCCAGGCACGTATGCTGCATTCCGACAGACCACAAACAAGCAGGACCTAGACTAGCG
+GTGAGCTATGGTCATTTCTGCCACCAAAAACCCAATGGCATGCAGCATCCGGCGAAGCAG
+GCCTCGATATTCCAGGCGCAAAAGCCAGTTTGCTGTCGTCACAGACATTGGTCAACGAAT
+CCCTGCCTTTGCTTGAGCAAGGGATACCAATGCCGTACCCTTCCCATGGAGGTTCGGTGT
+GTTCAGATAGTGTGAGGCTATGATCATGACTGAGACTGGATTCAGCTGATGAAGGGTGAA
+AGAGCCACCAAATAAAAACCCTAAGAGGCAGCCCCCATACCGCTCAACTCACTGTACATG
+ATAACGCTCCATTTCCTGTCCAGTGAAACCCGGCTTCTCGCTCTGCAGTCTTTCCAAACA
+TGCCAGGTAGTGACGGTACGGCGAAGGGAACCATCAGTGGATGCCCAGCGATGGAAAGAA
+GCAGCTCTGCCCCGAGATCTGGACAAAATGCGGTGGTGAATGACACAGGCCTCCTAGAAG
+CCTTGTCACACTTTAACCGCGAGAAGATCCCCGAGCGTGTCGTGCACGCAAAGGGCACGG
+GTGCATATGGCGAATTCGAGGTGGGTCACGACCGGTCCAACGGCCGAAGCAATCAGTCTC
+TTATTTATGGAATACTAGGTCACCGCCGATATCTCGGACATATGCAACATCGACATGCTC
+TTGGGAGTCGGGAAGAAAACCCCGTGTGTGGCACGCTTCTCCACCACTGGACTTGAGCGC
+GGCTCTTCCGAGGGAATCCGGGACGTCAAAGGGTTGGGCGTGAAATTTCACACTCAGGAT
+GGAGATTGGGACTGGGTCTGCATCAACTTTCCGTACTTTTTCATCCGTGATCCAGCCAAA
+TTCCCGGATCTCATGCATGCTCAACAAAGGGATCCCAAAACCAACCTGCTGAACCCGAAT
+ATGTACTGGGACTGGGTGGCGGATAATCCCGAGTCCCTACACCTGGTTCTCACGCTTTTC
+AGTAAACTGGGAACCATGTTCAACTGGCGTACCATGAGTGCCTACACGGGCCATGCGTAC
+AAATGGACAATGCCAGATGGATCTTTCAAGTATGTCCATGTCTATCTCTCTCCGGATGGT
+GGACCTTCGAACGAGAATGCCAGCAAGGACGACGCCATGGACGAGAACATGGATGATCCA
+GATGGGGCCTCCCGGGACTTGTATGAGGCCATTGAACGTGGGGAGTTTCCAACGTGGACC
+GCCTATGCCCAGGTAGTCGACCCGGAGGAGGCTCCGGACCTTGATTTCAATATCCTCGAT
+ATGACGAAGCATTGGAACTACGGATTTTACCCCAGAAACGGCTCGGTCATCCCAAAGCGA
+GCATTCGGCAAATTCACCTTGAACCGGAATCCCCAAAAGTATTTTTCGGAAATTGAGTGC
+CTTCGCTTTTCGCCATCCAACCTCGTTCCTGGCGTTCTCCCTTCCGAGGATCCGATCCTC
+CAGGCTCGTATGTTCGCGTACCCGGACGCTCAGCGCTATCGTCTCGGTGTCCATCCTGAA
+CATCCACCGGCTCGGCCCAAGAAAGGCCCTAGTCTCAAAGCAACAAGTCGAAAATTCGAC
+AAGTGGATCAGTGAGGTCTCTTCCCCGGCCTGGTCGGAACCCCACGAGAGTGACTACAGG
+TTCGCGCGGGAGCTGTATGAATGGTACCCCGTGTTTCGAAATGAAGAATTTCAGAATGAG
+TTGATCGATAACCTCTCCAAGTCCATTTCCCAGACATCTGAGGCCGTCAGGCAGAAGGTG
+TACCGCACCTTCGCCCGGATGCAAACCACTCTTGCGCATCGTGTCCGTGAGGCAGTTCAG
+GAACGGCTTGGGACAGCAGACGCACGGCTGAATCCGAAAGGGTTCACCGTAATTGAACGA
+GGAAGGCTGTAAGCCAAGGATAGGTTTCAGAGTTTTTGTCCTCCTGAGGGACTAACGAGG
+TCTCGATAGCTAGTCGGCTGCTGGGACGAAGTCCCTAGGCGATCTGCGTAATGCCAGTGC
+GTTGTTCAAGTATATGCTCCAGAGATTCAATAGCGTAGGCGCCGCCGCAGGACACTTTCG
+CAAGAGGCAGATCCATTAGGTTGACAAACTTAAAGTAGATTTTTTCAACTAGTATTTCCA
+TTCGGGACTCAGCAGGCTCAAATTCAACTTGCTGCATGCTAGTGGTAGTCCGGTGACACG
+GACAACATAGCCGCTGGCTATTATACGGGGGATGATCCTGTGCCACAGACAACATCGAGG
+ATATGCAGCCTTTAATCCGAAGGGAGTCGGTTTCTTGCGTCGCACGTCGTTCGGCCCCCA
+GCTACCTCAGGAAATTCGTGCTTGTTGGATTTTCGCAATAACCGACATGGATATATACCC
+CGAACTTATCAGCTATACCCCCAGAAGATGGGTCGTGCAGGGTACCAACTCCGATAAGTC
+ACGGATCAAGAGCTATAGCTGCCGTCTTTTTCTTTTCGCCCTCCATTTTCGTCAAGGAGG
+CGAATAACCCAGTAGGAGGATATGCTATCGTGGGCTGTGTCGACAGGATCACTGGTGTAA
+GATCGAAATGTTACATGCGTCATAATTCGCTTATATGTATATGTATTTCGTTTGAGAGAT
+CTTGGTCTTGCTTGGCTATATGACTGAATTGGGTCAATATCTTCTGTGATTAAACAGCTC
+ATTTGCCTGGTGTGGAAGCACTCTATCTAAATAACTCTTGGCACGACCTATACTACCGTA
+AGTTGAACGTAGTAAGACTGTCTGTCTTGATAACTCATATGCCAGCCCGATAACAGGTGG
+GCTCTGTGCAGTATGGGCTGTATCCAGTTAGACTTTTTCTTTAACTACCTGAGAGGGCCA
+TGACAATGTAGACACCCTCGTCTCCCTGAAAAAAACTCTCTACGACCCATCCGGTAAGGC
+ACTCGCTATTCCCCTAACTTGCAGCCATACCTAAAAACCCAAGTCACGAGCAAGGAAAAA
+GTAAGTCTGTTAGATGGCGGTAAGTAACATGTCGAATCAAGACAGGTATAATGGGAGTAA
+TGATGTATGTAATAACCGCAAGGGGTTCCTTTTTGTTTTAGGTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTAATGTTGTCGCTCTGGTGTTCTCATGCTGTAGTAGAGGATATGTTG
+CATTTTTCATGTAAATTACGTGCATTAAACCGAACCAGCCAGCCCGCCAAGCCATTCCAA
+GGGCAATGGTAGAAGAATTTGACCCATAACCATTATTCATTCACTGGGTCGACAGCCAGG
+GATGGTGTGTAGCAACCCTTACTTTCGTGGAATCCATGCCAGCCTTCCAGGTCCAACCAC
+TAAAGTGCTGTTTCTCGTACCCGTAAGGCCCCAACAGCTCATCCATTCCAGAGACCGTTT
+CCTTGCTTCTGTGTGTAGGGCATTAAGGGGTTGAGCAAAAAGTTGGGCCCCCACGGCTCC
+TTCGTACAGTCTAGCATGAAAAACTTAGTGGTGAATGAGGGGGTCTGGTACGTTAACACA
+GGCCTACCACCGAAATACCACCCAAACTGGCATGTGTAAGGTGGTATACAGTGACAGAGC
+CGGCCTTCACTGTGCTGCACATATCTTACAAATCATTTGCATGTACCACAGCAAGCGTAG
+ATCACAGGTTTGGCATGCATCGATTTTAAAACCACGCACGACATTTGATGTATGTTTCAT
+AGGGAGGATTACATTTGAGCAAGCAGACGCATTCTATCTGCACACCCTGCTCATCCAGGG
+CAAAGGAGTTATGGAAGGGTCCTTGGCTAAATATTTAGCTGCTGCTCCTTCATATTCTGT
+GTGCGTCGACATAAATTGCCTCTTTCTCCTCGTTCGGCTTTTCCATATTCTATTGTTACC
+GCCCCCCTTGTCTTTCAATAACTGGGAAACAACCAAAACAACCCTCCCACCCCTACACGG
+AGAAAGCAGATGTACAAGGCTAATATGTCCTCTAATGCATCGCACTCGTATATATACAGA
+GTTTTGAGTGATATTCTGGAGTTTCCTGATAATGAACAATGGCTGTGGTGGCATAGCGTG
+GCGCCGATGTTCGCGGAGATGCTCCAGGGTTGCGGATATGATATTCACGAACAGTACAAG
+ATCTTGGGCGTCTGGAAGAAGGAGGTTATTCCGTTCTTAGGATGTTATCCGACAAATGAC
+CGAGCGCGGTGGTTAAGTATTCTGACGCGATACGGGACCCCTTTCGAGCTGAGCCTCAAC
+TGCTCCCAAAGCCTTGTACGTTACACGTTTGAGCCAATCAATGCAGCAACTGGGACGGGC
+AAGGATCCTTTCAACACACAAGCAATCTGGGAAAGTCTTAGCCGGCTCAGGCGTCTGAAC
+GGGGACGTGGATACGGAGTTGTTCGAGCACTTCAAGGCCAATCTTACCGTGGATAATGCG
+GAGTCAGCTCATCTTTTACGGAACAATCTGGTCAGCTCGCAGATTAGAACGCAGAACAAG
+CTGGCCCTCGACCTACAAGGCAGCGGTTTCGTGGTCAAGGCCTACTTCTATCCCGCGCTC
+AAGTCCACAGCAACAGGGCGCTCCATTAGGGATCTAATATTCTCCTCGGTGAGGCTACAG
+GTTCAGAAGGCACCCACTCTAGCGCAACCCTTGTCGGTGCTAGAGGAGTACTTGGACTCA
+CGAGGACCGGAAAGCACGGCTTCCCCACGACTTCTTTCCTGTGACTTGGTCAGCTCCGAG
+CGTTCCCGCACTAAGATCTATCTACTAGAGCGACAGGTCTCTCTCGAGGCGTTGGAAGAC
+TTGTGGACTCTGGGTGGCCGTAGGAAGAGTGCCTCGGCTTTGGCCGCACTGAAGATCATC
+CGCGAGCTCTGGAACCTGATTCAGCTGCCGCATGACTTGGTCTCCTATCCTCCCGAGTAC
+CTACCTCTGGGAACGGTTCCGGACGAGCAGCTGCCCCTAATGGCTAACTATACCCTTCGG
+GTGGATGATCCCATGCCCGAGCCCCAGCTTTACTTTACAACATTTGGGCAGAACGATTTG
+CACATTACAAAAGCGCTTACAGCCTTCTTCAAGCAGCAGGGCTGGACGCAGATGGCTGAG
+TCTTACGAAAGGAACCTTCGTGCCTATTAGTGCGTTACATCTATGCCTTATTCTCCTCGA
+ACCCGTATAATGCTAATTATGATGACTATGGAAGTCCACACACAGACCTGGAAGCGCTGA
+ACTACTTACACGCCTATGTTTCTTTCTCCTACCGTAAGGGCATGTCCTACCTGAGTGTGT
+ATCTCCAATCATTGGAGACCGGCGACTGGCCAATTAGTGAGTTCTCCCGGGATCGCCCTA
+TGCCAACGCAAATCATGGCGCTGACCTTGTCTAGCCGATTGCCCCAAACGGCAATACCTA
+TGCCACGAACATCCCATCCTTCCGAGGGGAAGTCTCAAGCCCTATGTCTCACATGGAGGT
+GATGGTGGATTAGCCATTCAGCCCTCAATGGGGCGGGTGGTCTGAAAATGTGTAGGTGCA
+TCAAGCGGCCCGTTATTAGCATCGGAGATATGTGGCGTTATAGATAGTCTACAGCCCTAT
+ATGTTGCTTAGAACACGCGGAAAAGTTTCTGACGGGATTCTCGATGATTTAGTTCCCGCG
+TCTTGTTTCCAAGTACGTTGTTGACTACACAGAATGAGGCTTCAATAATTTGTAAGAGCA
+GAACGATAACCTGATAAGCCTGATTATATATATACATTATTCTCTGGTCAATATCGCTAG
+ATTCTCATCTCTGTGCCCGCTGGGGAATGGGATTTGTACGGAGTGCGTAGAATGTAATTT
+TTAAAAGATGGTACCTCCCGATACTTTAAACAATCCAACATCCAAAGTATTCGTTGAGCC
+AGTAGCCTGTGAGCTGCGGGAGAGCCCTTAAGGTTGCCAATAGAAGAGGCTGTCGGTGCT
+TCTCTTTGATCTGCAAAGTTTTCACCGAACTGGGACCCCCCGATCCTGATCATGATACTT
+CAAGCCACTTACCCCTGGCATCAAGCGTAGGCCTTTCGACTGGGGGCTTAGCCAGTGATA
+TCGTTGATTGTGCGATTCTCTATGTGCGACGTCGGGGTCAGTCCCTCACATTGTGCCGAT
+AGCGATGAGGGACTGCTATCTCTCACCGCTACGTAGTTTATCTACTTGTAAAATCAAGCA
+ACTCGCAGCTACAGCCCTTACGTATCCAGTATTGACTAAATGGAGCGGAAGTACATTAGT
+GCATACAGTAATACATTTGAATGAATATAAAGGCCTCAGGTAACAGCTTACCACGCTTCA
+TATTAAGCAAAATACCTTCCCTTACATTCCTACGGAGTCCATTTGGACATTCCGAGCGTC
+GTCGACACCACAGCTAGTGCTGCAGGATCTGAACGACTTTGCCTGCGTTCTTATCCCACG
+CGTCTGCAGATAGGATTGAGAGTAATGCTACCTTGTTGACCCTTGATGTCCAAACCGGTT
+CTTCATTAGTCAAGTGCAAGGACCCTTAGGTACAGTAAACGGACTGAAAATCCCTAGCCT
+CAACACCCATGGCCTGGTCAACCATGGACCACCCACAGTGCATACAGCTGGGCAAGGGGC
+TAATTGATCAGTCTTGACGTCAGAAGTCATGCTCCTCGATAAGACACACCTATCTACCCA
+CTGCATCCTCAGGGTCTTGTTGTTGGTGTTGCGCCTTCTCCGCTTACCATTGTCAGGGAT
+GCATTATAATACTTTGCCGTAAACCCGCGAAGGTTACGACCAATCTAGTGGTAAAGGTCG
+GAGTAGGTTGTCAATGAACATGGCGCTGTCTAAGGTGTCTATCAATGTGTGAATTTAGGA
+ATTTAGACTCTCCCTCTTCCTGCGTGGTGACCTGGATAGTCTCTGCACCTAGAGGCTGGG
+GTACTTTGCCTTGGGTGATTATTTGCTCCGAGTGATGCAGCGGTCGTTTTCCCACAAGAA
+CCGTAAGGCGACTCTCCCTGCATGCCTAGTCAAGACTAGATATCAATAGCGCTTTCTCTG
+GGAAACGATGGAAGGCCTACCAGTGGCGCCAATGAAGCACCTGATCTGCTTCGACTTCCT
+CATGACTGCTTCTGATGTAACAGCGAAAGAGGAAGATCTCAATACCGGAAGACGCCCTGT
+CGTAGTCAGATGAGCGCCTGCTCCATGTTGGTGTGCATACCAAATGTTTCATCCCGCGCT
+TGGTCGTCTTCTTACTGATTGCTTCCGGTTTGACCGCAACTTCGTGCATGTCGCTCAGCC
+GACGCAGAGAAAACACAAAGGTATGCAAATCTCAGCAGGAAATGCGAGAAGGGGTGGTAC
+AAGGAAGATCTGTCGACGGCTGCATTGCCTGCACTTTTCATTCCCGTCTTGCCTCTGGGA
+AACAAAACCACACGGGCGGGAGACATAAGAGCAAAAACTGCCGGCTGTTTCTGTCCTTCC
+TGTCTTTCTCAAGAAATAAGCCCAGACTTGCGCGTGAGCATCGGATTGAACTCCAGAATG
+ACGGTCTCCAAAGAACCCCAAACTCACCACCAAGAGACTAAGGTCTCGGAGATCCCAGTT
+GTGGAGTTGAAATCATCCAGTAGTCTTGATGCCGCTGCCCATGAGGTTATCGAGGCGATG
+AAAGTGGCAGGGGTATGCATTGTCCGAAATCTGCTCGACCAGAGTACCGTCGACAAGATC
+CGACAAGAAATTCTTCCATACGAGCAGGATTTGACTGCATTCGAACGTCAGTGATACCAG
+TACGGCCGTGTTGACTCGAGCTAATGGCTGTAGGCTTACCCACGAAGACCTATCAAATCA
+GCGGCCTGCTGAGCAAGTCGCCGACCTACGCACATTCCATTGTTGGCAATGAAATCTTCA
+CTGCAACCTGTAATCACTTCCTGACATCGACGTACGAATGCTGGGTGAGGGGCCCATCCC
+ATGAACGTGACTAGTTACCATCCACCCGAGCTAACGACGTATCGATAGCTTGACCAGGGC
+TCCTGGGTATCCGTACAGCTCCCCCCCCAGTTGGACTTTACCATGGCTCTCTACATAGAT
+CCCGGGTCCACCGACCAGGCCCTCCACCGGGACGATAGTTTGAAGCAGAACTGGAACACA
+GCCGCCAGCGAATATGTTCTCGGCCGTGACGTTGGCTGTGGGGTGTTTGTCGCGCTGACC
+GAGTCCGCCCGTGAACATGGCACCACGCGCTTCATACCGGGCAGTCATCTCTGGGACTAC
+CAATACGACTACCCCAGCAGCGATGACCCGCGCATCCGGTATGCGGACATGCACCCGGGG
+GACGCCTACTTTTTCCTCAACAGTGTCACACACGGCGGCAGCGCCAACTACACGACCGAC
+TATCGTCGCGTCCTGGTGGGTTTGTTCGCAACGCGAAATCATTTCCGCCAGACCGAAAAT
+CAGTTCCTGACTTATGATCTTGAGACGGTTCGGAAATTCCCGGAATGGTTGCAGCGCTTT
+ATGGGGTATAACATGTCGGACCTGGTTCAGGGTTGGGTCAACAAGGAGGACCCCCTGCTG
+CTGGTCAACAAGGATGCGAAAGAGGATCGCAAGGATGATGGTGAGAATACGAAGCAGAGC
+ATGTAGTTCCATCGCACATATAGCCTTTCGTCCCTAGCAAGTTGATCAACGGTATTTTCG
+GCGATCTTTATGAGTCACGGACCAATTCCGGCAAGTTACTTCGAGGAATATAGGAATGGT
+TTAATCTCGAAGAAGCAGTAGTGCTCCTCGCCCAGCCGCGGATCGTTCGAGGACTAATTG
+TAATCTGCATTTAACTAGACATCAACCTTCTCACGTTTCGCCCAGTAGCGCTGATTGTGG
+CAGCAAGTCGACAAGGTCCATGGGTGAATCGCATAAGTTGAGTATAACAATACCGAACGT
+ACGGAGGAAAAATAAAAAAAAAAGCTAGAGCAGATCCCCTGATCTGATAGACAAACCACA
+GGCGGAGGATCATTAGTCAACAATGTCCAACCGATTTACAAGTAAGGAATTATTCTCACT
+TCATAGAGTCGTTTATTTCTGCGAAAGAGACAGTATCCATTCGCCCCAACAGTTCTCGTC
+TCCTAACATACGGCCTTCTTCAATCATGCCGCGGTTGGTTCTGGTCGGTTTATTTGGGGA
+ATACAACCCATCTCGGAGCCGGGTATAATAAACATGGCACTGAGAAGCTGTCCGAATGGC
+CCCTGGATGCGGAAATTGTAGGATTCAAGATGTTCCAGCCGGTCCGACGACAACTCCCTA
+TGCTAATTTTCACACCGAATGTTTGCTTCTGGCACTATGTTGGCTCCTGATTAGTCGCTC
+CGCGTTGACCGCAGCTCGGCGTATGTCGCGGAGTGCGTCGCCATCCCTTGGCCGATGCAA
+GGAGACACGAGGTGATCGACATCGGAATGTTATAAGAGGAGTTATGGCTTCACTGTGCTC
+ATTTTGGGGTAGAGGATATGTTGCATTGCACATGAGTCGGCCCCATCCACCAAGTTATTG
+CAAGTACAGACGTTAAAGTATTTACCTCACACTAGTCTTCCATCACTTAGTAGTCAGCCA
+AGAACAACGCCCGGCCTTCAATTTTATAAATATAATACAATCCTTCTAATCCCAGCTCCC
+ATTGTACTCTTGCTTTCATACGTACAAGGGTCGCATGTTCACTGGGTTATCTTTCCGTTA
+GGGCAATACGAATGTAAAGGCTTGCCACCTATCTTCTATGAAGACTATGGCTATTCTGTA
+AGTAAGGGCGAATCTAGTTTCTAGCCGGTATTTATACGTCGCGTGTAAGGAGAAAGTCCT
+GATGCACGGACGTATCATCAATCTAACAATTTACATATTCAAAAGTCGTTCTCTTATCTT
+GACGTAGGACATTGGCAGACTTGAAAAAAAGAAAACATTAATAGATTTCGTATGTATCCT
+TAATAGTCATCCTGGCAGCGAGTAAGGAGACCTATTATGTTCACCGACAAGTAGGCTGGC
+CGCCCTGCAAGTCTTCTCTTGAAGTGCCACAAAAAGCGGCATGTGCAGGGTGATGGAGTG
+GAAGAGCTGGCATTTCATAAGACGATATACCTTGCGTGAGATTCGCCAGTGAATGTAAAT
+CACCATCTTGGGAATACCTTCCATGGTCTCAAGCCCAGGACCATGGGTGTATGTTGCAGA
+GGGAGCGACTGGGCGATAATATTCTTAGAAACTCTACCTGCAAGCTGCGCCCGCACATGG
+TGAATCTGTTATATACAGGTCCTTGACTCGATCTTCAGCTGCCGCCTCCAGCACCTCTGG
+CACAGCATGATGTTGACTGGTTGAGGACTACGGTGAGTGTACCTCTACCACTCAGCTCAT
+GTAGAGGTACCCTACACACCCCCAACTGAAAGGCAAGGGAGGGTTGAGTACACTAAACAT
+ATGCGAGGCTGGTTGGCCCAATTGAATCGAAACCTCCTCTCCCCTATTCGTGGTGCACAA
+CTCGCATATTTTCCTTTTCCAATTCCTTGCCTAAGTCGGATGCCAACTTACACACCTCGC
+ATAATCACCGATTATTTGGCTGCATGGTATGTGTAAGTGAATTGTCCAGGCCTTAAGGGT
+GACTGTGACAGGATCAGCAGCGAGAATATACCATGGCGTCTAGGTTTATTTAAATTTGAG
+AAACACGGTAGGAATTCTCTTCATGGACATAGTCTATGTTGTTTGCCTCCAGCCACTGCG
+GATCATATCGTTGATTGGGCTCCATCTCCTTTGAAAATTTGAAAATCTATGTTACCCCTC
+CATTATCATCGAAATGACTTGTGAAGCAGTTGACGCGAGTAAATCCTCTCCGGCAAACCG
+AATCGGATCTCCCTGGCAAGTACTTCGCACCTTTCTTCCCTTCAAAACCCAGGATCATCG
+ACAGTGGTGGGACACAACTGCTTCTGTTCTTGGAAAAGCGCTGGAAATCGCGGAATACAG
+CGTTCAAGCCCAATACCATCATCTACTTCTCCATTACGCCACGGTCACTGCAGCCGCCGG
+GCCATTTCCGAATGAAAAGAGAGACAACATAACATGGCTTGGATTTGGGAGCGAAGTTGG
+TGTTGTTGAATTAAGTTTCAATTACCAGAACGACTCAAAGTGCACGGTCCGCTTGGGGCT
+TGAACCTGTTGGACCCTATGCTGGCACTGATGTTGACCTTACGAACGAGTACGCAGCCAG
+CACCTTACTTCAAAATGTGAAATCAATGAACTCCAGCGTCAACCTAGACTGCTTTGACTG
+GTTCAACCAGACAGCAGTGATGTCGAATGACGAGGCAGGTCAAGCTCCAAATTGGAACTG
+CCAGTACCAACCGCAAAGATGGATCAGTTTTGATCTGAAACACAGTGGTGATTTCACAGC
+AAAGGCTTATTTTTTTAACCGCCACAAGGCAAAATCTGTTGGAATTGATGCCGGGCCGCA
+CATATTCACGACAATTCGGGGATTGGATTGCCTGAGTCACTTCCACACTCCTTTATCGCA
+GTTAGAGGACTTCTTCTCCCGGCCTGGCCGCCAAACCCTACTTCCCGAGATGTCACTCTC
+GATCGACTGCGTTGACCCCAAAAAGACACGGTTGAAGGTCTACGCGCATAGCTTCCTGAT
+GTCCTTGAGTACGGTTCATGATTGCTGGACTTTGGATGGGCGGATCAAGGGTGAACATGT
+CGATAAGGGTTTCGAGATTATAGAGAGACTCTGGCGCCAACTCGTCCATGATGATCCATG
+CGATCGAGAGAAGAATCATCCGATCGAATTTAATTGGGAATTCAGGCCGGGAGTATACGA
+GCCCGTACCTAAGATATATTTCGTCGTCATGCATATAAGCGATGCTCGTGTGGTGCAAGT
+ACTGAATGACATCTTCGAATACCTTGGCTGGCAAGACCATGTCCAAAGGCAGCGAGAATT
+CATGTCTGAAGCATGGTATGGTAAATTTGCCCTCAACAACACAGCTAGTACTAACTTTGT
+TTTTATACAGCTCAGCAGAAGATTGGAAAACCAGCAAGCATTGCATTAAGATAATTTCGT
+TCGCATACATCCCCGGAAAGGGGCCCTATATCTCAACCTACGGTAACCCAACCTTGAGCA
+ATCCTGAGTGACAATTGTTGTAGTTTTGGTTCTTTGAAAGGAGGAGTTTGCAGAAGTATA
+GCTCGAATCCGCAGGTCCTTATGCGTCGTGTTATGTGCTTTTCGCGGCCCGGTCCATCCT
+TTGTCTACAGACAGCGTTTAGCTTTTGAGTCGGGTTTGAGCTGCAGAATTCCCGAGCATG
+AAAAAGAATCTTAAATAGTAGTGTATGCAGGGACAGGTTTAATAACAGCCTGTAGATTAC
+ATCTCGGAGTGCAAACGCGGTTCTATCAACCGATCAGAAGACATTTTAAATGAAAATACG
+GATATCTTCAAGTAGTCCACGCAATTCCAGTAGTTAGATCGTGGACAGAGAGACAAAAAT
+ATAATTTAGGAAAGAAGCAGGAAATATACATTTTTACAGTAGGGCCTATCCAGGGAACTT
+CTTATTTTCTTCTGCTGTAAGCCTGATCAGAGGAATCCGTGATCCTCTTTGGGGGTTCTT
+CTGCGGAGAGATTTGGAAATTCTTGATTCTCAAAATAGAGACTGAACTGTGTACTTCTCC
+GATGTACTATAATGGAGCTAGCGAGTCGAATATGCATACTTATTAAATGGGGGCTGTTGT
+ACAGGCACACCTGATTTGTTTCAGGCACACCTCGTTGGCTATGGGCACACCAACCAAGCC
+TATTTAGGTAGAAGAACTGGAACTGGATATAGGACTACGTGTATCATGACACTGGAACTA
+CATATATGTATTCGGCCTCTGGAACTGCCTAATTAGGCTTAGCTGGTGTGTCCGTGGCTC
+TATCACCCCCGTAAATAGATCGATATCTCCTTCAACTCATACCAACTCCTTCCCTAGAAC
+GCGCGCTTATGGAGGCACCCCCCCCTCCACTACGCATGCTCCCTACCCCTCACGAGGAAC
+ACACTACCCCTCCACTGCAAATTTCAGTTTTCTCAGATGACCCCCGGACAGAGCAAGGCG
+CTAGATATGGCTATACTATATACATTGGTTCTGTCCTAGTTACTAAGGGCTTTGGCCCGG
+TAGGCACTCGGGCAGACGTGTATTTAGCTAGTCTTTTAGAATAATCCCGCATAGATAGCA
+CGTCCAGACTGCAGTTGCCCCTTGGGAGGCCGTGGGTCACATGCTATGTGACCGCCAAGC
+GACGTTAAATATCGACGGGCCGGCTCCCCATGCCTTCCGGATTAGACTTAGCGCCCAGTC
+TACCGTATACATAGTAGATAGTTAGATCCTTCGTCTCTTCCTAGATAGCCCGAATTCATG
+CTTCTTCATCCCCTCAGCGTTATCTACTAGATCCTCAGATCCTCCGATCCGAGATTAAAT
+AATCAATCAATCAATCAATCAACCATTGAGACCAACGGATAGGATCTAGGGGTCGCCCCT
+GCATTCTACATACCTGTCCCTGTATCCCTATACTATTTCCAATGTTTCCGCATGTTTCAC
+AACTTCTGTCAAAGGCATAGCGCTCTAGAAGGTAAGGCCGAGGGAGGGAATAGTACCTAA
+AAGCAAACAAGTTCAACAATGAACTAACCCAGATCTGATGGAACACCACTGAGCGTCTTC
+TTGACTCTACAGCTGCCTACTATGGAAGCACCCTCCACCGTTACTGACGGAGCACTGCCT
+TCATTCCAACTGTGGACCTATGGCTCTAGGATTGACATACTTGCTTGCGGGCTTCTTCAG
+CCGAAGAAAAGATCTCAATGTCAAAAACTGTTGGCATGCCATACCAAATATGTCCCATGC
+CTGCCTTTGGGCAGTAGCGAGTCAATGGTATTTCAAAGGGAAAAAAAAAAAAAACAAACA
+ACACAAAACAAAACAAAAAACACTTCAGGACAACCATATTGACATTTACTGGACATGCAT
+CCAACCATTGAGTTTGTAATCTTTGCAGAGTATAGAGTGTCTGACTTTGAAGACCTCTAA
+GCGTGTGTCGCAATGGCTACACTATCACACCACATTCACCTGGCCCTGGCTCTCATCCTT
+CTCCTGCTCGCAAAATATGTTGCTCCTATCCCCGCAACCTCCGGCTGTCGCTGTCGGCCT
+TGGGAGCAGTGTTGGCCCCGCCTGGAAACCTGGTCTCGTTTGAATTCCTCCCTCAATGGC
+CACTTAGTTGGGCTAAGACCTGTCGCGTCTGCCTGCCACGAGCCCAGTTTCGACCAGCCA
+GCCTGCGACATTGTCCAACGGATGAATAGTAGCAGTTCATGGCGCGCTGGGCAGCCCGGT
+TTGTCCTTCCATTCTCTACTCCTAAGAGCCAAAGTTAACAGATATCCAGGGGCGCTTGTG
+AATAGATTATGGGAGTGCGGGCTTGGATCCAATGAGACCTGCTGCGACTCTTCTCATCAA
+GGCCAACCATGCCACCAGGGCCGTATTCCACTGTACTCGGCGGTGGTTGAGTCAACCGAG
+GAAGTCCAAACGGCGGTTAAGTTTGCCCGAAGGCACAACATTCGTCTGATCATTCACAAC
+ACCGGTCACGATGGAGCCGGCTCGTCCAGTGGCCCTGACTCCTTTCAGATATCCACCAGC
+CGACTGAAGGACATACGGTATCACGAGAACTTTCGTCTCATGGGATCCACTACATCAATC
+GGACCGGCAGTAACCTTTGGCGCAGGAGTTCTATTCCAGGAGCTCTATACCCAAGGCAAG
+CAGAAAGGATTTACTGTTCCTGGTGGTGACTCTGGGACAGTTGGGGTCGCGGGCGGCTTT
+GTCCAGGGTGGGGGAGTTCCAAATTACCTTGGGTATACCTGGGGGTTGGCGGCCGATAAC
+GTCCTCCAGTTTGAAATCGTGACTGCCTCTGTATGTTTTCCATTATCTCAGGATTCAACA
+CCCATGCTAAGATGAAGCAGGGCGAGCTCATCATCGCCCACACAGGCCAACACCCAGATC
+TCTTCTGGGCGCTACGAGGTGGTGGCGGTGGCACCTTTGGCGTTGTGGTTCGCGTGACGA
+TGAGAGCCTACCCTGACTCTCCGCTAGTCAAGAGTACAATCAGTACTTTAGGCGACGGCC
+AGAACCCGTCGTTTTGGTCCGAAGACATTGCAGGCTTGCTAACCGCACTCCAGTCACTAA
+ACCACCGGGGCACTGCGGGTGTGTTTCGCCTGATGTCAACATCGGCGGGCTTCCGTGGTG
+CAATCGATGTGTCCTTTCTCAACCAGACAGGGATGGAGGATGCCAATAGGGTTATAAAAG
+CTACCCTTGGAAGCACTACCGCCAGATACAATATTTCTTCCACAGTCTTAGCCTCGTTGA
+GTGTCGATTTCGATGCAAACGACCCTCCGGCGAACGTACTTTTCGGGTCAATCCTTGTGT
+CTAACGAGCTTTTTCAGTCAAGAGGGGGGCCAAAACTGATTGCAGAGCGCATATCACGTA
+TCGGACTGAAAGACGGGGAAAACATATTAACCAGTAACCTTGGCGGCAAAGTTAGTGAGA
+ACGGCAACAGACTGGCAAGTACTCCACTTCATCCCGCATGGAGATCCTCAGCGCACTTGG
+TCAGCCTCATGGTTAATGTAGGTACGACTGCTGAGGCTAGGGACCGGGCTATGCAGCGGC
+TTACAAATGAGCTGATGCCGGGGCTGTATTCACTTGACCCTAGCCAGCGGGTATCCTATA
+GGAATATGGGTGATCCTAACCAGCCGGACTTCAAAGACGTGTATTGGGGCACAGCCAACT
+ACGAATATTTGGTCAATATAAAGAGATACTGGGATCCAGAGGACTTGTTTATTTCGAGGG
+TAGGAGTTGGTAGTGACCGGTGGGACTTTGAGGGCTTTTGCAGGGTATGAAATCGTCTGG
+TCGCTAGGCCATTACATTCCCTCTTTTACCGGGAGACAGTGAGGGCGAAATTGGTCGGCC
+ATGATGTGAGAAGGCCCGGATCTGGAGACTGGATGTGAACTATTCCGATATCTATGGACT
+GGAGCAATTACAGCACCGAATATTGGAGATTTTCGACCGCTAACATCAATGCCGTATACC
+CATGCTGGTCAGTTACATCCGAGTCAGCTCCGTTGTCCAAGAGAAGTCTCACGATATATT
+CTAGTGCGTACAGAGTGGTGAAGTTCAGGGCTGTTCGTTCTTAATAGTCCTTGGATTTTA
+TATCAGCACCAGATGTGATCAAGCACTGCATATTCGAAAGATTTCCTGTCTCTGCAGCCA
+ACATTGACAAGGTCTTCCCATACACGCTGGCGTTCACCTCTGCACCATTCCCAATGAGCG
+TCAATACAACATTCCCATTCAGTTTCTAGATAGCATAATATAAAAGGGGGCATTCATCGG
+ATTCGCGGCGATTGACGTCTGCTCCGTGTTCTAAGAGTATCTGCACAGCGTGCTCGTGTC
+CAAGAGAACAGGGGGACAGTGTGGAAAAGTAAAGAGACCTAAAATAGGATATTCAATCAG
+TTTGAACCCTTCCAGGCAACACAACAAAGGAGTGCATGTGTCAAGAAACCCGCCGCAGGA
+CGTATTGAGCGCGCTTTGGCAGGCTATCATGGTTCCCAACCAATCATCGCACCTCCAAAG
+AATCCCAAAGCTGCAGCAATTTCCCCCGAAGCTCCCCAGAGGTATGCTGCCCATGGCTAT
+AGATATGTCGGTTGCATAGGGGATCAGGTACGCGTTGTGGCGTATGCATCCCTTCAGCAT
+AGCAAGGTATGGAATGCCTGTCATACAAACAATTGAAGCTATTTCCACGTTACCCCTGTC
+TTGAAGAGGAGGGTATTAAAGGTTACCGCTTATTGTGGACATAGTTATCATCCGAACGAC
+CTAATTATTAAGTTGCGGTTCATGGTGACACATGTCGGCGGCGAAATTCGTAGTTGAGCC
+AGGGAAGCATGGGCGCCAGTGTAGCCGCTGTGAAGCTGTGGCCCTGATTCTCTCGTGATC
+TGCCTCGGTAGACTTATAAAGATGGCCGGTAGAAAACCTGGGATCAATCCCTGTATAGAT
+TTTTATAAATATAGAGTCTAGCTATCTCTAGATCTTCTATATTTATCTTATAAAGTAGTA
+GGATAATAGAAGAACTCTTCTTCTCTAGATTAATTTTAAAATTACCTACATAATAAGGTA
+ATAGGATATTTAATATCTTTTTTTCATGAGATATTCTTTTCTTTTGGACTGGTTTTGTCC
+GAAGGCTCTCTCGTGTTTACTTTGTAAGTCCATGTTTGAAAGGCCGTCCGGCTGTTGTCA
+AGAAGGGGAACAGCCCACAGTGGCAACTCGAGGTTGAAAAGGAATATGGGAAACCAGGCC
+ACTCCCCACCCCCTTAAATGCTTTCTATTGTCTTTACGGCTATCGCAAGCAATTTCTTCA
+ATTTCTTTGTGGAAGCATCAGTGCCGAGACACTCTGCGGTGTTGTCGAACTTCAGCACTC
+AGAGCCTCCGCTGCATATTCAAACATCCGAGTATGGCATCTGATAGGTGGTTGCTGACGA
+TATATCAACAAACTAATCGCTAGCATGGCCATATCTATTAGCAGCATTCTCAGTCTGACG
+TATTGTCTTCAGTTGATGGGGTGTTCGCCCGTCGCTGGTGATAGATATCCATAGTAATGA
+GTGAGTGATTTTCTCGGGCTGATAAGGTCGGAGCATGTGCGCATCTATGTTTGTTTGGTT
+ATGTGGCTACAAATGATAATCATCATCATTTTTGGAAGTCTTTCTCTATCTCCAGAACCC
+TCTAGCTTCTATCAATGAAGTCACCATAGCCAATGAGCATTAGACCAATGTATATCCCGG
+TCACAAAAGCCCTTGATCACAAACTCGGTCCTTCTGAACCTCGCACCTCCTCAACATAGC
+CATCTCAATCGACAGCCCAGGGCCAAACGAAGTGGCAACGACATGCTCTCTCTTTCCCAG
+CGAACGGAGCCGATCGAGGACAATCAGAACCGATGCACTGGACGAATTCCCTCTTGTACG
+ATATATTTCCCGACTAGCCTGCAACTGGTCCTCGCTAAGCCCGAGCAACTGTTTCGTCCC
+TTCAATGATAGCTCGTCCACCAGGATGCAAGGCCCAGTCGAAATCGCTAATCCCCAACTG
+CTCTCCCAAATGCGCTTCTCCCGCGTCGGGGCCAGACTGCAGCAGTCTCTGGTAAGAAGG
+AAGGAGGCTTGCAAACATCGGACAAATCGCCTGTTTGACATATTGCGGTATCTCACGGGT
+GAGCACAGTCCGGTAGCCTACAAAGATACAACCCAAGTCAGCATACGCCTCATCTCAGGT
+AGGATGATAGGACAACAAACCACCCCCATCAGCATAAAACGACATATGTTCAACCGTATC
+TGGAATCAAGCTATTCCCCCACTCGAGCAGCTCAAACAGCGGCTTCGCGTCGTCCTTCAG
+CACAGCACACTCATTGCAGAGCACAAACGCCGCAGCCGCATCCGAGAACAACGCCCCAGC
+AACACTAATCCCCCCCGCATCCGCCGCCTGCTCCACAGCCGCCAATTCATGCCGGATATT
+AGGCGTGCACAGTTCACACGCAAAAGCAAGGATGCGGACGGGCTTTCCTCGCGCAGTCCC
+CCCGCAGGCGATCTGCGCCGCGGCGCGCATGATCGACAGTCCTCCCGCGCACCCAACCCC
+ATGCAGAAGCATTCGATCCACACCTGCGGGGAGACCCAGTTTGACATTCACCAGCAGGTC
+GTACCCCGGGTTCCCGTGGTTGGTGCAGGTGACGGCTATGGTGTGGGTGATCTTGCACGG
+CGGGGTGTGGGATTCCCGTAGCGCTTTTTCGCATGCTTGCGTGGTGAGGTCAACTCCGGC
+TTGGCGATATAAGTGGTCTAGCTCGCTGACGGAGGGGGGCGTGGACTGCGTTGCGAAGCC
+GGTTTCGTAGGTGTGGATCGCAGATCTTGTCTCGATGCCGGAGGAGCGGTTGATCTGTAG
+TAGTTTCTGGAGTCTGAGCATTGGATTAGAGGTGTAGACATTGGAACGGACGGGTTCGAT
+GACACGTACCCTGGACGTTCGACATCGTAGAACAGAGCTGCGAATTCCTCAAGTCGTTCT
+GGTTCCAGGAGGTATGGGGGATATTGGGATCCCAGCCCGGTGATGTATAGACCCGGAGGG
+GACGAGTCGTTAGGTGTCATGGTCGTTGGATGTGATTTGAACTTGGGTGTGCATGAGCAG
+CAGCTGATAGCAAACAGGTGAGGGTTTTCCTACCCTAAAACCTGCTAGCGTGCACATCAG
+CCGTGAACCTCGTCAGCAACTCCCGAACAATGGGGGATTAAGTAGAAGACGGGTTCAGTA
+TAGGTCGCGTTTGTCCTTCCCCTGTCTCTCCCCTCGTTTCTTCATTCCAGTCAACAAAAG
+ATCATACCATCACTTGTCGACCATTTTTTTACCTCTCAGCTCAATATACGTATGTGCCCA
+GTGGCGATCACATAACATTGGTGGGACCCGTCATTGCGTGATTCCATCGATCCGTTCGAT
+TCTTAACTCCCATAATTTCGTCTTCGGAATTTGCATCATAAGTAGAAGAAGTAGATCGGA
+CGGAAATCTTTTCCACATTCGTTGGATAGTGGCCTGTGCTTTCTCATCCCGTTGTCTAGC
+AGTACCGAGATACTGTGGCAACTTTCCCTCATCCTATACGGGCCCCCGGTAGGAAAGATT
+AATGGTGATATTATGGTTATAATGGTACATTCGTGGCCACCTGACGAATAGTCTGAGGTC
+CAACAACCCAGCCAATCAGCAACCCTGATTAGCTCACATAGACCTCACCTGGGCAGCTTT
+CAACCTTCTGTGCTGCTACCTCTTACCACCATTGCAGCAGTCATCATCCCATTTCTCCCA
+GCCTAATTGCTGTCACCAATCTGTATCATGCACATCCCGGTAAGTTCGGCTCATACACTG
+CGGTAGCAGACGCTAATCAGAAACCTGCATAGGCCGACCAAGTTCCCCCTGGATGGACGA
+GCGACCCCAATTTCCTCCATCCTGAACTTGGCCACGAAGCCGAAACCGCAAGACTTTATG
+GAGTCAATAATATGGGGTCAATAATGCCACGATTATTCTAAGAACTACCCCTGAGACCGG
+CGAGCCGAATTACATCCTCACAGCGAATGGTCGATACTACTGGGGAGGTGATCTTGTAGA
+TGGTTTCTTCGAGATTACCAGGCCAAAAACCCTGCCTGAAATTCTACGTGCTCTTAATAA
+AGATGGATCGGATTCTCTCGGGACAAAGGAGCTAAAGCAGGTGCTATTGGATGATTACGA
+ATCCCCAGAGGAGGAGGAAGAAGGAGAGGAGGATACCTTCCCCTAACTGCTGTCTTTGGA
+AGATGGTGCCGCCAGCTTATAACAGCGAACTGGCGAAATTGGCAGGCAGTATTCCAGTGT
+ACATGGAATGAATGTCGGGAGTACTGTTTAGGGGCTTCAAGGGGAGGTTTCGATCCTAAT
+ATCCCAGGTTGGCTGACAGCTCTGGATCGTCCTCGGTTTGGGATCATCAGGTCTCCAAGG
+TTGACTCTGGCGAACTGGTCACAGGCATGGACACCAACCATAATGCGTCGTAGACGCGGG
+GGCACGCCTTTTGGTCGATGCGCTGAGACTTATCCTTTTCTCCGGCTTCTGATGTCTTGC
+GACGAGGGCGAAGCAAGGCGAGTGCATGGACTAGCCTTGTGGCATAGATATCTCTTTCAT
+GCACCTACTTATGATGACCGACTGTCTGGGGATATCTGGACCAGGTTGTGGGACCCTTGC
+CTCAACTGCCAAGAACTCATCATCATCCATGGGGAAGAAGTGACCGACTTTGGAAAGCGT
+GCTGGAAGTAAGGGCGCTCCATCTTACTCGTCGGAAGCACAGGGGCGTAACCTAATCCAG
+TTAACCTTAATAACCTAAGATATTATCCCTCCATTAATATTTGCTCTGCCCCTCACCCAT
+TCCCCCGTTCATCTCCAACCCCACCATCCAAATAACAGACCGAAATGCCCAACGCACCCG
+CACGCACAGCTCCTCCCCCAGGACCTCCTCTAGGGACAACCTACTACTTCGCCTTCGGCA
+GCAACATGCACCTTACACAAATGGCCAGCCGCTGCCCCAACAGCCGACTCTTCGCAAAAG
+GCACCCTCCCCGACTACAGATGGCAGATCAACGAGCGCGGCGTCGCCAACGTCGTCCCAG
+CCCCGTATGATGTGCACAGCTCCGTCCAGGGGATCCTGTTCACCGTCACGTCGCGGGACA
+TCAGCTCACTCGATCGTAGCGAGGGCGTCGCGCGACAATTTTACGACAAGACCCTGCTGC
+GTGTGCGAGTGGAGCCGCTCGCCGTCGATGGAGTATCCAACAAGAAGACTGTCGTTGTGG
+CGGGTAAACGGGACCTAGGGCGAGGAGATAACGTGCGTCAGACGGGACGGCGACAGCCAG
+CGCAGCAGTCGGGAGGCGCGAGGCGGGATAATGGCGGGTTGGTGAAGGAAGTCGAGGCGT
+TGGTCTATCTGAGTGGTCGGTATCGCGAGGATGGGCGGATTCGAGAGGAATACGTGGAGC
+GTATGCAGAAGGCTATGACGGATGCGCAGACCCTGGGTGTGGATGAGGCGTATCTGCGGG
+CTTCACTTGCGCCATTGGTGTTTGTCAACGAGGGCCGTCGTAGTTTGTCACCGCAGCGGA
+GAATCATTGAGAGACGGCCGGCGCAGGAGAGTAGCTGAATGGGCGATAGTCGATGCTCTT
+GAACTTCAGGTTATGCGGTGGCGGCTGTTATGCAGTTAGCGGATGTAGAAGTGTGGATTA
+ATCATCTGGTATGGTCTCTTGGTACCCTTGCTGTTAACTACGTGTTTAGCCAGGTTATCG
+ATGCAAATGACATGGCCTTTCCTTCTATAAAGCAAGAAGGCCCTGTGTATGAAGATTCTT
+GTAGTCCTAGTAGTAGTAGTCGTGATCACTACCATTTATGGAATCGAAAAAGTGACGCGG
+GGAAGAAGCAAGGAAAGAGTCCCCAAAAGTACAAGTTCAAATGCATTAAATGACTGCCAC
+AGTGGGTATATCACATAGTAGAAAGACCAAATATGAAAGGGCACGAGCCCAAGCCCACAA
+CAATGAGAGAGAATCCCGCTATTATGCCCACCAGTATGATATGAAAACACATGCCAAAAC
+CAAACAATATAACACCCAACACCAAAGTCAAATCAAACTCATGAACTCAATCTAAGGGTA
+TCCAACGGTCTAAAACAGTAAGCACCAACACGTCTCTTCGATATAAAGGGGAGGAATTTA
+CGTTGGCAACCTTGAACGAGGCAACGCGGTAGCGAGACTGAAGAGGCAGGTTGACGGCAA
+CACCAGCAACAGGGGTCGAAGGGCCCTGACAGTTGGGGTCGTTGAACAGGATCAGAGTCA
+GACCCTGTTCCACCCACAGGTGGAGCGGGTAGTCAGGGGGGAGGATCGGGGAGACTTCAG
+TGCAGTCGTTCAGGCTGGATCCCTCATACACGCCTTGGTCGCTGGTGAGCTTCCAGCTCA
+TGGCAACCATGGGGGCGAGAGCAGCAGTGATGACGGTGGAGAACTTCATTGTGATTGATT
+GAGTGGTTTGATGTCAATGTGAGACAGAGGAGAGTGTCCAAAGTAGAATGAAGTAGAGAA
+GAGTAGTAGTGATGAGATGAGATAAGAAGCTGATGATGATTGAGGATTTGGGCGAGAAAG
+TTGCCTGAATCTATAGCTTTTTGTTTGAAGTGAGTTTGGATATAATCGGATTCATTTTGC
+TACTTCGTAACCCTTGTTTTCCGTTACTGGCTGTTCTATCCATCGCCATCGGCGCGTACA
+GTATTGTTTGTACATGTGGCTTGTCAGACTGAACGTTAGCGTCTGCCTGCACTGTTCAAT
+GTTTAATGCTAAAGGAAATAAACTCGTGGGTCCACTGGTTCCGTCGAATACTCTGTCCTT
+CGTCAGCCGAGTGCCACGCGGTATGATCGACATTCTCATCACATCCAAATACTCCAATTC
+CATGAGCGATGCCGTATCAGTCTGCTTTCCGAAAAAACAGGTACATACAACCATAGGGTG
+TGGAGAATAGGGCTTCCCGTCCGCTCAGCCGTACTCAAACCACACGCCGGTAGGTTAGTA
+GTTGGGTGGGTGACCACCAGCGAATCCCTACTGTTGTATGTTTTTCGATCTCTTTTTTGA
+TTTATTGGGTTTAGCGCCCCGCCGCCCTGTCCTTCACCCCCTTCACCCGAATGCCCTGCA
+GCTCTCTATTCTGCACCTGAATGTGTTCCTGATGGCCCCAGGTTGTTGACGTGTGGTTCC
+ACACCCATGCTGATTTATTCTCTGCAGATGTGTTGTTCCTATCACAACCATCTAGTCTGG
+TGTTGGATATGTTATCTCCAAAGATGCTGTGAGAATATTAAAGGGGACACCACATACGCA
+TAATTAATTAATCCTCACTTAGATCAATGGAAGGGGCAAAGCTGATCTTAGTAAGTGATA
+TTAGACTGACAGAAGGTTTGGATTTCTAACAGAGTGATAGATGATGTGATTGGAAATATG
+GTGGAGTGCTTGGATGCTCTTCCCGCCATAGGAAATATATCCTTATTTGAAGATGGCTAT
+ATAGGGCAGGTCGAAGCTTCTCTAGATCAGGGGCTACATGAAGTATTTGCATCGACTCAA
+ATGCTATGAAGAAGGAGAAACATCCTAAAGGAGAACAGGAGGTCTACTCCAGAGTATATA
+CAGAGTAGGGGAAATGTACTGTAGCACGGAATCCCTGCCTAACCGGGAAACAAAGAACAA
+GGACACGTCATTCATACCACTGTCTTCAGTCTAACAACCATTCTTGTTTCACAAGGTTGG
+ACTGCACTTCATTACCTAGTTCCATGATTCCACCCAGTCCATCCAATGACGCAAGCCGGA
+GATCCAGTATTAAGCTCTACGCATGTCAACACATTCCTTAAGAGCATCCAGTTGATCCCG
+GGTTTGATTCCTCATCTCGAAGAGCCCTTGGTGGTGTAAAACATGACACTGTGAGAGAAG
+TGTTATACGACCACCGGCTAAGGTAAAGCGCCCAAGGCTGCTCATGGCTTCTGTCCAATA
+GCGAAGAACCTCTCCGAATTGCGACCGAACATAACTTAGCTTGGACAATAGCCAGGCGTA
+AGTCGGGATCGACAGAACCTACGATGCCGTGCCTTCGCAGGAAGGATAATGGCAAGGCTG
+GGATACAGCTGGAGTTGGCCAAGCCGTAATGTATCTTTGTTTAATTGGCTGCCTTCGCAG
+GAAGGATAATGGCAAGGCTGGGATACAGCTGGGGTTGGCCAAGCCGTAATGTATCTTTGT
+TTAATTGGCTGCCTTCGCAGGAAGGATAATGGCAAGGCTGGGATGCAGCTGGAGTTGGCC
+AAGCCGTAATGTATCTTTGTTTAATTGGCTGCCTTCACAGAAATTCTGGAAAAGGCAATA
+AAGAGGGGATCGTGGCATGCCAGTCACTCAGACGGAGATTGTCCAAAGCCGCATACAGCA
+TGCCTAACATCGACGCCCTCCGGAAACCCTGGAATCAACTTGGATCTACCGCATAGAAAC
+ACAGTATGGATCCACAAGGCTACGTAGATAAGAGGGCTCCGTGTATTTAATCCTACGCGG
+GTCCCAACATTATTAATTGGGCTTTGACCCTTGTCTCTCTAGCCTCAGATGATTTACCCC
+TTCCAGGTAGTCGCATCGACTACAGGGGAAAAGAAACGGTGACTATACACGACATGCACT
+GGCCTTCCTACCTCCTCTTTCCCCTCCTGCTTCGCCATATGTGTTGCTATTGCTACAACT
+GGAACCTACCCTTCTGGTATGGAGTGTTTGTAGTCATGAAAAAATGAGGCTGCACGATAT
+TCAGCCTCGCGCGATCCTGAACTATATAATAAAGGTCATTCCAGTGTTCGTAGTTATTGT
+TATTCCACATCACCCAGGCACTATAAAACAGAAGCCGTTGAGTATCGTCCCTCCAAGACA
+GAGAGTTTAATCGTCGGAGTAGCCAGATAATCATCGCAAAATGGATGATAGCTCTTCTTC
+ATACTCGCTATCAAGTAGTTCCCGCCCCGCTCCGTCCTCGACTCAGTATACAACACTCGA
+TCAGAGCCCCGAGAATCCCTCTTCTCAGCTGCATGAGCCGGAAATAACTCCTCCATATCC
+GATGGATGCATCATGCAGCGGTACTTCTTTACAACATCCGGCTACTCGAAGACAAGCGGA
+TGGTGACCGTTTACTTCTCCTCTTGCTATACTGCCGCTTCCGAAGGTACTCTGAACCGGT
+ACTTGCCACAAAGACAGGGAAGCTGACCAAGTACTAAAGGAACGATATGGTACAGCAGGA
+ACTACGAAACGCCAGGGATCGTGCTCGGGCAGAGTGCGCGCAGGCCCGAGCTGGCGCTGA
+TAGAATAGAGTGGGAACGGGACGCGGCAAGGGCTGAGACTTTGGAGCTTGTTGAAAGGGT
+CCAGACAATCGAACGTCAGTTGGCGGACAGAGTTGCCGAGAATTCCGCAATTCAAGACCG
+ATTGGATGAAAGAGCCAGGCAGCTGGAGGGGGCTGAGTGTCGACATTCAGAAACCCAGGC
+GATACTGGAGACCACCTGGCGTCTCCTCGCACGAACGGAAAATGAGAGGAATGAAATCCA
+AGAACAACTCAACCAAGAGCTTGGCCATCTTGAAATCTTGCAGGCGGAACTTGCACGTAC
+CAGGAGCGAGCTCAACGATGAAAGATGCCGGAATACCAAACTCGTTTCGGCCCTAGACCT
+CGCAAGAAGCGAAACAGTTGCCATTGATATCCTGCGCTCCGAAAACGAGAGCCTGCGACA
+AGAGAACCAAAGACTAGAAAACGAGGCGCTAGCAATACGAGGGGAACTTGGCGCCCTTCA
+ACTTCAGATACATGGCCTGCAGGGACAGAATGACGCCGCTACTGAGGAGATTGGACGTGT
+GAACGAAGCTTTATGCAATGAACAGGCGACAACAACAGAGCTACGGTCACAAGTATTGGG
+CTTTGAGCGAGACAAAAGCCAGACGGACGAAGAACTCAAGAAGCTTAAAGAGCTCTATGC
+GGAACTGGCGGAGGAAAACGATACTCTAAGTCGCGCAAAGCGTTCCCTTAAGCAGGCTTA
+TGGTACTCTTCGAGAGCGTTATACCACGTTGAAAACGGAAGTGGCAACGCTGAAGACGAC
+TATTGACCGTACTTCCCGCATGAGATCGCAACTCCCTTACCAGTGCGGATGGGTCAGATC
+CAAAGGTTCTCTCCCCGAATTGTGAGTATGACTGAATGAGGCCCCAAATGTAACCAGTAA
+CTGATACAATAAGCGACAGTGGGCAATATCAAAAAGACCCAATCACGATAAAGAAGATCT
+TTCACATGTCCAAACCCTGATTTGAAGGGTGGGCGCCTGTGAAGGAATGTAGACATATTG
+CATGGTCATTGCCTTTATGAGTGTTCGGATCATACCAATGCATTGGCCAGGCTCAAGTTT
+ACCCTACCCGCCTTTAGTTTTCTGGTCACTAATGCTCATCCCGCGCTGTCACATTGCTTG
+AACATATCTTTTAACTGTGCTTGACCCCTGTGGTTGGGCTACGCCTTTGAGCGTGTCGCA
+TTTCGCGTTCGGTTGCGATTCCCTCCGCCAGAAGGTCATGTTTGGGAACATATAGAGAGC
+ATTAATATCATAGAAACCTTCTATATTAGTTTCTATATCTTATACCCTATACTAATTATG
+ACAATATTTGGACGAACAATTTCGAAGAATATAGCTAAGGCATGGTTCATTCCCTTAATA
+TTGGTTATCTTCTCACCGCGAACTAATGTTGCTTCATCACTTTTGTCTAGATATTTCTGA
+AAATATATTAGACGTTGCAATAATCACTGAAACTTAAGGGAAATTCTTCACCTATCTTTT
+TAAATTTTTGAGAAGTCCAGAATAGTTGCATGGTGCCTCATAGCGTTAATTCCTCTAGTA
+TAAGATATGTAATCTCAGTGGGCAAATAGTTCATATTGAATAATATAATGAGTTACGATC
+GGAGATAGGCCCCTGTCCATGATATTTTAGCTATCAGAAAGTTCCTCCACCTGCGTGACA
+TCCTCGACAAATGTAGCGCCGTACTCTCTCATTATCTGGATCTTCTCCTCCATATTCATC
+ACTAAACTTATTCTCCCAAAATCTCTTGGCAGTTGCCGAAACTTCAACACCCACACACCC
+ACTCCATCCGTCGGCCAGCCAAATACCAGCACCTTTTCTTCTTCCTCTGCGATCTCCCTC
+ATACCCATCTGTACCTCGATCCAATCCTCCTTACTCGGCCACAACGTCGCACCAGTCCGT
+CGCAGAAGATGACAGAACCGGTCTTCTTCGTTGGCACTGGGTGAGCGCTGCGATACATGA
+GAGCGGGTGAGCGATAGGAAAAGCATGTCAAGAAGGTCAGCCTCTTTGATGAGAACCCCG
+CCCATGGAGGGATAGCCGTAGACAAGGCATCCTCGGGTACCGAACTCGGTCCGGTCAGTC
+GTCGATTCCAGAGGTTTTGTAGGGCATGAGTAGTCCTGCGAATTGCCCATGATGACTGTT
+CGTTGATGAGCATCGGAGAAAGGTTGATGGGAAGCGAGCAGCCAAGGGTATGTTGGCAGA
+GAGTTGATAAAAAGTTCGAGACGATGGCGACGAGCGTGCTGGTAAACCTCATGCTAACAC
+AGGAAAAGACCGGTGCTTTGTATCACGTGACTCGACCTCGAAGCTCATCCGTGTGTTCTC
+AGGGGCAAGCAGATGACCGTTTCAATATGCATCCCTTTAACTTGACAGTACACGCAGTCG
+ACGGCTTGATGCGGTTCTCCGCAGCAAGGGATAGGAATTGTACTGTTTTTAAACCAAGCG
+AAGGACTGATTGCGGTGCTTTGGGGCATGTTTTGTCGCTTGCGCTGGATGTTTACGTTGG
+ACCATACTTTTCTGCTCTGAGCAACGCTCTGAGAGTCATCTGTGGCGGAAGAATCGACAT
+TTGTCATGGGATTGGCTCTCCCAGACTCGACACAGAAAGACGCATATCACTTGATCTACT
+TTCAACTGCCTCGATCGCAGTTGCTAGCAACGCATCCGTTGACTGGGTGCCTGACTTGCA
+TAATCATGATTAAACATTGCCGGAGTCTCATTTATTGACATCACAGCTATATGTGACGAT
+CGCAACCTCCGTGTACATAGTCATATACATATTTGCGTATCAATCATCCTGGTATAAGTG
+ACAGGGTATATACAGAAAAATATCTATGTACAGCATCCTCCGCCATGGCCATTTTCGTCA
+GACGCTGCCTGGGAGCCGTGTTCCTTATGGATTTCATGCCATCGACGAATTACATGGGCC
+CGTTCCTCAATCGTCGAGTTGCGCATTTCTTCCACCCCCTGTAACATTCGCGACTGGATG
+ATATCCTTGCTTTTGCTGTGGGACACGGAGTTGCGGAGCGATTTATGGATCCCGCTGAGG
+GGATATCCAGCAAGTCCCCAGACACCTACACTCTAGGTTAACGTTGTGTCCATGGAAGGC
+CCATGATAGCATACCTGCAGCTGGCTTGAAGAAGACTCCCCCGATGCCCTTTCCAATACC
+TTTGACCAGACCCTTTGCTCCAGTCCTGGAGAAACCTCGTGCTGGGTGCGTCACCAGACC
+TGTGATGCCGTGGTAGAAGCCTTGGGTGAATTCCTGACATACATGTCAGTCCTGTTCTTG
+TACATAGGTGGAAGGAAGGGTACGAACCGTGCCGGCTGCGCGGAAACCGCTTTTTACACC
+CCTGACCTTGGGCGTATCAACAACGGTGTTGTCGTGGTACAGCTTCGGCGCGTTGTGGAA
+TCCCTTTGACAGACTGAGAGTCAAGTCGGTTGGAATGAAAAGTATAAAATTTAACAACTG
+CTTAGCAAATTTCGAAGTATGGTAGCCAGTCTCCGAGAGGATATTTTCTGTGTAAGTGAT
+ATCTTTCGAAATATGTTTGGAGAGGCACTCCTCCAGGTCCATATCAGGTCCATTGATAGC
+AATGTCGTCCTGGTCTTCGACGGCGGTATCAGATGACCCTCGGTGGGATCCTGCAAGGTC
+CTCTTCTGCAGATTGATACCGCGTGGGTGGAGAGGATTCGTTCGATGTAGTAGCTGATCT
+CGACCCCTCCTCGTCGTCTTCGTCGCCGCTACCCGTATCGTTTGTCGCGCGCCGTGCGTT
+TTCGCCATCTGCATTCTCCTGGCCATCATCACAGCGTAGTGTAGAGTCCATAGATAGTTC
+TCCTCGCATCGCATCTTTCCTCACACATACCTTGCACGGACAGCCTGTCGGGTGTCCATC
+CGTATGATGGAGGTGATTGCGCCGATGATTCGGATCGTGGCTATATCTCCATGTTGCAGC
+ATCTGATATATCTTGCGGTAGCCCCGCAATCCCCGCGAAAAAATCGGTAAATACGCCGTA
+GAGCACTTCAGCTCCAGCGCTCAGGGGTCCCCGCGGATCGCGCGTGGTGTCGTACTCGTG
+CGATCGATACCTGCTCCATGCATCAGCCCTACCCTTATACCCCCGATAACGTTGCCGTCT
+GGTGAAGAAGAGGTCACCACTTACAAAACAACATTATGTGGTTTCAACAGCCCCGTTTCA
+ACCAACACTGCCGCCGCAAACGCACTCAACCTAATATGCGAGTGTTGAACGAACCACACG
+GCCGGTGAACGGGGACAGATCGAGCACCGCAGCGCATCAATATCCAAATGCTGATGAAAG
+CTGCACACCGCTTTCTTCACCCCATCTTCCGTCTGCATCCCCTCGCTAATCTGCGCCGCT
+TTCTCGAGTGTCTCCGGCTTCAAGGCGATCTCGATCGCCTCCGTCAGCTTATCGGCGGTT
+AACTCCTTGTACGGCACCGGGGGCGGTCCAGCGCCCGCGCGCGCCACGATCGATCCCCAG
+AAGGGTTGGTCACCAAAGAACGGGACAATGATAGTTGGCCGGCCGAGGAGGAGCCCTGCG
+GCGGTGGTCCCTGCCCCGCCATGATGTATTACGCAGGAGACATGTTGGAAAAGCCAGTCG
+TGCGGGCACTTTCCGATCAGTAGGATGTTCTCTGGTATTTCGGCCAAGTCGCCGCCGATG
+TTTCCCCATCCCTTCGAGACGATGGCACGTTGGCCGCTGCGTTGGATGGCTTCAAAGACG
+ATCTCGGTGAGTTTCTTCGGGCTGTCGACTACAATGGACCCGAAGCCGACATAGATGGGA
+GGGGGGCCGGCATCGAGGAAGGCGGCCATGTCGTCTGGAGGTGTATAGTCTGTGCCGGAA
+TGGTCGAATTGGAAACCGCAGACGTCAATGCTGTCGTCCCAGTCTTTGGGTTTTTCGAGG
+AGAGAAGGCGACCTATCATTCGTTCAGCATGTTAGATGATTGCATATGTGGATGCACACC
+CACCAGAGATAGGTGAAGGGGACACCGAGACGATGCGCGATACTCGGGGCGCGGATAGCG
+TCCAACGGGTCCAGCCCGAGGTCTCGCTTGCGAAAGCGATTGATCAAATCACCCAGGCCT
+TCCCACATCATCACCTCTACAATCGCATAGGAGGCGAAGTTCGCGACGGAGGGTTTAGTG
+TTGTGCGATCGGACGTTTGCCAGCGGGTGCGGAAACGCCTGCGTTGCCGACCACGGCATT
+CTATACAAATGCATTCATTCCCTTAGCTCACAATTTCTAGAGGACTCGCACTCAAACCGG
+GGGGAACTTTGGGCCCACACACGTAAACATCATATTCAGCGGAACGCCCATCTTCTCCGC
+ACAACTGACATGCGCGAAACTCGGTGGATTCGCAATAATCACATCCGCCACAAACGGCTT
+GTCGCGATAATCCACTTCGTCGCTCCAGGGATCTTCACGGATGTGATGCAGTCCGGTCCC
+ATCACCAGTCTCGTAACAAGACCGCCAGCAGCCGGAGAAGATATTCTTCATGTCTCGTCG
+ACGACGTCGGATTGCGCCGCTGCGGATGGTGCGCATATCCGGCATCAACCCGGGATTCTT
+GACCATGAAGGCCATCAGTTCCGCCGGATCGCCACCGATGTTGAAGAACTCGAGTCCCTG
+TTCGTTGACATAGTCTCGAAAAGCGAGATGCGTTGCTAGACGCACCCGATGACCGTATTT
+CTTGAGTTCCTGGCCCATCACCACGAATGGCTGGACATCGCCGCGCGAGCCGACGACGTG
+GATGACGATATTGAGTCGCAGGGGGAAGTGCTCTTTCTCGTCTGTTTGTGGGAGGGACGG
+TCGACGATAGTGCTGCGCTGCGTCGGAGTCCAGTCGTCGCTGGAGGTGGCCCATCCAGGG
+ATGGCGTTTGTGGAACTTGATGTCCAGTCGGCCATCATCTAGGGAGCAATATTCATATGT
+TAGATGCGATGTCGCTAACATGTATACATGGCCTGAGCAGAACAGGTCCGACGGGAATAA
+AGAAGATACGCACCATTCACTCGCACCCCAGTGTTTAACCCCTCGTCTGGAATCATCCCG
+CGACCGTGCAACAATGACGAGGTGCGGCTCAGAGACTCCATCGGCCAGTCTTCCGGCCGG
+ATGATGCCGTCGCCATCTTGCACGGATGCCATGGCGGATTGGAGACGGCGTCGCGACGCA
+GATCATGCATTTGCTAACTAGCGTCTTGGTATTGCCTATTGCCAGTATGATATTACCAGG
+AACATGCTCTGCCTACACAGTATAGGATCTTCGAGGAGATACGGTTAGCGCAGGAGATCT
+GATCTGATGATGATGTAGGTGACTTTCCTGATGATGTCACACCCATAGTTACAAGCTTTC
+CTATCCACGCCGTGCGAACCGGCTGACCAATTCAATACCTTCAATTGCATTCGTCGTAGG
+GGTTTCCAGATCCTGAATACTGGCAATGACTGGCTGGAGTACTCGGGGCGATGTGTTCGT
+TTCCCCTCGGCGACCCAAGCATTTCCCGATCTGGCCTGACAAACCCTAATCGGCGTGCGC
+ATGAAAGTCCGATGGCGGCGCAATTCAAATGAGACGTCATTCCAGCGATCTCTGTGATAT
+TCACTACAAGCATAGGAACAAACTCTATACATCCCAGATTTAAAGCAACAGACACCATGA
+AAGAAACAATGGAACCGCCCGTTCGCGAAACCATCTCCCTTACCGTCCACCACACCCACC
+TGCGACTATCCACGCTCTTCCGCGCGGGCACCCGACCCGCCATCGTCTTCCTCCATGGCT
+TTGGCTCCTGCAAAGAAGATCTCTTCGACCTGACGCTGCTGCCACAATTCAAAAATCACG
+CGTTCCTGGCCTTTGACGCCCCCGGCTGCGGCGAATCCGAATCCTCCGACCCATCTAAAA
+CTACCATCTCGTTCCTCGTCTCCACTGCCCAAGCCGTCCTAGACCACTATGGCATCACCC
+AATTCCATCTCATCGGTCACTCCATGGGCGGCCTAACGGCACTCATGCTCGCGAGTGCCC
+ATCCCGACCGTCTCCTCAGCTTGATCAACATCAAAGGCAACCTCGCCCCGGAGGACTGCT
+TCCTCAGCCGGCAGATCTTCTCACATCCCGGCAACACCGCAGCCGAGTTCTTCGAAAGCT
+TCATCGAGCGCACGCGGCAAACCCCCGGGTACTCGAATGCGTTGTATGCGACCACGCTGC
+GGAACCGGGTGCATGTGGACGCCGTCGAGCCCATCTTCAAGTCGATGGTGAAGTTGTCGG
+ATTTTGAAGACCTGCAGGGCCGGTTTGTGTCACTCCCGTGTCCGGTGATGTTCATGTATG
+GTGAGCTGAACAGGGGATTGTCGTATTTGCCCCGGTTGAAGGAGGAGGGTGTTGTGTTGG
+CGGAGATTCCGCTCAGTGGGCATTTTCCTATGTATGCGAATCCGCCGGAGATGTATCGGC
+GGATCGGGGAGTTTGTGAAGCAATAGATCATTCACTTTGTATTTACAGAGGTTATATAAT
+GTTGTCGTAAATTTTTTTTGGTCTTTAGATGGCCGTCGTTTCATTATTACTATGCTCTCT
+GTAGGAATATATGCGTACTCGATAGATATAAGATCCCTGCATATGATTCTCGGCATAAGA
+TCGCTCGATGATCCATCCCGATATGTCTTACACTAGGATGGAATACCGGAGACAGATCCA
+GTTTAGAATTGCGCGTACTGGAGATATATGCCGACAAGATGTTTGTATTTGATATTACCG
+CCATGTCTGGATCAGATGGGTAAATACGTTCCTTGTCACTCAATCCCAAATAGAAGACAG
+GATTGAAAGAGAATTATGCATGCTCTTATTGACGAACGACGCAAGATCGAATTAAACCAA
+ACAGCCGTATAAGCAGACGCCGGGTGGTGTATATATATCACGGGTACCGTTATCTAACCC
+ATGGTTCTGAAGCGTAGTCCCCTTGAGAAGCTCATGTTGAGGGTTAGGTTGTCCTTACCA
+CAGTTCACTTTCGATATACTCTAAGAGCTCCACTTCTGGTCCTCTAAGTCTATGTCGAAG
+ACAAGAGATCACTTCTCTCTCCCAGGCCAACTCATGGGCTTCTCATTAGTTTGAGCCATT
+TGGAAATCTGCCTTGCACTAACGGTGAAAACTTGAGATATTTATTTCCTGGGTCTAAGCC
+TTTGAAATTCATTAGATTATGACAGCGAAGCCCTTGCCTACTTCGGATACAGTGTCGCGA
+TGTGACTGAATAAGCGGTGGTCATCCAATAATACCTATAATCAACTACATTCAGGTGTCG
+CATTCAGAGGAGCAGCGACCGGAAGCCCTAGTCATAGTACATCATCGCACTGGAAAGAAA
+CCTGGAATCCAATCGTCCTATGAGCCTTGATGACGGCATTTACAACTTTAATCTTCCCTA
+AAAGATATCCCCCATCGATATGAGCGACCCATTATCCCTCCCCTTCTCTACAAAACATCC
+CCGGACGGGAAGGTCGCATACATCACCTTGAATCGCCCCAGTGCCTGTAATGCAATAGAT
+GTCTCTGTGCGAAGAGCAAACGCCGACGGGAGCGTTCATTGCATCCAATCGACTTCCACC
+ATACATGTGACAAGGATATCAACGACGGCGTACCACCCATCCATCGGACTAGTCCGCTCG
+ACATGATAACAATGCGGGGTGCACCAGAATGATAAGATAGCAACGATATGTCCAGCACTA
+TATACCACACACCTTAGGAGTCTCTCATCTTCGTCAGATATACCAATCTTGAACGTCAAA
+CATGTCTCCGATCAGAATCCCCGGAGAAACATCTCCAACGAAATACGACGTCGTCGTTAT
+CGGTGGCGGACCGGTCGGTCTACTCGTCGCATACCAGCTTGCGCGGTTCAACGTCTCTGT
+CTGTGTCATAGAAAGAGAGGATAAACAAGGCGATAACCGCTACGGACGGGCGATTACACT
+ATTCCCCCGCACGTGCGAGATCCTCGAGCAGTTGGATCTGATCGGTCCGGTTTTACAACA
+GGGCTTCGCTTGTCGGAGTAGTGTGACGTATAAGGATGGGGTACGACAGTAAGATCTACC
+TGTCCATTTCTATGGAGATGTTTTCCGCACAGAAGTATAATGACAGCTGGATAGATTTCC
+CGGACGGGTGTGGACATTCATGGAGAACATCAAGGGGACAGTATTCGATTTCGCCCTTGT
+CCTCCGTCAAATGTATACCGAGGATATTCTGCGGGAGAAGATGGAGTCTGTCGGGGCGGT
+CTATTATCCAGAGACCGAATATGTCAATTTCGACATTGATTCCACTGCTGAAGTGGACGA
+GCATGCAGTCACTGTCCACTGCCTCGATGTCCAAACCCAGAGTCCAATGACCTTCCAGAG
+GTAGCTGTCACCCCTTCGCATGTATGCTCATGACAGGGAATCCCTAACGAATACAGTAAA
+TACATCATCGGCTCAGACGGTGGCCGCAGCCTCGTGCGCAAACACGCCCATATCCCCTTC
+GATGGGGACACCTCCGAAGACCAATGGATTCGTATCGATGGGATCGTCGAGACCGATATG
+CCCATTGCGTGGGCATACGGGTATTGCGTCTTTCCACCAAACCTAACATCCACCTAGGAG
+TATCCACTGACCATAACGTAGTGCTATCGAAAGCAAAACCCACGAAAACGTCCTCTGGGC
+GCCACTAGACCACGGCGCAACCCGCATCAGCTACGCATATACGCCCGAAATAGCGGAAAA
+GTACCCAGACGGAGTCACGCAAGAGGTCGCTGAAGCCGAGGCTCAAGAAGCTATGCGTCC
+GTTCAGTGTGAAATTCAAAGAAGTGCACTGGTGGACACTGTACCTCCCCCTCCCCCCTCT
+CATTATATACCCCCCCATAAGACGAAGTAACGTCCGATAGCATATTGACGCATAAACTGC
+CAGATACAAAATCGGCCAACGAGTCGCACGCACATTCTCGTCCTCAGACACCCGGATCTT
+TCTCTGCGGCGACGCAGCCCACACGCACAGCAGTGGTGCGGCGCAAGGCCTCAACACGGG
+AATCCACGATGCGGTGAACCTCGCGTGGAAGCTCGCCTTACACATCCACGGCCTGTGCCA
+TCCCGACGTACTATCCACGTATAGTGCGGAGAGAAAGGGCGCTGTGGAAACACTTGTCTC
+TTACGACAAGGATATCGCCCTGCTTATGACACACAAGTTGCCGGCGTGGTACACGGGTGA
+TCGCGCCGCTGATCCTTATATCGTTTTGGGGGAGATATTCGAAGGCGCGGCGTCGTTTAA
+TACAGGTTTGGGCATTTCGTATTCGGAGAATGTGGTGAATCGAAGTAGTATTTACGAAGG
+GGAGCCAGGCCGAGGGGTTCGTTCTGGATGGAGGGCGCCTGATGTGGAGGTGATGGTTCC
+TTGGTCGGGTGAAGGGATTCGATTACATCAGATCGTTGAAAATGTTGGGAAGTTTTCGGT
+GGTGATATTCACCGGTTATGTCGAGACGAATGTGTCTGCTTTGACTGAGTTGAGGGGGTA
+CCTCGATGCGGAGGGTGCATTGATGGCCTCGCATCGAGGGCTCAGGTGGTTCACGGTTTG
+TGCTAGGGCGGCGTGCTCCGCGTATGAGGCGTTGGGCATGCAGCCATTTGGTGACACGTA
+CTTTGATCATGAGGGTAATGCTCACGTGGAGTATGGAATGGATATGCAGAGAGGTGGTTT
+TGTGGTGATCCGGCCAGATGGGCTGGTGTCGTTTGTCTGTCCGATCGATGCATCCTCGCT
+CCAGGGGTACCTGTGGGGGCTCCTACGTCCGAGTCTATAAACACCATCACTCTTACATAG
+CTTTACAGCGTGGAGGCACGATAATTGATATGACAAGAAGTGAATTAGAACCAGTCTGGT
+CTATATCTGGTCAAAGATATCTGATCTGTCACGCCAGCCAGCCATGCATGCATGGGGTGG
+CAAAGAATGAAAGAAGGCTCCGGCAAATGTCTATCCAATCCATCTATCGCGTATCTCCCA
+CTCCTGCTTTACAGTGGTCATCTCGTATGACTGATTTAGGCAGAGATGCACTGGTGGTAG
+TAGGGGTTCCACTTCTTGCAGACAAGGCCGCTCTCGCAAGCGGTGCTGCCAGAGAAGTTG
+ATACCACCGCACTGCTGGAAGATCTTGACGTCACCGGTGGAGGGAGCACTGCTGGAAGCA
+GGGCCGGAGCAGGAGCCAGAGCTGGAGGAGGCGGCAGGAGGAGCAGTGATGGTGGGCTTC
+ACGGCGGTGACGAAGGTGGTGGGAGCGGGGGCCACGGTGGACGAGGTGGCGGGCTGGGCA
+GGCTCAGTCTCGACGGGAGCAGCAGTGGTAGGAGCCTGGGTAGTCACAGGAGCAGCGGTG
+GTCTCAGGAGCGGCCGGGGAGGAAGCAGAGGCGACGGAGGTGGTGGCAGGGGCAGCGGCG
+GTGGTGCTGGAGGAGCCCGAGCCAGCGGAGGAGCCGGAGGAAGAGCCATCCCAGACGGCC
+GGGCCGGGGATGGGGTAGCTATCGAAGGAGTTGTAGATATCGAATAGGATGCCGTCGTCG
+GTGGCGGAGTAGACGCCGGGGATGGACACACCCTCGGGGAGGGTGTTGGAGCCATCGGAG
+GTGACCTCGAGCTGGACACACTCCATGTAGAATTGAGCACCACCCTCACGGTTACCCTCG
+TGGAGGGCAATGATCTCAGGACGGAAGAGGTAGTTGCCGGCGGGGACATCAGGGACAGTG
+ATGGAGTGCTTGCCACGGTCCTCGATCAGCTTGGTGACGGCCCAGGTGCCATCGGTGTAG
+CCATCCTCGTAGATCTTGACCCAGCTGTCACCAGCAGCACCCTTCTCGGTAGGGGCCATG
+TAGACGAGGACGGGGCCCTTGTGGGAGCCGTCAATGATGTCGTCCGAAGCATCCCGGGTG
+TTGTGGTGCCACTCGAAGGTGACCTTGTCACCGGCCTTGACGGGGAGGGTCTTCGCGGCG
+GGAGAATCACCGTTGACGTTGCAGGTCATGTCGGTGGAGGTGACGTCCAGAACGGGGCTG
+TTGTTGGGGGGAGAGCGAATGTAGCCATCGGCAGTGTTGCCCAGACCCTGATCCTCATCG
+TTGATCCAGATGGCGAAGACGGTAGCGTGAGCGTTAACCAGCTTGGTGGCCGCTGCCAGA
+GCGAGCAATCCGAGAGTAGTCTTCATTGTGAGAAGTGTATATAGTAAAGAATGTGAGTGT
+CAACAAGGACAAGAAGGAATGAAAAGATGAAGGAAAAAGAGAAGCAAAAAGGAAGGAATG
+CACAGCTATCCCGGCGTGAAGATGAGAAGAGGAAAAGAGACATCGAGTCAGCCGTCAACA
+CGGCTGATTTTATACAGCCACCGACTTGGATATCGGGTGATGGAGCCCCGGTTAGATGAG
+TGACGCCCTGCCAAGAATGACCGTTTCATCTAAATGTTAGTCCCTCCATCACCTCATCTA
+TTCCGCTTGGCTTCATTCGCCTGGATTCAGGCCCATTGGGCGAGACCACCAACTCCGACT
+CATGGAACCCCCGGCATTGACTCTAAGCTGACCATGAACTGTCTAGCGGTGGGAACCCCT
+CGCATCCTTGTCATAGGAGCTTGGGCATTCCCTGAATGCTGTGGATGTTCTCTGGAGAGT
+CTCCCGTTTAGCGCCGCGACGGAGTGCTTGGCATGGTTTTATATCACGACTTAGTCTCAA
+CCGTCTGACGGCTCATTTTTCCGCCGAGGCCGCCCATAGTGGTGGTGGCACTGTAGGCGC
+TGGGCTCATTTACACCTCATTTCGGGGAAATCGGCTTTTCCCCTGGATAATTTACACGAG
+AGCTACGAACTTGCCTCGGACCTGATCACGTTGAGCTCGAGCTTTGCTGCCGCAACAACA
+ACGGGGAGGAGCCAAGGGCTGTGGGAATGGCCGATCCGATCGACACAGGAGATCACTTTG
+TTACAGGTCGACATAAACGGCTACCCAGAGTGGATTCGTTGCCCCAGAGGGAAGGCAGAC
+GATGGCCTTTTCAACCGACAATTTCACCGTCCTCGATGACTTTGCATGGCGAAAATTCCT
+GCCACATTCCAGGCATTATCATTCCATGCTTGCATCCCATCCCTTGTGCCAGAAACCAGA
+AAGCCCACCAGTCTTCCTGTTTCGGTCATACAACACTTTATTCGGGTTTCTTCCGAGCGT
+TTGAGACAGGGCGGAAGAAGGGTCTCAGTCTCCACCGTTCCGGCCCATCCGCATCACTCC
+TTACTGAGAGGATAATTGCTCCGAAGTCGTTCCAAGAGGACTCCATAGGATTAACATGGT
+CTGATATCCGAAAGGTCTGTTGCTGGATCTTAAAGACCTGGTATCTCATTGGGCGATACG
+AACTCAGCCTCCATACGTAGAAGTACCTGATACGTGAATGTTAACAAAACAACCCCAGTA
+TGTACCCTTTCTGGAAAGGTAACTTGTCCGTTGTATTTAAAATGTTAGCTAAAATATATT
+AAACTCGCCCCTGCCTAGGTATCTAGACTCCAAAGTCATTTTGGGTTGCGCCACAATCAC
+CTTTAGGACACCCCATGTTGATATTTTCTTATGAAATGCGCCATGAGATGTTACTGACGA
+TACGCCGGGGTATAGATGGTTGCTGAGCGATGTGAAAACATCCCATCTGATTGATATCAG
+CTGTACGGGCGATTGTGGCATTCTTCGCCTGGTACCTGTCTACGATTTTTAGAAAACATA
+ACTGTGCAGTGAAGAGATGATGTATGCGAATACACTCCCCGTCCCTTTGATGGATCCTGA
+GAAATTCTCGGTCTCCATGTGCGTTTAACAGTACAGAGAAACACCCTTGTCCAAATAACT
+GTCCTCGGTTGTTTCAATTCAGGGGGAACATACCCCTGAACTTATGTCTTGCGATCTGGC
+GGTGGCGGCTACTGGATCTCTTGGAGTCAGGGATCTAGAATGGTCGACCAAGCGACGAGA
+CTTTTGTGCATGAATATTTAGAAGCATTCAAAGGATATTAAGCGTCATAAATCATCCGTG
+TGATTGTTTGTTCTCTACTGATAAAATTTTGCTTGCACCAGAAAACCATAATTCTTGTGC
+TTGTTTCGGTCAGCTAATAGATAAACTTGTGTATATTCCAGCCGTACTTTGATAATCATA
+TATTCATTACACAAATATGTAGGAAGTTGTGTGGTTTGTTCGCTGTCTTTTGGGGTTGTG
+GACTGATATCGTCCAGAATATATATATGCCGCAGAGACAATCATGGAATAGAGGTTAGTT
+GGGCGAAAACGGAAAAAAAAAAAGAAAAGAAAAGAAAAGAAAAGCAAAGAAGGAGAAGCA
+ATAAATATCACCGGAAGACTTTTACTCATCTTCCAGCTTGAAAAACTGATCTATACTCTG
+GTACGCTAAGGAAAAAAGTTGGCATCTGCTGCGATGATTTCCATATTATGCAACATACTG
+GTGTGGCTCTAGCCTCTCTATACTCTAGTACTACTAATTATGCCTACGCGAGATCAAGCG
+ACAAGTGACAAGAGTGAGAAGGATGAAGAAATGGTCTCATTGAGTAAACCGAAAGTAGTA
+GCCCTGCAAACCCATGCTAAATATCATACACTATCTAGATCGGCCGTTATCATAAAATCG
+TTCCCTGCACCCCTATAATGCCCGGCCAAACCCATTCCTACCCCTATATAACCCACCACC
+CCTGTGTAAATGGAGTCCGTGTATGCTGCCTGAAATGTCCACGTCATGGGTATCGTCAAT
+AGTCATTCGCACTTACGTCCCCTGCACCGTTTTGCGCCTTGTGTACGGGTACGGGCGTTC
+TCGTTCTCGCTGTCGCCCTCCTTTTGCTGTGGGAGACATGTTAGCCGTGCCTTTTTCCAG
+CGTGAGAGATCGGGTCTCACCATGTGATTGCCATATTTTCTGCGGATCTTCTCGAATTGA
+TCGATCAAGGCCAGCTCCAATCTCATGAAGCATCTGGACGACGACTTTATGGCTCGAGTT
+CACCGCCTCATGGAGAATCTTATTTTTCACCTGGGTATCGTACTGACCCAGATCGAGCCC
+ATGTTCCAGCAACAGTCGGAGGAGGTCGCCTTCGCGTTCATTCAATGAACGCTGCAGTGG
+CGTCTCCAGCCAATCTGCCACGTCGTTCGGGTCCGCTCCATACTCGAGCAACACCCGCGC
+CACCTGCAACACATTCGGAAGCTCCTCGTGCATGGCGTACATGAGAGGCGTAGATTCCCA
+TTGATCTCGCGCATTGGGATCGGCCTTCCACCGCAGCAGCGTCTTCATCACACCAAAGCG
+ACCCCGTCGCGCAGCCACCGCCAGCGCTTCCGATGGGATCACCTGGTCGAATACCACAGA
+ATCGTGATACTTCTCCAACAGAAGACGCACCACGTCGTCCTCCCCCTCGTCGCAGGCCGT
+CACGAACACAAACCGACGGAATGCCTCCTCGTGGGAGCAGAAATCTGCCCCCGCCTTGAG
+GAGCAGATGCACGGCGGGCCAACACGGCCCGCGATGCGCCACAGCCAGTCCCCAGGTTGG
+ACCTTGCACCGCCAGGTTCAGCGGGGTCTTGCCCTGCTTGTCGGTGCAGTTGGGGTCGCT
+TCCGTGGTCGAGGAGCAGTTGGACCACGTCGGCCTGCGCGTCCTCCTGCAGGATATTGCC
+GACATAGTAGCGGTCCTGGATGAGCGCCCACGCCAGCGGGGTCCAGTTCTTATCCGTATC
+GGAGACATGGACCGAGGCTCCCGCATCGAGGAGCAGTTTCAGGGATGCCAAGCGCCCGCG
+CCAGACCGCCGTCATCAGGGGGGTCCATCCCGAGGCGTCGGGACTGTCCATCGGGAATCC
+ACTGGTGATGAGTGACTGTACGATGCGAGGTTCTTCGCGGTTGACCGCTTTGTGCATGAT
+GGAGTCGGGCTTGCAGGTGAAGTCGTCGGCGCGCCAGTCCAGCAGGAGTTCAACGCAGAG
+TGGGTCCCGGTCCCAGATGGCCGTACACAGGATCTCGTGGCTGTTGTATTGGCCCGGTTC
+CTGGCCGTCGTGGTTTTGCTCCCGTGCGATGAGGAGCCGGAGCAAGGCGCGCTTCTGCCA
+GCGCTTCCAGTGGGAGTGGAATTGCACCCAGTAGTCCTTCAGGCGCGTGGCCTCTTGGAT
+TAGTCTACGGGTGATGGGGTCGTCCTTGCGCACGCAGGACGTGACGAAGACCTGGCCGTG
+GTTATGGGTCAGGGCGCAGCGATATAGATAGGGGCCTAGGAGGGCGTGGAGATGGCGGTT
+GGCTTGGCTGAGGGCGTTGACATGATGGAGATGGGGGAGGTTGTCTGCGATGTGCAGCTG
+GAGCTCCGGCGGGAGGGCGAGAAAGGAAGCCATTGTGGTGCACCTCTCAATGGTCGATAT
+CACATATCACACACCCGGGGGGCTCAGGACCGGGGGACTGATGCTGTATATAACTATCTC
+GACGAGAAGAAACCGGAAAGCGCAGGCAGTCGCCGAGGAACTTATATCGACTCCCCCGCC
+CACTAGGGCGCAACTTAGCGCTATACACAGCCGTGCGAATGAAACCCTAGGACCAGCCCT
+CCAAGAAAACATGACATCACAGCGCAGCCTCTTATCGCTCACGGTGACTTGTCAGGGGTC
+AAAAACCACCGCTCCGGCTGTCTGCTCGCCTCTATCCCATGCGGTTGATCGAACCCCTTC
+GCCCCATCGTGCATTGCGACTCTGGTCGACCCCATACTTCGCGTCGACAATGTCCGCTCG
+TCGCCCCACTGTCAGAACCTGGGGTACATGTCGCTTGAGGAACCGTGGTCTCGTCCCTCG
+CATCGAGTCCCCTCATTGAGTCTCCTAATCGAGTCCCCTCATTGAGTCTCCTAATCGAGT
+CCCCTAATCGAGTCCCCTCTTCGCTCGCTCTACTTCCCTTCCTATCCCCGCTCAGAGCCC
+CGCGGCATGCCGATCCCAATCGCCTGCATATCCGTCGTCCACGGAGCAGAGTACTGCGTC
+CCTCCCCAGAGGTCTACTGAAAGAACATCATAGCGGTCTTGATCGACCCTCCCCCGCATC
+GAACGACAGCATATCCTGTCGATGGATCGTATTTATGGGGCGCGGATGCGATCAGCGGGC
+ATGTAACCGCTCACACTGGCCCCCGGAGGTAACCGGTGGTCCACCCCACAAATGTCAGAC
+AGGATACGATGGATGGATGGGCGAGGACCCGCTCTTTAGTAGTTGCATGATGTCGCATCA
+TCCAAGGCAGGCAGCACAGAACACCGGTCCGTTGGTCTCCACCGGCGCGATATCCGGTTC
+TTGACAGCTCTCATGAGGCACACACGCATGGTTGTCTTGTCCATCGTCGACAATATGGCG
+TGAGCGTGAAAGATACCGGTTAATCGATACGTAAGTTTCGGTGTCTTCATGCAGCCAGCA
+TGTCAATCGCAGTGGTCCTGCCCACAGTGGTGTGTTCGCGCGGCATGTTCGACATGAGGC
+ATTTTATGCCCTAAATTCTGACATCACACAGTAACCTGCACTGTAAACACGGTGAATGCA
+GGACATGTAGAATGAGGTAAATGCGATCATCGCAGCTAAAGATCATCCCTCTCTCACACC
+ATTGTATTCTGTCCCCACTCACACAGCCCGTCTGCGCTACAAAGCACTCGTACAGCAATT
+ATATCTACTATCCTATTTCCCTCTCCTCCCTCCTCCCTCCGTGGAATGTCTACACCACCC
+CTCCGCTACGTCGTCGTAAAACCTGCCTCCAATAGACGAAGGTTTTTCACCCCCAAGGGT
+GGCTTGTTTAGTGTGCCGAGCTAAGAGGGGTGTGGTGTGTGTGCCCAGGAATAATACCGC
+CTCCCGCACCGTCCGCAACATTTCACTGGTGGCCCCTTTGCCCTCGTCCCTCGCTAAAAC
+GGATATAGAATCCAGTCCCTGCCCGAGGACGCCTTCATCACGGCAAACCTCCCTGGATAA
+GCTAGGATCCGTGCGTCGCAGCCAACCAACGCACCCACGCCACTGATATCATTGCGAAGA
+GTTTTTCGCATCCCCGCCAATCGCTGGATATGAGGCCCTGTTATAGCCTTTATACCCGGG
+GGTGCCCCTGGCGGTGAACGGTGCGTACCCGTGAAGGAGGGAGGCAAGGGGAAGGGGTCA
+GGGGCGTGAATTTAGATCTGGACTGAGCGCTTGGTGGCGGTCTGTAGACTGTAAATAGAT
+ACTTGGCTGTCGTCTCGTGGATGGATATTGTTTCCATTTCCGCCATTTCCGCTATCTCCG
+TCCTATGACGCTCTGTAGTGGAGTTGGTCCTGTTCCTATCCGGGCCGGCTGGGGTGATGG
+GGGTGTGGGCAATATTAGGATTCTGATACGTGCAGTGGAGTAACGATGTCAAATCAGATA
+TGAGCAGTGCTTGTACATAGAAACATGCTGGAGGAGGGAAATTTGGAAATGGTTCTCCAA
+GGCACGTGATATGGATGAGGGGTTTTTCGCATCAGATACGAACAACACCGGTTATAGATC
+CCTATGGATAGCAAACATGGAACAATAGATCAATATATCAACGGAATTCACATAGGGGTC
+GTCTAGATAAAGAATCACCGTGATCACTACCTACCCGACTACTCCGGACTACTGTATGTG
+TTCGAACAGATACTCCACCCCCAGACCGTCGACTCCACCGGGCGGAGATGATGGGCGGCA
+GTGAGTCAATAATCGCACCGAAATTCCTGCACACAAACCCATCGTGAGATTACCCCACAA
+ACACACATAACGGACAGCGCATATCCTTCTACAACCAGGTTAGAGCCTGGGAAATCCTCT
+GATAATGGTCTAGCCTGCAAAGCGATGGATGCATACAGACATAGACTAACATCCATAGCA
+TACGGTCACGGGCACCAAAGCCCTCTACCTGGATGATGCCTCTCTATGCCAATCCACCAC
+CAAAATCGTTTCCTGCCAGTCAGTCGTCCAACTGAGTGATGATGAGAAAAGACTGGCCAA
+AAACATCGCTCCGGAGGACTTCGCCGTCGTCACCGAAGAAACAGTCTTCTATGCGCAGGG
+CGGGGGCCAGCCCAGTGACACGGGAGAGATAGCCATCGTCAACGCATCAACCGCCAATGA
+TGCCCCGATCTTTCAAGTGCTCCTTGTTCGAAAGACAAACGATGGAACGATATCCCACTT
+TGGAAGATTCGACCCGAGGATACCCCGACCTTCCTTTGGCGATGGCCAACTAGTCTTCCA
+AAGCATCGACCGCAAGAAGCGGAATTACCACTCGCGACTCCACACAGCAGGCCATATCAT
+CGGACTTGCGATGCGACTACTCGTGCCTGTTTTTGGCGAACGGAAGAAAGTAAAGGCCAA
+CCATGCACCCGGCGAGGCATGTATGGAGTTTGAGGGCCTGCTGTACAACGAGAATAAGCC
+CGTCATTGAGGACAAGGTGAACGAGCTCGTCACGCAGGAACTTCCTGTCCACATATCGTG
+GTGGGATGAATCTGATGTTAACCGCGCCTCGCTGAACATGGTCGAGGGCCTGCAGCTCGG
+ACGCGATGGTCGGGTGAGGATCGCAGCGATTGGCGATATCGATGCGAATCCGTGTGGCGG
+GACGCATGTTGCGCATACGGGTTTGACGGGGCATATCACTATTCGGAAGATTGCTAGGCA
+GAAGGGGGTGAGTAAGCTGTCATATGAGGTTCCTATCGACTTCGCTGCATGAGCAGGTTG
+GTGGAGAATGCGGGTGGCAGTGATTAGGCTCGAATAAAAGTCCATTTTCACGCAGAGAAA
+GCCCTAAGTTTGCTTTTCTATAGACCATACTTATATTGCAGTGCTACAAAGCTGCTGTTT
+CTGATCAGGCAACGGGAAAGTAAAGTACTCGGGATGGCGGAATCCTTCATGATGTGCTAT
+CTCGTTAGGCAGAATATAATGACAGATATGGACACCAATGAAGGTCATGTTGGTGTCGAT
+TATATGCAACTAGAATATAAACCGTCTCGGCTATCATTGAGTCATCACCCATGTTAGCAT
+CTCCTACCGGTGAAAGATAGCTGAAATCATCCCGAGCCAATTTTGCATCACATCGACTTA
+TTTGCCTCACTCGGTCGGTGAAGAAACATCATGCCGAATCGACCGTGGCCAATTACGTCA
+ACACCGATCTTCCAGGCGACCTTCACGACTTATCAACAGAAGGATCGTCCGACTAGACGG
+TCCAGTAACCACTAACAATGCTGAACGAGCCGCGATATCACCTCATCTTTGAAAAGTTTG
+ATGTCTAGAATCGCATTCGAGAATCGAGACGTACAGATAAGGATACGTATTCAACACCCA
+TTTGCTCGCATCTCGCCGTTCCACCATGAAGCCTTCGGGGCCATCCAAGTAAGCTCGTGT
+TACACAGCAGCAGACTCGTGGCACGATCCAGTCTCCCATGTGAACAATCTTAAAAGTGTA
+CCAGCCGGGAGTCAACACTGATATCGGTGGTCGGCGGTCTTGGCGCCGACCTATGTTGTT
+GTTGCCTGATCGCCTGGTAGATCACAACGGACACAACGAGCCATACAGCGTAGAAAGGCA
+CAAAATGAAACCGGTTGGACTCAACTCCGACGCACCTTAAAGATTCCTCTCGGCCCTCGC
+AAGGCGGTGCGCTCGGCGCCAATGATACAGACCAGCCGCGAACCGCTAACCTCAACCGAG
+TAGGAACCGAGGCACTTCGGACAGCGCAGATCATGCCCTATATTGAAATCTTCGCGACTA
+GACTAGGCTCCAAGAAGGATGTCGTCAACTTTGTCTTGTTCTCCCTACCCCGATCGTGAC
+ATCGGGATTGCACAACCTGCCCACCATCGCCTTTGACATCATACCAATGGCAAATGTTGC
+GAGGTCGGATTAACCATGACCTAAGAAGAGGCACCCGATCATAACTATGCAGCTGACCCT
+GGTTAGGCTTGCGAGGTTCGTATGGTGAACTTTCACAGGGTCCAGGGTGGTCATTTTCAT
+GTGACATGTGACGGGAAGATCATCATCGGGGACAACCCGATATCCGCATGAGCTGACCCT
+GACGGCAAACCGGGGACAATATTTAAAAGACCCCTTATCGGTGCTCGCTCTGTCGTAATG
+GAATTCTTCAATTCATCCTGTTTTCCTTTCGACTGTCTGCCATTGATCCTCCACGCGGGA
+AACCGTCCATCGTTCCAACTGTCTTAGTATACAAAACCGCTAAGATCATAGCTACCTACC
+TTCACGCAAGATGATGTACGAAAACTACTGGATGCAGCCCGTACGGGCCCTCCAAGCCCT
+CCTTGGAATTGCCATCTTCGGCCTCACTGCATATGGTTCGTTCGATCTCAACACCCACTA
+CAATTTCCCGAATACTAACGGAACCAGTCCTCGCGGTGTTCCAGTTTGATAACGTCACCA
+AGTTCATGCTCTTCAATGGTATCTGGGCTGGCTTCTTCGCCACTCCCTACCTCGCCATCG
+CACCTGTACACTTCCCCAGGATTGCACACTACATCGTTGTTCCTCTTGTGGAGGCCAGCA
+CCTTCGTCCTGTTGCTCGTTGGTCTGATCCTCCTTGGCATTGACTTGCCGTCTGCTGGGG
+ACTGCACCACTGCAGGGTGCAAGGGAATGCAAGCAAATGTCGCCATCACGGCTGTTGAAT
+GGTGAGGCTTTGTTCTTTATCTTGAGTCACTATTCACTTTGCTAACGTGGTAACAACCAT
+GACAGTACACTCTTTTTCCTTACAACCGTTAGAGCGGTCATCAGTGGCGTCCGATTCCAC
+CAGACCAAGGACAAGCCCGCTGCCAAGGACATTCCAGATATGGAGTCAGTGTGAAGAACG
+ACATGATTAATATGGGAATAGAACTGGTAATATCTAGATAGATGTGGGGAAACTGATATA
+ACCATAATACCTAATGATAGACGGGCCCGGGTTTGGCAATGTTTATAATGATTACGAGAC
+TACTATTTGATACATAGAATGTATTTGGGTTCTAGCGGATATATACATATGAGACTTATG
+TTTCTTTGTGATTTTGAACGGGGATCTATTTGTGGATCCACATAGGTACAGTGTATGAAG
+TTGCAATGGCAGAAAACGGATAGTTTTGTTGGTAGAAACTATGTAGTCTCGCATATAAGA
+ACCGCACATTCTCAAAAGGAGAAATCGCGCAGTTTTCTAATGCAGGTAGCAAGTGTTGAT
+CTAAGAACAATATGGTAGATATGAGTTAATGAGACAGCGGTTAAGCATGTGGTGAAGACA
+TCACTGTTGCGTAGAGCAAGCCATACCGCGACTCCGCAACAATGAATATTTTCCTCTAGG
+TGTATTCACCACATGCCTAACCGCCTACCTAATTCTATATAATACAATACATTGTCGGGA
+CCTGGCCCCCTGCCTGGTGGTGGTAGCATTCACTGCTCTACTTCACTGAGTAGGTCATCA
+AGGCCTATGTAATGTCCTCGTCCGCCCACCTACACGCTTCCCCCTAGACCATTAAGTCTT
+TCATCCTGCGCGCCCCTGCCCCTAAGCCCATCATCGCAAGCCGATACTCCCCCATAAAAT
+ATGCAGAAGAATATGGTTCCTGCCCGCGAAACCGCACAATTCCTACTTAAGCCTCAGCCA
+CATGGGCTTGTCTCTGGTTCGCTGATGTCGAGATGCTTGAAAGTCTAGTCACCAATCTCA
+TTCTCTCGTTCAGGATGAGGCTTACTGCCGCGCTTTCAAAAGTGTTCTTATATACGAGGC
+CACTTCAGACATGTTGACGGACTGTAAGTACTATGGCTGTACTGATATCGGCTGTAAGCT
+AATGACACCACGGTGCGCTCGCCCAAAGAACAAGCCAAAAGATCCCGAGAGCATGGGCGA
+TTTGGAAGACAATCAGATATTGAACGAAGATTCCAATGACGAGACACCGAAGACAAGAAG
+AAAAGCTGGTGGCTCAGTGGAAAAGTCTCCTTCAAAGATTCCGAGATTAATCCCCAAACT
+AAGCCCGCAGAAGGCCGCCGCTTCTTCCATCGAGCCCAGCCTGGCATTGCCCAAGACCAG
+TACCGCTCGCAGTAAATCCACCAAGATTCTAGTGAGTATCAACTTTTTATAATGTGTCCG
+AACTACCTACTAATTTATCTTACTGCGCACAGTGAGACAACTCTACTTGCCTGATTAGCC
+GGTTCAAAGGACCAATCGAAATCGCGCACATTTACCCTGTTTCCCTAGGCCAGAAGAGCA
+AGACAGAACAGGAGCGGTCTTGGACACTCTGCCCCACTTCTGGACATCAGAGAAGATCAA
+TTCAAGGCCGAAATACTAGGACCGCAAGGAACCCAGCACTGCGCCAATCTCATGTGTCTG
+AATTATTTGGCCCACAAACTGCGGGGAAAGGGTCGTTTTATTCTATAGCCATTTGAGCTG
+AGCGATGACAAAACAACCCTAACCGTGAAATTTCTCTGGCTTCCTACAATGCGTTATCGT
+AAACGCCAGTTAATCACCCGCATTCCGTCTCCTACTATCCGGGATCTTACCTCGAACACC
+AAGGACGGTGTACCTCAGGCTGACCTACCCTCATAACTTCAGGAGACGCCGGGCCAATGT
+CGCCCTTCGCCCGCAGACCGATCCATCGTTCCATCCATGCAGAGCAGGTCGTTGTTGCCG
+AGGAAATCGGCGTTCAAGGGCCCTTTCAGCACCATATCGGCAACAAGGTCACCGCGGCGT
+TTGTTGACCAGGTTATTGACCTCCAGTTTGGAGACTTCAAAGCCTGCATTGAGGCCAAGA
+CTTACAAGCGAAAGCCAGGCATGGTCTATATCGAGACGGGAAACGACGAAGCTCGCTTTA
+TTGGCGAGATAAAAGTGCCCTGGGTGGACGCGCACAGCCTTTCTGTATCTGCAGGGGGCT
+TGCGTAAAATTCTGGGTATG
